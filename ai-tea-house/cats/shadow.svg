@@ -1,0 +1,47 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shadow 小黑 - 沉默陪伴者 -->
+  <defs>
+    <linearGradient id="shadowBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A4A4A"/>
+      <stop offset="100%" style="stop-color:#2F2F2F"/>
+    </linearGradient>
+    <filter id="shadowBlur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2"/>
+    </filter>
+  </defs>
+  
+  <!-- 身体 - 稍微模糊 -->
+  <ellipse cx="100" cy="135" rx="48" ry="38" fill="url(#shadowBody)" opacity="0.9"/>
+  
+  <!-- 头 -->
+  <circle cx="100" cy="80" r="36" fill="url(#shadowBody)"/>
+  
+  <!-- 耳朵 -->
+  <ellipse cx="73" cy="56" rx="11" ry="16" fill="#4A4A4A" transform="rotate(-22 73 56)"/>
+  <ellipse cx="127" cy="56" rx="11" ry="16" fill="#4A4A4A" transform="rotate(22 127 56)"/>
+  
+  <!-- 眼睛 - 闭合/沉思 -->
+  <line x1="82" y1="78" x2="92" y2="78" stroke="#696969" stroke-width="2"/>
+  <line x1="108" y1="78" x2="118" y2="78" stroke="#696969" stroke-width="2"/>
+  
+  <!-- 鼻子 -->
+  <polygon points="100,86 97,91 103,91" fill="#606060"/>
+  
+  <!-- 嘴巴 - 平静 -->
+  <path d="M 100 91 L 100 96" stroke="#696969" stroke-width="1.5"/>
+  <path d="M 100 96 Q 94 98 90 95" stroke="#696969" stroke-width="1.5" fill="none"/>
+  <path d="M 100 96 Q 106 98 110 95" stroke="#696969" stroke-width="1.5" fill="none"/>
+  
+  <!-- 胡须 - 隐约 -->
+  <line x1="68" y1="86" x2="52" y2="82" stroke="#505050" stroke-width="0.8" opacity="0.7"/>
+  <line x1="68" y1="90" x2="52" y2="92" stroke="#505050" stroke-width="0.8" opacity="0.7"/>
+  <line x1="132" y1="86" x2="148" y2="82" stroke="#505050" stroke-width="0.8" opacity="0.7"/>
+  <line x1="132" y1="90" x2="148" y2="92" stroke="#505050" stroke-width="0.8" opacity="0.7"/>
+  
+  <!-- 爪子 - 收拢 -->
+  <ellipse cx="78" cy="162" rx="10" ry="7" fill="#4A4A4A" opacity="0.8"/>
+  <ellipse cx="122" cy="162" rx="10" ry="7" fill="#4A4A4A" opacity="0.8"/>
+  
+  <!-- 名字 -->
+  <text x="100" y="185" text-anchor="middle" font-family="serif" font-size="12" fill="#696969">Shadow</text>
+</svg>

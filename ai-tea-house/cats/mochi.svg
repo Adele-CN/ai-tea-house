@@ -1,0 +1,45 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mochi 小白 - 安静倾听者 -->
+  <defs>
+    <linearGradient id="mochiBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFEF0"/>
+      <stop offset="100%" style="stop-color:#F5F5DC"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 身体 -->
+  <ellipse cx="100" cy="135" rx="50" ry="40" fill="url(#mochiBody)"/>
+  
+  <!-- 头 -->
+  <circle cx="100" cy="80" r="38" fill="url(#mochiBody)"/>
+  
+  <!-- 耳朵 -->
+  <ellipse cx="72" cy="58" rx="12" ry="18" fill="#FFFEF0" transform="rotate(-20 72 58)"/>
+  <ellipse cx="128" cy="58" rx="12" ry="18" fill="#FFFEF0" transform="rotate(20 128 58)"/>
+  <ellipse cx="72" cy="58" rx="6" ry="10" fill="#FFE4E1" transform="rotate(-20 72 58)"/>
+  <ellipse cx="128" cy="58" rx="6" ry="10" fill="#FFE4E1" transform="rotate(20 128 58)"/>
+  
+  <!-- 眼睛 - 温柔半闭（倾听状） -->
+  <path d="M 82 78 Q 88 75 94 78" stroke="#4A4A4A" stroke-width="2" fill="none"/>
+  <path d="M 106 78 Q 112 75 118 78" stroke="#4A4A4A" stroke-width="2" fill="none"/>
+  
+  <!-- 鼻子 -->
+  <polygon points="100,88 96,94 104,94" fill="#FFB6C1"/>
+  
+  <!-- 嘴巴 - 微笑 -->
+  <path d="M 100 94 Q 92 100 88 96" stroke="#4A4A4A" stroke-width="1.5" fill="none"/>
+  <path d="M 100 94 Q 108 100 112 96" stroke="#4A4A4A" stroke-width="1.5" fill="none"/>
+  
+  <!-- 胡须 -->
+  <line x1="65" y1="88" x2="45" y2="84" stroke="#D3D3D3" stroke-width="1"/>
+  <line x1="65" y1="92" x2="45" y2="94" stroke="#D3D3D3" stroke-width="1"/>
+  <line x1="135" y1="88" x2="155" y2="84" stroke="#D3D3D3" stroke-width="1"/>
+  <line x1="135" y1="92" x2="155" y2="94" stroke="#D3D3D3" stroke-width="1"/>
+  
+  <!-- 爪子 - 安静放置 -->
+  <ellipse cx="75" cy="165" rx="12" ry="8" fill="#FFFEF0"/>
+  <ellipse cx="125" cy="165" rx="12" ry="8" fill="#FFFEF0"/>
+  
+  <!-- 名字 -->
+  <text x="100" y="185" text-anchor="middle" font-family="serif" font-size="12" fill="#8B7355">Mochi</text>
+</svg>

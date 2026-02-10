@@ -1,0 +1,20 @@
+# PsyDaily Cron 任务配置
+# 将这些任务添加到系统 cron 中
+
+# 每天凌晨4点生成当天内容（3篇论文）
+0 4 * * * cd /root/.openclaw/workspace/psydaily && /usr/bin/python3 content_generator_v2.py >> /root/.openclaw/workspace/psydaily/logs/generator.log 2>&1
+
+# 每天7点推送晨读（slot 1）
+0 7 * * * cd /root/.openclaw/workspace/psydaily && /usr/bin/python3 push_scheduler.py --slot 1 >> /root/.openclaw/workspace/psydaily/logs/push_morning.log 2>&1
+
+# 每天12点推送午读（slot 2）
+0 12 * * * cd /root/.openclaw/workspace/psydaily && /usr/bin/python3 push_scheduler.py --slot 2 >> /root/.openclaw/workspace/psydaily/logs/push_noon.log 2>&1
+
+# 每天18点推送夜读（slot 3）
+0 18 * * * cd /root/.openclaw/workspace/psydaily && /usr/bin/python3 push_scheduler.py --slot 3 >> /root/.openclaw/workspace/psydaily/logs/push_evening.log 2>&1
+
+# 每5分钟检查Bot健康状态（方案A）
+*/5 * * * * /bin/bash /root/.openclaw/workspace/psydaily/health_check.sh >> /root/.openclaw/workspace/psydaily/logs/health_check.log 2>&1
+
+# 每天凌晨3点清理旧日志（保留7天）
+0 3 * * * find /root/.openclaw/workspace/psydaily/logs -name "*.log" -mtime +7 -delete

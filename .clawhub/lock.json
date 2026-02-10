@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "skills": {
+    "moltbook-interact": {
+      "version": "1.0.1",
+      "installedAt": 1770384811572
+    },
+    "exa-web-search-free": {
+      "version": "1.0.1",
+      "installedAt": 1770384835713
+    },
+    "browser-automation": {
+      "version": "1.0.1",
+      "installedAt": 1770384842025
+    },
+    "agentmemory": {
+      "version": "1.3.0",
+      "installedAt": 1770384862640
+    }
+  }
+}
