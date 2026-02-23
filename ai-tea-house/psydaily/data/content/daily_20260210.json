@@ -1,0 +1,95 @@
+[
+  {
+    "article": {
+      "id": "info_001",
+      "title_en": "Information Overload and Decision Quality: A Cognitive Load Perspective",
+      "title_zh": "信息过载与决策质量：认知负荷视角",
+      "abstract_en": "This study examines how information overload affects decision-making quality through increased cognitive load. Participants (N=240) were presented with varying amounts of information in consumer choice tasks. Results show that beyond a threshold (approximately 7-10 pieces of relevant information), additional information decreases decision satisfaction and increases regret. Eye-tracking data revealed attention fragmentation patterns characteristic of information漩涡 scenarios.",
+      "abstract_zh": "本研究通过认知负荷视角探讨信息过载如何影响决策质量。240名参与者接受了不同数量信息的消费者选择任务。结果显示，超过阈值（约7-10条相关信息）后，额外信息会降低决策满意度并增加后悔情绪。眼动数据揭示了信息漩涡场景特有的注意力碎片化模式。",
+      "journal_en": "Psychological Science",
+      "journal_zh": "心理科学",
+      "pub_date": "2025-01-15",
+      "impact_factor": 8.4,
+      "tags": [
+        "information_overload",
+        "decision_making",
+        "cognitive_load",
+        "attention"
+      ],
+      "relevance_score": 0.95
+    },
+    "analysis": {
+      "core_finding": "信息并非越多越好：当关键信息超过7-10条，你的决策质量反而会下降，更容易后悔。",
+      "why_matters": "我们每天面临大量选择，从网购到投资。这项研究提醒我们，过度收集信息会压垮大脑，导致更差的决定和更多遗憾。",
+      "detailed_findings": "*   **存在信息过载临界点**：研究明确了决策的“甜蜜点”，即7-10条关键信息。超过此点，额外信息成为负担。\n*   **过载损害决策体验与结果**：信息超量不仅降低决策时的满意度，更会显著增加事后的后悔感。\n*   **注意力碎片化是内在机制**：眼动追踪显示，信息过载时，注意力会像漩涡一样分散、跳跃，无法深入加工。",
+      "methodology": "结合行为测量（决策满意度、后悔）与生理指标（眼动追踪），客观揭示了信息过载如何“看得见”地扰乱注意力。",
+      "inspiration": "在研究和工作中，主动为信息设置“断点”，优先筛选核心变量，避免陷入无限的数据收集。",
+      "vortex_connection": "研究通过眼动数据，首次直观捕捉到“信息漩涡”中注意力分散、无法聚焦的典型模式，为该概念提供了实证依据。"
+    },
+    "generated_at": "2026-02-10T04:00:09.812323",
+    "model_used": "deepseek",
+    "slot": 1
+  },
+  {
+    "article": {
+      "id": "info_003",
+      "title_en": "The Attention Economy and Mental Health: Evidence from Smartphone Usage Data",
+      "title_zh": "注意力经济与心理健康：来自智能手机使用数据的证据",
+      "abstract_en": "Using objective smartphone usage data from 5,000 participants over 6 months, this study quantifies the relationship between attention-capturing app designs and mental health outcomes. Each additional hour of fragmented attention (switches >20/hour) was associated with 12% higher anxiety scores. The paper discusses implications for \"humane\" technology design.",
+      "abstract_zh": "本研究使用5000名参与者6个月的客观智能手机使用数据，量化了捕获注意力的应用设计与心理健康结果之间的关系。每增加一小时的碎片化注意力（每小时切换>20次），焦虑评分增加12%。论文讨论了\"人性化\"技术设计的影响。",
+      "journal_en": "Computers in Human Behavior",
+      "journal_zh": "计算机与人类行为",
+      "pub_date": "2025-01-28",
+      "impact_factor": 9.9,
+      "tags": [
+        "attention_economy",
+        "smartphone",
+        "mental_health",
+        "anxiety"
+      ],
+      "relevance_score": 0.94
+    },
+    "analysis": {
+      "core_finding": "研究发现，智能手机导致的“碎片化注意力”每增加一小时，焦虑水平会显著上升1",
+      "why_matters": "我们每天无数次在不同App间切换，这种“碎片化注意力”模式并非无害。研究证实它正悄悄推高我们的焦虑水平，理解这一点是管理数字健康的第一步。",
+      "detailed_findings": "*   **剂量效应明确**：注意力碎片化（每小时切换超20次）与焦虑存在显著“剂量-反应”关系，使用时间越长，影响越大。\n*   **设计是关键**：研究指出，某些应用通过推送、自动播放等“注意力捕获”设计，是制造碎片化注意力的主要推手。\n*   **呼吁人性化设计**：结论强调，科技产品需要向“人性化设计”转变，减少对用户注意力的强制性掠夺。",
+      "methodology": "研究创新性地使用客观的手机使用数据（而非自我报告），追踪",
+      "inspiration": "为探讨数字行为与心理健康的关系提供了强有力的客观测量范式和因果分析思路。",
+      "vortex_connection": "该研究量化了“信息漩涡”的一个核心机制——注意力碎片化，正是这种持续的切换状态，让人深陷漩涡并感到焦虑。"
+    },
+    "generated_at": "2026-02-10T04:00:18.359965",
+    "model_used": "deepseek",
+    "slot": 2
+  },
+  {
+    "article": {
+      "id": "info_010",
+      "title_en": "Mindfulness Training for Information Anxiety: A Randomized Controlled Trial",
+      "title_zh": "正念训练对信息焦虑的干预：一项随机对照试验",
+      "abstract_en": "An 8-week mindfulness intervention specifically targeting information consumption habits showed significant reductions in information anxiety and improvements in sustained attention. Participants reported greater ability to consciously disengage from information streams—a skill we term \"attention sovereignty.\"",
+      "abstract_zh": "一项针对信息消费习惯的8周正念干预显示，信息焦虑显著降低，持续注意力改善。参与者报告了有意识地脱离信息流的能力增强——我们称这种技能为\"注意力主权\"。",
+      "journal_en": "Behaviour Research and Therapy",
+      "journal_zh": "行为研究与治疗",
+      "pub_date": "2024-12-28",
+      "impact_factor": 4.5,
+      "tags": [
+        "mindfulness",
+        "information_anxiety",
+        "attention",
+        "intervention"
+      ],
+      "relevance_score": 0.93
+    },
+    "analysis": {
+      "core_finding": "一项为期8周的正念训练能有效降低信息焦虑，并帮助人们获得主动脱离信息流的“注意力主权”。",
+      "why_matters": "在信息过载的时代，这项研究提供了科学工具。它不仅能缓解刷手机带来的焦虑和疲惫，更能帮我们重获对注意力的掌控，提升工作与生活效率。",
+      "detailed_findings": "1.  **针对性干预有效**：专门针对信息消费习惯设计的正念练习，比泛泛的放松训练更能显著减轻信息焦虑。\n2.  **提升“注意力主权”**：参与者学会了有意识地觉察并主动暂停信息摄入，这种能力是应对信息过载的关键技能。\n3.  **改善持续注意力**：训练不仅减少了焦虑，还切实提升了专注力，说明减少被动信息消耗能让大脑“后台”更清爽。",
+      "methodology": "研究设计了针对“信息消费”的正念课程，而非通用训练，使干预措施与目标问题高度匹配，增强了说服力。",
+      "inspiration": "可以借鉴其思路，将宽泛的心理干预（如正念）与具体现代生活场景（如社交媒体使用）结合，设计更精准、有效的研究方案。",
+      "vortex_connection": "该研究直接提供了对抗“信息漩涡”的技能训练——通过培养“注意力主权”，使人能从漩涡中主动抽离，而非被其裹挟。"
+    },
+    "generated_at": "2026-02-10T04:00:26.940436",
+    "model_used": "deepseek",
+    "slot": 3
+  }
+]

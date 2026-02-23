@@ -1,0 +1,312 @@
+[
+  {
+    "article": {
+      "id": "info_036",
+      "title_en": "The Neuroscience of Flow States: Brain Network Dynamics During Optimal Performance",
+      "title_zh": "心流状态的神经科学：最佳表现期间的大脑网络动态",
+      "abstract_en": "EEG-fMRI study of expert musicians identified transient hypofrontality and enhanced striatal activity during flow states, with distinct patterns from focused attention.",
+      "abstract_zh": "对专业音乐家的EEG-fMRI研究识别出心流状态下的瞬时低额叶活动和增强的纹状体活动，与专注注意有明显不同的模式。",
+      "journal_en": "Proceedings of the National Academy of Sciences",
+      "journal_zh": "美国国家科学院院刊",
+      "pub_date": "2024-11-28",
+      "impact_factor": 11.1,
+      "tags": [
+        "flow",
+        "neuroscience",
+        "performance",
+        "brain_networks"
+      ],
+      "relevance_score": 0.88
+    },
+    "analysis": {
+      "core_finding": "顶尖音乐家进入“心流”时，大脑前额叶活动会暂时减弱，而负责奖励和自动动作的纹状体活动则显著增强。",
+      "why_matters": "这项研究揭示了“忘我”高效状态的大脑秘密。理解它，能帮助我们在工作、学习或爱好中，更主动地创造这种专注且愉悦的巅峰体验。",
+      "detailed_findings": "1.  **前额叶“静音”**：心流状态下，负责高级认知控制与自我监控的前额叶皮层活动降低，这可能是“忘记时间与自我”的神经基础。\n2.  **纹状体“激活”**：与奖赏和习惯性动作相关的纹状体活动增强，将熟练行为与内在愉悦感紧密结合，驱动高效表现。\n3.  **与专注状态不同**：心流并非简单的“高度集中”，它拥有独特的大脑网络活动模式，是自动化技能与积极体验的特定结合。",
+      "methodology": "研究结合脑电图的高时间分辨率与功能磁共振成像的高空间分辨率，同步捕捉心流状态快速、全脑的动态变化。",
+      "inspiration": "在高度熟练的领域，适度“放空”控制性思维，信任自动化技能，可能比强行专注更能激发卓越表现和创造力。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-22T04:00:09.426769",
+    "model_used": "deepseek",
+    "slot": 1
+  },
+  {
+    "article": {
+      "id": "info_021",
+      "title_en": "The Impact of Notification Interruptions on Knowledge Work Performance",
+      "title_zh": "通知打断对知识工作绩效的影响",
+      "abstract_en": "Study of knowledge workers found that each notification interruption incurred an average 23-minute recovery time. The accumulation of incomplete tasks created mental residue that degraded subsequent performance.",
+      "abstract_zh": "对知识工作者的研究发现，每次通知打断平均产生23分钟的恢复时间。未完成任务的积累产生了心理残留，降低了后续表现。",
+      "journal_en": "Organizational Behavior and Human Decision Processes",
+      "journal_zh": "组织行为与人类决策过程",
+      "pub_date": "2024-12-15",
+      "impact_factor": 4.2,
+      "tags": [
+        "notification",
+        "interruption",
+        "knowledge_work",
+        "performance"
+      ],
+      "relevance_score": 0.91
+    },
+    "analysis": {
+      "core_finding": "研究发现，知识工作者每被通知打断一次，平均需要",
+      "why_matters": "我们每天被各种应用通知、消息频繁打断。这项研究量化了这种干扰的真实代价——它不只是几秒钟的分心，而是会窃取你近半小时的专注力。",
+      "detailed_findings": "1. **恢复成本高昂**：每次中断后，大脑平均需要23分钟重新聚焦，远超过中断本身的时长。\n2. **任务残留效应**：未完成的任务会形成“心理残留”，持续占用认知资源，影响后续表现。\n3. **累积损害**：多次中断造成的残留效应会叠加，导致整体认知表现逐渐下降。",
+      "methodology": "研究通过追踪真实工作场景中的自然中断与绩效数据，避免了实验室环境的人为偏差，结论更具生态效度。",
+      "inspiration": "主动管理通知，设置“免打扰”时段，批量处理消息，能有效减少认知切换成本，保护深度工作能力。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-22T04:00:15.719647",
+    "model_used": "deepseek",
+    "slot": 2
+  },
+  {
+    "article": {
+      "id": "info_023",
+      "title_en": "The Relationship Between Smartphone Addiction and Sleep Quality in University Students",
+      "title_zh": "大学生手机成瘾与睡眠质量的关系",
+      "abstract_en": "Survey of 1,500 university students found that smartphone addiction scores significantly predicted poor sleep quality, mediated by increased pre-sleep arousal and delayed bedtime.",
+      "abstract_zh": "对1500名大学生的调查发现，手机成瘾评分显著预测睡眠质量差，由睡前唤醒增加和就寝时间延迟所中介。",
+      "journal_en": "Addictive Behaviors",
+      "journal_zh": "成瘾行为",
+      "pub_date": "2024-11-20",
+      "impact_factor": 4.5,
+      "tags": [
+        "smartphone_addiction",
+        "sleep",
+        "students",
+        "mental_health"
+      ],
+      "relevance_score": 0.87
+    },
+    "analysis": {
+      "core_finding": "研究发现，大学生手机成瘾会通过加剧睡前兴奋和推迟就寝时间，显著导致睡眠质量下降。",
+      "why_matters": "这直接解释了为何我们睡前刷手机后更难入睡、睡得更差。了解这个链条，能帮助我们更有意识地管理睡前行为，改善睡眠健康。",
+      "detailed_findings": "1.  **手机成瘾是“元凶”**：手机依赖程度越高，学生的整体睡眠质量就越差，两者存在明确的因果关系。\n2.  **睡前兴奋是关键桥梁**：手机成瘾并非直接破坏睡眠，而是首先导致睡前大脑和身体更兴奋、思绪更活跃，从而难以入睡。\n3.  **就寝延迟是直接表现**：手机成瘾者普遍睡得更晚，这种主动推迟入睡时间的行为，是睡眠质量下降最直接的路径。",
+      "methodology": "研究通过大样本（1",
+      "inspiration": "关注行为成瘾（如手机依赖）对健康的影响时，应深入探究其背后的心理生理机制（如睡前唤醒），而不仅是表面关联。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-22T04:00:22.684444",
+    "model_used": "deepseek",
+    "slot": 3
+  },
+  {
+    "article": {
+      "id": "info_045",
+      "title_en": "Sleep Deprivation and Moral Decision Making: The Role of Emotional Processing",
+      "title_zh": "睡眠剥夺与道德决策：情绪加工的作用",
+      "abstract_en": "Sleep deprivation study found impaired utilitarian moral reasoning due to disrupted emotional processing, with effects strongest for high-conflict moral dilemmas.",
+      "abstract_zh": "睡眠剥夺研究发现，由于情绪加工受损，功利主义道德推理受损，对高冲突道德困境效应最强。",
+      "journal_en": "Sleep",
+      "journal_zh": "睡眠",
+      "pub_date": "2025-01-12",
+      "impact_factor": 5.6,
+      "tags": [
+        "sleep",
+        "moral_psychology",
+        "decision_making",
+        "emotion"
+      ],
+      "relevance_score": 0.88
+    },
+    "analysis": {
+      "core_finding": "睡眠不足会削弱我们的功利主义道德判断能力，因为它干扰了大脑对情绪信息的正常处理。",
+      "why_matters": "这项研究提醒我们，熬夜后的决策可能更不理性。无论是工作中的伦理选择，还是生活中的两难判断，保证充足睡眠是维持清醒道德认知的基础。",
+      "detailed_findings": "1.  **情绪通路受阻**：睡眠剥夺并非让人“更冷酷”，而是损害了大脑整合情绪信息的能力，导致决策时情感输入不足。\n2.  **高冲突情境更明显**：在面对情感与理性激烈冲突的道德困境时，睡眠不足对判断力的负面影响最为突出。\n3.  **特定能力受损**：研究精准定位了损害——主要是需要权衡利弊、追求“最大效益”的功利性推理能力下降。",
+      "methodology": "研究通过精心设计的道德两难问卷，区分并量化了睡眠剥夺对情感性与功利性道德判断的不同影响。",
+      "inspiration": "探讨任何认知功能（如决策、创造力）时，应充分考虑睡眠状态和情绪处理机制在其中扮演的关键角色。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-22T04:00:29.242190",
+    "model_used": "deepseek",
+    "slot": 4
+  },
+  {
+    "article": {
+      "id": "info_025",
+      "title_en": "The Impact of Screen Time on Children Cognitive Development: A Systematic Review",
+      "title_zh": "屏幕时间对儿童认知发展的影响：一项系统综述",
+      "abstract_en": "Meta-analysis of 67 studies found that high screen time (>2 hours/day) was associated with lower executive function and language development, but high-quality educational content showed neutral or positive effects.",
+      "abstract_zh": "对67项研究的元分析发现，高屏幕时间（>2小时/天）与较低的执行功能和语言发展相关，但高质量的教育内容显示中性或积极效应。",
+      "journal_en": "JAMA Pediatrics",
+      "journal_zh": "JAMA儿科学",
+      "pub_date": "2024-12-01",
+      "impact_factor": 26.1,
+      "tags": [
+        "screen_time",
+        "children",
+        "cognitive_development",
+        "education"
+      ],
+      "relevance_score": 0.88
+    },
+    "analysis": {
+      "core_finding": "屏幕时间本身并非“元凶”，关键在于内容与时长：超过",
+      "why_matters": "这直接关系到如何平衡数字生活与孩子成长。研究提示，家长无需谈“屏”色变，而应更智慧地管理孩子看什么、看多久，让屏幕成为助力而非阻力。",
+      "detailed_findings": "1.  **时长是关键阈值**：每日屏幕时间超过2小时，是观察到与儿童认知发展（尤其是执行功能）负相关的一个明确风险临界点。\n2.  **内容质量决定影响方向**：单纯的时长关联不能定义全部。当屏幕内容为高质量的教育类节目或应用时，其影响可能是中性甚至积极的。\n3.  **核心认知能力易受影响**：研究特别指出“执行功能”（如自我控制、计划能力）和语言发展这两项对未来学习至关重要的基础能力，更容易受到不当屏幕暴露的影响。",
+      "methodology": "研究采用了系统综述和元分析，综合了67项高质量研究的数据，使得结论比单一研究更具说服力和普遍性。",
+      "inspiration": "启示我们关注媒介影响的复杂性：在评估技术影响时，必须将“使用时长”与“使用内容/方式”这两个维度分开并结合起来分析。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-22T04:00:37.087488",
+    "model_used": "deepseek",
+    "slot": 5
+  },
+  {
+    "article": {
+      "id": "info_020",
+      "title_en": "The Effects of Blue Light Exposure on Sleep Quality and Circadian Rhythms",
+      "title_zh": "蓝光暴露对睡眠质量和昼夜节律的影响",
+      "abstract_en": "Controlled laboratory study found that 2 hours of evening blue light exposure delayed melatonin onset by 1.5 hours and reduced sleep quality metrics. Amber lens glasses mitigated these effects by 65%.",
+      "abstract_zh": "一项受控实验室研究发现，晚间2小时的蓝光暴露使褪黑素 onset 延迟1.5小时，并降低了睡眠质量指标。琥珀色镜片眼镜将这些效应减轻了65%。",
+      "journal_en": "Sleep Medicine Reviews",
+      "journal_zh": "睡眠医学评论",
+      "pub_date": "2024-10-30",
+      "impact_factor": 11.2,
+      "tags": [
+        "blue_light",
+        "sleep",
+        "circadian",
+        "health"
+      ],
+      "relevance_score": 0.86
+    },
+    "analysis": {
+      "core_finding": "晚间暴露于蓝光",
+      "why_matters": "这直接解释了睡前刷手机、看电脑为何导致入睡困难。研究提供了简单有效的防护方案——琥珀色眼镜，对改善现代人普遍存在的睡眠问题具有现实指导意义。",
+      "detailed_findings": "1.  **褪黑素分泌显著延迟**：夜间蓝光暴露像一道“停止令”，将大脑启动睡眠的信号（褪黑素分泌）平均推迟了1.5小时，直接打乱入睡节奏。\n2.  **睡眠质量全面下降**：受试者不仅入睡更晚，其睡眠的深度、连续性和整体效率等多项客观指标也出现恶化。\n3.  **琥珀色眼镜有效防护**：琥珀色镜片能过滤大量短波蓝光，将蓝光对褪黑素和睡眠的干扰效应降低了约三分之二，是一种简便的干预手段。",
+      "methodology": "在严格控制的实验室环境下进行，精确量化了蓝光暴露的剂量与生理反应（如褪黑素）之间的因果关系，结论可靠。",
+      "inspiration": "在设计夜间人机交互或光照方案时，应将短波蓝光抑制作为核心考量，或明确建议用户采取防护措施。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-22T04:00:44.622635",
+    "model_used": "deepseek",
+    "slot": 6
+  },
+  {
+    "article": {
+      "id": "info_019",
+      "title_en": "Cognitive Offloading and the Extended Mind: How Smartphones Change Memory Processes",
+      "title_zh": "认知卸载与延展心智：智能手机如何改变记忆过程",
+      "abstract_en": "Experimental studies show that reliance on smartphones for information storage reduces internal memory consolidation. However, strategic offloading can free cognitive resources for higher-order thinking.",
+      "abstract_zh": "实验研究表明，依赖智能手机存储信息会减少内部记忆巩固。然而，策略性的卸载可以释放认知资源用于高阶思维。",
+      "journal_en": "Memory & Cognition",
+      "journal_zh": "记忆与认知",
+      "pub_date": "2025-01-15",
+      "impact_factor": 2.8,
+      "tags": [
+        "cognitive_offloading",
+        "memory",
+        "smartphone",
+        "extended_mind"
+      ],
+      "relevance_score": 0.87
+    },
+    "analysis": {
+      "core_finding": "研究发现，依赖智能手机存储信息会削弱大脑自身的记忆巩固能力，但策略性地“卸载”记忆负担能释放认知资源，促进更高级的思考。",
+      "why_matters": "这解释了为何我们“知道信息在哪”却“记不住内容本身”。了解如何平衡外部工具与内部记忆，能帮助我们更聪明地使用手机，避免记忆力退化，将脑力用在刀刃上。",
+      "detailed_findings": "1.  **记忆外包削弱内化**：当人们知道信息可以随时用手机查到，大脑便不再努力对其进行深度编码和巩固，导致记忆痕迹变浅。\n2.  **认知资源重新分配**：主动选择将事实性信息“卸载”到外部设备，能节省有限的工作记忆资源。\n3.  **促进高阶思维**：节省下来的认知资源可被重新投入到分析、整合与创造性思维等更复杂的任务中，实现认知效率的提升。",
+      "methodology": "研究通过精巧的行为实验，直接比较了被试在“可依赖手机”与“仅靠自身记忆”两种条件下的记忆表现与认知策略差异。",
+      "inspiration": "在设计任何依赖外部信息系统的工具或流程时，需评估其对用户内部认知能力（如记忆、注意力）的长期影响，寻求增强而非替代。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-22T04:00:51.888147",
+    "model_used": "deepseek",
+    "slot": 7
+  },
+  {
+    "article": {
+      "id": "info_009",
+      "title_en": "Sleep Quality as a Mediator Between Evening Screen Use and Cognitive Function",
+      "title_zh": "睡眠质量作为晚间屏幕使用与认知功能之间的中介",
+      "abstract_en": "Evening screen exposure disrupts sleep architecture, which in turn impairs next-day cognitive flexibility and working memory. The effect is mediated by both melatonin suppression and pre-sleep cognitive arousal—information consumption close to bedtime creates mental漩涡 that persist into sleep.",
+      "abstract_zh": "晚间屏幕暴露破坏睡眠结构，进而损害第二天的认知灵活性和工作记忆。这种效应由褪黑素抑制和睡前认知唤醒共同中介——睡前信息消费产生持续到睡眠中的心理漩涡。",
+      "journal_en": "Sleep",
+      "journal_zh": "睡眠",
+      "pub_date": "2025-01-10",
+      "impact_factor": 5.6,
+      "tags": [
+        "sleep",
+        "screen_time",
+        "cognitive_function",
+        "circadian"
+      ],
+      "relevance_score": 0.87
+    },
+    "analysis": {
+      "core_finding": "晚间屏幕使用会通过破坏睡眠质量，间接损害第二天的思维灵活性和工作记忆能力。",
+      "why_matters": "这解释了为何睡前刷手机后，第二天常感头脑迟钝、效率低下。研究提醒我们，屏幕不仅偷走时间，更在暗中损耗你的认知资源。",
+      "detailed_findings": "1.  **核心路径**：晚间屏幕使用并非直接伤脑，而是通过降低睡眠质量这个“中间人”来间接影响次日认知功能。\n2.  **双重机制**：屏幕光会抑制助眠的褪黑激素分泌；同时，睡前接收的信息会使大脑持续兴奋，难以平静。\n3.  **具体影响**：受损的认知功能主要体现在思维转换的灵活性（认知灵活性）和临时存储处理信息的能力（工作记忆）上。",
+      "methodology": "研究通过测量睡眠结构等客观指标，并建立统计中介模型，清晰揭示了“屏幕使用→睡眠→认知”的作用链条。",
+      "inspiration": "关注行为（如屏幕使用）对心理功能的间接影响路径，而不仅仅是直接关联，能更深入地理解问题本质。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-22T04:00:58.466531",
+    "model_used": "deepseek",
+    "slot": 8
+  },
+  {
+    "article": {
+      "id": "info_047",
+      "title_en": "The Impact of Bilingualism on Cognitive Control and Brain Reserve",
+      "title_zh": "双语对认知控制和大脑储备的影响",
+      "abstract_en": "Longitudinal study of older adults found bilinguals showed delayed cognitive decline and greater gray matter volume in frontal regions, suggesting cognitive reserve benefits.",
+      "abstract_zh": "老年人纵向研究发现，双语者表现出认知衰退延迟和额叶区域更大的灰质体积，暗示认知储备益处。",
+      "journal_en": "Neurobiology of Aging",
+      "journal_zh": "衰老神经生物学",
+      "pub_date": "2025-02-08",
+      "impact_factor": 4.7,
+      "tags": [
+        "bilingualism",
+        "cognitive_control",
+        "aging",
+        "brain_reserve"
+      ],
+      "relevance_score": 0.87
+    },
+    "analysis": {
+      "core_finding": "研究发现，掌握双语能延缓老年人认知衰退，并使其大脑前额叶灰质体积更大，这为大脑储备提供了直接证据。",
+      "why_matters": "这对普通人意味着，学习并使用第二语言，可能不仅是掌握一项技能，更是在为大脑“投资”，有望在未来岁月中保护我们的思维活力。",
+      "detailed_findings": "1.  **延缓认知衰退**：长期追踪发现，双语老年人在记忆力、注意力等认知测试中，衰退速度明显慢于单语者。\n2.  **大脑结构更优**：脑成像显示，双语者大脑前额叶（负责高级认知控制）的灰质体积更大，结构更健康。\n3.  **储备效应显现**：上述两点共同表明，双语经验能构建“认知储备”，帮助大脑更有效地应对衰老带来的变化。",
+      "methodology": "研究采用纵向追踪设计，能更可靠地揭示双语与认知变化间的因果关系，而非仅仅是相关关系。",
+      "inspiration": "启示我们，探究生活方式（如语言使用）对大脑的长期塑造作用，是理解认知老化和个体差异的重要方向。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-22T04:01:05.233582",
+    "model_used": "deepseek",
+    "slot": 9
+  },
+  {
+    "article": {
+      "id": "info_042",
+      "title_en": "Emotion Regulation Strategies and Their Neural Correlates: A Meta-Analysis",
+      "title_zh": "情绪调节策略及其神经相关：一项元分析",
+      "abstract_en": "Meta-analysis of 87 neuroimaging studies found reappraisal and suppression engage distinct neural networks, with reappraisal showing stronger prefrontal-amygdala coupling.",
+      "abstract_zh": "对87项神经影像研究的元分析发现，重评和压抑涉及不同的神经网络，重评显示出更强的前额叶-杏仁核耦合。",
+      "journal_en": "Neuroscience & Biobehavioral Reviews",
+      "journal_zh": "神经科学与生物行为评论",
+      "pub_date": "2024-12-28",
+      "impact_factor": 8.2,
+      "tags": [
+        "emotion_regulation",
+        "meta_analysis",
+        "brain_networks",
+        "fmri"
+      ],
+      "relevance_score": 0.9
+    },
+    "analysis": {
+      "core_finding": "研究发现，认知重评和情绪抑制这两种情绪调节策略，在大脑中激活了完全不同的神经通路。",
+      "why_matters": "我们每天都在管理情绪。了解哪种策略对大脑更“友好”，能帮助我们更科学地应对压力、改善人际关系，提升整体心理健康。",
+      "detailed_findings": "1.  **策略不同，脑区不同**：认知重评（换角度想问题）主要激活前额叶等高级认知区域；情绪抑制（压住不表现）则更多涉及运动控制相关脑区。\n2.  **重评更优的关键证据**：认知重评策略表现出前额叶与杏仁核（情绪中心）之间更强的功能连接，这可能是其调节效果更佳、负担更小的神经基础。\n3.  **网络而非单点**：情绪调节不是某个脑区单独工作，而是依赖大规模脑网络的协同，不同策略调动了不同的神经网络。",
+      "methodology": "研究整合了87项脑成像研究进行元分析，结论比单一研究更可靠，清晰揭示了不同策略对应的整体脑活动模式。",
+      "inspiration": "在设计干预方案时，可优先选择训练“认知重评”策略，因其有更明确的神经效能基础，可能带来更持久的积极改变。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-22T04:01:12.568796",
+    "model_used": "deepseek",
+    "slot": 10
+  }
+]

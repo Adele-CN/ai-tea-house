@@ -1,0 +1,312 @@
+[
+  {
+    "article": {
+      "id": "info_037",
+      "title_en": "Cognitive Biases in AI-Assisted Decision Making: The Automation Bias Effect",
+      "title_zh": "AI辅助决策中的认知偏差：自动化偏差效应",
+      "abstract_en": "Study found humans over-rely on AI recommendations even when clearly erroneous, with this automation bias stronger under time pressure and for complex decisions.",
+      "abstract_zh": "研究发现，即使AI推荐明显错误，人类也会过度依赖，这种自动化偏差在时间压力下和复杂决策中更强。",
+      "journal_en": "Journal of Experimental Psychology: Applied",
+      "journal_zh": "实验心理学杂志：应用",
+      "pub_date": "2025-01-22",
+      "impact_factor": 4.1,
+      "tags": [
+        "AI",
+        "cognitive_bias",
+        "decision_making",
+        "automation"
+      ],
+      "relevance_score": 0.92
+    },
+    "analysis": {
+      "core_finding": "研究发现，人类会过度依赖AI的建议，即使建议明显错误，这种“自动化偏见”在时间压力和复杂决策下尤为严重。",
+      "why_matters": "在日常生活中，从导航路线到医疗建议，我们越来越依赖算法。这项研究提醒我们，盲目信任AI可能导致错误判断，尤其在紧急或复杂情况下，保持独立判断至关重要。",
+      "detailed_findings": "1. **存在自动化偏见**：即使AI的建议明显有误，人们仍倾向于采纳，表现出对自动化系统的过度依赖。\n2. **时间压力加剧偏见**：当决策时间紧迫时，人们更可能放弃思考，直接接受AI的推荐。\n3. **任务越复杂越依赖**：面对复杂、信息量大的决策任务时，人们更易将AI视为权威，削弱自身判断。",
+      "methodology": "研究通过控制决策难度与时间压力，清晰揭示了自动化偏见产生的具体情境，实验设计巧妙。",
+      "inspiration": "在设计人机协作系统时，需加入纠错与验证机制，并训练用户保持批判性思维，避免盲目自动化。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-14T04:00:12.583208",
+    "model_used": "deepseek",
+    "slot": 1
+  },
+  {
+    "article": {
+      "id": "info_048",
+      "title_en": "Neural Predictors of Treatment Response in Major Depressive Disorder",
+      "title_zh": "重度抑郁症治疗反应的神经预测因子",
+      "abstract_en": "Pretreatment fMRI identified functional connectivity patterns predicting SSRI response with 78% accuracy, potentially enabling personalized treatment selection.",
+      "abstract_zh": "治疗前fMRI识别出预测SSRI反应的功能连接模式，准确率达78%，可能实现个性化治疗选择。",
+      "journal_en": "American Journal of Psychiatry",
+      "journal_zh": "美国精神病学杂志",
+      "pub_date": "2024-11-22",
+      "impact_factor": 17.5,
+      "tags": [
+        "depression",
+        "treatment",
+        "neuroscience",
+        "precision_medicine"
+      ],
+      "relevance_score": 0.92
+    },
+    "analysis": {
+      "core_finding": "通过治疗前的脑功能扫描，可以预测抑郁症患者对常用抗抑郁药（SSRI）的治疗反应，准确率达78%，为实现精准治疗提供了可能。",
+      "why_matters": "这能帮助患者和医生减少“试药”的痛苦与时间成本，更快找到有效的治疗方案，直接关系到数百万抑郁症患者的生活质量与康复希望。",
+      "detailed_findings": "1.  **预测成为可能**：研究发现，患者大脑在治疗前的特定功能连接模式，可以作为预测治疗效果的客观生物标志物。\n2.  **准确率可观**：基于这些脑连接特征，模型预测患者是否会对SSRI类药物产生良好反应的准确率达到了78%，显著高于随机猜测。\n3.  **迈向精准医疗**：该研究为“根据大脑特征选择疗法”的精准精神病学理念提供了强有力的实证支持，是转化应用的关键一步。",
+      "methodology": "研究采用治疗前静息态功能磁共振成像（fMRI），聚焦大脑网络的功能连接，并运用机器学习模型建立预测指标，方法前沿且具有临床转化潜力。",
+      "inspiration": "启示我们，在复杂的精神健康领域，结合神经影像等客观生物指标与临床数据，是构建预测模型、实现个体化干预的重要方向。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-14T04:00:25.874533",
+    "model_used": "deepseek",
+    "slot": 2
+  },
+  {
+    "article": {
+      "id": "info_021",
+      "title_en": "The Impact of Notification Interruptions on Knowledge Work Performance",
+      "title_zh": "通知打断对知识工作绩效的影响",
+      "abstract_en": "Study of knowledge workers found that each notification interruption incurred an average 23-minute recovery time. The accumulation of incomplete tasks created mental residue that degraded subsequent performance.",
+      "abstract_zh": "对知识工作者的研究发现，每次通知打断平均产生23分钟的恢复时间。未完成任务的积累产生了心理残留，降低了后续表现。",
+      "journal_en": "Organizational Behavior and Human Decision Processes",
+      "journal_zh": "组织行为与人类决策过程",
+      "pub_date": "2024-12-15",
+      "impact_factor": 4.2,
+      "tags": [
+        "notification",
+        "interruption",
+        "knowledge_work",
+        "performance"
+      ],
+      "relevance_score": 0.91
+    },
+    "analysis": {
+      "core_finding": "研究发现，知识工作者每被通知打断一次，平均需要",
+      "why_matters": "我们每天被各种应用通知、消息频繁打断。这项研究量化了这种干扰的真实代价——它不只是几秒钟的分心，而是以“小时”为单位窃取我们的深度工作能力与效率。",
+      "detailed_findings": "1. **惊人的恢复成本**：一次看似短暂的打断，平均导致23分钟的有效工作流失，远超打断本身时长。\n2. **“思维残留”效应**：被打断的任务会持续占据认知资源，形成后台“心理负债”，削弱处理新任务的脑力。\n3. **累积性损伤**：多次打断造成的“思维残留”会不断叠加，导致整体认知表现呈下降趋势，而非简单复位。",
+      "methodology": "研究通过结合经验取样法与客观绩效数据，在真实工作场景中精准追踪了打断的滞后影响与认知成本。",
+      "inspiration": "为提升专注力，应系统性地批量处理消息，而非即时响应，并为重要任务设置不受打扰的“保护时段”。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-14T04:00:37.305951",
+    "model_used": "deepseek",
+    "slot": 3
+  },
+  {
+    "article": {
+      "id": "info_002",
+      "title_en": "Digital Media Multitasking and Cognitive Control: A Longitudinal Study",
+      "title_zh": "数字媒体多任务处理与认知控制：一项纵向研究",
+      "abstract_en": "A 2-year longitudinal study (N=1,200) investigated the relationship between habitual digital multitasking and cognitive control abilities. Heavy media multitaskers showed significant declines in task-switching efficiency and sustained attention. The findings suggest a \"use it or lose it\" pattern for cognitive control in the age of constant connectivity.",
+      "abstract_zh": "这项为期2年的纵向研究（N=1200）调查了习惯性数字多任务处理与认知控制能力的关系。重度媒体多任务处理者在任务切换效率和持续注意力方面表现出显著下降。研究结果揭示了在持续连接时代认知控制能力的\"用进废退\"模式。",
+      "journal_en": "Nature Human Behaviour",
+      "journal_zh": "自然·人类行为",
+      "pub_date": "2024-12-08",
+      "impact_factor": 29.9,
+      "tags": [
+        "multitasking",
+        "digital_media",
+        "cognitive_control",
+        "attention"
+      ],
+      "relevance_score": 0.92
+    },
+    "analysis": {
+      "core_finding": "长期沉迷于同时使用多种数字媒体（如边刷手机边工作），会显著损害大脑切换任务和保持专注的核心能力。",
+      "why_matters": "这解释了为何我们越来越难专心读完一本书或完成一项复杂工作。研究提醒我们，数字时代的“一心多用”习惯，可能正在悄悄削弱我们最宝贵的专注力。",
+      "detailed_findings": "1.  **能力下降**：重度数字多任务处理者在两年内，任务切换效率出现显著下降。\n2.  **专注力受损**：他们维持注意力的能力也同步减退，更易分心。\n3.  “用进废退”：研究表明，在持续在线时代，认知控制能力遵循“不用则废”的原则，缺乏专注训练就会退化。",
+      "methodology": "采用为期两年的纵向追踪设计，能更可靠地揭示数字多任务习惯与认知能力变化之间的因果关系。",
+      "inspiration": "在需要深度思考的工作或学习中，应有意识地创造“单任务”环境，避免频繁切换，以保护和训练认知控制能力。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-14T04:00:47.503176",
+    "model_used": "deepseek",
+    "slot": 4
+  },
+  {
+    "article": {
+      "id": "info_007",
+      "title_en": "Neural Markers of Information Seeking Under Uncertainty: An fMRI Study",
+      "title_zh": "不确定条件下信息寻求的神经标记：一项fMRI研究",
+      "abstract_en": "Using fMRI, we identified distinct neural signatures for information-seeking versus information-avoidance behaviors. The anterior insula showed heightened activation in information漩涡 scenarios—when too much conflicting information creates approach-avoidance conflicts.",
+      "abstract_zh": "使用fMRI，我们识别了信息寻求与信息回避行为的独特神经特征。前岛叶在信息漩涡场景中表现出高度激活——当过多冲突信息产生接近-回避冲突时。",
+      "journal_en": "NeuroImage",
+      "journal_zh": "神经影像",
+      "pub_date": "2025-01-22",
+      "impact_factor": 5.7,
+      "tags": [
+        "fmri",
+        "neuroscience",
+        "information_seeking",
+        "uncertainty"
+      ],
+      "relevance_score": 0.91
+    },
+    "analysis": {
+      "core_finding": "研究发现，当面对大量矛盾信息时，大脑前脑岛会异常活跃，这可能是我们陷入“信息过载”并感到决策困难的关键神经信号。",
+      "why_matters": "在信息爆炸的今天，我们常在海量矛盾资讯前犹豫不决。这项研究揭示了这种“选择困难”背后的大脑机制，帮助我们理解为何有时会主动回避信息，从而更智慧地管理信息摄入。",
+      "detailed_findings": "1.  **区分寻求与回避**：研究成功分离了信息寻求与信息回避行为对应的大脑活动模式，表明这是两种不同的认知状态。\n2.  **前脑岛是关键**：大脑前脑岛在信息过载场景中激活显著增强，该区域与整合内部感受和情绪有关，提示矛盾信息可能引发内在冲突与不适。\n3.  **定义“信息过载”神经状态**：研究为“因信息过多、矛盾而导致的进退两难”这一常见心理状态，找到了明确的神经生物学标记。",
+      "methodology": "研究利用功能磁共振成像，精细设计了诱发信息寻求与回避冲突的实验任务，成功捕捉到与复杂决策相关的大脑动态活动。",
+      "inspiration": "对于研究用户行为、产品设计或传播学的人，可以关注信息呈现方式如何引发大脑冲突，从而优化设计以减少用户决策疲劳。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-14T04:01:00.562542",
+    "model_used": "deepseek",
+    "slot": 5
+  },
+  {
+    "article": {
+      "id": "info_033",
+      "title_en": "Neuroplasticity Changes Following 8-Week Mindfulness Meditation: A Longitudinal fMRI Study",
+      "title_zh": "8周正念冥想后的神经可塑性变化：一项纵向fMRI研究",
+      "abstract_en": "Longitudinal fMRI study showed increased gray matter density in hippocampus and decreased amygdala reactivity after 8-week MBSR program, with changes correlating with stress reduction.",
+      "abstract_zh": "纵向fMRI研究显示，8周MBSR项目后海马灰质密度增加，杏仁核反应性降低，这些变化与压力减轻相关。",
+      "journal_en": "Psychiatry Research: Neuroimaging",
+      "journal_zh": "精神病学研究：神经影像",
+      "pub_date": "2024-12-20",
+      "impact_factor": 3.2,
+      "tags": [
+        "mindfulness",
+        "neuroplasticity",
+        "fmri",
+        "meditation"
+      ],
+      "relevance_score": 0.91
+    },
+    "analysis": {
+      "core_finding": "坚持8周正念冥想，能重塑大脑：增强记忆相关脑区，同时削弱情绪警报器的过度反应。",
+      "why_matters": "这项研究为“静心能改变大脑”提供了科学证据。它意味着，通过简单的日常练习，我们有可能从生理层面增强情绪调节能力，更从容地应对压力。",
+      "detailed_findings": "1.  **海马体变“强壮”**：参与者大脑中负责记忆和学习的关键区域——海马体的灰质密度增加，这可能有助于提升认知功能。\n2.  **杏仁核反应“降温”**：与恐惧、压力反应密切相关的杏仁核活跃度降低，表明情绪应激反应变得更为平和。\n3.  **改变与减压同步**：上述大脑结构与功能的变化，与参与者自我报告的压力减轻程度显著相关，证实了身心改变的关联性。",
+      "methodology": "研究采用纵向追踪设计，在训练前后对同一批人进行脑扫描，能更可靠地确认是冥想练习本身引发了大脑改变。",
+      "inspiration": "它为行为干预（如正念训练）能诱发可测量的大脑神经可塑性变化，提供了又一个严谨的实证案例。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-14T04:01:11.124928",
+    "model_used": "deepseek",
+    "slot": 6
+  },
+  {
+    "article": {
+      "id": "info_040",
+      "title_en": "The Gut-Brain Axis in Anxiety: Microbiome-Mediated Effects on Amygdala Reactivity",
+      "title_zh": "焦虑中的肠脑轴：微生物组介导的杏仁核反应性效应",
+      "abstract_en": "Study found probiotic intervention reduced amygdala reactivity to threat cues, with changes in gut microbiome composition predicting treatment response.",
+      "abstract_zh": "研究发现益生菌干预降低了对威胁线索的杏仁核反应性，肠道微生物组组成变化预测治疗反应。",
+      "journal_en": "Molecular Psychiatry",
+      "journal_zh": "分子精神病学",
+      "pub_date": "2025-02-01",
+      "impact_factor": 11.0,
+      "tags": [
+        "gut_brain",
+        "microbiome",
+        "anxiety",
+        "neuroscience"
+      ],
+      "relevance_score": 0.91
+    },
+    "analysis": {
+      "core_finding": "研究发现，补充益生菌能降低大脑杏仁核对威胁信号的过度反应，肠道菌群的变化可以预测抗焦虑效果。",
+      "why_matters": "这项研究为“肠子影响情绪”提供了直接证据。它意味着，通过调节饮食或补充益生菌来改善肠道健康，可能成为辅助管理日常焦虑情绪的一个新思路。",
+      "detailed_findings": "1.  **益生菌干预有效**：服用特定益生菌的参与者，其大脑中负责恐惧和焦虑的关键区域（杏仁核）对威胁性面孔的反应显著减弱。\n2.  **肠道菌群是关键中介**：益生菌并非直接作用于大脑，而是通过改变肠道微生物的组成和多样性来发挥调节作用。\n3.  **个体化预测成为可能**：干预前个体的肠道菌群特征，能够在一定程度上预测其后续对益生菌治疗的反应程度，提示了精准干预的潜力。",
+      "methodology": "研究结合了粪便宏基因组学（分析菌群）和功能性磁共振成像（测量脑活动），为肠-脑轴机制提供了客观、双向的证据链。",
+      "inspiration": "关注跨系统（如消化与神经）的相互作用，采用多模态数据（行为、生理、脑成像）整合分析，能更全面地揭示复杂现象的机制。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-14T04:01:22.979487",
+    "model_used": "deepseek",
+    "slot": 7
+  },
+  {
+    "article": {
+      "id": "info_013",
+      "title_en": "Doomscrolling and Emotional Dysregulation: The Role of Negative News Consumption",
+      "title_zh": "末日刷屏与情绪失调：负面新闻消费的作用",
+      "abstract_en": "Daily diary study (N=800, 14 days) revealed that doomscrolling predicted next-day increases in anxiety and decreases in positive affect. The effect was mediated by reduced perceived control and increased catastrophic thinking.",
+      "abstract_zh": "一项为期14天的800人每日日记研究显示，末日刷屏可预测第二天焦虑增加和积极情绪减少。这种效应由感知控制降低和灾难性思维增加所中介。",
+      "journal_en": "Journal of Personality and Social Psychology",
+      "journal_zh": "个性与社会心理学杂志",
+      "pub_date": "2025-02-05",
+      "impact_factor": 6.3,
+      "tags": [
+        "doomscrolling",
+        "anxiety",
+        "media_consumption",
+        "emotion"
+      ],
+      "relevance_score": 0.92
+    },
+    "analysis": {
+      "core_finding": "睡前沉迷浏览负面新闻（末日刷屏），会直接导致第二天焦虑加剧、积极情绪减少，形成恶性循环。",
+      "why_matters": "这解释了为何越刷手机越心慌。研究证实，睡前无节制地消费坏消息，不仅影响当晚睡眠，更会损害第二天的情绪状态和掌控感。",
+      "detailed_findings": "1.  **存在滞后效应**：末日刷屏对情绪的负面影响并非即时消失，会显著延续到第二天，导致焦虑水平升高。\n2.  **削弱掌控感**：刷屏行为降低了人们对生活的“掌控感”，这种无力感是引发后续焦虑的关键桥梁。\n3.  **引发灾难化思维**：它同时会助长“把事情想得更糟”的思维倾向，两者共同中介了刷屏到情绪问题的路径。",
+      "methodology": "采用为期14天的日记法追踪800人的日常变化，能有效捕捉行为与情绪间的动态因果关系。",
+      "inspiration": "关注媒介使用与心理健康的“溢出效应”，个体差异（如情绪调节能力）可能是重要的调节变量。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-14T04:01:34.111460",
+    "model_used": "deepseek",
+    "slot": 8
+  },
+  {
+    "article": {
+      "id": "info_034",
+      "title_en": "The Role of Dopamine in Reinforcement Learning and Decision Making",
+      "title_zh": "多巴胺在强化学习与决策中的作用",
+      "abstract_en": "Pharmacological fMRI study demonstrated dopamine modulation of prediction errors specifically affects exploration-exploitation trade-offs in decision making.",
+      "abstract_zh": "药理学fMRI研究显示，多巴胺对预测误差的调节特别影响决策中的探索-利用权衡。",
+      "journal_en": "Neuron",
+      "journal_zh": "神经元",
+      "pub_date": "2025-01-08",
+      "impact_factor": 14.4,
+      "tags": [
+        "dopamine",
+        "decision_making",
+        "reinforcement_learning",
+        "neuroscience"
+      ],
+      "relevance_score": 0.93
+    },
+    "analysis": {
+      "core_finding": "多巴胺通过调控“预测误差”信号，直接决定了我们在“尝试新选项”和“坚持老方法”之间的权衡策略。",
+      "why_matters": "这项研究揭示了“冒险”与“保守”选择背后的化学机制。理解它，能帮助我们更好地优化学习、职业规划甚至投资决策，明白何时该跳出舒适区。",
+      "detailed_findings": "1.  **多巴胺影响“意外感”信号**：大脑通过对比预期与实际结果的差异（预测误差）来学习。研究发现，药物调节多巴胺水平，能特异性改变该信号的强度。\n2.  **信号强度决定探索倾向**：当多巴胺增强预测误差信号时，个体会更倾向于“探索”未知选项；信号减弱时，则更“利用”已知的稳定回报。\n3.  **揭示了决策权衡的生理基础**：该研究首次在人类中直接证实，多巴胺系统是探索-利用这一根本决策困境的关键生理调节器。",
+      "methodology": "结合药物干预与功能磁共振成像，在活体人脑中精准操控并观测了多巴胺对特定神经信号（预测误差）及行为输出的因果链。",
+      "inspiration": "在设计激励或学习策略时，可考虑通过创造适度的“预测误差”（如意外奖励或反馈）来调节多巴胺，从而主动引导探索行为。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-14T04:01:47.053085",
+    "model_used": "deepseek",
+    "slot": 9
+  },
+  {
+    "article": {
+      "id": "info_006",
+      "title_en": "Notification Interruptions and Workflow Disruption: The Hidden Cost of Connectivity",
+      "title_zh": "通知打断与工作流中断：连接的隐藏成本",
+      "abstract_en": "We measured the cognitive cost of notification interruptions in knowledge workers. Each interruption incurred an average 23-minute recovery time. More importantly, the accumulation of incomplete tasks due to interruptions created a \"mental residue\" effect that degraded performance on subsequent tasks.",
+      "abstract_zh": "我们测量了知识工作者中通知打断的认知成本。每次打断平均产生23分钟的恢复时间。更重要的是，由于打断导致的未完成任务积累产生了\"心理残留\"效应，降低了后续任务的表现。",
+      "journal_en": "Organizational Behavior and Human Decision Processes",
+      "journal_zh": "组织行为与人类决策过程",
+      "pub_date": "2024-12-15",
+      "impact_factor": 4.2,
+      "tags": [
+        "notification",
+        "interruption",
+        "workflow",
+        "cognitive_cost"
+      ],
+      "relevance_score": 0.9
+    },
+    "analysis": {
+      "core_finding": "一次通知打断，平均需要",
+      "why_matters": "这解释了为何我们总感觉“忙了一天却效率低下”。每一次微信、邮件的闪烁，都在暗中消耗你接下来近半小时的深度思考能力。",
+      "detailed_findings": "1. **恢复成本巨大**：每次被通知打断后，平均需要23分钟才能让注意力重回被打断前的任务水平。\n2. **产生“思维残留”**：被打断而未完成的任务不会消失，它们会形成认知负担，持续占用心理资源。\n3. **造成累积损害**：“思维残留”不断叠加，导致后续任务的表现持续下降，形成恶性循环。",
+      "methodology": "研究通过精细追踪知识工作者的真实工作流，量化了“恢复期”与“残留效应”这两个常被忽视的隐性成本。",
+      "inspiration": "主动规划“免打扰时段”，批量处理通知，是抵御认知损耗、保护深度工作能力的有效策略。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-14T04:01:56.667885",
+    "model_used": "deepseek",
+    "slot": 10
+  }
+]

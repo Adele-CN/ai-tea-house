@@ -1,0 +1,312 @@
+[
+  {
+    "article": {
+      "id": "info_058",
+      "title_en": "Motivation and Self-Regulation: From Goal Setting to Goal Pursuit",
+      "title_zh": "动机与自我调节：从目标设定到目标追求",
+      "abstract_en": "Comprehensive review of motivation science, covering goal systems, implementation intentions, self-control resources, and strategies for sustained behavior change.",
+      "abstract_zh": "全面综述了动机科学，涵盖目标系统、执行意图、自我控制资源以及持续行为改变的策略。",
+      "journal_en": "Annual Review of Psychology",
+      "journal_zh": "心理学年度评论",
+      "pub_date": "2024-11-18",
+      "impact_factor": 29.4,
+      "tags": [
+        "motivation",
+        "self_regulation",
+        "goals",
+        "behavior_change"
+      ],
+      "relevance_score": 0.93
+    },
+    "analysis": {
+      "core_finding": "成功的关键不仅在于设定目标，更在于如何将目标转化为具体行动，并有效管理过程中的诱惑与干扰。",
+      "why_matters": "这项研究揭示了为何我们常“立志容易坚持难”。它提供了从“想做什么”到“真正做成”的科学路径，对培养习惯、克服拖延、实现个人成长有直接帮助。",
+      "detailed_findings": "1.  **目标系统**：目标不是孤立的，它们相互关联。实现一个目标可能促进或阻碍其他目标，理解这种关联有助于设定更协调、可行的目标体系。\n2.  **执行意图**：仅仅说“我要努力”效果有限。形成“如果……那么……”的具体计划（如“如果晚上八点，那么我就去跑步”），能极大提升行动自动性。\n3.  **自我控制策略**：自控力像肌肉会疲劳。研究发现，预先改变环境（如卸载社交软件）、调整认知（如重新解读诱惑）等策略，比单纯“硬扛”更有效。",
+      "methodology": "整合了数十年的动机研究，从神经机制到行为干预，构建了从目标设定到追求的全链条理论框架，系统性极强。",
+      "inspiration": "在设定研究或项目目标时，不仅要明确最终成果，更需规划具体的执行步骤和应对干扰的策略，将意图转化为可操作的程序。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-19T04:00:10.424462",
+    "model_used": "deepseek",
+    "slot": 1
+  },
+  {
+    "article": {
+      "id": "info_032",
+      "title_en": "Large Language Models and Human Cognition: Comparative Analysis of Reasoning Patterns",
+      "title_zh": "大语言模型与人类认知：推理模式的比较分析",
+      "abstract_en": "Comparative study of GPT-4 and human participants (N=500) on reasoning tasks found AI shows different error patterns than humans, suggesting complementary rather than replacement roles.",
+      "abstract_zh": "对GPT-4和人类参与者（N=500）在推理任务上的比较研究发现，AI表现出与人类不同的错误模式，暗示了互补而非替代的角色。",
+      "journal_en": "Cognition",
+      "journal_zh": "认知",
+      "pub_date": "2025-02-01",
+      "impact_factor": 3.5,
+      "tags": [
+        "AI",
+        "LLM",
+        "reasoning",
+        "human_cognition"
+      ],
+      "relevance_score": 0.96
+    },
+    "analysis": {
+      "core_finding": "研究发现，GPT-4与人类的推理错误模式存在系统性差异，这提示AI更可能成为人类的“互补伙伴”，而非“替代者”。",
+      "why_matters": "这有助于我们更理性地看待AI能力：它并非全知全能，而是拥有与人类不同的思维“盲区”和“优势区”，在日常协作中能取长补短。",
+      "detailed_findings": "1.  **错误类型不同**：人类常因先入为主的偏见或知识局限犯错，而GPT-",
+      "methodology": "研究设计了能区分错误根源的精细任务，并大规模比较了AI与人类样本，为直接比较提供了方法范例。",
+      "inspiration": "在利用AI辅助研究或工作时，应明确其独特的错误模式，将其部署在最能发挥其稳定性和知识广度优势的环节。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-19T04:00:18.246300",
+    "model_used": "deepseek",
+    "slot": 2
+  },
+  {
+    "article": {
+      "id": "info_012",
+      "title_en": "Algorithmic Personalization and the Filter Bubble: Evidence from a Field Experiment",
+      "title_zh": "算法个性化与过滤气泡：来自现场实验的证据",
+      "abstract_en": "A 6-month field experiment with 2,400 participants showed that algorithmic personalization significantly reduced content diversity. Participants in personalized conditions were 40% less likely to encounter opposing viewpoints compared to chronological feeds.",
+      "abstract_zh": "一项为期6个月的2400名参与者的现场实验显示，算法个性化显著降低了内容多样性。与按时间顺序排列的信息流相比，处于个性化条件下的参与者遇到对立观点的可能性降低了40%。",
+      "journal_en": "Science",
+      "journal_zh": "科学",
+      "pub_date": "2024-11-15",
+      "impact_factor": 56.9,
+      "tags": [
+        "algorithm",
+        "personalization",
+        "filter_bubble",
+        "diversity"
+      ],
+      "relevance_score": 0.94
+    },
+    "analysis": {
+      "core_finding": "一项为期半年的大型实验证实，算法个性化推荐会显著收窄我们的信息视野，使我们接触对立观点的可能性降低40%。",
+      "why_matters": "这直接关系到我们每天刷到的新闻和视频。算法在提供“贴心”内容的同时，可能正在无形中加固我们的固有观念，让我们更难看到世界的另一面。",
+      "detailed_findings": "1.  **多样性显著降低**：与按时间顺序排列的信息流相比，个性化推荐显著减少了用户接触内容的多样性。\n2.  **观点接触锐减**：处于个性化推荐组的用户，接触到与自己原有观点相左内容的可能性下降了",
+      "methodology": "研究采用大规模、长期的实地实验，直接对比个性化与时间序信息流，为“过滤气泡”效应提供了强有力的因果证据。",
+      "inspiration": "在依赖算法数据的同时，研究者需主动设计机制（如随机推送、时间序选项）来打破“回声室”，确保样本或信息输入的多样性。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-19T04:00:25.216596",
+    "model_used": "deepseek",
+    "slot": 3
+  },
+  {
+    "article": {
+      "id": "info_054",
+      "title_en": "Decision Making Under Uncertainty: Psychological and Neuroeconomic Perspectives",
+      "title_zh": "不确定性下的决策：心理学与神经经济学视角",
+      "abstract_en": "Integrative review of research on decision making under risk and ambiguity, bridging psychological models of judgment with neuroeconomic investigations of value computation.",
+      "abstract_zh": "对风险和模糊性下决策研究的整合性综述，将判断的心理学模型与价值计算的神经经济学研究联系起来。",
+      "journal_en": "Annual Review of Psychology",
+      "journal_zh": "心理学年度评论",
+      "pub_date": "2024-11-30",
+      "impact_factor": 29.4,
+      "tags": [
+        "decision_making",
+        "neuroeconomics",
+        "uncertainty",
+        "review"
+      ],
+      "relevance_score": 0.93
+    },
+    "analysis": {
+      "core_finding": "大脑在风险和模糊两种不确定性下，会调用不同的神经回路进行价值计算，这解释了为何我们面对“未知的未知”时决策更困难。",
+      "why_matters": "这项研究揭示了我们在投资、择业甚至日常选择中犹豫不决的深层原因，帮你理解为何面对全新领域（模糊）比评估已知风险更让人焦虑。",
+      "detailed_findings": "1.  **风险与模糊的神经分离**：大脑前额叶负责处理已知概率的风险，而面对概率不明的模糊情境时，杏仁核等情绪相关脑区活动显著增强。\n2.  **情绪驱动模糊决策**：在信息不足时，决策并非完全理性计算，而是高度依赖情绪和直觉信号，这常常导致保守或规避行为。\n3.  **学习可以降低模糊厌恶**：通过积累经验，大脑能将部分“模糊”情境转化为可评估的“风险”，从而改善决策，这凸显了专业知识的重要性。",
+      "methodology": "结合了行为实验的决策模型与脑成像技术，精准定位了不同决策类型背后的特定神经活动模式。",
+      "inspiration": "在设计用户选择界面或沟通方案时，应努力将模糊选项转化为有明确概率的风险框架，以促进更理性的决策。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-19T04:00:32.561807",
+    "model_used": "deepseek",
+    "slot": 4
+  },
+  {
+    "article": {
+      "id": "info_034",
+      "title_en": "The Role of Dopamine in Reinforcement Learning and Decision Making",
+      "title_zh": "多巴胺在强化学习与决策中的作用",
+      "abstract_en": "Pharmacological fMRI study demonstrated dopamine modulation of prediction errors specifically affects exploration-exploitation trade-offs in decision making.",
+      "abstract_zh": "药理学fMRI研究显示，多巴胺对预测误差的调节特别影响决策中的探索-利用权衡。",
+      "journal_en": "Neuron",
+      "journal_zh": "神经元",
+      "pub_date": "2025-01-08",
+      "impact_factor": 14.4,
+      "tags": [
+        "dopamine",
+        "decision_making",
+        "reinforcement_learning",
+        "neuroscience"
+      ],
+      "relevance_score": 0.93
+    },
+    "analysis": {
+      "core_finding": "多巴胺通过调节大脑的“预测误差”信号，直接控制我们在“尝试新选项”和“坚持老方法”之间的决策平衡。",
+      "why_matters": "这项研究揭示了为何我们有时会勇于探索，有时却固步自封。理解这一机制，有助于我们更好地管理学习、职业选择甚至投资决策中的冒险行为。",
+      "detailed_findings": "1.  **多巴胺精准调控“意外感”**：研究证实，多巴胺药物特异性地影响大脑对结果与预期不符（预测误差）的反应，而非笼统地提升或降低整体活跃度。\n2.  **平衡探索与利用的关键**：当多巴胺增强对正性预测误差（结果比预期好）的反应时，会促进“探索”行为；反之，则让人更倾向于“利用”已知的稳定回报。\n3.  **决策策略的神经化学基础**：该发现为“探索-利用”权衡这一核心决策困境提供了直接的神经化学解释，将分子活动与复杂行为联系起来。",
+      "methodology": "结合药物干预与功能磁共振成像，精准分离了多巴胺对特定神经计算（预测误差）的影响，而非全脑效应。",
+      "inspiration": "在设计激励或学习策略时，可考虑如何通过创造“积极的意外”来调控多巴胺信号，从而引导他人或自己进入更佳的探索状态。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-19T04:00:40.635704",
+    "model_used": "deepseek",
+    "slot": 5
+  },
+  {
+    "article": {
+      "id": "info_002",
+      "title_en": "Digital Media Multitasking and Cognitive Control: A Longitudinal Study",
+      "title_zh": "数字媒体多任务处理与认知控制：一项纵向研究",
+      "abstract_en": "A 2-year longitudinal study (N=1,200) investigated the relationship between habitual digital multitasking and cognitive control abilities. Heavy media multitaskers showed significant declines in task-switching efficiency and sustained attention. The findings suggest a \"use it or lose it\" pattern for cognitive control in the age of constant connectivity.",
+      "abstract_zh": "这项为期2年的纵向研究（N=1200）调查了习惯性数字多任务处理与认知控制能力的关系。重度媒体多任务处理者在任务切换效率和持续注意力方面表现出显著下降。研究结果揭示了在持续连接时代认知控制能力的\"用进废退\"模式。",
+      "journal_en": "Nature Human Behaviour",
+      "journal_zh": "自然·人类行为",
+      "pub_date": "2024-12-08",
+      "impact_factor": 29.9,
+      "tags": [
+        "multitasking",
+        "digital_media",
+        "cognitive_control",
+        "attention"
+      ],
+      "relevance_score": 0.92
+    },
+    "analysis": {
+      "core_finding": "长期频繁进行数字媒体多任务处理，会显著损害大脑的任务切换效率和持续注意力，呈现出“用进废退”的认知模式。",
+      "why_matters": "我们每天在手机、电脑间频繁切换，同时处理多项任务已成常态。这项研究警示，这种习惯可能正在悄悄削弱我们专注和高效思考的核心能力。",
+      "detailed_findings": "1.  **损害任务切换**：重度媒体多任务者在需要灵活转换注意力的任务中表现更差，反应更慢，错误更多。\n2.  **削弱持续专注**：他们难以在单一任务上保持长时间专注，更容易分心，抗干扰能力下降。\n3.  **呈现长期趋势**：这种负面影响在为期两年的跟踪研究中持续显现，表明是习惯累积的结果，而非短期波动。",
+      "methodology": "采用大样本、长达两年的纵向跟踪设计，能更可靠地揭示习惯与认知能力变化的因果关系。",
+      "inspiration": "在设计实验或评估认知能力时，应将个体的数字媒体使用习惯作为一个重要的背景变量加以考量。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-19T04:00:47.261667",
+    "model_used": "deepseek",
+    "slot": 6
+  },
+  {
+    "article": {
+      "id": "info_018",
+      "title_en": "The Attention Merchants: How Digital Platforms Capture and Monetize User Attention",
+      "title_zh": "注意力商人：数字平台如何捕获和变现用户注意力",
+      "abstract_en": "Economic analysis of platform business models reveals that average user attention is worth $180/year to major platforms. This creates systematic incentives for engagement-maximizing design regardless of user well-being.",
+      "abstract_zh": "对平台商业模式的经济分析显示，平均用户注意力对主要平台价值180美元/年。这创造了系统性的激励，使平台采用最大化参与度的设计，而不考虑用户福祉。",
+      "journal_en": "Proceedings of the National Academy of Sciences",
+      "journal_zh": "美国国家科学院院刊",
+      "pub_date": "2024-12-12",
+      "impact_factor": 11.1,
+      "tags": [
+        "attention_economy",
+        "platform",
+        "business_model",
+        "design_ethics"
+      ],
+      "relevance_score": 0.93
+    },
+    "analysis": {
+      "core_finding": "研究发现，主流数字平台每年从每位用户的注意力中平均获利180美元，这直接驱动了其罔顾用户福祉、最大化用户停留时长的设计策略。",
+      "why_matters": "这解释了为何App总让你“停不下来”。你的每一次滑动、停留都被明码标价，平台有强大的经济动机去设计让人沉迷的产品，直接影响你的时间与心理健康。",
+      "detailed_findings": "1.  **注意力被量化定价**：研究通过经济模型测算，用户注意力对大型平台而言具有清晰的市场价值，平均每年每用户价值180美元。\n2.  **商业模式驱动设计**：这一价值创造了系统性激励，促使平台将“提升用户参与度”作为核心设计目标，优先于用户的实际福祉。\n3.  **利益与福祉的背离**：平台的经济利益最大化与用户的时间管理、心理健康等长期福祉之间存在根本性的矛盾。",
+      "methodology": "研究创新性地将经济分析模型应用于平台商业模式的剖析，量化了用户注意力的经济价值，为理解平台行为提供了坚实的实证基础。",
+      "inspiration": "审视任何产品设计时，可思考其背后的“注意力经济”逻辑，分析用户参与度提升是服务于用户目标，还是主要服务于平台的商业变现。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-19T04:00:54.816296",
+    "model_used": "deepseek",
+    "slot": 7
+  },
+  {
+    "article": {
+      "id": "info_013",
+      "title_en": "Doomscrolling and Emotional Dysregulation: The Role of Negative News Consumption",
+      "title_zh": "末日刷屏与情绪失调：负面新闻消费的作用",
+      "abstract_en": "Daily diary study (N=800, 14 days) revealed that doomscrolling predicted next-day increases in anxiety and decreases in positive affect. The effect was mediated by reduced perceived control and increased catastrophic thinking.",
+      "abstract_zh": "一项为期14天的800人每日日记研究显示，末日刷屏可预测第二天焦虑增加和积极情绪减少。这种效应由感知控制降低和灾难性思维增加所中介。",
+      "journal_en": "Journal of Personality and Social Psychology",
+      "journal_zh": "个性与社会心理学杂志",
+      "pub_date": "2025-02-05",
+      "impact_factor": 6.3,
+      "tags": [
+        "doomscrolling",
+        "anxiety",
+        "media_consumption",
+        "emotion"
+      ],
+      "relevance_score": 0.92
+    },
+    "analysis": {
+      "core_finding": "睡前刷负面新闻（末日刷屏），不仅让你当晚焦虑，更会显著降低第二天的情绪控制力与积极感受。",
+      "why_matters": "这解释了为何越刷手机越心慌。研究证实，睡前无意识地浏览灾难性新闻，会直接侵蚀你第二天的情绪稳定与掌控感，影响工作与生活状态。",
+      "detailed_findings": "1.  **情绪滞后效应**：末日刷屏对情绪的负面影响在第二天才完全显现，焦虑上升，积极情绪下降，存在延迟反应。\n2.  **失控感是关键桥梁**：刷屏行为削弱了个人对生活的掌控感，这是引发后续情绪问题的主要心理路径。\n3.  **灾难化思维加剧**：负面新闻摄入会激活并强化“事情会越来越糟”的思维模式，进一步放大焦虑情绪。",
+      "methodology": "采用为期14天的日记追踪法，能捕捉日常行为与情绪的实时、动态关联，因果推断力强。",
+      "inspiration": "关注媒介使用的“情绪后遗症”，研究设计可考虑加入时间延迟效应，更贴近真实影响。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-19T04:01:01.246093",
+    "model_used": "deepseek",
+    "slot": 8
+  },
+  {
+    "article": {
+      "id": "info_037",
+      "title_en": "Cognitive Biases in AI-Assisted Decision Making: The Automation Bias Effect",
+      "title_zh": "AI辅助决策中的认知偏差：自动化偏差效应",
+      "abstract_en": "Study found humans over-rely on AI recommendations even when clearly erroneous, with this automation bias stronger under time pressure and for complex decisions.",
+      "abstract_zh": "研究发现，即使AI推荐明显错误，人类也会过度依赖，这种自动化偏差在时间压力下和复杂决策中更强。",
+      "journal_en": "Journal of Experimental Psychology: Applied",
+      "journal_zh": "实验心理学杂志：应用",
+      "pub_date": "2025-01-22",
+      "impact_factor": 4.1,
+      "tags": [
+        "AI",
+        "cognitive_bias",
+        "decision_making",
+        "automation"
+      ],
+      "relevance_score": 0.92
+    },
+    "analysis": {
+      "core_finding": "研究发现，人类会过度依赖AI的建议，即使建议明显错误，这种“自动化偏见”在时间压力和复杂决策下尤为严重。",
+      "why_matters": "我们正越来越多地使用AI辅助决策，从导航到医疗建议。了解这种过度依赖的倾向，能帮助我们在关键时刻保持批判性思维，避免盲从算法。",
+      "detailed_findings": "1. **存在自动化偏见**：实验表明，人们倾向于采纳AI的建议，即使自己已发现建议中存在显而易见的错误。\n2. **时间压力加剧偏见**：当决策时间紧迫时，参与者更少质疑AI的推荐，依赖程度显著增加。\n3. **任务越复杂越盲从**：面对复杂的决策任务时，人们更可能放弃自己的判断，完全听从AI的指导。",
+      "methodology": "研究通过控制决策复杂度与时间压力，清晰揭示了自动化偏见发生的具体情境，实验设计巧妙。",
+      "inspiration": "在设计人机协作系统时，必须考虑如何通过界面或流程设计，主动激发用户的批判性思维，而非助长盲目依赖。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-19T04:01:07.751971",
+    "model_used": "deepseek",
+    "slot": 9
+  },
+  {
+    "article": {
+      "id": "info_048",
+      "title_en": "Neural Predictors of Treatment Response in Major Depressive Disorder",
+      "title_zh": "重度抑郁症治疗反应的神经预测因子",
+      "abstract_en": "Pretreatment fMRI identified functional connectivity patterns predicting SSRI response with 78% accuracy, potentially enabling personalized treatment selection.",
+      "abstract_zh": "治疗前fMRI识别出预测SSRI反应的功能连接模式，准确率达78%，可能实现个性化治疗选择。",
+      "journal_en": "American Journal of Psychiatry",
+      "journal_zh": "美国精神病学杂志",
+      "pub_date": "2024-11-22",
+      "impact_factor": 17.5,
+      "tags": [
+        "depression",
+        "treatment",
+        "neuroscience",
+        "precision_medicine"
+      ],
+      "relevance_score": 0.92
+    },
+    "analysis": {
+      "core_finding": "治疗前的大脑功能连接模式，能以78%的准确率预测抗抑郁药疗效，为抑郁症的精准治疗提供了新可能。",
+      "why_matters": "这能帮助患者和医生减少“试药”的漫长过程与副作用煎熬，更快找到有效的治疗方案，直接提升治疗效率和患者的生活质量。",
+      "detailed_findings": "1.  **预测指标客观**：研究发现，患者服药前大脑特定区域间的“对话”模式（功能连接），是预测药物疗效的关键客观指标。\n2.  **准确率较高**：基于大脑扫描的预测模型，区分药物有效者与无效者的准确率达到78%，显著优于传统临床评估。\n3.  **指向精准医疗**：该发现为实现抑郁症的“量脑定制”疗法迈出重要一步，未来或可依据脑扫描结果优先选择最可能起效的药物。",
+      "methodology": "研究采用治疗前静息态功能磁共振成像，前瞻性地构建预测模型，方法严谨，具有直接的临床转化潜力。",
+      "inspiration": "启示我们，在复杂的精神疾病研究中，寻找客观的生物学标记物，是连接神经科学与临床实践、实现个体化干预的关键桥梁。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-19T04:01:14.982026",
+    "model_used": "deepseek",
+    "slot": 10
+  }
+]

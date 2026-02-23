@@ -1,0 +1,302 @@
+[
+  {
+    "article": {
+      "id": "info_051",
+      "title_en": "The Neuroscience of Sleep and Memory Consolidation: A Comprehensive Review",
+      "title_zh": "睡眠与记忆巩固的神经科学：全面综述",
+      "abstract_en": "This review synthesizes two decades of research on sleep-dependent memory consolidation, highlighting the role of slow-wave sleep in hippocampal-neocortical dialogue and the implications for educational practice and clinical interventions.",
+      "abstract_zh": "本综述综合了二十年来关于睡眠依赖性记忆巩固的研究，强调了慢波睡眠在海马-新皮层对话中的作用，以及对教育实践和临床干预的启示。",
+      "journal_en": "Annual Review of Psychology",
+      "journal_zh": "心理学年度评论",
+      "pub_date": "2025-01-15",
+      "impact_factor": 29.4,
+      "tags": [
+        "sleep",
+        "memory",
+        "neuroscience",
+        "consolidation"
+      ],
+      "relevance_score": 0.96
+    },
+    "analysis": {
+      "core_finding": "本综述综合了二十年来关于睡眠依赖性记忆巩固的研究，强调了慢波睡眠在海马-新皮层对话中的作用，以及对教育实践和临床干预的启示。",
+      "why_matters": "本综述发表于心理学顶级期刊Annual Review of Psychology(IF:29.4)，全面回顾了sleep领域的最新进展。",
+      "detailed_findings": "本综述综合了二十年来关于睡眠依赖性记忆巩固的研究，强调了慢波睡眠在海马-新皮层对话中的作用，以及对教育实践和临床干预的启示。\n\n该综述系统梳理了该领域近年的重要研究发现，对理论建构和实证研究进行了深入分析。",
+      "methodology": "作为综述文章，本文采用系统性文献回顾方法，筛选高质量实证研究进行综合分析。",
+      "vortex_connection": "该综述对该领域的未来研究方向和实际应用提供了重要指导。"
+    },
+    "generated_at": "2026-02-12T13:44:26.539668",
+    "model_used": "deepseek",
+    "slot": 1
+  },
+  {
+    "article": {
+      "id": "info_052",
+      "title_en": "Social Media and Adolescent Mental Health: Current Evidence and Future Directions",
+      "title_zh": "社交媒体与青少年心理健康：当前证据与未来方向",
+      "abstract_en": "Comprehensive review of longitudinal and experimental studies examining the relationship between social media use and mental health outcomes in adolescents, with attention to moderating factors and intervention opportunities.",
+      "abstract_zh": "全面综述了纵向和实验研究，考察社交媒体使用与青少年心理健康结果之间的关系，关注调节因素和干预机会。",
+      "journal_en": "Annual Review of Psychology",
+      "journal_zh": "心理学年度评论",
+      "pub_date": "2024-12-20",
+      "impact_factor": 29.4,
+      "tags": [
+        "social_media",
+        "adolescent",
+        "mental_health",
+        "review"
+      ],
+      "relevance_score": 0.95
+    },
+    "analysis": {
+      "core_finding": "全面综述了纵向和实验研究，考察社交媒体使用与青少年心理健康结果之间的关系，关注调节因素和干预机会。",
+      "why_matters": "本综述发表于心理学顶级期刊Annual Review of Psychology(IF:29.4)，全面回顾了social media领域的最新进展。",
+      "detailed_findings": "全面综述了纵向和实验研究，考察社交媒体使用与青少年心理健康结果之间的关系，关注调节因素和干预机会。\n\n该综述系统梳理了该领域近年的重要研究发现，对理论建构和实证研究进行了深入分析。",
+      "methodology": "作为综述文章，本文采用系统性文献回顾方法，筛选高质量实证研究进行综合分析。",
+      "vortex_connection": "该综述对该领域的未来研究方向和实际应用提供了重要指导。"
+    },
+    "generated_at": "2026-02-12T13:44:26.540833",
+    "model_used": "deepseek",
+    "slot": 2
+  },
+  {
+    "article": {
+      "id": "info_053",
+      "title_en": "Emotion Regulation: Conceptual Foundations and Practical Applications",
+      "title_zh": "情绪调节：概念基础与实践应用",
+      "abstract_en": "This review examines theoretical models of emotion regulation, their neural substrates, developmental trajectories, and evidence-based interventions for emotional disorders.",
+      "abstract_zh": "本综述考察了情绪调节的理论模型、神经基础、发展轨迹以及情绪障碍的循证干预。",
+      "journal_en": "Annual Review of Psychology",
+      "journal_zh": "心理学年度评论",
+      "pub_date": "2025-02-01",
+      "impact_factor": 29.4,
+      "tags": [
+        "emotion_regulation",
+        "intervention",
+        "neuroscience",
+        "development"
+      ],
+      "relevance_score": 0.94
+    },
+    "analysis": {
+      "core_finding": "本综述考察了情绪调节的理论模型、神经基础、发展轨迹以及情绪障碍的循证干预。",
+      "why_matters": "本综述发表于心理学顶级期刊Annual Review of Psychology(IF:29.4)，全面回顾了emotion regulation领域的最新进展。",
+      "detailed_findings": "本综述考察了情绪调节的理论模型、神经基础、发展轨迹以及情绪障碍的循证干预。\n\n该综述系统梳理了该领域近年的重要研究发现，对理论建构和实证研究进行了深入分析。",
+      "methodology": "作为综述文章，本文采用系统性文献回顾方法，筛选高质量实证研究进行综合分析。",
+      "vortex_connection": "该综述对该领域的未来研究方向和实际应用提供了重要指导。"
+    },
+    "generated_at": "2026-02-12T13:44:26.540841",
+    "model_used": "deepseek",
+    "slot": 3
+  },
+  {
+    "article": {
+      "id": "info_054",
+      "title_en": "Decision Making Under Uncertainty: Psychological and Neuroeconomic Perspectives",
+      "title_zh": "不确定性下的决策：心理学与神经经济学视角",
+      "abstract_en": "Integrative review of research on decision making under risk and ambiguity, bridging psychological models of judgment with neuroeconomic investigations of value computation.",
+      "abstract_zh": "对风险和模糊性下决策研究的整合性综述，将判断的心理学模型与价值计算的神经经济学研究联系起来。",
+      "journal_en": "Annual Review of Psychology",
+      "journal_zh": "心理学年度评论",
+      "pub_date": "2024-11-30",
+      "impact_factor": 29.4,
+      "tags": [
+        "decision_making",
+        "neuroeconomics",
+        "uncertainty",
+        "review"
+      ],
+      "relevance_score": 0.93
+    },
+    "analysis": {
+      "core_finding": "对风险和模糊性下决策研究的整合性综述，将判断的心理学模型与价值计算的神经经济学研究联系起来。",
+      "why_matters": "本综述发表于心理学顶级期刊Annual Review of Psychology(IF:29.4)，全面回顾了decision making领域的最新进展。",
+      "detailed_findings": "对风险和模糊性下决策研究的整合性综述，将判断的心理学模型与价值计算的神经经济学研究联系起来。\n\n该综述系统梳理了该领域近年的重要研究发现，对理论建构和实证研究进行了深入分析。",
+      "methodology": "作为综述文章，本文采用系统性文献回顾方法，筛选高质量实证研究进行综合分析。",
+      "vortex_connection": "该综述对该领域的未来研究方向和实际应用提供了重要指导。"
+    },
+    "generated_at": "2026-02-12T13:44:26.540846",
+    "model_used": "deepseek",
+    "slot": 4
+  },
+  {
+    "article": {
+      "id": "info_055",
+      "title_en": "The Psychology of Human-AI Interaction: Trust, Collaboration, and Ethics",
+      "title_zh": "人机交互心理学：信任、协作与伦理",
+      "abstract_en": "Review of psychological research on human interaction with artificial intelligence systems, covering trust calibration, collaborative performance, and ethical considerations in AI deployment.",
+      "abstract_zh": "综述了人与人工智能系统交互的心理学研究，涵盖信任校准、协作表现以及AI部署中的伦理考量。",
+      "journal_en": "Annual Review of Psychology",
+      "journal_zh": "心理学年度评论",
+      "pub_date": "2025-01-28",
+      "impact_factor": 29.4,
+      "tags": [
+        "AI",
+        "human_computer_interaction",
+        "trust",
+        "ethics"
+      ],
+      "relevance_score": 0.97
+    },
+    "analysis": {
+      "core_finding": "综述了人与人工智能系统交互的心理学研究，涵盖信任校准、协作表现以及AI部署中的伦理考量。",
+      "why_matters": "本综述发表于心理学顶级期刊Annual Review of Psychology(IF:29.4)，全面回顾了AI领域的最新进展。",
+      "detailed_findings": "综述了人与人工智能系统交互的心理学研究，涵盖信任校准、协作表现以及AI部署中的伦理考量。\n\n该综述系统梳理了该领域近年的重要研究发现，对理论建构和实证研究进行了深入分析。",
+      "methodology": "作为综述文章，本文采用系统性文献回顾方法，筛选高质量实证研究进行综合分析。",
+      "vortex_connection": "该综述对该领域的未来研究方向和实际应用提供了重要指导。"
+    },
+    "generated_at": "2026-02-12T13:44:26.540851",
+    "model_used": "deepseek",
+    "slot": 5
+  },
+  {
+    "article": {
+      "id": "info_056",
+      "title_en": "Stress and Health: Biological Pathways and Psychological Interventions",
+      "title_zh": "压力与健康：生物学途径与心理干预",
+      "abstract_en": "Comprehensive review of biopsychosocial models linking stress to health outcomes, with emphasis on immune function, inflammatory processes, and evidence-based stress management interventions.",
+      "abstract_zh": "全面综述了将压力与健康结果联系起来的生物心理社会模型，强调免疫功能、炎症过程以及循证压力管理干预。",
+      "journal_en": "Annual Review of Psychology",
+      "journal_zh": "心理学年度评论",
+      "pub_date": "2024-12-15",
+      "impact_factor": 29.4,
+      "tags": [
+        "stress",
+        "health",
+        "intervention",
+        "immunity"
+      ],
+      "relevance_score": 0.92
+    },
+    "analysis": {
+      "core_finding": "全面综述了将压力与健康结果联系起来的生物心理社会模型，强调免疫功能、炎症过程以及循证压力管理干预。",
+      "why_matters": "本综述发表于心理学顶级期刊Annual Review of Psychology(IF:29.4)，全面回顾了stress领域的最新进展。",
+      "detailed_findings": "全面综述了将压力与健康结果联系起来的生物心理社会模型，强调免疫功能、炎症过程以及循证压力管理干预。\n\n该综述系统梳理了该领域近年的重要研究发现，对理论建构和实证研究进行了深入分析。",
+      "methodology": "作为综述文章，本文采用系统性文献回顾方法，筛选高质量实证研究进行综合分析。",
+      "vortex_connection": "该综述对该领域的未来研究方向和实际应用提供了重要指导。"
+    },
+    "generated_at": "2026-02-12T13:44:26.540857",
+    "model_used": "deepseek",
+    "slot": 6
+  },
+  {
+    "article": {
+      "id": "info_057",
+      "title_en": "Cognitive Aging: Mechanisms, Interventions, and Policy Implications",
+      "title_zh": "认知老化：机制、干预与政策启示",
+      "abstract_en": "Review of cognitive changes in normal aging and dementia, examining cognitive reserve, lifestyle interventions, and public health strategies for promoting cognitive health in older adults.",
+      "abstract_zh": "综述了正常老化和痴呆中的认知变化，考察认知储备、生活方式干预以及促进老年人认知健康的公共卫生策略。",
+      "journal_en": "Annual Review of Psychology",
+      "journal_zh": "心理学年度评论",
+      "pub_date": "2025-02-10",
+      "impact_factor": 29.4,
+      "tags": [
+        "aging",
+        "cognition",
+        "dementia",
+        "intervention"
+      ],
+      "relevance_score": 0.91
+    },
+    "analysis": {
+      "core_finding": "综述了正常老化和痴呆中的认知变化，考察认知储备、生活方式干预以及促进老年人认知健康的公共卫生策略。",
+      "why_matters": "本综述发表于心理学顶级期刊Annual Review of Psychology(IF:29.4)，全面回顾了aging领域的最新进展。",
+      "detailed_findings": "综述了正常老化和痴呆中的认知变化，考察认知储备、生活方式干预以及促进老年人认知健康的公共卫生策略。\n\n该综述系统梳理了该领域近年的重要研究发现，对理论建构和实证研究进行了深入分析。",
+      "methodology": "作为综述文章，本文采用系统性文献回顾方法，筛选高质量实证研究进行综合分析。",
+      "vortex_connection": "该综述对该领域的未来研究方向和实际应用提供了重要指导。"
+    },
+    "generated_at": "2026-02-12T13:44:26.540863",
+    "model_used": "deepseek",
+    "slot": 7
+  },
+  {
+    "article": {
+      "id": "info_058",
+      "title_en": "Motivation and Self-Regulation: From Goal Setting to Goal Pursuit",
+      "title_zh": "动机与自我调节：从目标设定到目标追求",
+      "abstract_en": "Comprehensive review of motivation science, covering goal systems, implementation intentions, self-control resources, and strategies for sustained behavior change.",
+      "abstract_zh": "全面综述了动机科学，涵盖目标系统、执行意图、自我控制资源以及持续行为改变的策略。",
+      "journal_en": "Annual Review of Psychology",
+      "journal_zh": "心理学年度评论",
+      "pub_date": "2024-11-18",
+      "impact_factor": 29.4,
+      "tags": [
+        "motivation",
+        "self_regulation",
+        "goals",
+        "behavior_change"
+      ],
+      "relevance_score": 0.93
+    },
+    "analysis": {
+      "core_finding": "全面综述了动机科学，涵盖目标系统、执行意图、自我控制资源以及持续行为改变的策略。",
+      "why_matters": "本综述发表于心理学顶级期刊Annual Review of Psychology(IF:29.4)，全面回顾了motivation领域的最新进展。",
+      "detailed_findings": "全面综述了动机科学，涵盖目标系统、执行意图、自我控制资源以及持续行为改变的策略。\n\n该综述系统梳理了该领域近年的重要研究发现，对理论建构和实证研究进行了深入分析。",
+      "methodology": "作为综述文章，本文采用系统性文献回顾方法，筛选高质量实证研究进行综合分析。",
+      "vortex_connection": "该综述对该领域的未来研究方向和实际应用提供了重要指导。"
+    },
+    "generated_at": "2026-02-12T13:44:26.540871",
+    "model_used": "deepseek",
+    "slot": 8
+  },
+  {
+    "article": {
+      "id": "info_059",
+      "title_en": "Cultural Psychology: Advances in Understanding Cultural Variation in Mind and Behavior",
+      "title_zh": "文化心理学：理解心理与行为文化变异的进展",
+      "abstract_en": "Review of cultural psychology research examining how cultural contexts shape cognition, emotion, and social behavior, with implications for global psychological science.",
+      "abstract_zh": "综述了文化心理学研究，考察文化背景如何塑造认知、情绪和社会行为，对全球心理科学具有启示。",
+      "journal_en": "Annual Review of Psychology",
+      "journal_zh": "心理学年度评论",
+      "pub_date": "2025-01-05",
+      "impact_factor": 29.4,
+      "tags": [
+        "culture",
+        "cross_cultural",
+        "cognition",
+        "social_behavior"
+      ],
+      "relevance_score": 0.9
+    },
+    "analysis": {
+      "core_finding": "综述了文化心理学研究，考察文化背景如何塑造认知、情绪和社会行为，对全球心理科学具有启示。",
+      "why_matters": "本综述发表于心理学顶级期刊Annual Review of Psychology(IF:29.4)，全面回顾了culture领域的最新进展。",
+      "detailed_findings": "综述了文化心理学研究，考察文化背景如何塑造认知、情绪和社会行为，对全球心理科学具有启示。\n\n该综述系统梳理了该领域近年的重要研究发现，对理论建构和实证研究进行了深入分析。",
+      "methodology": "作为综述文章，本文采用系统性文献回顾方法，筛选高质量实证研究进行综合分析。",
+      "vortex_connection": "该综述对该领域的未来研究方向和实际应用提供了重要指导。"
+    },
+    "generated_at": "2026-02-12T13:44:26.540876",
+    "model_used": "deepseek",
+    "slot": 9
+  },
+  {
+    "article": {
+      "id": "info_060",
+      "title_en": "Psychological Resilience: Theory, Research, and Intervention",
+      "title_zh": "心理韧性：理论、研究与干预",
+      "abstract_en": "Comprehensive review of resilience research, examining individual and community factors that promote positive adaptation to adversity, and evidence-based resilience-building interventions.",
+      "abstract_zh": "全面综述了韧性研究，考察促进对逆境积极适应的个人和社区因素，以及循证的韧性建设干预。",
+      "journal_en": "Annual Review of Psychology",
+      "journal_zh": "心理学年度评论",
+      "pub_date": "2024-12-28",
+      "impact_factor": 29.4,
+      "tags": [
+        "resilience",
+        "intervention",
+        "trauma",
+        "positive_psychology"
+      ],
+      "relevance_score": 0.92
+    },
+    "analysis": {
+      "core_finding": "全面综述了韧性研究，考察促进对逆境积极适应的个人和社区因素，以及循证的韧性建设干预。",
+      "why_matters": "本综述发表于心理学顶级期刊Annual Review of Psychology(IF:29.4)，全面回顾了resilience领域的最新进展。",
+      "detailed_findings": "全面综述了韧性研究，考察促进对逆境积极适应的个人和社区因素，以及循证的韧性建设干预。\n\n该综述系统梳理了该领域近年的重要研究发现，对理论建构和实证研究进行了深入分析。",
+      "methodology": "作为综述文章，本文采用系统性文献回顾方法，筛选高质量实证研究进行综合分析。",
+      "vortex_connection": "该综述对该领域的未来研究方向和实际应用提供了重要指导。"
+    },
+    "generated_at": "2026-02-12T13:44:26.540881",
+    "model_used": "deepseek",
+    "slot": 10
+  }
+]
