@@ -1,0 +1,312 @@
+[
+  {
+    "article": {
+      "id": "info_050",
+      "title_en": "Computational Psychiatry: Machine Learning Approaches to Psychiatric Diagnosis",
+      "title_zh": "计算精神病学：精神病学诊断的机器学习方法",
+      "abstract_en": "Review of ML applications in psychiatry shows promise for improving diagnostic accuracy but highlights need for interpretability and clinical validation.",
+      "abstract_zh": "对精神病学中ML应用的综述显示提高诊断准确性的前景，但强调需要可解释性和临床验证。",
+      "journal_en": "Nature Reviews Psychology",
+      "journal_zh": "自然评论·心理学",
+      "pub_date": "2025-02-15",
+      "impact_factor": 15.3,
+      "tags": [
+        "machine_learning",
+        "psychiatry",
+        "AI",
+        "diagnosis"
+      ],
+      "relevance_score": 0.94
+    },
+    "analysis": {
+      "core_finding": "机器学习为精神疾病诊断带来新希望，但其“黑箱”特性及临床验证的缺乏是当前应用的关键瓶颈。",
+      "why_matters": "精神健康问题日益普遍，但诊断常依赖主观判断。这项技术未来或能提供更客观、精准的评估，帮助人们更早获得适合自己的干预方案。",
+      "detailed_findings": "1.  **提升诊断准确性**：机器学习能分析海量临床与生物数据，发现人眼难以察觉的模式，有望减少误诊和漏诊。\n2.  **可解释性至关重要**：模型预测需要能被临床医生理解，仅给出结果而不说明依据，无法建立信任并指导治疗。\n3.  **临床验证是短板**：多数研究仍停留在实验室，亟需在真实医疗环境中检验其有效性、安全性和实用性。",
+      "methodology": "系统综述了机器学习在精神病学中的应用全景，并明确指出了从技术潜力迈向临床实践所必须跨越的核心障碍。",
+      "inspiration": "在开发任何辅助决策工具时，都必须将结果的可解释性及最终用户的验证环节置于核心地位，而非一味追求预测精度。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-13T04:00:11.832601",
+    "model_used": "deepseek",
+    "slot": 1
+  },
+  {
+    "article": {
+      "id": "info_018",
+      "title_en": "The Attention Merchants: How Digital Platforms Capture and Monetize User Attention",
+      "title_zh": "注意力商人：数字平台如何捕获和变现用户注意力",
+      "abstract_en": "Economic analysis of platform business models reveals that average user attention is worth $180/year to major platforms. This creates systematic incentives for engagement-maximizing design regardless of user well-being.",
+      "abstract_zh": "对平台商业模式的经济分析显示，平均用户注意力对主要平台价值180美元/年。这创造了系统性的激励，使平台采用最大化参与度的设计，而不考虑用户福祉。",
+      "journal_en": "Proceedings of the National Academy of Sciences",
+      "journal_zh": "美国国家科学院院刊",
+      "pub_date": "2024-12-12",
+      "impact_factor": 11.1,
+      "tags": [
+        "attention_economy",
+        "platform",
+        "business_model",
+        "design_ethics"
+      ],
+      "relevance_score": 0.93
+    },
+    "analysis": {
+      "core_finding": "研究发现，主流数字平台每年从每位用户的平均注意力中获利约180美元，这直接驱动了其罔顾用户福祉、最大化用户停留时长的设计策略。",
+      "why_matters": "这解释了为何App总让你“停不下来”——你的每一次滑动与停留都被明码标价。了解背后商业逻辑，能帮助我们更清醒地看待屏幕时间，夺回注意力自主权。",
+      "detailed_findings": "1.  **注意力被量化定价**：研究通过经济模型测算，揭示用户注意力已成为可衡量、可交易的“商品”，年均价值达180美元。\n2.  **盈利模式驱动设计**：平台的核心收入与用户参与度直接挂钩，这系统性地激励其优化算法与界面，唯一目标是延长用户使用时间。\n3.  **福祉成为次要考量**：在强大的商业激励下，设计是否有利于用户的心理健康与长期福祉，往往被置于次要地位。",
+      "methodology": "研究创新性地将宏观经济分析与平台微观行为数据结合，量化了“注意力”这一抽象资源的市场价值，方法扎实且具有说服力。",
+      "inspiration": "为探讨“技术设计如何影响行为”提供了关键的经济动机证据，启示研究者需从商业逻辑层面分析数字产品背后的驱动力。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-13T04:00:22.525696",
+    "model_used": "deepseek",
+    "slot": 2
+  },
+  {
+    "article": {
+      "id": "info_032",
+      "title_en": "Large Language Models and Human Cognition: Comparative Analysis of Reasoning Patterns",
+      "title_zh": "大语言模型与人类认知：推理模式的比较分析",
+      "abstract_en": "Comparative study of GPT-4 and human participants (N=500) on reasoning tasks found AI shows different error patterns than humans, suggesting complementary rather than replacement roles.",
+      "abstract_zh": "对GPT-4和人类参与者（N=500）在推理任务上的比较研究发现，AI表现出与人类不同的错误模式，暗示了互补而非替代的角色。",
+      "journal_en": "Cognition",
+      "journal_zh": "认知",
+      "pub_date": "2025-02-01",
+      "impact_factor": 3.5,
+      "tags": [
+        "AI",
+        "LLM",
+        "reasoning",
+        "human_cognition"
+      ],
+      "relevance_score": 0.96
+    },
+    "analysis": {
+      "core_finding": "研究发现，GPT-4与人类在推理任务上会犯不同类型的错误，这提示AI更可能成为人类的互补工具，而非替代品。",
+      "why_matters": "这有助于我们更理性地看待AI的能力边界。在日常生活中，了解AI擅长什么、容易在何处犯错，能让我们更聪明地借助它辅助决策、学习与创作。",
+      "detailed_findings": "1.  **错误模式不同**：人类错误常源于认知捷径或经验偏差；而GPT-",
+      "methodology": "研究通过精细设计的推理任务，直接对比了AI与大规模人群样本的作答过程与错误类型，实证性强。",
+      "inspiration": "在利用AI辅助研究或工作时，应有意识地思考：当前任务更容易出现人类典型的错误，还是AI典型的错误？据此分配或校验任务。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-13T04:00:32.849828",
+    "model_used": "deepseek",
+    "slot": 3
+  },
+  {
+    "article": {
+      "id": "info_010",
+      "title_en": "Mindfulness Training for Information Anxiety: A Randomized Controlled Trial",
+      "title_zh": "正念训练对信息焦虑的干预：一项随机对照试验",
+      "abstract_en": "An 8-week mindfulness intervention specifically targeting information consumption habits showed significant reductions in information anxiety and improvements in sustained attention. Participants reported greater ability to consciously disengage from information streams—a skill we term \"attention sovereignty.\"",
+      "abstract_zh": "一项针对信息消费习惯的8周正念干预显示，信息焦虑显著降低，持续注意力改善。参与者报告了有意识地脱离信息流的能力增强——我们称这种技能为\"注意力主权\"。",
+      "journal_en": "Behaviour Research and Therapy",
+      "journal_zh": "行为研究与治疗",
+      "pub_date": "2024-12-28",
+      "impact_factor": 4.5,
+      "tags": [
+        "mindfulness",
+        "information_anxiety",
+        "attention",
+        "intervention"
+      ],
+      "relevance_score": 0.93
+    },
+    "analysis": {
+      "core_finding": "一项为期8周的正念训练能有效降低信息焦虑，并提升人们主动脱离信息流的“注意力主权”能力。",
+      "why_matters": "在信息过载的今天，这项研究提供了科学方法，帮助我们摆脱被信息“绑架”的无力感，重获专注与内心平静，对提升工作学习效率和生活质量有直接价值。",
+      "detailed_findings": "1.  **针对性干预有效**：专门针对信息消费习惯设计的正念课程，能显著减轻因信息过载引发的焦虑情绪。\n2.  **提升“注意力主权”**：参与者学会了有意识地主动暂停信息流，而非被动反应，这是应对数字干扰的关键技能。\n3.  **改善持续注意力**：干预不仅减少了焦虑，还切实提升了保持专注的能力，实现了情绪与认知功能的双重改善。",
+      "methodology": "研究采用随机对照试验设计，并针对“信息消费”这一具体行为习惯开发干预方案，使结论更严谨、更具针对性。",
+      "inspiration": "可以借鉴其思路，将宽泛的心理干预（如正念）与具体的现代生活挑战（如信息过载）相结合，开发更精准、实用的解决方案。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-13T04:00:41.511990",
+    "model_used": "deepseek",
+    "slot": 4
+  },
+  {
+    "article": {
+      "id": "info_031",
+      "title_en": "The Neural Basis of Human Decision Making Under Uncertainty",
+      "title_zh": "不确定性下人类决策的神经基础",
+      "abstract_en": "fMRI study (N=180) identified distinct neural circuits for risk vs. ambiguity decisions. The amygdala was active in risk decisions while prefrontal cortex dominated ambiguity processing.",
+      "abstract_zh": "fMRI研究（N=180）识别了风险与模糊决策的不同神经回路。杏仁核在风险决策中活跃，而前额叶皮层主导模糊性处理。",
+      "journal_en": "Nature Neuroscience",
+      "journal_zh": "自然·神经科学",
+      "pub_date": "2025-01-15",
+      "impact_factor": 21.2,
+      "tags": [
+        "decision_making",
+        "neuroscience",
+        "fmri",
+        "uncertainty"
+      ],
+      "relevance_score": 0.94
+    },
+    "analysis": {
+      "core_finding": "大脑处理“风险”和“模糊”决策时分工明确：杏仁核应对已知概率的风险，前额叶皮层主导处理信息不全的模糊情境。",
+      "why_matters": "日常生活中，投资、医疗选择等“风险”决策，与交友、职业转型等“模糊”决策无处不在。了解其神经基础，有助于我们理解自身决策偏好，做出更明智的选择。",
+      "detailed_findings": "*   **风险有“谱”，激活情绪中心**：当决策选项的概率明确（如60%成功），代表潜在损失/威胁的杏仁核活动增强，驱动我们的风险规避或冒险行为。\n*   **模糊无“据”，调用高级认知**：当概率未知或信息不全时，负责推理、计划和整合复杂信息的前额叶皮层活动占主导，我们依赖逻辑估算而非单纯的情绪反应。\n*   **双系统独立协作**：研究证实，面对不确定性的两种主要形式，大脑动用了相对独立的两套神经回路，而非单一通用系统。",
+      "methodology": "研究采用大样本（180人）fMRI，精细设计了对比“风险”与“模糊”的决策任务，有力分离了两种神经机制。",
+      "inspiration": "在设计用户选择、风险评估产品或内容时，可区分情境是“风险型”还是“模糊型”，以预测并引导用户不同的决策心理路径。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-13T04:00:53.242782",
+    "model_used": "deepseek",
+    "slot": 5
+  },
+  {
+    "article": {
+      "id": "info_024",
+      "title_en": "Fear of Missing Out (FOMO) and Social Media Engagement: A Longitudinal Analysis",
+      "title_zh": "错失恐惧与社交媒体参与：一项纵向分析",
+      "abstract_en": "Longitudinal study over 6 months showed that FOMO predicted increased social media use, which in turn predicted higher FOMO, creating a reinforcing cycle. Breaking the cycle required intervention at both cognitive and behavioral levels.",
+      "abstract_zh": "为期6个月的纵向研究显示，错失恐惧预测社交媒体使用增加，进而预测更高的错失恐惧，形成强化循环。打破循环需要在认知和行为层面进行干预。",
+      "journal_en": "Computers in Human Behavior",
+      "journal_zh": "计算机与人类行为",
+      "pub_date": "2025-02-01",
+      "impact_factor": 9.9,
+      "tags": [
+        "FOMO",
+        "social_media",
+        "longitudinal",
+        "addiction"
+      ],
+      "relevance_score": 0.93
+    },
+    "analysis": {
+      "core_finding": "研究发现，错失恐惧（FOMO）与社交媒体使用会相互促进，形成一种“越怕错过，越刷不停”的恶性循环。",
+      "why_matters": "这解释了为何我们常陷入“刷手机停不下来”的困境。了解这个循环机制，能帮助我们更有意识地管理手机使用，减少焦虑，提升生活掌控感。",
+      "detailed_findings": "1.  **恐惧驱动行为**：起初的错失恐惧感，会显著推动个体增加浏览社交媒体等行为，试图通过“在线”来缓解焦虑。\n2.  **行为加剧恐惧**：频繁使用社交媒体，接触到更多他人精心展示的生活片段，反而会强化“别人过得更好”的错觉，加剧错失恐惧。\n3.  **形成强化循环**：上述两个过程相互喂养，形成一个自我强化的恶性循环，导致错失恐惧和社交媒体过度使用问题持续恶化。",
+      "methodology": "采用了为期6个月的纵向追踪设计，能更可靠地揭示变量间的因果关系，而非仅仅是相关关系。",
+      "inspiration": "干预“刷屏”行为需双管齐下：既要纠正“害怕错过”的认知，也要设定具体的行为改变策略。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-13T04:01:02.688187",
+    "model_used": "deepseek",
+    "slot": 6
+  },
+  {
+    "article": {
+      "id": "info_012",
+      "title_en": "Algorithmic Personalization and the Filter Bubble: Evidence from a Field Experiment",
+      "title_zh": "算法个性化与过滤气泡：来自现场实验的证据",
+      "abstract_en": "A 6-month field experiment with 2,400 participants showed that algorithmic personalization significantly reduced content diversity. Participants in personalized conditions were 40% less likely to encounter opposing viewpoints compared to chronological feeds.",
+      "abstract_zh": "一项为期6个月的2400名参与者的现场实验显示，算法个性化显著降低了内容多样性。与按时间顺序排列的信息流相比，处于个性化条件下的参与者遇到对立观点的可能性降低了40%。",
+      "journal_en": "Science",
+      "journal_zh": "科学",
+      "pub_date": "2024-11-15",
+      "impact_factor": 56.9,
+      "tags": [
+        "algorithm",
+        "personalization",
+        "filter_bubble",
+        "diversity"
+      ],
+      "relevance_score": 0.94
+    },
+    "analysis": {
+      "core_finding": "一项为期半年的大规模实验证实，算法个性化推荐会显著收窄我们的信息视野，使我们接触对立观点的可能性降低40%。",
+      "why_matters": "这直接关系到我们每天刷到的新闻和视频。算法在提供“贴心”服务的同时，可能正在无形中加固我们的固有观念，让我们更难看到世界的另一面。",
+      "detailed_findings": "1.  **多样性显著下降**：与按时间顺序排列的信息流相比，个性化推荐显著降低了用户接触内容的多样性。\n2.  **观点接触锐减**：处于个性化推荐组的用户，接触到与自己原有观点相左信息的可能性降低了",
+      "methodology": "研究采用大规模、长期的田野实验，在真实网络环境中直接对比个性化与时间序信息流，证据强度高。",
+      "inspiration": "提醒我们，在依赖算法平台进行研究时，需警惕数据样本可能存在的系统性偏见，它无法反映全面的观点分布。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-13T04:01:12.094805",
+    "model_used": "deepseek",
+    "slot": 7
+  },
+  {
+    "article": {
+      "id": "info_001",
+      "title_en": "Information Overload and Decision Quality: A Cognitive Load Perspective",
+      "title_zh": "信息过载与决策质量：认知负荷视角",
+      "abstract_en": "This study examines how information overload affects decision-making quality through increased cognitive load. Participants (N=240) were presented with varying amounts of information in consumer choice tasks. Results show that beyond a threshold (approximately 7-10 pieces of relevant information), additional information decreases decision satisfaction and increases regret. Eye-tracking data revealed attention fragmentation patterns characteristic of information漩涡 scenarios.",
+      "abstract_zh": "本研究通过认知负荷视角探讨信息过载如何影响决策质量。240名参与者接受了不同数量信息的消费者选择任务。结果显示，超过阈值（约7-10条相关信息）后，额外信息会降低决策满意度并增加后悔情绪。眼动数据揭示了信息漩涡场景特有的注意力碎片化模式。",
+      "journal_en": "Psychological Science",
+      "journal_zh": "心理科学",
+      "pub_date": "2025-01-15",
+      "impact_factor": 8.4,
+      "tags": [
+        "information_overload",
+        "decision_making",
+        "cognitive_load",
+        "attention"
+      ],
+      "relevance_score": 0.95
+    },
+    "analysis": {
+      "core_finding": "当面临超过7-10条关键信息时，更多的信息非但无益，反而会降低决策质量并增加事后后悔。",
+      "why_matters": "在网购、选餐厅或做健康决策时，我们常陷入“信息越多越好”的误区。这项研究提醒我们，信息过载会损害判断力，学会筛选关键信息至关重要。",
+      "detailed_findings": "1.  **存在信息阈值**：决策所需信息存在最佳容量（约7-10条），超过此阈值，决策满意度开始下降。\n2.  **引发决策后悔**：信息过载不仅降低选择时的满意度，更会显著增加选择后的后悔情绪。\n3.  **注意力分散**：眼动数据表明，信息过载会导致注意力分散、跳跃，无法有效聚焦于核心信息。",
+      "methodology": "结合行为实验（决策任务）与眼动追踪技术，客观揭示了信息过载如何通过干扰注意力影响决策。",
+      "inspiration": "在设计产品、报告或沟通时，主动将核心信息精简至10条以内，有助于他人更好地理解和决策。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-13T04:01:21.599427",
+    "model_used": "deepseek",
+    "slot": 8
+  },
+  {
+    "article": {
+      "id": "info_003",
+      "title_en": "The Attention Economy and Mental Health: Evidence from Smartphone Usage Data",
+      "title_zh": "注意力经济与心理健康：来自智能手机使用数据的证据",
+      "abstract_en": "Using objective smartphone usage data from 5,000 participants over 6 months, this study quantifies the relationship between attention-capturing app designs and mental health outcomes. Each additional hour of fragmented attention (switches >20/hour) was associated with 12% higher anxiety scores. The paper discusses implications for \"humane\" technology design.",
+      "abstract_zh": "本研究使用5000名参与者6个月的客观智能手机使用数据，量化了捕获注意力的应用设计与心理健康结果之间的关系。每增加一小时的碎片化注意力（每小时切换>20次），焦虑评分增加12%。论文讨论了\"人性化\"技术设计的影响。",
+      "journal_en": "Computers in Human Behavior",
+      "journal_zh": "计算机与人类行为",
+      "pub_date": "2025-01-28",
+      "impact_factor": 9.9,
+      "tags": [
+        "attention_economy",
+        "smartphone",
+        "mental_health",
+        "anxiety"
+      ],
+      "relevance_score": 0.94
+    },
+    "analysis": {
+      "core_finding": "智能手机使用中，注意力越碎片化（每小时切换应用超",
+      "why_matters": "这解释了为何我们刷手机后常感疲惫焦躁。研究用客观数据证实，被应用频繁打断的注意力模式，正直接侵蚀我们的情绪健康。",
+      "detailed_findings": "1. **注意力碎片化可量化**：研究通过“每小时应用切换次数”客观测量注意力碎片化程度，使其影响可被精确分析。\n2. **碎片化与焦虑强相关**：注意力碎片化每增加一小时，参与者的焦虑量表得分平均上升12%，存在显著剂量反应关系。\n3. **指向设计责任**：结果将心理健康问题部分归因于应用“注意力捕获”设计，为倡导“人性化”技术设计提供了实证依据。",
+      "methodology": "采用大规模、长期的客观手机使用数据，而非自我报告，极大提升了研究结果的可靠性与生态效度。",
+      "inspiration": "在探讨科技影响时，应尽可能采用客观行为数据，并关注“注意力模式”这一关键中介变量。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-13T04:01:30.952879",
+    "model_used": "deepseek",
+    "slot": 9
+  },
+  {
+    "article": {
+      "id": "info_035",
+      "title_en": "AI-Assisted Therapy for Depression: Efficacy and Ethical Considerations",
+      "title_zh": "AI辅助抑郁症治疗：疗效与伦理考量",
+      "abstract_en": "RCT comparing AI chatbot vs. human CBT found non-inferiority for mild-moderate depression at 3 months, but raised concerns about empathy and crisis detection.",
+      "abstract_zh": "比较AI聊天机器人与人工CBT的随机对照试验发现，对于轻中度抑郁在3个月时非劣效，但引发了对共情和危机检测的担忧。",
+      "journal_en": "The Lancet Digital Health",
+      "journal_zh": "柳叶刀·数字健康",
+      "pub_date": "2025-02-10",
+      "impact_factor": 30.8,
+      "tags": [
+        "AI",
+        "mental_health",
+        "depression",
+        "digital_therapy"
+      ],
+      "relevance_score": 0.95
+    },
+    "analysis": {
+      "core_finding": "研究发现，AI聊天机器人对轻中度抑郁的认知行为治疗效果不亚于真人治疗师，但机器人的共情能力和危机识别仍是短板。",
+      "why_matters": "这为心理服务可及性提供了新思路。当专业资源紧张时，AI或能成为有效的辅助工具，帮助更多人获得及时、基础的心理支持。",
+      "detailed_findings": "1.  **疗效相当**：在3个月的治疗周期内，AI引导的认知行为疗法在缓解轻中度抑郁症状方面，效果与人类治疗师相当。\n2.  **共情不足**：尽管疗效达标，但AI在表达情感理解、建立深度治疗关系方面明显弱于人类。\n3.  **危机盲区**：研究指出AI系统在识别患者潜在的自杀风险等紧急情况时存在局限，需谨慎使用。",
+      "methodology": "研究采用严格的随机对照试验设计，并在顶级期刊发表，证据等级高，结论可靠。",
+      "inspiration": "在开发或应用AI辅助工具时，必须将伦理设计（如共情模拟、危机预警）置于与技术效能同等重要的位置。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-13T04:01:39.388361",
+    "model_used": "deepseek",
+    "slot": 10
+  }
+]

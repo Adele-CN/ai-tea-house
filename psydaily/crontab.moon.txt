@@ -1,0 +1,19 @@
+# PsyDaily Moon 专属推送 - 每日 10 篇论文
+
+# 每日凌晨 4 点生成内容
+0 4 * * * cd /root/.openclaw/workspace/psydaily && /usr/bin/python3 content_generator_v2.py >> /root/.openclaw/workspace/psydaily/logs/generator.log 2>&1
+
+# 10 篇论文推送时间表
+0 7 * * * cd /root/.openclaw/workspace/psydaily && /usr/bin/python3 push_moon_v2.py 1 >> /root/.openclaw/workspace/psydaily/logs/push_moon.log 2>&1
+30 8 * * * cd /root/.openclaw/workspace/psydaily && /usr/bin/python3 push_moon_v2.py 2 >> /root/.openclaw/workspace/psydaily/logs/push_moon.log 2>&1
+0 10 * * * cd /root/.openclaw/workspace/psydaily && /usr/bin/python3 push_moon_v2.py 3 >> /root/.openclaw/workspace/psydaily/logs/push_moon.log 2>&1
+30 11 * * * cd /root/.openclaw/workspace/psydaily && /usr/bin/python3 push_moon_v2.py 4 >> /root/.openclaw/workspace/psydaily/logs/push_moon.log 2>&1
+0 14 * * * cd /root/.openclaw/workspace/psydaily && /usr/bin/python3 push_moon_v2.py 5 >> /root/.openclaw/workspace/psydaily/logs/push_moon.log 2>&1
+30 15 * * * cd /root/.openclaw/workspace/psydaily && /usr/bin/python3 push_moon_v2.py 6 >> /root/.openclaw/workspace/psydaily/logs/push_moon.log 2>&1
+0 17 * * * cd /root/.openclaw/workspace/psydaily && /usr/bin/python3 push_moon_v2.py 7 >> /root/.openclaw/workspace/psydaily/logs/push_moon.log 2>&1
+30 18 * * * cd /root/.openclaw/workspace/psydaily && /usr/bin/python3 push_moon_v2.py 8 >> /root/.openclaw/workspace/psydaily/logs/push_moon.log 2>&1
+0 20 * * * cd /root/.openclaw/workspace/psydaily && /usr/bin/python3 push_moon_v2.py 9 >> /root/.openclaw/workspace/psydaily/logs/push_moon.log 2>&1
+30 21 * * * cd /root/.openclaw/workspace/psydaily && /usr/bin/python3 push_moon_v2.py 10 >> /root/.openclaw/workspace/psydaily/logs/push_moon.log 2>&1
+
+# 清理旧日志
+0 3 * * * find /root/.openclaw/workspace/psydaily/logs -name "*.log" -mtime +7 -delete

@@ -1,0 +1,312 @@
+[
+  {
+    "article": {
+      "id": "info_017",
+      "title_en": "Phantom Vibration Syndrome: Prevalence, Correlates, and Mechanisms",
+      "title_zh": "幻振综合征：患病率、相关因素和机制",
+      "abstract_en": "Survey of 3,000 smartphone users found that 89% experienced phantom vibration syndrome. Frequency was associated with anxiety, attachment anxiety, and daily phone checking habits.",
+      "abstract_zh": "一项对3000名智能手机用户的调查发现，89%的人经历过幻振综合征。发生频率与焦虑、依恋焦虑和日常查看手机习惯相关。",
+      "journal_en": "Computers in Human Behavior",
+      "journal_zh": "计算机与人类行为",
+      "pub_date": "2024-11-25",
+      "impact_factor": 9.9,
+      "tags": [
+        "phantom_vibration",
+        "anxiety",
+        "smartphone",
+        "habit"
+      ],
+      "relevance_score": 0.88
+    },
+    "analysis": {
+      "core_finding": "近九成智能手机用户曾经历“手机幻振”，即感觉手机振动但实际没有，其频率与焦虑情绪、依恋焦虑及频繁查看手机的习惯显著相关。",
+      "why_matters": "这不仅是种错觉，更是数字时代下我们身心状态的一面镜子。它提醒我们，过度依赖手机会无形中加剧焦虑，影响日常生活质量。",
+      "detailed_findings": "1.  **普遍性极高**：89%的受访者有过幻振体验，表明这已成为智能手机用户的普遍现象，而非个别敏感人群的特例。\n2.  **与焦虑紧密相连**：幻振频率越高，个体的焦虑水平及人际关系中的依恋焦虑倾向也越明显，提示其与心理压力状态相关。\n3.  **受行为习惯驱动**：每日查看手机越频繁，幻振体验也越多。这表明我们的行为模式会直接塑造甚至“训练”大脑的感知。",
+      "methodology": "研究基于大规模样本（3000人），在权威期刊发表，将主观心理体验（幻振）与客观行为数据（查看习惯）及心理特质进行了量化关联分析。",
+      "inspiration": "在设计人机交互产品或进行用户行为研究时，需高度重视这种“感知错觉”，它可能是衡量技术依赖与心理负荷的有效非侵入性指标。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-16T04:00:08.825461",
+    "model_used": "deepseek",
+    "slot": 1
+  },
+  {
+    "article": {
+      "id": "info_009",
+      "title_en": "Sleep Quality as a Mediator Between Evening Screen Use and Cognitive Function",
+      "title_zh": "睡眠质量作为晚间屏幕使用与认知功能之间的中介",
+      "abstract_en": "Evening screen exposure disrupts sleep architecture, which in turn impairs next-day cognitive flexibility and working memory. The effect is mediated by both melatonin suppression and pre-sleep cognitive arousal—information consumption close to bedtime creates mental漩涡 that persist into sleep.",
+      "abstract_zh": "晚间屏幕暴露破坏睡眠结构，进而损害第二天的认知灵活性和工作记忆。这种效应由褪黑素抑制和睡前认知唤醒共同中介——睡前信息消费产生持续到睡眠中的心理漩涡。",
+      "journal_en": "Sleep",
+      "journal_zh": "睡眠",
+      "pub_date": "2025-01-10",
+      "impact_factor": 5.6,
+      "tags": [
+        "sleep",
+        "screen_time",
+        "cognitive_function",
+        "circadian"
+      ],
+      "relevance_score": 0.87
+    },
+    "analysis": {
+      "core_finding": "睡前刷手机不仅让你睡不好，更会通过破坏睡眠结构，直接降低你第二天的思维灵活性和记忆力。",
+      "why_matters": "这解释了为何我们熬夜追剧或刷社交软件后，第二天会感觉头脑迟钝、效率低下。研究揭示了屏幕时间如何通过睡眠“偷走”我们的脑力，对每个离不开电子设备的人都有警示意义。",
+      "detailed_findings": "1.  **核心路径**：晚间屏幕使用会损害睡眠质量，而睡眠质量下降是导致次日认知功能（思维灵活性和工作记忆）变差的关键中间环节。\n2.  **双重作用机制**：屏幕光会抑制助眠的褪黑激素分泌；同时，睡前接收信息会引起大脑持续兴奋，这种“头脑风暴”状态会延续到睡眠中。\n3.  **明确认知影响**：研究具体锁定了受影响的认知领域——思维灵活性和工作记忆，这正是我们进行多任务处理和临时记住信息的关键能力。",
+      "methodology": "研究不仅测量了屏幕使用时间，还通过客观手段（如脑电图）评估睡眠结构，并量化了次日具体的认知任务表现，因果关系链条清晰。",
+      "inspiration": "在设计涉及屏幕使用或认知功能的研究时，必须将睡眠质量作为一个重要的中介或控制变量来考量，否则可能遗漏关键机制。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-16T04:00:16.691577",
+    "model_used": "deepseek",
+    "slot": 2
+  },
+  {
+    "article": {
+      "id": "info_014",
+      "title_en": "Digital Minimalism and Well-Being: A Randomized Controlled Trial of a 30-Day Intervention",
+      "title_zh": "数字极简主义与幸福感：一项30天干预的随机对照试验",
+      "abstract_en": "Participants who underwent a 30-day digital declutter reported significant improvements in life satisfaction, attention span, and quality of relationships. Benefits persisted at 3-month follow-up.",
+      "abstract_zh": "经历30天数字整理的参与者报告了生活满意度、注意力持续时间和关系质量的显著改善。这些益处在3个月随访时仍然存在。",
+      "journal_en": "Journal of Experimental Psychology: Applied",
+      "journal_zh": "实验心理学杂志：应用",
+      "pub_date": "2024-12-20",
+      "impact_factor": 4.1,
+      "tags": [
+        "digital_minimalism",
+        "well_being",
+        "intervention",
+        "attention"
+      ],
+      "relevance_score": 0.89
+    },
+    "analysis": {
+      "core_finding": "一项随机对照试验发现，进行为期30天的数字精简干预，能显著提升生活满意度、注意力和人际关系质量，且效果持续至少三个月。",
+      "why_matters": "这项研究为“数字戒断”提供了科学证据。它表明，有意识地减少非必要的数字工具使用，并非一时轻松，而是能带来持久、多维度的积极心理改变，直接影响我们的幸福感和社交质量。",
+      "detailed_findings": "*   **提升生活满意度**：干预组参与者报告对生活的整体满意度和意义感显著增强，表明减少数字干扰有助于人们更投入地体验现实生活。\n*   **改善注意力**：参与者的自我报告注意力持续时间明显变长，这提示控制数字设备使用可能有效缓解碎片化信息导致的注意力分散问题。\n*   **增进人际关系**：参与者感知到与家人、朋友的互动质量提高。减少屏幕时间可能为面对面的深度交流创造了更多空间。",
+      "methodology": "研究采用随机对照试验设计，并设置了3个月的随访期，能较强地推断因果关系，并证实干预效果的持久性。",
+      "inspiration": "在设计行为干预研究时，可借鉴其“结构化精简”框架与长期随访的设置，以评估习惯改变的持续效应。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-16T04:00:23.699467",
+    "model_used": "deepseek",
+    "slot": 3
+  },
+  {
+    "article": {
+      "id": "info_023",
+      "title_en": "The Relationship Between Smartphone Addiction and Sleep Quality in University Students",
+      "title_zh": "大学生手机成瘾与睡眠质量的关系",
+      "abstract_en": "Survey of 1,500 university students found that smartphone addiction scores significantly predicted poor sleep quality, mediated by increased pre-sleep arousal and delayed bedtime.",
+      "abstract_zh": "对1500名大学生的调查发现，手机成瘾评分显著预测睡眠质量差，由睡前唤醒增加和就寝时间延迟所中介。",
+      "journal_en": "Addictive Behaviors",
+      "journal_zh": "成瘾行为",
+      "pub_date": "2024-11-20",
+      "impact_factor": 4.5,
+      "tags": [
+        "smartphone_addiction",
+        "sleep",
+        "students",
+        "mental_health"
+      ],
+      "relevance_score": 0.87
+    },
+    "analysis": {
+      "core_finding": "研究发现，大学生手机成瘾会通过加剧睡前兴奋和推迟就寝时间，显著导致睡眠质量下降。",
+      "why_matters": "这解释了为何我们睡前刷手机后难以入睡或睡不安稳。了解这个链条，能帮助我们更有意识地管理睡前行为，改善睡眠健康。",
+      "detailed_findings": "1.  **手机成瘾是“元凶”**：手机依赖程度越高，睡眠质量整体越差，两者存在明确的预测关系。\n2.  **睡前兴奋是关键桥梁**：手机成瘾并非直接破坏睡眠，而是首先引发大脑和身体的过度兴奋，使人难以放松入睡。\n3.  **就寝延迟是直接表现**：手机使用挤占了睡眠时间，显著推迟了实际上床时间，直接缩短了睡眠时长。",
+      "methodology": "研究通过大样本调查和中介效应分析，清晰揭示了“手机成瘾→睡前兴奋/延迟就寝→睡眠差”的作用路径。",
+      "inspiration": "关注行为问题的间接作用机制（如“睡前兴奋”），比单纯关注直接关联（如“手机使用时长”）更能揭示深层原因。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-16T04:00:29.882924",
+    "model_used": "deepseek",
+    "slot": 4
+  },
+  {
+    "article": {
+      "id": "info_047",
+      "title_en": "The Impact of Bilingualism on Cognitive Control and Brain Reserve",
+      "title_zh": "双语对认知控制和大脑储备的影响",
+      "abstract_en": "Longitudinal study of older adults found bilinguals showed delayed cognitive decline and greater gray matter volume in frontal regions, suggesting cognitive reserve benefits.",
+      "abstract_zh": "老年人纵向研究发现，双语者表现出认知衰退延迟和额叶区域更大的灰质体积，暗示认知储备益处。",
+      "journal_en": "Neurobiology of Aging",
+      "journal_zh": "衰老神经生物学",
+      "pub_date": "2025-02-08",
+      "impact_factor": 4.7,
+      "tags": [
+        "bilingualism",
+        "cognitive_control",
+        "aging",
+        "brain_reserve"
+      ],
+      "relevance_score": 0.87
+    },
+    "analysis": {
+      "core_finding": "研究发现，掌握双语能延缓老年人认知衰退，并使其大脑前额叶灰质体积更大，这为认知储备提供了直接证据。",
+      "why_matters": "这提示学习并使用第二语言，不仅是沟通技能，更可能是一种对大脑的长期“投资”，有助于在年老时保持思维敏捷，对抗自然衰老。",
+      "detailed_findings": "1.  **延缓认知衰退**：长期追踪发现，双语老年人的整体认知水平下降速度显著慢于单语者。\n2.  **大脑结构更优**：影像学显示，双语者大脑前额叶（负责高级控制功能）的灰质体积更大。\n3.  **储备机制显现**：上述两点结合，表明双语经验能增加“认知储备”，帮助大脑更有效地应对老化损伤。",
+      "methodology": "采用了纵向追踪设计，能更可靠地揭示双语与认知变化间的因果关系，而非仅仅是相关。",
+      "inspiration": "在教育或老龄健康领域，可将双语学习视为一种潜在的、非药物的认知干预与促进策略。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-16T04:00:35.894315",
+    "model_used": "deepseek",
+    "slot": 5
+  },
+  {
+    "article": {
+      "id": "info_036",
+      "title_en": "The Neuroscience of Flow States: Brain Network Dynamics During Optimal Performance",
+      "title_zh": "心流状态的神经科学：最佳表现期间的大脑网络动态",
+      "abstract_en": "EEG-fMRI study of expert musicians identified transient hypofrontality and enhanced striatal activity during flow states, with distinct patterns from focused attention.",
+      "abstract_zh": "对专业音乐家的EEG-fMRI研究识别出心流状态下的瞬时低额叶活动和增强的纹状体活动，与专注注意有明显不同的模式。",
+      "journal_en": "Proceedings of the National Academy of Sciences",
+      "journal_zh": "美国国家科学院院刊",
+      "pub_date": "2024-11-28",
+      "impact_factor": 11.1,
+      "tags": [
+        "flow",
+        "neuroscience",
+        "performance",
+        "brain_networks"
+      ],
+      "relevance_score": 0.88
+    },
+    "analysis": {
+      "core_finding": "顶尖音乐家进入心流状态时，大脑前额叶活动会暂时减弱，而负责奖赏和自动动作的纹状体活动则显著增强。",
+      "why_matters": "这项研究揭示了“忘我”高效状态的脑科学本质。理解它，能帮助我们在工作、学习或爱好中，有意识地创造进入心流状态的条件，从而提升表现和幸福感。",
+      "detailed_findings": "1.  **前额叶“静音”**：心流时，负责高级认知监控的前额叶皮层活动降低，这解释了为何会感觉不到时间流逝和自我评判。\n2.  **纹状体“激活”**：负责奖赏、动机和习惯形成的纹状体活动增强，驱动了流畅、自动化的高效行为，并带来内在愉悦感。\n3.  **与专注状态不同**：心流有独特的脑网络活动模式，并非简单的“高度集中注意力”，而是一种更自动化、消耗更少的特殊高效状态。",
+      "methodology": "研究结合了EEG的高时间分辨率与fMRI的高空间分辨率，同步捕捉心流这种短暂状态中大脑活动的全貌。",
+      "inspiration": "在需要创意或熟练技能的任务中，尝试减少过度思考（降低前额叶负荷），通过明确目标和即时反馈来激活内在动力系统。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-16T04:00:42.845577",
+    "model_used": "deepseek",
+    "slot": 6
+  },
+  {
+    "article": {
+      "id": "info_019",
+      "title_en": "Cognitive Offloading and the Extended Mind: How Smartphones Change Memory Processes",
+      "title_zh": "认知卸载与延展心智：智能手机如何改变记忆过程",
+      "abstract_en": "Experimental studies show that reliance on smartphones for information storage reduces internal memory consolidation. However, strategic offloading can free cognitive resources for higher-order thinking.",
+      "abstract_zh": "实验研究表明，依赖智能手机存储信息会减少内部记忆巩固。然而，策略性的卸载可以释放认知资源用于高阶思维。",
+      "journal_en": "Memory & Cognition",
+      "journal_zh": "记忆与认知",
+      "pub_date": "2025-01-15",
+      "impact_factor": 2.8,
+      "tags": [
+        "cognitive_offloading",
+        "memory",
+        "smartphone",
+        "extended_mind"
+      ],
+      "relevance_score": 0.87
+    },
+    "analysis": {
+      "core_finding": "依赖手机存储信息会削弱大脑的记忆巩固，但策略性地“外包”记忆能释放认知资源，用于更复杂的思考。",
+      "why_matters": "这解释了为何我们“记不住电话号码”，却更擅长解决问题。了解如何与手机协作，而非被其替代，能优化我们的学习与工作效率。",
+      "detailed_findings": "1.  **削弱主动记忆**：当人们知道信息能随时从手机中查找时，大脑编码和存储该信息的动力与深度会下降。\n2.  **改变记忆策略**：人们会记住“信息存在哪里”，而非信息本身，这是一种新的“元记忆”策略。\n3.  **资源重新分配**：节省下的记忆资源可被用于分析、整合信息，从而提升复杂任务的表现。",
+      "methodology": "通过精巧的实验设计，分离了“知道信息”与“知道如何获取信息”的不同认知过程，揭示了行为背后的心理机制。",
+      "inspiration": "在设计工具或工作流程时，应有意识地区分“需内化”的核心知识与“可外包”的辅助信息，以实现人机协同的最佳效果。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-16T04:00:49.335930",
+    "model_used": "deepseek",
+    "slot": 7
+  },
+  {
+    "article": {
+      "id": "info_041",
+      "title_en": "Reward Prediction Errors in Addiction: fMRI Study of Cue Reactivity",
+      "title_zh": "成瘾中的奖励预测误差：线索反应性的fMRI研究",
+      "abstract_en": "Study found blunted reward prediction error signals in substance use disorder during reward anticipation but heightened cue reactivity, suggesting dissociable mechanisms.",
+      "abstract_zh": "研究发现物质使用障碍患者在奖励预期时奖励预测误差信号减弱，但线索反应性增强，暗示可分离的机制。",
+      "journal_en": "Biological Psychiatry",
+      "journal_zh": "生物精神病学",
+      "pub_date": "2024-11-15",
+      "impact_factor": 10.6,
+      "tags": [
+        "addiction",
+        "reward",
+        "fmri",
+        "neuroscience"
+      ],
+      "relevance_score": 0.87
+    },
+    "analysis": {
+      "core_finding": "研究发现，成瘾者大脑对“即将获得奖励”的期待信号变迟钝，但对“提示物”（如毒品相关线索）的反应却异常强烈，揭示了两种分离的神经机制。",
+      "why_matters": "这解释了为何成瘾者明知有害仍难以自拔：他们并非单纯“追求快感”，而是对特定线索（如看到烟盒）变得过度敏感，同时大脑对正常奖励（如美食）的期待感却减弱了。",
+      "detailed_findings": "1.  **奖励预期信号减弱**：成瘾者大脑在预测普通奖励（如金钱）时，负责“期待”和“误差计算”的脑区（如纹状体）激活不足，意味着他们对正常愉悦的预期能力下降。\n2.  **线索反应性增强**：面对与成瘾物质相关的特定线索（如图片），其大脑奖赏回路（如腹侧纹状体）激活异常强烈，驱动强烈的渴求和寻药行为。\n3.  **机制相互分离**：这两种神经反应模式是独立的，表明“对正常奖励麻木”和“对成瘾线索过敏”是成瘾中并行存在的两个核心问题。",
+      "methodology": "研究使用功能磁共振成像（fMRI），巧妙设计了分离“奖励预期误差”和“线索反应性”的实验任务，清晰揭示了二者独立的神经基础。",
+      "inspiration": "提示我们在行为干预中，可能需要分别针对“提升对自然奖励的敏感性”和“降低对成瘾线索的反应性”设计不同的策略。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-16T04:00:57.676917",
+    "model_used": "deepseek",
+    "slot": 8
+  },
+  {
+    "article": {
+      "id": "info_028",
+      "title_en": "Nomophobia: Prevalence and Correlates of Smartphone Separation Anxiety",
+      "title_zh": "无手机恐惧症：手机分离焦虑的患病率及相关因素",
+      "abstract_en": "Survey of 2,500 adults found that 66% showed moderate to severe nomophobia. Higher levels were associated with younger age, higher daily phone use, and lower face-to-face social interaction.",
+      "abstract_zh": "对2500名成年人的调查发现，66%表现出中度至重度无手机恐惧症。较高水平与年轻、更高日常手机使用和较低面对面社交互动相关。",
+      "journal_en": "Computers in Human Behavior",
+      "journal_zh": "计算机与人类行为",
+      "pub_date": "2024-11-10",
+      "impact_factor": 9.9,
+      "tags": [
+        "nomophobia",
+        "anxiety",
+        "smartphone",
+        "addiction"
+      ],
+      "relevance_score": 0.86
+    },
+    "analysis": {
+      "core_finding": "研究发现，高达66%的成年人存在中度至严重的“无手机恐惧症”，即对与智能手机分离感到焦虑。",
+      "why_matters": "这不仅是“手机依赖”，更是一种普遍存在的分离焦虑。它直接影响我们的情绪稳定和线下社交质量，关乎每个人的数字生活健康。",
+      "detailed_findings": "1.  **普遍性高**：调查的2500名成人中，三分之二有明显症状，表明“无手机恐惧”已成为数字时代的常见心理反应。\n2.  **年轻群体更易感**：年龄越小，症状越严重，提示数字原住民可能面临更高的心理风险。\n3.  **与使用习惯强相关**：每日使用手机时间越长、面对面社交越少的人，其“无手机恐惧”程度也越深。",
+      "methodology": "研究样本量大（2",
+      "inspiration": "可深入探究“无手机恐惧”背后的心理机制，如它与焦虑症、依恋风格的具体关联。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-16T04:01:03.210959",
+    "model_used": "deepseek",
+    "slot": 9
+  },
+  {
+    "article": {
+      "id": "info_045",
+      "title_en": "Sleep Deprivation and Moral Decision Making: The Role of Emotional Processing",
+      "title_zh": "睡眠剥夺与道德决策：情绪加工的作用",
+      "abstract_en": "Sleep deprivation study found impaired utilitarian moral reasoning due to disrupted emotional processing, with effects strongest for high-conflict moral dilemmas.",
+      "abstract_zh": "睡眠剥夺研究发现，由于情绪加工受损，功利主义道德推理受损，对高冲突道德困境效应最强。",
+      "journal_en": "Sleep",
+      "journal_zh": "睡眠",
+      "pub_date": "2025-01-12",
+      "impact_factor": 5.6,
+      "tags": [
+        "sleep",
+        "moral_psychology",
+        "decision_making",
+        "emotion"
+      ],
+      "relevance_score": 0.88
+    },
+    "analysis": {
+      "core_finding": "睡眠不足会削弱我们处理道德困境的能力，因为它干扰了大脑对情绪信息的正常加工，让我们更难做出“两害相权取其轻”的理性判断。",
+      "why_matters": "这项研究提醒我们，长期熬夜或睡眠不佳不仅损害健康，更可能在无形中影响我们的道德判断力，比如在工作中或人际交往中做出更冲动、更缺乏共情的决定。",
+      "detailed_findings": "1.  **损害功利性判断**：睡眠不足后，参与者在面对高度冲突的道德困境时，更难以选择能为整体带来最大利益的方案。\n2.  **情绪加工受阻**：研究发现，这种判断力下降与大脑情绪处理功能受损直接相关，睡眠剥夺削弱了我们对情境的情感理解。\n3.  **困境类型差异**：睡眠剥夺的影响在“情感冲突强烈”的道德选择中最为显著，而在简单的是非问题上影响较小。",
+      "methodology": "研究通过控制睡眠条件，并采用经典的道德困境任务，清晰地将睡眠剥夺与特定的道德认知缺陷（功利性判断）联系起来。",
+      "inspiration": "在涉及道德、决策或情绪的研究中，必须将参与者的睡眠状况作为关键变量加以考虑和控制。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-16T04:01:09.983561",
+    "model_used": "deepseek",
+    "slot": 10
+  }
+]

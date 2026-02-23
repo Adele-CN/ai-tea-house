@@ -1,0 +1,312 @@
+[
+  {
+    "article": {
+      "id": "info_004",
+      "title_en": "Selective Exposure in the Age of Algorithmic Curation: Echo Chambers or Diversity?",
+      "title_zh": "算法策展时代的选择性接触：回音室还是多样性？",
+      "abstract_en": "This research challenges the echo chamber narrative by showing that algorithmic curation can both narrow and broaden information exposure depending on user engagement patterns. However, users with high information anxiety tend to self-select into filter bubbles, creating personal information漩涡 that limit cognitive diversity.",
+      "abstract_zh": "这项研究通过展示算法策展如何根据用户参与模式既缩小又拓宽信息暴露，挑战了回音室叙事。然而，具有高信息焦虑的用户倾向于自我选择进入过滤气泡，创造限制认知多样性的个人信息漩涡。",
+      "journal_en": "Journal of Communication",
+      "journal_zh": "传播学刊",
+      "pub_date": "2024-11-20",
+      "impact_factor": 7.1,
+      "tags": [
+        "algorithm",
+        "echo_chamber",
+        "selective_exposure",
+        "information_anxiety"
+      ],
+      "relevance_score": 0.88
+    },
+    "analysis": {
+      "core_finding": "算法推荐并非必然导致“信息茧房”，用户自身的参与模式和信息焦虑程度，才是决定信息视野宽窄的关键。",
+      "why_matters": "这提醒我们，在抱怨算法“困住”自己之前，应先审视自己的点击和停留习惯。主动、多样的信息探索，能有效对抗认知窄化。",
+      "detailed_findings": "1. **算法影响是双向的**：算法既能根据用户偏好推荐相似内容（窄化），也能因探索行为推荐多元信息（拓宽）。\n2. **用户行为是主导**：用户主动的、多样化的信息消费模式，能引导算法推荐更广泛的内容。\n3. **焦虑加剧封闭**：信息焦虑感强的人，更倾向于固守熟悉、舒适的信息源，从而自我强化了“过滤气泡”。",
+      "methodology": "研究结合了算法日志数据与用户心理问卷调查，将客观行为模式与主观心理特质相关联。",
+      "inspiration": "在分析算法影响时，必须将用户视为能动的参与者，而非被动的接收者，关注人机交互的复杂动态。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-21T04:00:08.127499",
+    "model_used": "deepseek",
+    "slot": 1
+  },
+  {
+    "article": {
+      "id": "info_038",
+      "title_en": "The Default Mode Network in Creativity and Future Thinking",
+      "title_zh": "默认模式网络在创造力和未来思维中的作用",
+      "abstract_en": "Resting-state fMRI study linked DMN connectivity patterns to divergent thinking ability and vividness of future simulations, suggesting common neural substrate.",
+      "abstract_zh": "静息态fMRI研究将DMN连接模式与发散思维能力和未来模拟的生动性联系起来，暗示共同的神经基质。",
+      "journal_en": "Cerebral Cortex",
+      "journal_zh": "大脑皮层",
+      "pub_date": "2024-12-15",
+      "impact_factor": 4.6,
+      "tags": [
+        "brain_networks",
+        "creativity",
+        "DMN",
+        "imagination"
+      ],
+      "relevance_score": 0.89
+    },
+    "analysis": {
+      "core_finding": "研究发现，大脑的“默认模式网络”不仅是走神发呆的“后台程序”，更是我们想象未来和迸发创意的共同神经基础。",
+      "why_matters": "这解释了为何洗澡、散步时容易灵光一现。理解大脑这一“创意网络”的工作模式，有助于我们有意识地为自己创造更多“灵感时刻”，提升规划与创新能力。",
+      "detailed_findings": "1.  **网络连接越强，思维越发散**：默认网络内部连接更强的人，在需要“天马行空”的发散性思维任务中表现更出色。\n2.  **网络活跃度关联未来想象**：该网络的特定活动模式，与个人想象未来场景的生动程度直接相关。\n3.  **共享的神经基础**：创造力和展望未来这两种高级认知功能，在大脑深处共用同一套核心神经网络。",
+      "methodology": "研究通过静息态功能磁共振成像，巧妙捕捉了大脑固有的、不受任务干扰的连接模式，揭示了其与稳定认知特质的关系。",
+      "inspiration": "重视“离线状态”的价值。刻意安排不接收外界信息的放空时间，可能正是激发深度思考和前瞻性规划的关键。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-21T04:00:15.296224",
+    "model_used": "deepseek",
+    "slot": 2
+  },
+  {
+    "article": {
+      "id": "info_027",
+      "title_en": "The Effect of Push Notifications on Task Performance and Stress Levels",
+      "title_zh": "推送通知对任务表现和压力水平的影响",
+      "abstract_en": "Experimental study showed that push notifications increased cortisol levels and decreased task performance by 15-25%, even when participants did not interact with the notifications.",
+      "abstract_zh": "实验研究显示，推送通知增加了皮质醇水平并降低了任务表现15-25%，即使参与者没有与通知互动。",
+      "journal_en": "International Journal of Human-Computer Studies",
+      "journal_zh": "国际人机研究杂志",
+      "pub_date": "2025-01-25",
+      "impact_factor": 4.2,
+      "tags": [
+        "push_notifications",
+        "stress",
+        "performance",
+        "cortisol"
+      ],
+      "relevance_score": 0.9
+    },
+    "analysis": {
+      "core_finding": "手机推送通知即使不被点开，也会显著提升压力激素水平，并导致任务表现下降15-",
+      "why_matters": "我们每天都会收到大量推送。这项研究提醒我们，仅仅是通知的“存在”就在无形中消耗着我们的专注力与心理资源，影响工作学习效率。",
+      "detailed_findings": "1.  **生理压力反应**：接收到推送通知后，参与者唾液中的皮质醇（核心压力激素）水平显著升高，表明身体进入了应激状态。\n2.  **认知表现受损**：在进行需要专注的任务时，推送通知导致参与者的任务完成准确率或速度下降了15%至25%。\n3.  **被动影响机制**：关键发现是，这种负面影响在参与者**没有点击或查看**通知内容时依然发生，说明干扰源于注意力的被迫转移。",
+      "methodology": "研究通过测量唾液皮质醇这一客观生理指标，结合行为任务表现，有力证实了推送通知的隐性心理成本。",
+      "inspiration": "在设计需要用户专注的产品或工作环境时，应建立“免打扰”时段或模式，从源头减少非紧急通知的干扰。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-21T04:00:22.854424",
+    "model_used": "deepseek",
+    "slot": 3
+  },
+  {
+    "article": {
+      "id": "info_049",
+      "title_en": "The Role of Oxytocin in Social Bonding: From Animal Models to Human Studies",
+      "title_zh": "催产素在社会联结中的作用：从动物模型到人类研究",
+      "abstract_en": "Review integrates animal and human research showing oxytocin facilitates social recognition and trust, but effects depend on social context and individual differences.",
+      "abstract_zh": "综述整合动物和人类研究，显示催产素促进社会识别和信任，但效应依赖于社会情境和个体差异。",
+      "journal_en": "Psychological Bulletin",
+      "journal_zh": "心理学公报",
+      "pub_date": "2025-01-30",
+      "impact_factor": 17.2,
+      "tags": [
+        "oxytocin",
+        "social_bonding",
+        "review",
+        "neuroscience"
+      ],
+      "relevance_score": 0.89
+    },
+    "analysis": {
+      "core_finding": "催产素能促进社交信任与联结，但其效果并非“万能药”，高度依赖于具体情境和个人特质。",
+      "why_matters": "它解释了为何同样的善意举动在不同人或环境下效果迥异，帮助我们理解人际关系中的微妙差异，对改善沟通、亲子关系和团队合作有实际启示。",
+      "detailed_findings": "1.  **促进社交识别**：催产素能增强动物和人类对同类面孔、气味的识别与记忆，这是建立社会联结的第一步。\n2.  **提升信任与亲社会性**：在实验室环境中，它能增加人们的信任感、慷慨行为和共情能力，尤其在安全的社交背景下。\n3.  **效果具有条件性**：其积极作用在压力、威胁或不安全的社会环境中会减弱甚至反转，且对已有社交焦虑或创伤经历的人效果不同。",
+      "methodology": "整合了从动物模型到人类实验的多层次证据，系统揭示了催产素作用从基础机制到复杂社会行为的连续性。",
+      "inspiration": "在研究任何心理或生理因素时，必须充分考虑“情境”和“个体差异”这两个关键调节变量，避免简单化的因果结论。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-21T04:00:29.676010",
+    "model_used": "deepseek",
+    "slot": 4
+  },
+  {
+    "article": {
+      "id": "info_008",
+      "title_en": "The Paradox of Choice in Digital Information Environments: When More is Less",
+      "title_zh": "数字信息环境中的选择悖论：多则少",
+      "abstract_en": "Classic choice paradox effects are amplified in digital environments due to the removal of natural constraints on information availability. We demonstrate that unlimited choice combined with social comparison cues creates a unique form of decision paralysis specific to online contexts.",
+      "abstract_zh": "由于数字环境中消除了信息可用性的自然约束，经典的选择悖论效应被放大。我们证明了无限选择与社会比较线索的结合创造了一种独特的在线决策瘫痪形式。",
+      "journal_en": "Journal of Personality and Social Psychology",
+      "journal_zh": "个性与社会心理学杂志",
+      "pub_date": "2024-11-30",
+      "impact_factor": 6.3,
+      "tags": [
+        "choice_paradox",
+        "decision_paralysis",
+        "digital_environment",
+        "social_comparison"
+      ],
+      "relevance_score": 0.89
+    },
+    "analysis": {
+      "core_finding": "数字环境中无限的选择，加上无处不在的社交比较信号，会引发一种独特的、专属于网络情境的决策瘫痪。",
+      "why_matters": "这解释了为何我们在刷短视频、购物或选餐厅时，面对海量选项反而更难满意和行动，帮助理解数字时代的普遍焦虑与疲惫感。",
+      "detailed_findings": "1.  **数字环境放大选择悖论**：网络消除了信息获取的物理限制，使选项无限膨胀，经典“选择越多越难选”的效应被显著增强。\n2.  **社交比较是关键催化剂**：平台设计的点赞、评分、他人动态等社交线索，加剧了我们对“错过最佳选项”的恐惧和决策压力。\n3.  **催生新型决策瘫痪**：上述两者结合，产生了一种不同于线下场景的、更普遍且持久的犹豫和后悔，影响在线决策体验。",
+      "methodology": "通过对比实验，精准剥离了“选项数量”与“社交比较信息”各自及交互的影响，验证了其独特效应。",
+      "inspiration": "设计产品或内容时，应有意识地管理选项呈现方式，并谨慎使用社交比较功能，以减轻用户决策负担。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-21T04:00:36.756110",
+    "model_used": "deepseek",
+    "slot": 5
+  },
+  {
+    "article": {
+      "id": "info_017",
+      "title_en": "Phantom Vibration Syndrome: Prevalence, Correlates, and Mechanisms",
+      "title_zh": "幻振综合征：患病率、相关因素和机制",
+      "abstract_en": "Survey of 3,000 smartphone users found that 89% experienced phantom vibration syndrome. Frequency was associated with anxiety, attachment anxiety, and daily phone checking habits.",
+      "abstract_zh": "一项对3000名智能手机用户的调查发现，89%的人经历过幻振综合征。发生频率与焦虑、依恋焦虑和日常查看手机习惯相关。",
+      "journal_en": "Computers in Human Behavior",
+      "journal_zh": "计算机与人类行为",
+      "pub_date": "2024-11-25",
+      "impact_factor": 9.9,
+      "tags": [
+        "phantom_vibration",
+        "anxiety",
+        "smartphone",
+        "habit"
+      ],
+      "relevance_score": 0.88
+    },
+    "analysis": {
+      "core_finding": "近九成智能手机用户曾经历“手机幻振”现象，其发生频率与焦虑情绪、依恋焦虑及频繁查看手机的习惯显著相关。",
+      "why_matters": "这不仅是种错觉，更是数字时代下我们身心状态的一面镜子。它提醒我们，过度依赖手机可能正悄然加剧内心的焦虑与不安。",
+      "detailed_findings": "1.  **普遍性极高**：高达89%的受访者表示经历过感觉手机振动或响铃，但实际并无通知的情况。\n2.  **与焦虑紧密相连**：幻振频率越高的人，通常其普遍性焦虑水平及人际关系中的“依恋焦虑”程度也越高。\n3.  **习惯是催化剂**：每日查看手机的次数越多，出现幻振体验的频率也越高，表明行为模式强化了这一感知错觉。",
+      "methodology": "研究基于大规模样本（3000人），量化揭示了心理特质（焦虑）、行为习惯与特定感知现象之间的清晰关联。",
+      "inspiration": "关注高频次的日常行为与细微主观体验的联系，它们往往是揭示更大心理机制的有效窗口。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-21T04:00:43.361774",
+    "model_used": "deepseek",
+    "slot": 6
+  },
+  {
+    "article": {
+      "id": "info_022",
+      "title_en": "Digital Detox and Well-Being: Effects of a 7-Day Social Media Abstinence",
+      "title_zh": "数字排毒与幸福感：7天戒断社交媒体的影响",
+      "abstract_en": "A 7-day social media detox led to significant reductions in anxiety and improvements in life satisfaction. Effects were strongest for those with high baseline usage and emotional attachment to platforms.",
+      "abstract_zh": "7天的社交媒体戒断导致焦虑显著减少和生活满意度提高。对于高基线使用和对平台有情感依恋的人效果最强。",
+      "journal_en": "Cyberpsychology, Behavior, and Social Networking",
+      "journal_zh": "网络心理学、行为与社交网络",
+      "pub_date": "2025-01-05",
+      "impact_factor": 5.1,
+      "tags": [
+        "digital_detox",
+        "social_media",
+        "well_being",
+        "anxiety"
+      ],
+      "relevance_score": 0.89
+    },
+    "analysis": {
+      "core_finding": "一项研究发现，仅仅戒断社交媒体7天，就能显著降低焦虑感并提升生活满意度，效果对重度依赖用户尤为明显。",
+      "why_matters": "这为被信息流裹挟的现代人提供了一个简单可行的“重启”方案。它提示我们，短暂的主动离线，可能是成本最低、收效最快的自我关怀方式之一。",
+      "detailed_findings": "1.  **情绪显著改善**：仅一周的戒断，参与者的焦虑水平就出现了具有统计学意义的下降，整体情绪状态变得更积极。\n2.  **生活满意度提升**：脱离社交媒体后，人们有更多时间关注现实生活与线下关系，对生活的整体评价也随之提高。\n3.  **效果因人而异**：研究指出，那些原本使用频率高、对平台情感依赖强的用户，从戒断中获益最大，改善幅度最明显。",
+      "methodology": "研究采用了为期一周的“自然实验”设计，在真实生活场景中观察戒断效果，结论更具生态效度和现实参考价值。",
+      "inspiration": "可以尝试设计短周期的“数字斋戒”实验，观察其对特定群体（如学生、职场人）注意力、睡眠或创造力的短期影响。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-21T04:00:50.030963",
+    "model_used": "deepseek",
+    "slot": 7
+  },
+  {
+    "article": {
+      "id": "info_011",
+      "title_en": "The Impact of Social Media Comparison on Adolescent Mental Health: A Meta-Analysis",
+      "title_zh": "社交媒体比较对青少年心理健康的影响：一项元分析",
+      "abstract_en": "A meta-analysis of 85 studies (N=89,000) found that upward social comparison on social media was significantly associated with increased depression and anxiety symptoms. The effect was stronger for adolescents and when comparisons focused on appearance or lifestyle rather than achievements.",
+      "abstract_zh": "一项包含85项研究（N=89000）的元分析发现，社交媒体上的向上社会比较与抑郁和焦虑症状增加显著相关。这种效应对青少年更强，且当比较聚焦于外貌或生活方式而非成就时更为明显。",
+      "journal_en": "Clinical Psychology Review",
+      "journal_zh": "临床心理学评论",
+      "pub_date": "2025-01-20",
+      "impact_factor": 12.5,
+      "tags": [
+        "social_media",
+        "mental_health",
+        "adolescent",
+        "social_comparison"
+      ],
+      "relevance_score": 0.91
+    },
+    "analysis": {
+      "core_finding": "社交媒体上的“向上比较”（如羡慕他人光鲜生活）会显著加剧青少年的抑郁和焦虑情绪，尤其在关注外貌或生活方式时。",
+      "why_matters": "这解释了为何刷朋友圈、短视频后容易感到低落。研究提醒我们，被动浏览他人精心展示的生活，可能正在悄悄影响自己与孩子的心理健康。",
+      "detailed_findings": "1.  **关联明确**：对8.9万人的分析证实，在社交媒体上进行上行社会比较与抑郁、焦虑症状增加存在显著关联。\n2.  **青少年更脆弱**：这种负面影响在青少年群体中表现得尤为明显，他们正处于自我认同形成的关键期。\n3.  **比较内容关键**：当比较焦点是外貌、生活方式等难以轻易改变的方面时，其带来的心理伤害比比较学业或职业成就更大。",
+      "methodology": "整合了8",
+      "inspiration": "未来研究可深入探讨如何设计干预措施，帮助青少年建立更健康的社交媒体使用习惯与自我评价方式。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-21T04:00:56.601953",
+    "model_used": "deepseek",
+    "slot": 8
+  },
+  {
+    "article": {
+      "id": "info_059",
+      "title_en": "Cultural Psychology: Advances in Understanding Cultural Variation in Mind and Behavior",
+      "title_zh": "文化心理学：理解心理与行为文化变异的进展",
+      "abstract_en": "Review of cultural psychology research examining how cultural contexts shape cognition, emotion, and social behavior, with implications for global psychological science.",
+      "abstract_zh": "综述了文化心理学研究，考察文化背景如何塑造认知、情绪和社会行为，对全球心理科学具有启示。",
+      "journal_en": "Annual Review of Psychology",
+      "journal_zh": "心理学年度评论",
+      "pub_date": "2025-01-05",
+      "impact_factor": 29.4,
+      "tags": [
+        "culture",
+        "cross_cultural",
+        "cognition",
+        "social_behavior"
+      ],
+      "relevance_score": 0.9
+    },
+    "analysis": {
+      "core_finding": "文化并非只是背景，它深刻塑造着我们的思维方式、情感体验和社会行为，构成了心理活动的“源代码”。",
+      "why_matters": "理解文化如何影响心理，能帮助我们更好地应对跨文化沟通、理解他人行为、反思自身习惯，在日益全球化的生活中减少误解，提升包容性。",
+      "detailed_findings": "1.  **思维方式差异**：东亚文化更倾向于整体性思维，关注背景和关系；而欧美文化更偏向分析性思维，聚焦核心对象与属性。\n2.  **自我建构不同**：许多文化强调“互依型自我”，将自我与他人紧密相连；西方主流文化则更推崇“独立型自我”，注重个人独特性与自主。\n3.  **情绪表达规则**：文化规范深刻影响情绪的表达与调节。例如，某些文化鼓励克制情绪以维持社会和谐，而另一些文化则更认可直接的情绪表露。",
+      "methodology": "研究超越了简单的文化对比，采用多种方法深入探究文化影响心理的具体机制和动态过程。",
+      "inspiration": "在设计研究或产品时，需充分考虑文化因素，避免将基于特定文化群体的发现误认为是普适的人类心理规律。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-21T04:01:03.021206",
+    "model_used": "deepseek",
+    "slot": 9
+  },
+  {
+    "article": {
+      "id": "info_014",
+      "title_en": "Digital Minimalism and Well-Being: A Randomized Controlled Trial of a 30-Day Intervention",
+      "title_zh": "数字极简主义与幸福感：一项30天干预的随机对照试验",
+      "abstract_en": "Participants who underwent a 30-day digital declutter reported significant improvements in life satisfaction, attention span, and quality of relationships. Benefits persisted at 3-month follow-up.",
+      "abstract_zh": "经历30天数字整理的参与者报告了生活满意度、注意力持续时间和关系质量的显著改善。这些益处在3个月随访时仍然存在。",
+      "journal_en": "Journal of Experimental Psychology: Applied",
+      "journal_zh": "实验心理学杂志：应用",
+      "pub_date": "2024-12-20",
+      "impact_factor": 4.1,
+      "tags": [
+        "digital_minimalism",
+        "well_being",
+        "intervention",
+        "attention"
+      ],
+      "relevance_score": 0.89
+    },
+    "analysis": {
+      "core_finding": "一项随机对照试验发现，进行30天数字精简干预能显著提升生活满意度、注意力和人际关系质量，且效果可持续三个月。",
+      "why_matters": "这项研究为普通人提供了科学证据：主动减少非必要的数字工具使用，并非一时新鲜，而是能带来持久、切实的心理与社交益处，直接提升日常幸福感。",
+      "detailed_findings": "1. **提升生活满意度**：干预组参与者报告对生活的整体满意程度显著提高，表明减少数字干扰有助于人们更专注于现实生活中的价值和体验。\n2. **增强注意力**：参与者的自我报告注意力持续时间明显改善，这意味着有意识地管理数字设备使用，能有效缓解注意力碎片化问题。\n3. **改善人际关系**：干预显著提升了人际关系的质量，可能是因为减少了屏幕时间，增加了高质量的面对面互动或深度交流。",
+      "methodology": "采用随机对照试验设计，并设置了3个月的随访期，有力证明了干预效果的因果关系和持久性。",
+      "inspiration": "可以借鉴其严谨的实验设计和长期随访方法，来验证行为干预措施的短期与长期效果。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-21T04:01:09.813555",
+    "model_used": "deepseek",
+    "slot": 10
+  }
+]

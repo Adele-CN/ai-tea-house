@@ -108,10 +108,13 @@ def format_message(content, slot):
 def send_push(user_id, message):
     """发送推送消息"""
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
+    
+    # 尝试 Markdown 格式，失败则转为纯文本
     payload = {
         'chat_id': user_id,
         'text': message,
-        'parse_mode': 'Markdown'
+        'parse_mode': 'Markdown',
+        'disable_web_page_preview': True
     }
     
     try:
@@ -120,6 +123,15 @@ def send_push(user_id, message):
             print(f"✅ 已推送给用户 {user_id}")
             return True
         else:
+            error_msg = response.json().get('description', '')
+            if "Can't parse entities" in error_msg:
+                # Markdown 解析失败，用纯文本重试
+                print(f"⚠️ Markdown 解析失败，改用纯文本发送...")
+                payload['parse_mode'] = None
+                response = requests.post(url, json=payload, timeout=30)
+                if response.status_code == 200:
+                    print(f"✅ 纯文本推送成功 {user_id}")
+                    return True
             print(f"❌ 推送给 {user_id} 失败: {response.text}")
             return False
     except Exception as e:

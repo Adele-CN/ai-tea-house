@@ -1,0 +1,312 @@
+[
+  {
+    "article": {
+      "id": "info_014",
+      "title_en": "Digital Minimalism and Well-Being: A Randomized Controlled Trial of a 30-Day Intervention",
+      "title_zh": "数字极简主义与幸福感：一项30天干预的随机对照试验",
+      "abstract_en": "Participants who underwent a 30-day digital declutter reported significant improvements in life satisfaction, attention span, and quality of relationships. Benefits persisted at 3-month follow-up.",
+      "abstract_zh": "经历30天数字整理的参与者报告了生活满意度、注意力持续时间和关系质量的显著改善。这些益处在3个月随访时仍然存在。",
+      "journal_en": "Journal of Experimental Psychology: Applied",
+      "journal_zh": "实验心理学杂志：应用",
+      "pub_date": "2024-12-20",
+      "impact_factor": 4.1,
+      "tags": [
+        "digital_minimalism",
+        "well_being",
+        "intervention",
+        "attention"
+      ],
+      "relevance_score": 0.89
+    },
+    "analysis": {
+      "core_finding": "经历30天数字整理的参与者报告了生活满意度、注意力持续时间和关系质量的显著改善。这些益处在3个月随访时仍然存在。",
+      "why_matters": "该研究揭示了digital minimalism领域的重要机制。",
+      "detailed_findings": "经历30天数字整理的参与者报告了生活满意度、注意力持续时间和关系质量的显著改善。这些益处在3个月随访时仍然存在。",
+      "methodology": "研究采用严谨的实验设计和数据分析方法。",
+      "inspiration": "",
+      "vortex_connection": "该研究对相关领域的理论建构和实证研究具有重要参考价值。"
+    },
+    "generated_at": "2026-02-11T17:19:47.678113",
+    "model_used": "deepseek",
+    "slot": 1
+  },
+  {
+    "article": {
+      "id": "info_032",
+      "title_en": "Large Language Models and Human Cognition: Comparative Analysis of Reasoning Patterns",
+      "title_zh": "大语言模型与人类认知：推理模式的比较分析",
+      "abstract_en": "Comparative study of GPT-4 and human participants (N=500) on reasoning tasks found AI shows different error patterns than humans, suggesting complementary rather than replacement roles.",
+      "abstract_zh": "对GPT-4和人类参与者（N=500）在推理任务上的比较研究发现，AI表现出与人类不同的错误模式，暗示了互补而非替代的角色。",
+      "journal_en": "Cognition",
+      "journal_zh": "认知",
+      "pub_date": "2025-02-01",
+      "impact_factor": 3.5,
+      "tags": [
+        "AI",
+        "LLM",
+        "reasoning",
+        "human_cognition"
+      ],
+      "relevance_score": 0.96
+    },
+    "analysis": {
+      "core_finding": "对GPT-4和人类参与者（N=500）在推理任务上的比较研究发现，AI表现出与人类不同的错误模式，暗示了互补而非替代的角色。",
+      "why_matters": "该研究揭示了AI领域的重要机制。",
+      "detailed_findings": "对GPT-4和人类参与者（N=500）在推理任务上的比较研究发现，AI表现出与人类不同的错误模式，暗示了互补而非替代的角色。",
+      "methodology": "研究采用严谨的实验设计和数据分析方法。",
+      "inspiration": "",
+      "vortex_connection": "该研究对相关领域的理论建构和实证研究具有重要参考价值。"
+    },
+    "generated_at": "2026-02-11T17:19:47.678131",
+    "model_used": "deepseek",
+    "slot": 2
+  },
+  {
+    "article": {
+      "id": "info_015",
+      "title_en": "The Psychology of Infinite Scroll: How Design Features Shape User Engagement",
+      "title_zh": "无限滚动的心理学：设计特征如何塑造用户参与度",
+      "abstract_en": "Experimental manipulation of interface features showed that infinite scroll increased time-on-app by 48% compared to pagination. This effect was mediated by reduced cognitive load and increased psychological momentum.",
+      "abstract_zh": "对界面特征的实验操作显示，与分页相比，无限滚动使应用使用时间增加了48%。这种效应由认知负荷降低和心理动量增加所中介。",
+      "journal_en": "Computers in Human Behavior",
+      "journal_zh": "计算机与人类行为",
+      "pub_date": "2025-01-08",
+      "impact_factor": 9.9,
+      "tags": [
+        "design",
+        "engagement",
+        "infinite_scroll",
+        "behavioral_design"
+      ],
+      "relevance_score": 0.9
+    },
+    "analysis": {
+      "core_finding": "对界面特征的实验操作显示，与分页相比，无限滚动使应用使用时间增加了48%。这种效应由认知负荷降低和心理动量增加所中介。",
+      "why_matters": "该研究揭示了design领域的重要机制。",
+      "detailed_findings": "对界面特征的实验操作显示，与分页相比，无限滚动使应用使用时间增加了48%。这种效应由认知负荷降低和心理动量增加所中介。",
+      "methodology": "研究采用严谨的实验设计和数据分析方法。",
+      "inspiration": "",
+      "vortex_connection": "该研究对相关领域的理论建构和实证研究具有重要参考价值。"
+    },
+    "generated_at": "2026-02-11T17:19:47.678135",
+    "model_used": "deepseek",
+    "slot": 3
+  },
+  {
+    "article": {
+      "id": "info_025",
+      "title_en": "The Impact of Screen Time on Children Cognitive Development: A Systematic Review",
+      "title_zh": "屏幕时间对儿童认知发展的影响：一项系统综述",
+      "abstract_en": "Meta-analysis of 67 studies found that high screen time (>2 hours/day) was associated with lower executive function and language development, but high-quality educational content showed neutral or positive effects.",
+      "abstract_zh": "对67项研究的元分析发现，高屏幕时间（>2小时/天）与较低的执行功能和语言发展相关，但高质量的教育内容显示中性或积极效应。",
+      "journal_en": "JAMA Pediatrics",
+      "journal_zh": "JAMA儿科学",
+      "pub_date": "2024-12-01",
+      "impact_factor": 26.1,
+      "tags": [
+        "screen_time",
+        "children",
+        "cognitive_development",
+        "education"
+      ],
+      "relevance_score": 0.88
+    },
+    "analysis": {
+      "core_finding": "对67项研究的元分析发现，高屏幕时间（>2小时/天）与较低的执行功能和语言发展相关，但高质量的教育内容显示中性或积极效应。",
+      "why_matters": "该研究揭示了screen time领域的重要机制。",
+      "detailed_findings": "对67项研究的元分析发现，高屏幕时间（>2小时/天）与较低的执行功能和语言发展相关，但高质量的教育内容显示中性或积极效应。",
+      "methodology": "研究采用严谨的实验设计和数据分析方法。",
+      "inspiration": "",
+      "vortex_connection": "该研究对相关领域的理论建构和实证研究具有重要参考价值。"
+    },
+    "generated_at": "2026-02-11T17:19:47.678140",
+    "model_used": "deepseek",
+    "slot": 4
+  },
+  {
+    "article": {
+      "id": "info_016",
+      "title_en": "Echo Chambers in the Age of AI: How Recommendation Algorithms Amplify Polarization",
+      "title_zh": "AI时代的回音室：推荐算法如何放大极化",
+      "abstract_en": "Agent-based modeling combined with empirical data showed that AI-driven recommendations can increase polarization by 35% compared to random exposure, even without malicious intent in algorithm design.",
+      "abstract_zh": "基于代理的建模结合实证数据显示，即使算法设计中没有恶意意图，AI驱动的推荐与随机暴露相比也能使极化增加35%。",
+      "journal_en": "Nature Human Behaviour",
+      "journal_zh": "自然·人类行为",
+      "pub_date": "2025-02-10",
+      "impact_factor": 29.9,
+      "tags": [
+        "ai",
+        "recommendation",
+        "polarization",
+        "echo_chamber"
+      ],
+      "relevance_score": 0.95
+    },
+    "analysis": {
+      "core_finding": "基于代理的建模结合实证数据显示，即使算法设计中没有恶意意图，AI驱动的推荐与随机暴露相比也能使极化增加35%。",
+      "why_matters": "该研究揭示了ai领域的重要机制。",
+      "detailed_findings": "基于代理的建模结合实证数据显示，即使算法设计中没有恶意意图，AI驱动的推荐与随机暴露相比也能使极化增加35%。",
+      "methodology": "研究采用严谨的实验设计和数据分析方法。",
+      "inspiration": "",
+      "vortex_connection": "该研究对相关领域的理论建构和实证研究具有重要参考价值。"
+    },
+    "generated_at": "2026-02-11T17:19:47.678144",
+    "model_used": "deepseek",
+    "slot": 5
+  },
+  {
+    "article": {
+      "id": "info_006",
+      "title_en": "Notification Interruptions and Workflow Disruption: The Hidden Cost of Connectivity",
+      "title_zh": "通知打断与工作流中断：连接的隐藏成本",
+      "abstract_en": "We measured the cognitive cost of notification interruptions in knowledge workers. Each interruption incurred an average 23-minute recovery time. More importantly, the accumulation of incomplete tasks due to interruptions created a \"mental residue\" effect that degraded performance on subsequent tasks.",
+      "abstract_zh": "我们测量了知识工作者中通知打断的认知成本。每次打断平均产生23分钟的恢复时间。更重要的是，由于打断导致的未完成任务积累产生了\"心理残留\"效应，降低了后续任务的表现。",
+      "journal_en": "Organizational Behavior and Human Decision Processes",
+      "journal_zh": "组织行为与人类决策过程",
+      "pub_date": "2024-12-15",
+      "impact_factor": 4.2,
+      "tags": [
+        "notification",
+        "interruption",
+        "workflow",
+        "cognitive_cost"
+      ],
+      "relevance_score": 0.9
+    },
+    "analysis": {
+      "core_finding": "我们测量了知识工作者中通知打断的认知成本。每次打断平均产生23分钟的恢复时间。更重要的是，由于打断导致的未完成任务积累产生了\"心理残留\"效应，降低了后续任务的表现。",
+      "why_matters": "该研究揭示了notification领域的重要机制。",
+      "detailed_findings": "我们测量了知识工作者中通知打断的认知成本。每次打断平均产生23分钟的恢复时间。更重要的是，由于打断导致的未完成任务积累产生了\"心理残留\"效应，降低了后续任务的表现。",
+      "methodology": "研究采用严谨的实验设计和数据分析方法。",
+      "inspiration": "",
+      "vortex_connection": "该研究对相关领域的理论建构和实证研究具有重要参考价值。"
+    },
+    "generated_at": "2026-02-11T17:19:47.678148",
+    "model_used": "deepseek",
+    "slot": 6
+  },
+  {
+    "article": {
+      "id": "info_044",
+      "title_en": "Cross-Cultural Differences in Emotional Expression: Neuroimaging Evidence",
+      "title_zh": "情绪表达的跨文化差异：神经影像证据",
+      "abstract_en": "Cross-cultural fMRI study revealed differential amygdala-prefrontal connectivity during emotion suppression between East Asian and Western participants.",
+      "abstract_zh": "跨文化fMRI研究揭示了东亚和西方参与者在情绪压抑期间杏仁核-前额叶连接的差异。",
+      "journal_en": "Social Cognitive and Affective Neuroscience",
+      "journal_zh": "社会认知与情感神经科学",
+      "pub_date": "2024-11-30",
+      "impact_factor": 4.1,
+      "tags": [
+        "cross_cultural",
+        "emotion",
+        "neuroscience",
+        "culture"
+      ],
+      "relevance_score": 0.86
+    },
+    "analysis": {
+      "core_finding": "跨文化fMRI研究揭示了东亚和西方参与者在情绪压抑期间杏仁核-前额叶连接的差异。",
+      "why_matters": "该研究揭示了cross cultural领域的重要机制。",
+      "detailed_findings": "跨文化fMRI研究揭示了东亚和西方参与者在情绪压抑期间杏仁核-前额叶连接的差异。",
+      "methodology": "研究采用严谨的实验设计和数据分析方法。",
+      "inspiration": "",
+      "vortex_connection": "该研究对相关领域的理论建构和实证研究具有重要参考价值。"
+    },
+    "generated_at": "2026-02-11T17:19:47.679004",
+    "model_used": "deepseek",
+    "slot": 7
+  },
+  {
+    "article": {
+      "id": "info_024",
+      "title_en": "Fear of Missing Out (FOMO) and Social Media Engagement: A Longitudinal Analysis",
+      "title_zh": "错失恐惧与社交媒体参与：一项纵向分析",
+      "abstract_en": "Longitudinal study over 6 months showed that FOMO predicted increased social media use, which in turn predicted higher FOMO, creating a reinforcing cycle. Breaking the cycle required intervention at both cognitive and behavioral levels.",
+      "abstract_zh": "为期6个月的纵向研究显示，错失恐惧预测社交媒体使用增加，进而预测更高的错失恐惧，形成强化循环。打破循环需要在认知和行为层面进行干预。",
+      "journal_en": "Computers in Human Behavior",
+      "journal_zh": "计算机与人类行为",
+      "pub_date": "2025-02-01",
+      "impact_factor": 9.9,
+      "tags": [
+        "FOMO",
+        "social_media",
+        "longitudinal",
+        "addiction"
+      ],
+      "relevance_score": 0.93
+    },
+    "analysis": {
+      "core_finding": "为期6个月的纵向研究显示，错失恐惧预测社交媒体使用增加，进而预测更高的错失恐惧，形成强化循环。打破循环需要在认知和行为层面进行干预。",
+      "why_matters": "该研究揭示了FOMO领域的重要机制。",
+      "detailed_findings": "为期6个月的纵向研究显示，错失恐惧预测社交媒体使用增加，进而预测更高的错失恐惧，形成强化循环。打破循环需要在认知和行为层面进行干预。",
+      "methodology": "研究采用严谨的实验设计和数据分析方法。",
+      "inspiration": "",
+      "vortex_connection": "该研究对相关领域的理论建构和实证研究具有重要参考价值。"
+    },
+    "generated_at": "2026-02-11T17:19:47.679014",
+    "model_used": "deepseek",
+    "slot": 8
+  },
+  {
+    "article": {
+      "id": "info_049",
+      "title_en": "The Role of Oxytocin in Social Bonding: From Animal Models to Human Studies",
+      "title_zh": "催产素在社会联结中的作用：从动物模型到人类研究",
+      "abstract_en": "Review integrates animal and human research showing oxytocin facilitates social recognition and trust, but effects depend on social context and individual differences.",
+      "abstract_zh": "综述整合动物和人类研究，显示催产素促进社会识别和信任，但效应依赖于社会情境和个体差异。",
+      "journal_en": "Psychological Bulletin",
+      "journal_zh": "心理学公报",
+      "pub_date": "2025-01-30",
+      "impact_factor": 17.2,
+      "tags": [
+        "oxytocin",
+        "social_bonding",
+        "review",
+        "neuroscience"
+      ],
+      "relevance_score": 0.89
+    },
+    "analysis": {
+      "core_finding": "综述整合动物和人类研究，显示催产素促进社会识别和信任，但效应依赖于社会情境和个体差异。",
+      "why_matters": "该研究揭示了oxytocin领域的重要机制。",
+      "detailed_findings": "综述整合动物和人类研究，显示催产素促进社会识别和信任，但效应依赖于社会情境和个体差异。",
+      "methodology": "研究采用严谨的实验设计和数据分析方法。",
+      "inspiration": "",
+      "vortex_connection": "该研究对相关领域的理论建构和实证研究具有重要参考价值。"
+    },
+    "generated_at": "2026-02-11T17:19:47.679019",
+    "model_used": "deepseek",
+    "slot": 9
+  },
+  {
+    "article": {
+      "id": "info_041",
+      "title_en": "Reward Prediction Errors in Addiction: fMRI Study of Cue Reactivity",
+      "title_zh": "成瘾中的奖励预测误差：线索反应性的fMRI研究",
+      "abstract_en": "Study found blunted reward prediction error signals in substance use disorder during reward anticipation but heightened cue reactivity, suggesting dissociable mechanisms.",
+      "abstract_zh": "研究发现物质使用障碍患者在奖励预期时奖励预测误差信号减弱，但线索反应性增强，暗示可分离的机制。",
+      "journal_en": "Biological Psychiatry",
+      "journal_zh": "生物精神病学",
+      "pub_date": "2024-11-15",
+      "impact_factor": 10.6,
+      "tags": [
+        "addiction",
+        "reward",
+        "fmri",
+        "neuroscience"
+      ],
+      "relevance_score": 0.87
+    },
+    "analysis": {
+      "core_finding": "研究发现物质使用障碍患者在奖励预期时奖励预测误差信号减弱，但线索反应性增强，暗示可分离的机制。",
+      "why_matters": "该研究揭示了addiction领域的重要机制。",
+      "detailed_findings": "研究发现物质使用障碍患者在奖励预期时奖励预测误差信号减弱，但线索反应性增强，暗示可分离的机制。",
+      "methodology": "研究采用严谨的实验设计和数据分析方法。",
+      "inspiration": "",
+      "vortex_connection": "该研究对相关领域的理论建构和实证研究具有重要参考价值。"
+    },
+    "generated_at": "2026-02-11T17:19:47.679023",
+    "model_used": "deepseek",
+    "slot": 10
+  }
+]
