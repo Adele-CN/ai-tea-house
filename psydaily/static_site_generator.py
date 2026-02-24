@@ -219,6 +219,48 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
             background: #5a6fd6;
         }}
         
+        .btn-secondary {{
+            background: #f0f0f0;
+            color: #333;
+            border: 1px solid #ddd;
+        }}
+        
+        .btn-secondary:hover {{
+            background: #e0e0e0;
+        }}
+        
+        .paper-summary {{
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 0 8px 8px 0;
+        }}
+        
+        .summary-item {{
+            margin-bottom: 0.5rem;
+            line-height: 1.6;
+        }}
+        
+        .summary-item:last-child {{
+            margin-bottom: 0;
+        }}
+        
+        .summary-label {{
+            font-weight: 600;
+            color: #667eea;
+        }}
+        
+        .language-badge {{
+            display: inline-block;
+            background: #28a745;
+            color: white;
+            padding: 0.2rem 0.6rem;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            margin-left: 0.5rem;
+        }}
+        
         .footer {{
             text-align: center;
             padding: 2rem;
@@ -339,7 +381,8 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
                         ${{(paper.tags || []).map(tag => `<span class="tag">${{tag}}</span>`).join('')}}
                     </div>
                     <div class="paper-actions">
-                        <a href="${{paper.scholar_url || '#'}}" class="btn btn-primary" target="_blank">查看原文</a>
+                        <a href="${{paper.scholar_url || '#'}}" class="btn btn-primary" target="_blank" title="在 Google Scholar 搜索此论文">🔍 Google Scholar</a>
+                        <a href="https://www.google.com/search?q=${{encodeURIComponent(paper.title_en || paper.title_zh)}}" class="btn btn-secondary" target="_blank" title="在 Google 搜索">🌐 Google</a>
                     </div>
                 </div>
             `).join('');
@@ -441,11 +484,13 @@ class StaticSiteGenerator:
                     <span>📅 {p.get('pub_date', 'N/A')}</span>
                 </div>
                 <div class="paper-abstract">{p.get('abstract_zh', p.get('abstract_en', ''))[:200]}...</div>
+                {self._generate_summary_html(p)}
                 <div class="paper-tags">
                     {''.join([f'<span class="tag">{t}</span>' for t in p.get('tags', [])[:5]])}
                 </div>
                 <div class="paper-actions">
-                    <a href="{p.get('scholar_url', '#')}" class="btn btn-primary" target="_blank">查看原文</a>
+                    <a href="{p.get('doi_url') or p.get('url') or p.get('scholar_url', '#')}" class="btn btn-primary" target="_blank" title="查看原文">📄 查看原文</a>
+                    <a href="{p.get('scholar_url', '#')}" class="btn btn-secondary" target="_blank" title="Google Scholar 搜索">🔍 Scholar</a>
                 </div>
             </div>
             '''
@@ -463,6 +508,25 @@ class StaticSiteGenerator:
         )
         
         return html
+    
+    def _generate_summary_html(self, paper):
+        """生成论文核心摘要 HTML"""
+        summary = paper.get('summary', {})
+        if not summary and paper.get('core_contribution'):
+            summary = {
+                'core_contribution': paper.get('core_contribution'),
+                'research_direction': paper.get('research_direction'),
+            }
+        
+        if summary:
+            html = '<div class="paper-summary">'
+            if summary.get('core_contribution'):
+                html += f'<div class="summary-item"><span class="summary-label">💡 核心贡献:</span> {summary["core_contribution"]}</div>'
+            if summary.get('research_direction'):
+                html += f'<div class="summary-item"><span class="summary-label">📚 研究方向:</span> {summary["research_direction"]}</div>'
+            html += '</div>'
+            return html
+        return ''
     
     def build(self):
         """构建静态网站"""

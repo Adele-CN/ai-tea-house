@@ -1,0 +1,111 @@
+[
+  {
+    "article": {
+      "id": "cnki_001",
+      "title_zh": "社交媒体使用与青少年心理健康：一项元分析研究",
+      "title_en": "Social Media Use and Adolescent Mental Health: A Meta-Analysis",
+      "abstract_zh": "本研究通过元分析方法，探讨了社交媒体使用与青少年焦虑、抑郁症状之间的关系。纳入分析68项研究，总样本量达125,000人。结果发现，社交媒体使用时间与心理健康问题呈显著正相关（r=0.24），特别是夜间使用和被动浏览行为。",
+      "abstract_en": "This meta-analysis examines the relationship between social media use and adolescent mental health...",
+      "authors": [
+        "张明",
+        "李华",
+        "王芳"
+      ],
+      "journal_zh": "心理学报",
+      "journal_en": "Acta Psychologica Sinica",
+      "pub_date": "2025-01-15",
+      "doi": "10.3724/SP.J.1041.2025.00001",
+      "doi_url": "https://doi.org/10.3724/SP.J.1041.2025.00001",
+      "source": "ncpssd",
+      "language": "zh",
+      "impact_factor": 3.2,
+      "tags": [
+        "mental_health",
+        "social_media",
+        "adolescent"
+      ],
+      "full_text_available": true,
+      "core_contribution": "首次系统量化了社交媒体使用对中国青少年心理健康的负面影响",
+      "research_direction": "数字媒体与心理健康",
+      "fetched_at": "2026-02-24T19:39:21.929048",
+      "summary": {
+        "core_contribution": "首次系统量化了社交媒体使用对中国青少年心理健康的负面影响",
+        "research_direction": "数字媒体与心理健康",
+        "has_full_text": true
+      }
+    }
+  },
+  {
+    "article": {
+      "id": "cnki_002",
+      "title_zh": "正念干预对大学生焦虑症状的疗效：随机对照试验",
+      "title_en": "Efficacy of Mindfulness Intervention on Anxiety Symptoms in College Students",
+      "abstract_zh": "研究采用随机对照试验设计，评估8周正念训练对240名高焦虑大学生的干预效果。结果显示，干预组焦虑评分显著下降（Cohen's d=0.68），效果在3个月随访时仍然显著。脑电数据显示注意控制能力的改善。",
+      "abstract_en": "A randomized controlled trial evaluated 8-week mindfulness training...",
+      "authors": [
+        "陈静",
+        "刘洋"
+      ],
+      "journal_zh": "中国临床心理学杂志",
+      "journal_en": "Chinese Journal of Clinical Psychology",
+      "pub_date": "2024-12-20",
+      "doi": "10.16128/j.cnki.1005-3611.2024.06.001",
+      "doi_url": "https://doi.org/10.16128/j.cnki.1005-3611.2024.06.001",
+      "source": "ncpssd",
+      "language": "zh",
+      "impact_factor": 2.8,
+      "tags": [
+        "mindfulness",
+        "anxiety",
+        "intervention",
+        "college_students"
+      ],
+      "full_text_available": true,
+      "core_contribution": "验证了正念干预对中国大学生群体的适用性和有效性",
+      "research_direction": "临床心理学与干预研究",
+      "fetched_at": "2026-02-24T19:39:21.929056",
+      "summary": {
+        "core_contribution": "验证了正念干预对中国大学生群体的适用性和有效性",
+        "research_direction": "临床心理学与干预研究",
+        "has_full_text": true
+      }
+    }
+  },
+  {
+    "article": {
+      "id": "cnki_003",
+      "title_zh": "工作记忆训练对注意缺陷多动障碍儿童的认知改善作用",
+      "title_en": "Working Memory Training for Cognitive Improvement in Children with ADHD",
+      "abstract_zh": "本研究采用双盲随机对照设计，对120名ADHD儿童进行为期6周的工作记忆训练。结果发现，训练组在视觉空间工作记忆和抑制控制任务上表现显著优于对照组。然而，训练效果未能迁移到学业成绩和日常行为评估中。",
+      "abstract_en": "This double-blind RCT examined working memory training in 120 children with ADHD...",
+      "authors": [
+        "赵强",
+        "孙丽",
+        "周伟"
+      ],
+      "journal_zh": "心理学报",
+      "journal_en": "Acta Psychologica Sinica",
+      "pub_date": "2025-02-10",
+      "doi": "10.3724/SP.J.1041.2025.00015",
+      "doi_url": "https://doi.org/10.3724/SP.J.1041.2025.00015",
+      "source": "ncpssd",
+      "language": "zh",
+      "impact_factor": 3.2,
+      "tags": [
+        "ADHD",
+        "working_memory",
+        "cognitive_training",
+        "children"
+      ],
+      "full_text_available": true,
+      "core_contribution": "揭示了工作记忆训练的领域特异性，挑战了远迁移效应的假设",
+      "research_direction": "认知发展与临床干预",
+      "fetched_at": "2026-02-24T19:39:21.929059",
+      "summary": {
+        "core_contribution": "揭示了工作记忆训练的领域特异性，挑战了远迁移效应的假设",
+        "research_direction": "认知发展与临床干预",
+        "has_full_text": true
+      }
+    }
+  }
+]
