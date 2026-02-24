@@ -2,10 +2,10 @@
   {
     "article": {
       "id": "cnki_ai_001",
-      "title_zh": "ChatGPT在心理咨询中的应用效果：一项准实验研究",
-      "title_en": "Effectiveness of ChatGPT in Psychological Counseling: A Quasi-Experimental Study",
-      "abstract_zh": "本研究探索了ChatGPT在提供心理健康支持方面的可行性和有效性。通过对比实验，发现AI聊天机器人能够显著降低用户的焦虑水平（p<0.05），但在处理复杂心理问题时仍需要人类咨询师的监督。研究为AI辅助心理治疗提供了实证依据。",
-      "abstract_en": "This study explored the feasibility and effectiveness of ChatGPT in providing mental health support...",
+      "title_zh": "ChatGPT人机对话中的社会临场感研究",
+      "title_en": "Social Presence in Human-ChatGPT Interaction",
+      "abstract_zh": "本研究探索用户与ChatGPT交互时的社会临场感体验。通过主观报告和行为指标，发现用户将AI拟人化的程度与对话满意度显著相关。研究揭示了人机交互中的心理机制，为AI设计提供理论依据。",
+      "abstract_en": "This study explored users social presence experience when interacting with ChatGPT...",
       "authors": [
         "李明",
         "王小红",
@@ -22,17 +22,17 @@
       "tags": [
         "AI",
         "chatbot",
-        "mental_health",
-        "counseling",
-        "ChatGPT"
+        "social_presence",
+        "HCI",
+        "anthropomorphism"
       ],
       "full_text_available": true,
-      "core_contribution": "首次在国内验证ChatGPT在心理咨询中的辅助作用，为AI心理健康应用提供本土化证据",
-      "research_direction": "人工智能与心理健康",
-      "fetched_at": "2026-02-24T20:00:07.694153",
+      "core_contribution": "揭示了用户与AI对话中的社会临场感机制，为对话AI设计提供心理学依据",
+      "research_direction": "人机交互与社会心理",
+      "fetched_at": "2026-02-24T20:06:05.925043",
       "summary": {
-        "core_contribution": "首次在国内验证ChatGPT在心理咨询中的辅助作用，为AI心理健康应用提供本土化证据",
-        "research_direction": "人工智能与心理健康",
+        "core_contribution": "揭示了用户与AI对话中的社会临场感机制，为对话AI设计提供心理学依据",
+        "research_direction": "人机交互与社会心理",
         "has_full_text": true
       }
     }
@@ -49,14 +49,14 @@
         "刘洋",
         "赵敏"
       ],
-      "journal_zh": "中国临床心理学杂志",
-      "journal_en": "Chinese Journal of Clinical Psychology",
+      "journal_zh": "心理学报",
+      "journal_en": "Acta Psychologica Sinica",
       "pub_date": "2025-02-05",
-      "doi": "10.16128/j.cnki.1005-3611.2025.01.003",
-      "doi_url": "https://doi.org/10.16128/j.cnki.1005-3611.2025.01.003",
+      "doi": "10.3724/SP.J.1041.2025.00022",
+      "doi_url": "https://doi.org/10.3724/SP.J.1041.2025.00022",
       "source": "ncpssd",
       "language": "zh",
-      "impact_factor": 2.8,
+      "impact_factor": 3.2,
       "tags": [
         "algorithm",
         "information_cocoon",
@@ -66,7 +66,7 @@
       "full_text_available": true,
       "core_contribution": "量化了推荐算法对信息茧房的影响程度，为算法治理提供心理学依据",
       "research_direction": "算法行为与数字心理",
-      "fetched_at": "2026-02-24T20:00:07.694162",
+      "fetched_at": "2026-02-24T20:06:05.925051",
       "summary": {
         "core_contribution": "量化了推荐算法对信息茧房的影响程度，为算法治理提供心理学依据",
         "research_direction": "算法行为与数字心理",
@@ -77,38 +77,36 @@
   {
     "article": {
       "id": "cnki_ai_003",
-      "title_zh": "机器学习预测抑郁症复发的准确率研究：基于多模态数据",
-      "title_en": "Accuracy of Machine Learning in Predicting Depression Relapse: A Multimodal Data Study",
-      "abstract_zh": "整合临床访谈、语音特征和社交媒体行为数据，构建了抑郁症复发预测模型。机器学习模型（XGBoost）达到85.3%的预测准确率，显著优于传统临床评估（72.1%）。研究为精准精神医学提供了技术路径。",
-      "abstract_en": "Integrating clinical interviews, voice features, and social media behavior, this study built a depression relapse prediction model...",
+      "title_zh": "虚拟现实环境中的空间认知与导航行为研究",
+      "title_en": "Spatial Cognition and Navigation Behavior in Virtual Reality Environment",
+      "abstract_zh": "利用VR技术构建沉浸式空间环境，研究人类的空间记忆形成和导航策略。发现VR环境中的空间学习与真实环境具有相似的心理机制，但存在尺度感知差异。研究为VR教育和训练应用提供基础数据。",
+      "abstract_en": "Using VR technology to build immersive spatial environments, this study investigated human spatial memory formation and navigation strategies...",
       "authors": [
         "王华",
         "孙丽",
-        "周强",
-        "李娜"
+        "周强"
       ],
-      "journal_zh": "心理学报",
-      "journal_en": "Acta Psychologica Sinica",
+      "journal_zh": "心理科学进展",
+      "journal_en": "Advances in Psychological Science",
       "pub_date": "2025-02-15",
-      "doi": "10.3724/SP.J.1041.2025.00035",
-      "doi_url": "https://doi.org/10.3724/SP.J.1041.2025.00035",
+      "doi": "10.3724/SP.J.1042.2025.00035",
+      "doi_url": "https://doi.org/10.3724/SP.J.1042.2025.00035",
       "source": "ncpssd",
       "language": "zh",
-      "impact_factor": 3.2,
+      "impact_factor": 2.8,
       "tags": [
-        "machine_learning",
-        "depression",
-        "prediction",
-        "precision_medicine",
-        "AI"
+        "VR",
+        "spatial_cognition",
+        "navigation",
+        "cognitive_psychology"
       ],
       "full_text_available": true,
-      "core_contribution": "构建多模态抑郁症复发预测模型，推动AI在精神医学中的应用",
-      "research_direction": "机器学习与精准精神医学",
-      "fetched_at": "2026-02-24T20:00:07.694166",
+      "core_contribution": "揭示了VR与真实环境中的空间认知机制异同，推动虚拟现实心理学研究",
+      "research_direction": "虚拟现实与认知心理",
+      "fetched_at": "2026-02-24T20:06:05.925054",
       "summary": {
-        "core_contribution": "构建多模态抑郁症复发预测模型，推动AI在精神医学中的应用",
-        "research_direction": "机器学习与精准精神医学",
+        "core_contribution": "揭示了VR与真实环境中的空间认知机制异同，推动虚拟现实心理学研究",
+        "research_direction": "虚拟现实与认知心理",
         "has_full_text": true
       }
     }

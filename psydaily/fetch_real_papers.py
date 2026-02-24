@@ -124,6 +124,17 @@ class RealPaperFetcher:
                     pdf_url = link.get('URL', '')
                     break
             
+            # 过滤临床医学期刊
+            clinical_keywords = [
+                'clinical medicine', 'lancet', 'new england journal of medicine',
+                'jama', 'bmj', 'clinical', 'medical', 'surgery', 'oncology',
+                'cardiology', 'nephrology', 'dermatology', 'gastroenterology',
+                'infectious disease', 'radiology', 'pathology', 'anesthesia',
+                'transplantation', 'rheumatology', 'hematology'
+            ]
+            if any(kw in journal.lower() for kw in clinical_keywords):
+                return None  # 跳过临床医学期刊
+            
             # Scholar 搜索链接
             scholar_url = f"https://scholar.google.com/scholar?q={requests.utils.quote(title)}"
             
@@ -264,16 +275,18 @@ class RealPaperFetcher:
         print("🚀 抓取真实心理学论文 - AI相关优先 (CrossRef)")
         print("=" * 70)
         
-        # AI心理学相关关键词优先
+        # AI心理学关键词（非临床）
         queries = [
-            ('artificial intelligence psychology', 30, max_per_query),
-            ('AI mental health', 30, max_per_query),
-            ('chatbot therapy', 30, max_per_query),
-            ('machine learning cognitive', 30, max_per_query),
-            ('digital psychology', 30, max_per_query),
-            ('social media AI', 30, max_per_query),
-            ('algorithm behavior', 30, max_per_query),
-            ('technology addiction', 30, max_per_query),
+            ('artificial intelligence cognitive psychology', 30, max_per_query),
+            ('AI human behavior', 30, max_per_query),
+            ('chatbot communication', 30, max_per_query),
+            ('machine learning decision making', 30, max_per_query),
+            ('digital psychology social', 30, max_per_query),
+            ('social media psychology', 30, max_per_query),
+            ('algorithm perception', 30, max_per_query),
+            ('human computer interaction', 30, max_per_query),
+            ('robotics psychology', 30, max_per_query),
+            ('virtual reality psychology', 30, max_per_query),
         ]
         
         all_papers = []

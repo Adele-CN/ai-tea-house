@@ -59,14 +59,14 @@ class ChinesePaperFetcher:
             # 实际部署时需要根据网站真实 API 调整
             print(f"  ℹ️ NCPSSD API 需要进一步分析，目前使用模拟数据演示")
             
-            # AI心理学相关中文论文模拟数据
+            # AI心理学相关中文论文（非临床）
             mock_papers = [
                 {
                     'id': 'cnki_ai_001',
-                    'title_zh': 'ChatGPT在心理咨询中的应用效果：一项准实验研究',
-                    'title_en': 'Effectiveness of ChatGPT in Psychological Counseling: A Quasi-Experimental Study',
-                    'abstract_zh': '本研究探索了ChatGPT在提供心理健康支持方面的可行性和有效性。通过对比实验，发现AI聊天机器人能够显著降低用户的焦虑水平（p<0.05），但在处理复杂心理问题时仍需要人类咨询师的监督。研究为AI辅助心理治疗提供了实证依据。',
-                    'abstract_en': 'This study explored the feasibility and effectiveness of ChatGPT in providing mental health support...',
+                    'title_zh': 'ChatGPT人机对话中的社会临场感研究',
+                    'title_en': 'Social Presence in Human-ChatGPT Interaction',
+                    'abstract_zh': '本研究探索用户与ChatGPT交互时的社会临场感体验。通过主观报告和行为指标，发现用户将AI拟人化的程度与对话满意度显著相关。研究揭示了人机交互中的心理机制，为AI设计提供理论依据。',
+                    'abstract_en': 'This study explored users social presence experience when interacting with ChatGPT...',
                     'authors': ['李明', '王小红', '张伟'],
                     'journal_zh': '心理学报',
                     'journal_en': 'Acta Psychologica Sinica',
@@ -76,10 +76,10 @@ class ChinesePaperFetcher:
                     'source': 'ncpssd',
                     'language': 'zh',
                     'impact_factor': 3.2,
-                    'tags': ['AI', 'chatbot', 'mental_health', 'counseling', 'ChatGPT'],
+                    'tags': ['AI', 'chatbot', 'social_presence', 'HCI', 'anthropomorphism'],
                     'full_text_available': True,
-                    'core_contribution': '首次在国内验证ChatGPT在心理咨询中的辅助作用，为AI心理健康应用提供本土化证据',
-                    'research_direction': '人工智能与心理健康',
+                    'core_contribution': '揭示了用户与AI对话中的社会临场感机制，为对话AI设计提供心理学依据',
+                    'research_direction': '人机交互与社会心理',
                     'fetched_at': datetime.now().isoformat(),
                 },
                 {
@@ -89,14 +89,14 @@ class ChinesePaperFetcher:
                     'abstract_zh': '通过眼动追踪和行为实验，研究了个性化推荐算法如何影响用户信息获取的多样性。结果显示，算法推荐显著降低了用户接触异质信息的机会（降低42%），并增强了确认偏误。研究揭示了算法社会的潜在心理风险。',
                     'abstract_en': 'Using eye-tracking and behavioral experiments, this study examined how personalized recommendation algorithms affect information diversity...',
                     'authors': ['陈智', '刘洋', '赵敏'],
-                    'journal_zh': '中国临床心理学杂志',
-                    'journal_en': 'Chinese Journal of Clinical Psychology',
+                    'journal_zh': '心理学报',
+                    'journal_en': 'Acta Psychologica Sinica',
                     'pub_date': '2025-02-05',
-                    'doi': '10.16128/j.cnki.1005-3611.2025.01.003',
-                    'doi_url': 'https://doi.org/10.16128/j.cnki.1005-3611.2025.01.003',
+                    'doi': '10.3724/SP.J.1041.2025.00022',
+                    'doi_url': 'https://doi.org/10.3724/SP.J.1041.2025.00022',
                     'source': 'ncpssd',
                     'language': 'zh',
-                    'impact_factor': 2.8,
+                    'impact_factor': 3.2,
                     'tags': ['algorithm', 'information_cocoon', 'behavior', 'digital_psychology'],
                     'full_text_available': True,
                     'core_contribution': '量化了推荐算法对信息茧房的影响程度，为算法治理提供心理学依据',
@@ -105,23 +105,23 @@ class ChinesePaperFetcher:
                 },
                 {
                     'id': 'cnki_ai_003',
-                    'title_zh': '机器学习预测抑郁症复发的准确率研究：基于多模态数据',
-                    'title_en': 'Accuracy of Machine Learning in Predicting Depression Relapse: A Multimodal Data Study',
-                    'abstract_zh': '整合临床访谈、语音特征和社交媒体行为数据，构建了抑郁症复发预测模型。机器学习模型（XGBoost）达到85.3%的预测准确率，显著优于传统临床评估（72.1%）。研究为精准精神医学提供了技术路径。',
-                    'abstract_en': 'Integrating clinical interviews, voice features, and social media behavior, this study built a depression relapse prediction model...',
-                    'authors': ['王华', '孙丽', '周强', '李娜'],
-                    'journal_zh': '心理学报',
-                    'journal_en': 'Acta Psychologica Sinica',
+                    'title_zh': '虚拟现实环境中的空间认知与导航行为研究',
+                    'title_en': 'Spatial Cognition and Navigation Behavior in Virtual Reality Environment',
+                    'abstract_zh': '利用VR技术构建沉浸式空间环境，研究人类的空间记忆形成和导航策略。发现VR环境中的空间学习与真实环境具有相似的心理机制，但存在尺度感知差异。研究为VR教育和训练应用提供基础数据。',
+                    'abstract_en': 'Using VR technology to build immersive spatial environments, this study investigated human spatial memory formation and navigation strategies...',
+                    'authors': ['王华', '孙丽', '周强'],
+                    'journal_zh': '心理科学进展',
+                    'journal_en': 'Advances in Psychological Science',
                     'pub_date': '2025-02-15',
-                    'doi': '10.3724/SP.J.1041.2025.00035',
-                    'doi_url': 'https://doi.org/10.3724/SP.J.1041.2025.00035',
+                    'doi': '10.3724/SP.J.1042.2025.00035',
+                    'doi_url': 'https://doi.org/10.3724/SP.J.1042.2025.00035',
                     'source': 'ncpssd',
                     'language': 'zh',
-                    'impact_factor': 3.2,
-                    'tags': ['machine_learning', 'depression', 'prediction', 'precision_medicine', 'AI'],
+                    'impact_factor': 2.8,
+                    'tags': ['VR', 'spatial_cognition', 'navigation', 'cognitive_psychology'],
                     'full_text_available': True,
-                    'core_contribution': '构建多模态抑郁症复发预测模型，推动AI在精神医学中的应用',
-                    'research_direction': '机器学习与精准精神医学',
+                    'core_contribution': '揭示了VR与真实环境中的空间认知机制异同，推动虚拟现实心理学研究',
+                    'research_direction': '虚拟现实与认知心理',
                     'fetched_at': datetime.now().isoformat(),
                 },
             ]
@@ -160,16 +160,16 @@ class ChinesePaperFetcher:
         print("🚀 抓取中文心理学论文 (NCPSSD)")
         print("=" * 70)
         
-        # AI心理学相关中文关键词
+        # AI心理学相关中文关键词（非临床）
         keywords = [
-            '人工智能 心理学',
-            'AI 心理健康',
-            '算法 行为',
-            '社交媒体 心理',
-            '数字技术 认知',
-            '聊天机器人 治疗',
-            '机器学习 心理',
-            '人机交互 心理',
+            '人工智能 认知心理',
+            'AI 人机交互',
+            '算法 社会心理',
+            '社交媒体 行为心理',
+            '数字技术 认知科学',
+            '聊天机器人 沟通',
+            '机器学习 决策',
+            '虚拟现实 心理',
         ]
         
         all_papers = []
