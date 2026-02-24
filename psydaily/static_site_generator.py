@@ -147,8 +147,17 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
             font-size: 1.2rem;
             font-weight: 600;
             color: #333;
-            line-height: 1.4;
+            line-height: 1.5;
             flex: 1;
+        }}
+        
+        .paper-title .subtitle {{
+            font-size: 0.95rem;
+            font-weight: 400;
+            color: #666;
+            display: block;
+            margin-top: 0.3rem;
+            line-height: 1.4;
         }}
         
         .paper-if {{
@@ -476,14 +485,14 @@ class StaticSiteGenerator:
             papers_html += f'''
             <div class="paper-card">
                 <div class="paper-header">
-                    <div class="paper-title">{p.get('title_zh', p.get('title_en', '无标题'))}</div>
+                    <div class="paper-title">{self._format_title(p)}</div>
                     <span class="paper-if">IF: {p.get('impact_factor', 'N/A')}</span>
                 </div>
                 <div class="paper-meta">
                     <span>📖 {p.get('journal_en', 'Unknown')}</span>
                     <span>📅 {p.get('pub_date', 'N/A')}</span>
                 </div>
-                <div class="paper-abstract">{p.get('abstract_zh', p.get('abstract_en', ''))[:200]}...</div>
+                <div class="paper-abstract">{self._format_abstract(p)}</div>
                 {self._generate_summary_html(p)}
                 <div class="paper-tags">
                     {''.join([f'<span class="tag">{t}</span>' for t in p.get('tags', [])[:5]])}
@@ -508,6 +517,44 @@ class StaticSiteGenerator:
         )
         
         return html
+    
+    def _format_title(self, p):
+        """格式化标题显示（双语）"""
+        title_zh = p.get('title_zh', '')
+        title_en = p.get('title_en', '')
+        
+        # 如果是中文论文，优先显示中文
+        if p.get('language') == 'zh' and title_zh:
+            if title_en and title_en != title_zh:
+                return f"{title_zh}<br><span class='subtitle'>{title_en}</span>"
+            return title_zh
+        
+        # 如果是英文论文，显示英文+中文翻译
+        if title_en:
+            if title_zh and title_zh != title_en and not title_zh.endswith('[待译]'):
+                return f"{title_zh}<br><span class='subtitle'>{title_en}</span>"
+            elif title_zh:
+                return f"{title_zh}<br><span class='subtitle'>{title_en}</span>"
+            return title_en
+        
+        return title_zh or '无标题'
+    
+    def _format_abstract(self, p):
+        """格式化摘要显示（双语）"""
+        abstract_zh = p.get('abstract_zh', '')
+        abstract_en = p.get('abstract_en', '')
+        
+        # 中文论文
+        if p.get('language') == 'zh' and abstract_zh:
+            return abstract_zh[:300] + ('...' if len(abstract_zh) > 300 else '')
+        
+        # 英文论文 - 显示中文翻译（如果有）+ 英文
+        if abstract_zh and not abstract_zh.startswith('【英文摘要】'):
+            return f"{abstract_zh[:200]}..."
+        elif abstract_en:
+            return f"{abstract_en[:250]}... [中文翻译待完善]"
+        
+        return abstract_zh or abstract_en or '暂无摘要'
     
     def _generate_summary_html(self, paper):
         """生成论文核心摘要 HTML"""

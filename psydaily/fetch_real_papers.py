@@ -132,12 +132,16 @@ class RealPaperFetcher:
             if not abstract:
                 abstract = f"Published in {journal}. DOI: {doi}" if doi else f"Published in {journal}."
             
+            # 生成中文翻译（简化版，实际可用AI API优化）
+            title_zh = self._translate_title(title)
+            abstract_zh = self._translate_abstract(abstract[:300])
+            
             return {
                 'id': f"crossref_{doi.replace('/', '_')}" if doi else f"crossref_{hash(title) % 1000000}",
                 'title_en': title,
-                'title_zh': '',
+                'title_zh': title_zh,
                 'abstract_en': abstract[:500] if len(abstract) > 500 else abstract,
-                'abstract_zh': '',
+                'abstract_zh': abstract_zh,
                 'authors': authors if authors else ['Unknown'],
                 'journal_en': journal,
                 'journal_zh': '',
@@ -211,19 +215,65 @@ class RealPaperFetcher:
         
         return tags[:3] if tags else ['psychology']
     
+    def _translate_title(self, title):
+        """翻译标题为中文（简化版，使用关键词映射）"""
+        # AI心理学关键词翻译映射
+        translations = {
+            'artificial intelligence': '人工智能',
+            'AI': 'AI',
+            'chatbot': '聊天机器人',
+            'machine learning': '机器学习',
+            'mental health': '心理健康',
+            'cognitive': '认知',
+            'therapy': '治疗',
+            'digital': '数字',
+            'social media': '社交媒体',
+            'algorithm': '算法',
+            'behavior': '行为',
+            'addiction': '成瘾',
+            'depression': '抑郁',
+            'anxiety': '焦虑',
+            'stress': '压力',
+            'intervention': '干预',
+            'treatment': '治疗',
+            'psychology': '心理学',
+            'neuroscience': '神经科学',
+            'cognitive': '认知',
+        }
+        
+        # 简单的关键词替换翻译
+        translated = title
+        for en, zh in translations.items():
+            if en.lower() in title.lower():
+                translated = f"【{zh}】{translated}"
+                break
+        
+        return f"{translated} [待译]"
+    
+    def _translate_abstract(self, abstract):
+        """翻译摘要为中文（简化版）"""
+        if not abstract or abstract == f"Published in journal.":
+            return "摘要暂不可用"
+        
+        # 简化的翻译提示
+        return f"【英文摘要】{abstract[:100]}... [点击阅读原文查看完整内容]"
+    
     def fetch_all_sources(self, max_per_query=15):
-        """抓取所有来源"""
+        """抓取所有来源 - AI心理学优先"""
         print("=" * 70)
-        print("🚀 抓取真实心理学论文 (CrossRef)")
+        print("🚀 抓取真实心理学论文 - AI相关优先 (CrossRef)")
         print("=" * 70)
         
-        # 搜索配置：(关键词, 天数, 数量)
+        # AI心理学相关关键词优先
         queries = [
-            ('psychology', 30, max_per_query),
-            ('cognitive psychology', 30, max_per_query),
-            ('mental health', 30, max_per_query),
-            ('neuroscience', 30, max_per_query),
-            ('behavioral science', 30, max_per_query),
+            ('artificial intelligence psychology', 30, max_per_query),
+            ('AI mental health', 30, max_per_query),
+            ('chatbot therapy', 30, max_per_query),
+            ('machine learning cognitive', 30, max_per_query),
+            ('digital psychology', 30, max_per_query),
+            ('social media AI', 30, max_per_query),
+            ('algorithm behavior', 30, max_per_query),
+            ('technology addiction', 30, max_per_query),
         ]
         
         all_papers = []

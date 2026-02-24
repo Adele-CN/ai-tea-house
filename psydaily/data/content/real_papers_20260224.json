@@ -1,326 +1,407 @@
 [
   {
     "article": {
-      "id": "crossref_10.17759_psylaw.2024140301",
-      "title_en": "Psychological Mechanisms of Youth Involvement in Extremist and Terrorist Organizations (Using the Example of Social Networks)",
-      "title_zh": "",
-      "abstract_en": "<jats:p>&lt;p style=\"text-align: justify;\"&gt;The work describes the signs of recruitment and the psychological mechanisms of youth involvement in extremist and terrorist organizations in the Internet. A structural analysis of materials containing communication aimed at involving youth in extremist or terrorist organizations and/or communities with extremist goals. The object of the study are cases received for a comprehensive psychological and linguistic study at the Moscow State Budgetary Inst",
-      "abstract_zh": "",
+      "id": "crossref_10.7199_ped.oncall.2027.7",
+      "title_en": "Five years experience of Paediatric Outpatient Parenteral Antimicrobial Therapy in a portuguese secondary hospital",
+      "title_zh": "【治疗】Five years experience of Paediatric Outpatient Parenteral Antimicrobial Therapy in a portuguese secondary hospital [待译]",
+      "abstract_en": "Published in Pediatric Oncall. DOI: 10.7199/ped.oncall.2027.7",
+      "abstract_zh": "【英文摘要】Published in Pediatric Oncall. DOI: 10.7199/ped.oncall.2027.7... [点击阅读原文查看完整内容]",
       "authors": [
-        "O.D. Gurina",
-        "A.F. Remeeva"
+        "Beatriz Fazendeiro de Andrade",
+        "Mariana Oliveira",
+        "Sonia Madeira Gomes"
       ],
-      "journal_en": "Psychology and Law",
+      "journal_en": "Pediatric Oncall",
       "journal_zh": "",
-      "pub_date": "2027-9-27",
-      "doi": "10.17759/psylaw.2024140301",
-      "doi_url": "https://doi.org/10.17759/psylaw.2024140301",
-      "pdf_url": "https://psyjournals.ru/journals/psylaw/archive/2024_n3/Gurina_Remeeva.pdf",
-      "url": "https://doi.org/10.17759/psylaw.2024140301",
-      "scholar_url": "https://scholar.google.com/scholar?q=Psychological%20Mechanisms%20of%20Youth%20Involvement%20in%20Extremist%20and%20Terrorist%20Organizations%20%28Using%20the%20Example%20of%20Social%20Networks%29",
-      "source": "crossref",
-      "impact_factor": 2.5,
-      "tags": [
-        "social",
-        "technology"
-      ],
-      "fetched_at": "2026-02-24T19:30:07.114829",
-      "is_real": true
-    }
-  },
-  {
-    "article": {
-      "id": "crossref_10.17759_psylaw.2024140305",
-      "title_en": "The Connection Between Emotional Intelligence, the Level of Loneliness and Characteristics of Attitudes towards Parents in Adolescence",
-      "title_zh": "",
-      "abstract_en": "<jats:p>&lt;p style=\"text-align: justify;\"&gt;This article examines the connections between emotional intelligence, the level of loneliness and the characteristics of adolescents&amp;rsquo; relationships with their parents. Adolescence is characterized by significant emotional changes that affect adolescents&amp;rsquo; social relationships and self-esteem. The study is based on theoretical concepts of emotional intelligence, the phenomenon of loneliness and child-parent relationships, developed ",
-      "abstract_zh": "",
-      "authors": [
-        "A.V. Degtyarev",
-        "S.D. Chivileva",
-        "D.M. Kuptsova"
-      ],
-      "journal_en": "Psychology and Law",
-      "journal_zh": "",
-      "pub_date": "2027-9-27",
-      "doi": "10.17759/psylaw.2024140305",
-      "doi_url": "https://doi.org/10.17759/psylaw.2024140305",
-      "pdf_url": "https://psyjournals.ru/journals/psylaw/archive/2024_n3/Degtyarev_Chivileva_Kuptsova.pdf",
-      "url": "https://doi.org/10.17759/psylaw.2024140305",
-      "scholar_url": "https://scholar.google.com/scholar?q=The%20Connection%20Between%20Emotional%20Intelligence%2C%20the%20Level%20of%20Loneliness%20and%20Characteristics%20of%20Attitudes%20towards%20Parents%20in%20Adolescence",
-      "source": "crossref",
-      "impact_factor": 2.5,
-      "tags": [
-        "social",
-        "developmental"
-      ],
-      "fetched_at": "2026-02-24T19:30:07.114927",
-      "is_real": true
-    }
-  },
-  {
-    "article": {
-      "id": "crossref_10.1016_j.bosn.2025.11.001",
-      "title_en": "Understanding the contribution of nucleus accumbens D1- and D2-neurons for rewarding and aversive behaviors",
-      "title_zh": "",
-      "abstract_en": "Published in Brain Organoid and Systems Neuroscience Journal. DOI: 10.1016/j.bosn.2025.11.001",
-      "abstract_zh": "",
-      "authors": [
-        "Catarina Carreira",
-        "Ana Verónica Domingues",
-        "Carina Soares-Cunha"
-      ],
-      "journal_en": "Brain Organoid and Systems Neuroscience Journal",
-      "journal_zh": "",
-      "pub_date": "2026-12",
-      "doi": "10.1016/j.bosn.2025.11.001",
-      "doi_url": "https://doi.org/10.1016/j.bosn.2025.11.001",
+      "pub_date": "2027",
+      "doi": "10.7199/ped.oncall.2027.7",
+      "doi_url": "https://doi.org/10.7199/ped.oncall.2027.7",
       "pdf_url": "",
-      "url": "https://doi.org/10.1016/j.bosn.2025.11.001",
-      "scholar_url": "https://scholar.google.com/scholar?q=Understanding%20the%20contribution%20of%20nucleus%20accumbens%20D1-%20and%20D2-neurons%20for%20rewarding%20and%20aversive%20behaviors",
-      "source": "crossref",
-      "impact_factor": 2.5,
-      "tags": [
-        "neuroscience",
-        "technology"
-      ],
-      "fetched_at": "2026-02-24T19:30:19.025106",
-      "is_real": true
-    }
-  },
-  {
-    "article": {
-      "id": "crossref_10.1016_j.bosn.2025.100038",
-      "title_en": "Impact of unilateral maximal dentate activation on nitrergic neuron distribution in the hippocampus, entorhinal cortex, amygdala and habenula",
-      "title_zh": "",
-      "abstract_en": "Published in Brain Organoid and Systems Neuroscience Journal. DOI: 10.1016/j.bosn.2025.100038",
-      "abstract_zh": "",
-      "authors": [
-        "Cristiano Bombardi",
-        "Roberto Colangeli",
-        "Maurizio Casarrubea"
-      ],
-      "journal_en": "Brain Organoid and Systems Neuroscience Journal",
-      "journal_zh": "",
-      "pub_date": "2026-12",
-      "doi": "10.1016/j.bosn.2025.100038",
-      "doi_url": "https://doi.org/10.1016/j.bosn.2025.100038",
-      "pdf_url": "",
-      "url": "https://doi.org/10.1016/j.bosn.2025.100038",
-      "scholar_url": "https://scholar.google.com/scholar?q=Impact%20of%20unilateral%20maximal%20dentate%20activation%20on%20nitrergic%20neuron%20distribution%20in%20the%20hippocampus%2C%20entorhinal%20cortex%2C%20amygdala%20and%20habenula",
-      "source": "crossref",
-      "impact_factor": 2.5,
-      "tags": [
-        "neuroscience",
-        "technology"
-      ],
-      "fetched_at": "2026-02-24T19:30:19.025176",
-      "is_real": true
-    }
-  },
-  {
-    "article": {
-      "id": "crossref_10.1016_j.bosn.2026.100042",
-      "title_en": "Contents",
-      "title_zh": "",
-      "abstract_en": "Published in Brain Organoid and Systems Neuroscience Journal. DOI: 10.1016/j.bosn.2026.100042",
-      "abstract_zh": "",
-      "authors": [
-        "Unknown"
-      ],
-      "journal_en": "Brain Organoid and Systems Neuroscience Journal",
-      "journal_zh": "",
-      "pub_date": "2026-12",
-      "doi": "10.1016/j.bosn.2026.100042",
-      "doi_url": "https://doi.org/10.1016/j.bosn.2026.100042",
-      "pdf_url": "",
-      "url": "https://doi.org/10.1016/j.bosn.2026.100042",
-      "scholar_url": "https://scholar.google.com/scholar?q=Contents",
-      "source": "crossref",
-      "impact_factor": 2.5,
-      "tags": [
-        "neuroscience",
-        "technology"
-      ],
-      "fetched_at": "2026-02-24T19:30:19.025218",
-      "is_real": true
-    }
-  },
-  {
-    "article": {
-      "id": "crossref_10.1016_j.bosn.2026.100041",
-      "title_en": "Editorial Board",
-      "title_zh": "",
-      "abstract_en": "Published in Brain Organoid and Systems Neuroscience Journal. DOI: 10.1016/j.bosn.2026.100041",
-      "abstract_zh": "",
-      "authors": [
-        "Unknown"
-      ],
-      "journal_en": "Brain Organoid and Systems Neuroscience Journal",
-      "journal_zh": "",
-      "pub_date": "2026-12",
-      "doi": "10.1016/j.bosn.2026.100041",
-      "doi_url": "https://doi.org/10.1016/j.bosn.2026.100041",
-      "pdf_url": "",
-      "url": "https://doi.org/10.1016/j.bosn.2026.100041",
-      "scholar_url": "https://scholar.google.com/scholar?q=Editorial%20Board",
-      "source": "crossref",
-      "impact_factor": 2.5,
-      "tags": [
-        "neuroscience",
-        "technology"
-      ],
-      "fetched_at": "2026-02-24T19:30:19.025262",
-      "is_real": true
-    }
-  },
-  {
-    "article": {
-      "id": "crossref_10.1016_j.bosn.2026.100043",
-      "title_en": "Publisher's note",
-      "title_zh": "",
-      "abstract_en": "Published in Brain Organoid and Systems Neuroscience Journal. DOI: 10.1016/j.bosn.2026.100043",
-      "abstract_zh": "",
-      "authors": [
-        "Unknown"
-      ],
-      "journal_en": "Brain Organoid and Systems Neuroscience Journal",
-      "journal_zh": "",
-      "pub_date": "2026-12",
-      "doi": "10.1016/j.bosn.2026.100043",
-      "doi_url": "https://doi.org/10.1016/j.bosn.2026.100043",
-      "pdf_url": "",
-      "url": "https://doi.org/10.1016/j.bosn.2026.100043",
-      "scholar_url": "https://scholar.google.com/scholar?q=Publisher%27s%20note",
-      "source": "crossref",
-      "impact_factor": 2.5,
-      "tags": [
-        "neuroscience",
-        "technology"
-      ],
-      "fetched_at": "2026-02-24T19:30:19.025305",
-      "is_real": true
-    }
-  },
-  {
-    "article": {
-      "id": "crossref_10.1016_j.jad.2026.121328",
-      "title_en": "Early childhood neural reward-related reactivity concurrently and prospectively associates with depressive symptom severity",
-      "title_zh": "",
-      "abstract_en": "Published in Journal of Affective Disorders. DOI: 10.1016/j.jad.2026.121328",
-      "abstract_zh": "",
-      "authors": [
-        "Nicolas L. Camacho",
-        "Michael S. Gaffrey"
-      ],
-      "journal_en": "Journal of Affective Disorders",
-      "journal_zh": "",
-      "pub_date": "2026-6",
-      "doi": "10.1016/j.jad.2026.121328",
-      "doi_url": "https://doi.org/10.1016/j.jad.2026.121328",
-      "pdf_url": "",
-      "url": "https://doi.org/10.1016/j.jad.2026.121328",
-      "scholar_url": "https://scholar.google.com/scholar?q=Early%20childhood%20neural%20reward-related%20reactivity%20concurrently%20and%20prospectively%20associates%20with%20depressive%20symptom%20severity",
+      "url": "https://doi.org/10.7199/ped.oncall.2027.7",
+      "scholar_url": "https://scholar.google.com/scholar?q=Five%20years%20experience%20of%20Paediatric%20Outpatient%20Parenteral%20Antimicrobial%20Therapy%20in%20a%20portuguese%20secondary%20hospital",
       "source": "crossref",
       "impact_factor": 2.5,
       "tags": [
         "mental_health",
-        "neuroscience",
-        "developmental"
+        "clinical"
       ],
-      "fetched_at": "2026-02-24T19:30:19.025364",
+      "fetched_at": "2026-02-24T19:59:38.451095",
       "is_real": true
     }
   },
   {
     "article": {
-      "id": "crossref_10.1016_j.learninstruc.2026.102323",
-      "title_en": "Tracking college student's learning gains using EEG hyperscanning: An interpersonal neuroscience approach development and validation",
-      "title_zh": "",
-      "abstract_en": "Published in Learning and Instruction. DOI: 10.1016/j.learninstruc.2026.102323",
-      "abstract_zh": "",
+      "id": "crossref_10.2176_jns-nmc.2025-0303",
+      "title_en": "Overlapping Flow Diverter with Coiling for Fetal-type Posterior Communicating Artery Aneurysms with Triple Antithrombotic Therapy: A Case Series",
+      "title_zh": "【治疗】Overlapping Flow Diverter with Coiling for Fetal-type Posterior Communicating Artery Aneurysms with Triple Antithrombotic Therapy: A Case Series [待译]",
+      "abstract_en": "Published in NMC Case Report Journal. DOI: 10.2176/jns-nmc.2025-0303",
+      "abstract_zh": "【英文摘要】Published in NMC Case Report Journal. DOI: 10.2176/jns-nmc.2025-0303... [点击阅读原文查看完整内容]",
       "authors": [
-        "Haiqing Yu",
-        "Leijin Shu",
-        "Yongzhi Huang"
+        "Makoto SAKAMOTO",
+        "Tetsuji UNO",
+        "Hiroki YOSHIOKA"
       ],
-      "journal_en": "Learning and Instruction",
+      "journal_en": "NMC Case Report Journal",
       "journal_zh": "",
-      "pub_date": "2026-6",
-      "doi": "10.1016/j.learninstruc.2026.102323",
-      "doi_url": "https://doi.org/10.1016/j.learninstruc.2026.102323",
+      "pub_date": "2026-12-31",
+      "doi": "10.2176/jns-nmc.2025-0303",
+      "doi_url": "https://doi.org/10.2176/jns-nmc.2025-0303",
       "pdf_url": "",
-      "url": "https://doi.org/10.1016/j.learninstruc.2026.102323",
-      "scholar_url": "https://scholar.google.com/scholar?q=Tracking%20college%20student%27s%20learning%20gains%20using%20EEG%20hyperscanning%3A%20An%20interpersonal%20neuroscience%20approach%20development%20and%20validation",
+      "url": "https://doi.org/10.2176/jns-nmc.2025-0303",
+      "scholar_url": "https://scholar.google.com/scholar?q=Overlapping%20Flow%20Diverter%20with%20Coiling%20for%20Fetal-type%20Posterior%20Communicating%20Artery%20Aneurysms%20with%20Triple%20Antithrombotic%20Therapy%3A%20A%20Case%20Series",
       "source": "crossref",
       "impact_factor": 2.5,
       "tags": [
+        "mental_health"
+      ],
+      "fetched_at": "2026-02-24T19:59:38.451149",
+      "is_real": true
+    }
+  },
+  {
+    "article": {
+      "id": "crossref_10.1016_j.ntm.2025.100100",
+      "title_en": "A mini-review on the multimodal applications of engineered magnetic nanoparticles in diagnosis and therapy",
+      "title_zh": "【治疗】A mini-review on the multimodal applications of engineered magnetic nanoparticles in diagnosis and therapy [待译]",
+      "abstract_en": "Published in Nano TransMed. DOI: 10.1016/j.ntm.2025.100100",
+      "abstract_zh": "【英文摘要】Published in Nano TransMed. DOI: 10.1016/j.ntm.2025.100100... [点击阅读原文查看完整内容]",
+      "authors": [
+        "Jagabandhu Bag",
+        "Rudradeep Hazra",
+        "Rupam Mahish"
+      ],
+      "journal_en": "Nano TransMed",
+      "journal_zh": "",
+      "pub_date": "2026-12",
+      "doi": "10.1016/j.ntm.2025.100100",
+      "doi_url": "https://doi.org/10.1016/j.ntm.2025.100100",
+      "pdf_url": "",
+      "url": "https://doi.org/10.1016/j.ntm.2025.100100",
+      "scholar_url": "https://scholar.google.com/scholar?q=A%20mini-review%20on%20the%20multimodal%20applications%20of%20engineered%20magnetic%20nanoparticles%20in%20diagnosis%20and%20therapy",
+      "source": "crossref",
+      "impact_factor": 2.5,
+      "tags": [
+        "mental_health"
+      ],
+      "fetched_at": "2026-02-24T19:59:38.451192",
+      "is_real": true
+    }
+  },
+  {
+    "article": {
+      "id": "crossref_10.32598_jpcp.14.1.1079.1",
+      "title_en": "Effectiveness of Acceptance and Commitment Therapy and Transdiagnostic Integrated Therapy on Emotional Expressivity in Women With Social Anxiety Disorder",
+      "title_zh": "【治疗】Effectiveness of Acceptance and Commitment Therapy and Transdiagnostic Integrated Therapy on Emotional Expressivity in Women With Social Anxiety Disorder [待译]",
+      "abstract_en": "Published in Practice in Clinical Psychology. DOI: 10.32598/jpcp.14.1.1079.1",
+      "abstract_zh": "【英文摘要】Published in Practice in Clinical Psychology. DOI: 10.32598/jpcp.14.1.1079.1... [点击阅读原文查看完整内容]",
+      "authors": [
+        "Nasrin Amiri",
+        "Fariba Hafezi",
+        "Amal Sharifi Fard"
+      ],
+      "journal_en": "Practice in Clinical Psychology",
+      "journal_zh": "",
+      "pub_date": "2026-12-1",
+      "doi": "10.32598/jpcp.14.1.1079.1",
+      "doi_url": "https://doi.org/10.32598/jpcp.14.1.1079.1",
+      "pdf_url": "https://jpcp.uswr.ac.ir/article-1-1053-en.pdf",
+      "url": "https://doi.org/10.32598/jpcp.14.1.1079.1",
+      "scholar_url": "https://scholar.google.com/scholar?q=Effectiveness%20of%20Acceptance%20and%20Commitment%20Therapy%20and%20Transdiagnostic%20Integrated%20Therapy%20on%20Emotional%20Expressivity%20in%20Women%20With%20Social%20Anxiety%20Disorder",
+      "source": "crossref",
+      "impact_factor": 2.5,
+      "tags": [
+        "mental_health",
         "social",
+        "clinical"
+      ],
+      "fetched_at": "2026-02-24T19:59:38.451240",
+      "is_real": true
+    }
+  },
+  {
+    "article": {
+      "id": "crossref_10.1016_j.apjon.2025.100850",
+      "title_en": "The burdens, coping strategies, and unmet needs of family caregivers of Chinese patients with lymphoma receiving commercial CAR-T-cell therapy: A qualitative study",
+      "title_zh": "【治疗】The burdens, coping strategies, and unmet needs of family caregivers of Chinese patients with lymphoma receiving commercial CAR-T-cell therapy: A qualitative study [待译]",
+      "abstract_en": "Published in Asia-Pacific Journal of Oncology Nursing. DOI: 10.1016/j.apjon.2025.100850",
+      "abstract_zh": "【英文摘要】Published in Asia-Pacific Journal of Oncology Nursing. DOI: 10.1016/j.apjon.2025.100850... [点击阅读原文查看完整内容]",
+      "authors": [
+        "Xijun Lin",
+        "Jiali Liu",
+        "Jianwen Chen"
+      ],
+      "journal_en": "Asia-Pacific Journal of Oncology Nursing",
+      "journal_zh": "",
+      "pub_date": "2026-12",
+      "doi": "10.1016/j.apjon.2025.100850",
+      "doi_url": "https://doi.org/10.1016/j.apjon.2025.100850",
+      "pdf_url": "",
+      "url": "https://doi.org/10.1016/j.apjon.2025.100850",
+      "scholar_url": "https://scholar.google.com/scholar?q=The%20burdens%2C%20coping%20strategies%2C%20and%20unmet%20needs%20of%20family%20caregivers%20of%20Chinese%20patients%20with%20lymphoma%20receiving%20commercial%20CAR-T-cell%20therapy%3A%20A%20qualitative%20study",
+      "source": "crossref",
+      "impact_factor": 2.5,
+      "tags": [
+        "mental_health",
+        "clinical"
+      ],
+      "fetched_at": "2026-02-24T19:59:38.451294",
+      "is_real": true
+    }
+  },
+  {
+    "article": {
+      "id": "crossref_10.1016_j.ntm.2026.100115",
+      "title_en": "Unveiling the frontiers of self-assembled chinese herbal medicines nanodrugs in cancer therapy: A comprehensive bibliometric analysis and insights into emerging vesicle-based strategies",
+      "title_zh": "【治疗】Unveiling the frontiers of self-assembled chinese herbal medicines nanodrugs in cancer therapy: A comprehensive bibliometric analysis and insights into emerging vesicle-based strategies [待译]",
+      "abstract_en": "Published in Nano TransMed. DOI: 10.1016/j.ntm.2026.100115",
+      "abstract_zh": "【英文摘要】Published in Nano TransMed. DOI: 10.1016/j.ntm.2026.100115... [点击阅读原文查看完整内容]",
+      "authors": [
+        "Yimao Wu",
+        "Jintao Liang",
+        "Yalun Liang"
+      ],
+      "journal_en": "Nano TransMed",
+      "journal_zh": "",
+      "pub_date": "2026-12",
+      "doi": "10.1016/j.ntm.2026.100115",
+      "doi_url": "https://doi.org/10.1016/j.ntm.2026.100115",
+      "pdf_url": "",
+      "url": "https://doi.org/10.1016/j.ntm.2026.100115",
+      "scholar_url": "https://scholar.google.com/scholar?q=Unveiling%20the%20frontiers%20of%20self-assembled%20chinese%20herbal%20medicines%20nanodrugs%20in%20cancer%20therapy%3A%20A%20comprehensive%20bibliometric%20analysis%20and%20insights%20into%20emerging%20vesicle-based%20strategies",
+      "source": "crossref",
+      "impact_factor": 2.5,
+      "tags": [
+        "mental_health"
+      ],
+      "fetched_at": "2026-02-24T19:59:38.451348",
+      "is_real": true
+    }
+  },
+  {
+    "article": {
+      "id": "crossref_10.1016_j.sbr.2025.100023",
+      "title_en": "The role of advanced AI in improving chatbot-driven consumer experiences",
+      "title_zh": "【AI】The role of advanced AI in improving chatbot-driven consumer experiences [待译]",
+      "abstract_en": "Published in Strategic Business Research. DOI: 10.1016/j.sbr.2025.100023",
+      "abstract_zh": "【英文摘要】Published in Strategic Business Research. DOI: 10.1016/j.sbr.2025.100023... [点击阅读原文查看完整内容]",
+      "authors": [
+        "Sanchita Bansal",
+        "Priya Nangia",
+        "Nisha Chanaliya"
+      ],
+      "journal_en": "Strategic Business Research",
+      "journal_zh": "",
+      "pub_date": "2026-12",
+      "doi": "10.1016/j.sbr.2025.100023",
+      "doi_url": "https://doi.org/10.1016/j.sbr.2025.100023",
+      "pdf_url": "",
+      "url": "https://doi.org/10.1016/j.sbr.2025.100023",
+      "scholar_url": "https://scholar.google.com/scholar?q=The%20role%20of%20advanced%20AI%20in%20improving%20chatbot-driven%20consumer%20experiences",
+      "source": "crossref",
+      "impact_factor": 2.5,
+      "tags": [
+        "technology"
+      ],
+      "fetched_at": "2026-02-24T19:59:38.451386",
+      "is_real": true
+    }
+  },
+  {
+    "article": {
+      "id": "crossref_10.1504_ijsse.2027.10068838",
+      "title_en": "Deep Learning and Feature Optimisation Algorithm for Course Recommendation Systems",
+      "title_zh": "【算法】Deep Learning and Feature Optimisation Algorithm for Course Recommendation Systems [待译]",
+      "abstract_en": "Published in International Journal of System of Systems Engineering. DOI: 10.1504/ijsse.2027.10068838",
+      "abstract_zh": "【英文摘要】Published in International Journal of System of Systems Engineering. DOI: 10.1504/ijsse.2027.1006883... [点击阅读原文查看完整内容]",
+      "authors": [
+        "Mary Amala Bai V",
+        "Jisha Isaac"
+      ],
+      "journal_en": "International Journal of System of Systems Engineering",
+      "journal_zh": "",
+      "pub_date": "2027",
+      "doi": "10.1504/ijsse.2027.10068838",
+      "doi_url": "https://doi.org/10.1504/ijsse.2027.10068838",
+      "pdf_url": "",
+      "url": "https://doi.org/10.1504/ijsse.2027.10068838",
+      "scholar_url": "https://scholar.google.com/scholar?q=Deep%20Learning%20and%20Feature%20Optimisation%20Algorithm%20for%20Course%20Recommendation%20Systems",
+      "source": "crossref",
+      "impact_factor": 2.5,
+      "tags": [
+        "psychology"
+      ],
+      "fetched_at": "2026-02-24T19:59:57.711286",
+      "is_real": true
+    }
+  },
+  {
+    "article": {
+      "id": "crossref_10.5705_ss.202024.0002",
+      "title_en": "A Locally Adaptive Algorithm for Multiple Testing with Network Structure",
+      "title_zh": "【算法】A Locally Adaptive Algorithm for Multiple Testing with Network Structure [待译]",
+      "abstract_en": "Published in Statistica Sinica. DOI: 10.5705/ss.202024.0002",
+      "abstract_zh": "【英文摘要】Published in Statistica Sinica. DOI: 10.5705/ss.202024.0002... [点击阅读原文查看完整内容]",
+      "authors": [
+        "Ziyi Liang",
+        "T. Tony Cai",
+        "Wenguang Sun"
+      ],
+      "journal_en": "Statistica Sinica",
+      "journal_zh": "",
+      "pub_date": "2027",
+      "doi": "10.5705/ss.202024.0002",
+      "doi_url": "https://doi.org/10.5705/ss.202024.0002",
+      "pdf_url": "",
+      "url": "https://doi.org/10.5705/ss.202024.0002",
+      "scholar_url": "https://scholar.google.com/scholar?q=A%20Locally%20Adaptive%20Algorithm%20for%20Multiple%20Testing%20with%20Network%20Structure",
+      "source": "crossref",
+      "impact_factor": 2.5,
+      "tags": [
+        "psychology"
+      ],
+      "fetched_at": "2026-02-24T19:59:57.711324",
+      "is_real": true
+    }
+  },
+  {
+    "article": {
+      "id": "crossref_10.1504_ijids.2027.10070075",
+      "title_en": "Optimising Accuracy Rate of Genomic Image Representation of Human Corona Virus Sequences for COVID-19 Detection using Modified Quantum-Based Marine Predators Algorithm",
+      "title_zh": "【算法】Optimising Accuracy Rate of Genomic Image Representation of Human Corona Virus Sequences for COVID-19 Detection using Modified Quantum-Based Marine Predators Algorithm [待译]",
+      "abstract_en": "Published in International Journal of Information and Decision Sciences. DOI: 10.1504/ijids.2027.10070075",
+      "abstract_zh": "【英文摘要】Published in International Journal of Information and Decision Sciences. DOI: 10.1504/ijids.2027.100... [点击阅读原文查看完整内容]",
+      "authors": [
+        "Gowri Ganesh",
+        "Sharanyaa S.",
+        "Harikrishnan R"
+      ],
+      "journal_en": "International Journal of Information and Decision Sciences",
+      "journal_zh": "",
+      "pub_date": "2027",
+      "doi": "10.1504/ijids.2027.10070075",
+      "doi_url": "https://doi.org/10.1504/ijids.2027.10070075",
+      "pdf_url": "",
+      "url": "https://doi.org/10.1504/ijids.2027.10070075",
+      "scholar_url": "https://scholar.google.com/scholar?q=Optimising%20Accuracy%20Rate%20of%20Genomic%20Image%20Representation%20of%20Human%20Corona%20Virus%20Sequences%20for%20COVID-19%20Detection%20using%20Modified%20Quantum-Based%20Marine%20Predators%20Algorithm",
+      "source": "crossref",
+      "impact_factor": 2.5,
+      "tags": [
+        "cognitive"
+      ],
+      "fetched_at": "2026-02-24T19:59:57.711379",
+      "is_real": true
+    }
+  },
+  {
+    "article": {
+      "id": "crossref_10.1504_ijaac.2027.10074071",
+      "title_en": "IDESC: a hybrid ESCSO-DDPG algorithm for risk-aware UAV path planning in radar environments",
+      "title_zh": "【算法】IDESC: a hybrid ESCSO-DDPG algorithm for risk-aware UAV path planning in radar environments [待译]",
+      "abstract_en": "Published in International Journal of Automation and Control. DOI: 10.1504/ijaac.2027.10074071",
+      "abstract_zh": "【英文摘要】Published in International Journal of Automation and Control. DOI: 10.1504/ijaac.2027.10074071... [点击阅读原文查看完整内容]",
+      "authors": [
+        "Jingjing Zou",
+        "Haojie Yang",
+        "Rongxin Xu"
+      ],
+      "journal_en": "International Journal of Automation and Control",
+      "journal_zh": "",
+      "pub_date": "2027",
+      "doi": "10.1504/ijaac.2027.10074071",
+      "doi_url": "https://doi.org/10.1504/ijaac.2027.10074071",
+      "pdf_url": "",
+      "url": "https://doi.org/10.1504/ijaac.2027.10074071",
+      "scholar_url": "https://scholar.google.com/scholar?q=IDESC%3A%20a%20hybrid%20ESCSO-DDPG%20algorithm%20for%20risk-aware%20UAV%20path%20planning%20in%20radar%20environments",
+      "source": "crossref",
+      "impact_factor": 2.5,
+      "tags": [
+        "psychology"
+      ],
+      "fetched_at": "2026-02-24T19:59:57.711422",
+      "is_real": true
+    }
+  },
+  {
+    "article": {
+      "id": "crossref_10.1504_ijsse.2027.10068902",
+      "title_en": "Detection of Drones Using YOLOv10 Deep Learning Algorithm",
+      "title_zh": "【算法】Detection of Drones Using YOLOv10 Deep Learning Algorithm [待译]",
+      "abstract_en": "Published in International Journal of System of Systems Engineering. DOI: 10.1504/ijsse.2027.10068902",
+      "abstract_zh": "【英文摘要】Published in International Journal of System of Systems Engineering. DOI: 10.1504/ijsse.2027.1006890... [点击阅读原文查看完整内容]",
+      "authors": [
+        "Rajesh Bodade",
+        "Pranav Paranjpe"
+      ],
+      "journal_en": "International Journal of System of Systems Engineering",
+      "journal_zh": "",
+      "pub_date": "2027",
+      "doi": "10.1504/ijsse.2027.10068902",
+      "doi_url": "https://doi.org/10.1504/ijsse.2027.10068902",
+      "pdf_url": "",
+      "url": "https://doi.org/10.1504/ijsse.2027.10068902",
+      "scholar_url": "https://scholar.google.com/scholar?q=Detection%20of%20Drones%20Using%20YOLOv10%20Deep%20Learning%20Algorithm",
+      "source": "crossref",
+      "impact_factor": 2.5,
+      "tags": [
+        "psychology"
+      ],
+      "fetched_at": "2026-02-24T19:59:57.711459",
+      "is_real": true
+    }
+  },
+  {
+    "article": {
+      "id": "crossref_10.1504_ijaac.2027.10076098",
+      "title_en": "Parametric optimisation of neural sliding controller for nonlinear coupling tank plant using central force optimisation algorithm",
+      "title_zh": "【算法】Parametric optimisation of neural sliding controller for nonlinear coupling tank plant using central force optimisation algorithm [待译]",
+      "abstract_en": "Published in International Journal of Automation and Control. DOI: 10.1504/ijaac.2027.10076098",
+      "abstract_zh": "【英文摘要】Published in International Journal of Automation and Control. DOI: 10.1504/ijaac.2027.10076098... [点击阅读原文查看完整内容]",
+      "authors": [
+        "Nguyen Anh Tuan",
+        "Ho Pham Huy Anh"
+      ],
+      "journal_en": "International Journal of Automation and Control",
+      "journal_zh": "",
+      "pub_date": "2027",
+      "doi": "10.1504/ijaac.2027.10076098",
+      "doi_url": "https://doi.org/10.1504/ijaac.2027.10076098",
+      "pdf_url": "",
+      "url": "https://doi.org/10.1504/ijaac.2027.10076098",
+      "scholar_url": "https://scholar.google.com/scholar?q=Parametric%20optimisation%20of%20neural%20sliding%20controller%20for%20nonlinear%20coupling%20tank%20plant%20using%20central%20force%20optimisation%20algorithm",
+      "source": "crossref",
+      "impact_factor": 2.5,
+      "tags": [
         "neuroscience",
         "technology"
       ],
-      "fetched_at": "2026-02-24T19:30:19.025424",
+      "fetched_at": "2026-02-24T19:59:57.711506",
       "is_real": true
     }
   },
   {
     "article": {
-      "id": "crossref_10.1016_j.ibneur.2026.01.011",
-      "title_en": "Prefrontal TDCS does not improve working memory performance in individuals with chronic alcohol and tobacco use",
-      "title_zh": "",
-      "abstract_en": "Published in IBRO Neuroscience Reports. DOI: 10.1016/j.ibneur.2026.01.011",
-      "abstract_zh": "",
+      "id": "crossref_10.1504_ijcsyse.2027.10066368",
+      "title_en": "The Application of VR-Based Fine Motion Capture Algorithm in College Aerobics Training",
+      "title_zh": "【AI】The Application of VR-Based Fine Motion Capture Algorithm in College Aerobics Training [待译]",
+      "abstract_en": "Published in International Journal of Computational Systems Engineering. DOI: 10.1504/ijcsyse.2027.10066368",
+      "abstract_zh": "【英文摘要】Published in International Journal of Computational Systems Engineering. DOI: 10.1504/ijcsyse.2027.1... [点击阅读原文查看完整内容]",
       "authors": [
-        "Franziska Göttgens",
-        "Ute Habel",
-        "Paul Wallheinke"
+        "Hui Wang"
       ],
-      "journal_en": "IBRO Neuroscience Reports",
+      "journal_en": "International Journal of Computational Systems Engineering",
       "journal_zh": "",
-      "pub_date": "2026-6",
-      "doi": "10.1016/j.ibneur.2026.01.011",
-      "doi_url": "https://doi.org/10.1016/j.ibneur.2026.01.011",
+      "pub_date": "2027",
+      "doi": "10.1504/ijcsyse.2027.10066368",
+      "doi_url": "https://doi.org/10.1504/ijcsyse.2027.10066368",
       "pdf_url": "",
-      "url": "https://doi.org/10.1016/j.ibneur.2026.01.011",
-      "scholar_url": "https://scholar.google.com/scholar?q=Prefrontal%20TDCS%20does%20not%20improve%20working%20memory%20performance%20in%20individuals%20with%20chronic%20alcohol%20and%20tobacco%20use",
+      "url": "https://doi.org/10.1504/ijcsyse.2027.10066368",
+      "scholar_url": "https://scholar.google.com/scholar?q=The%20Application%20of%20VR-Based%20Fine%20Motion%20Capture%20Algorithm%20in%20College%20Aerobics%20Training",
       "source": "crossref",
       "impact_factor": 2.5,
       "tags": [
-        "cognitive",
-        "neuroscience"
+        "technology"
       ],
-      "fetched_at": "2026-02-24T19:30:19.025483",
-      "is_real": true
-    }
-  },
-  {
-    "article": {
-      "id": "crossref_10.1016_j.dcn.2026.101690",
-      "title_en": "Developmental and aging trajectories of 40-Hz auditory steady-state responses: A systematic review across the human lifespan",
-      "title_zh": "",
-      "abstract_en": "Published in Developmental Cognitive Neuroscience. DOI: 10.1016/j.dcn.2026.101690",
-      "abstract_zh": "",
-      "authors": [
-        "Aurimas Mockevičius",
-        "Danylo Machevskyi",
-        "Dariusz Majcherczyk"
-      ],
-      "journal_en": "Developmental Cognitive Neuroscience",
-      "journal_zh": "",
-      "pub_date": "2026-6",
-      "doi": "10.1016/j.dcn.2026.101690",
-      "doi_url": "https://doi.org/10.1016/j.dcn.2026.101690",
-      "pdf_url": "",
-      "url": "https://doi.org/10.1016/j.dcn.2026.101690",
-      "scholar_url": "https://scholar.google.com/scholar?q=Developmental%20and%20aging%20trajectories%20of%2040-Hz%20auditory%20steady-state%20responses%3A%20A%20systematic%20review%20across%20the%20human%20lifespan",
-      "source": "crossref",
-      "impact_factor": 2.5,
-      "tags": [
-        "cognitive",
-        "neuroscience",
-        "developmental"
-      ],
-      "fetched_at": "2026-02-24T19:30:19.025548",
+      "fetched_at": "2026-02-24T19:59:57.711545",
       "is_real": true
     }
   }
