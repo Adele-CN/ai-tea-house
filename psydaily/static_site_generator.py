@@ -13,6 +13,9 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <title>PsyDaily - 心理学研究论文库</title>
     <style>
         * {{
@@ -336,7 +339,7 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
                         ${{(paper.tags || []).map(tag => `<span class="tag">${{tag}}</span>`).join('')}}
                     </div>
                     <div class="paper-actions">
-                        <a href="${{paper.doi || paper.url || '#'}}" class="btn btn-primary" target="_blank">查看原文</a>
+                        <a href="${{paper.scholar_url || '#'}}" class="btn btn-primary" target="_blank">查看原文</a>
                     </div>
                 </div>
             `).join('');
@@ -353,27 +356,55 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
 class StaticSiteGenerator:
     """静态网站生成器"""
     
-    def __init__(self, data_dir='/root/.openclaw/workspace/psydaily/data', 
-                 output_dir='/root/.openclaw/workspace/psydaily/site'):
-        self.data_dir = data_dir
-        self.output_dir = output_dir
+    def __init__(self, data_dir=None, output_dir=None):
+        # Auto-detect correct paths based on current directory
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+        self.data_dir = data_dir or os.path.join(script_dir, 'data')
+        self.output_dir = output_dir or os.path.join(script_dir, 'site')
         self.papers = []
         
     def load_papers(self):
         """加载所有论文数据"""
-        # 加载主论文库
-        content_file = f'{self.data_dir}/content/daily_20260211_complete.json'
+        # 优先加载最新合并的论文库
+        content_file = f'{self.data_dir}/content/daily_latest_complete.json'
         if os.path.exists(content_file):
             with open(content_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
                 self.papers = [item['article'] for item in data]
+        else:
+            # 回退到旧文件
+            content_file = f'{self.data_dir}/content/daily_20260211_complete.json'
+            if os.path.exists(content_file):
+                with open(content_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    self.papers = [item['article'] for item in data]
         
         # 加载RSS抓取的数据
         rss_file = f'{self.data_dir}/rss_papers.json'
         if os.path.exists(rss_file):
             with open(rss_file, 'r', encoding='utf-8') as f:
                 rss_papers = json.load(f)
-                self.papers.extend(rss_papers)
+                # 去重添加
+                seen = {p.get('title_en', p.get('title_zh', '')) for p in self.papers}
+                for p in rss_papers:
+                    title = p.get('title_en', p.get('title_zh', ''))
+                    if title and title not in seen:
+                        seen.add(title)
+                        self.papers.append(p)
+        
+        # 为每篇论文生成搜索链接
+        for p in self.papers:
+            if not p.get('doi') and not p.get('url'):
+                # 生成 Google Scholar 搜索链接
+                title = p.get('title_en', p.get('title_zh', ''))
+                if title:
+                    import urllib.parse
+                    query = urllib.parse.quote(title)
+                    p['scholar_url'] = f'https://scholar.google.com/scholar?q={query}'
+                else:
+                    p['scholar_url'] = '#'
+            else:
+                p['scholar_url'] = p.get('doi') or p.get('url')
         
         print(f"📚 加载 {len(self.papers)} 篇论文")
         return self.papers
@@ -414,7 +445,7 @@ class StaticSiteGenerator:
                     {''.join([f'<span class="tag">{t}</span>' for t in p.get('tags', [])[:5]])}
                 </div>
                 <div class="paper-actions">
-                    <a href="{p.get('doi', p.get('url', '#'))}" class="btn btn-primary" target="_blank">查看原文</a>
+                    <a href="{p.get('scholar_url', '#')}" class="btn btn-primary" target="_blank">查看原文</a>
                 </div>
             </div>
             '''
@@ -449,6 +480,7 @@ class StaticSiteGenerator:
         
         # 保存 HTML
         output_file = f'{self.output_dir}/index.html'
+        os.makedirs(self.output_dir, exist_ok=True)
         with open(output_file, 'w', encoding='utf-8') as f:
             f.write(html)
         
