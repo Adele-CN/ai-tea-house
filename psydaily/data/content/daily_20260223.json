@@ -1,0 +1,312 @@
+[
+  {
+    "article": {
+      "id": "info_005",
+      "title_en": "Cognitive Offloading in the Digital Age: How External Memory Shapes Internal Processing",
+      "title_zh": "数字时代的认知卸载：外部记忆如何塑造内部加工",
+      "abstract_en": "When information is constantly available through digital devices, how does this affect internal memory formation and reasoning? Our experiments show that anticipated access to information reduces depth of processing and metacognitive monitoring, potentially contributing to the \"shallow thinking\" phenomenon in information-rich environments.",
+      "abstract_zh": "当信息通过数字设备随时可获取时，这如何影响内部记忆形成和推理？我们的实验显示，预期可以获取信息会降低加工深度和元认知监控，可能导致信息丰富环境中的\"浅层思考\"现象。",
+      "journal_en": "Cognition",
+      "journal_zh": "认知",
+      "pub_date": "2025-01-05",
+      "impact_factor": 3.5,
+      "tags": [
+        "cognitive_offloading",
+        "memory",
+        "metacognition",
+        "digital_age"
+      ],
+      "relevance_score": 0.85
+    },
+    "analysis": {
+      "core_finding": "当人们知道信息能随时从数字设备中获取时，大脑会减少深度加工，导致记忆和思考变得浅层。",
+      "why_matters": "这解释了为何我们“收藏即学会”，却记不住内容。过度依赖外部存储，可能削弱我们深度思考、判断信息真伪和形成长期记忆的能力。",
+      "detailed_findings": "1.  **预期可获取性降低加工深度**：当人们预期信息稍后能轻易查到，大脑就不会费力去深入理解和记忆它。\n2.  **元认知监控减弱**：人们会高估自己对已查过信息的记忆程度，误以为“知道在哪里找”就等于“已经掌握”。\n3.  **促成“浅层思考”**：在信息唾手可得的环境中，这种认知卸载习惯可能导致思维流于表面，缺乏深度分析和整合。",
+      "methodology": "通过控制实验，精确比较了“信息可随时获取”与“信息仅一次性呈现”两种条件下，参与者的记忆表现与元认知判断。",
+      "inspiration": "在设计学习或知识管理系统时，需警惕便捷检索带来的“掌握幻觉”，应有意识地设计促进深度编码的环节。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-23T04:00:08.692761",
+    "model_used": "deepseek",
+    "slot": 1
+  },
+  {
+    "article": {
+      "id": "info_041",
+      "title_en": "Reward Prediction Errors in Addiction: fMRI Study of Cue Reactivity",
+      "title_zh": "成瘾中的奖励预测误差：线索反应性的fMRI研究",
+      "abstract_en": "Study found blunted reward prediction error signals in substance use disorder during reward anticipation but heightened cue reactivity, suggesting dissociable mechanisms.",
+      "abstract_zh": "研究发现物质使用障碍患者在奖励预期时奖励预测误差信号减弱，但线索反应性增强，暗示可分离的机制。",
+      "journal_en": "Biological Psychiatry",
+      "journal_zh": "生物精神病学",
+      "pub_date": "2024-11-15",
+      "impact_factor": 10.6,
+      "tags": [
+        "addiction",
+        "reward",
+        "fmri",
+        "neuroscience"
+      ],
+      "relevance_score": 0.87
+    },
+    "analysis": {
+      "core_finding": "研究发现，成瘾者大脑对“即将获得奖励”的期待信号变迟钝，但对“提示物”（如毒品相关线索）的反应却异常强烈，揭示了两种分离的神经机制。",
+      "why_matters": "这解释了为何成瘾者明知有害仍难以自拔：他们并非单纯“追求快感”，而是对相关线索（如特定场景、物品）过度敏感，这种“条件反射”般的反应在日常生活中也常见于刷手机、购物等行为。",
+      "detailed_findings": "1.  **奖励预测误差信号减弱**：成瘾者在期待奖励时，大脑多巴胺系统反应迟钝，这意味着真实的奖励带来的“惊喜感”和满足感降低了。\n2.  **线索反应性显著增强**：与成瘾相关的物品或场景（线索）却能强烈激活大脑的奖赏和渴求相关脑区，驱动寻求行为。\n3.  **两种机制相互分离**：研究证实，对奖励期待的迟钝与对线索的过度敏感是独立并存的，这挑战了成瘾仅是“追求快感”的简单观点。",
+      "methodology": "采用功能磁共振成像技术，在同一批成瘾者身上同时测量了奖励预测误差和线索反应性两种不同的神经信号，直接比较了其差异。",
+      "inspiration": "提示我们在研究任何成瘾性或习惯性行为时，需要区分“对结果的期待”和“对触发线索的反应”这两个不同层面，它们可能由不同机制驱动。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-23T04:00:17.295953",
+    "model_used": "deepseek",
+    "slot": 2
+  },
+  {
+    "article": {
+      "id": "info_026",
+      "title_en": "Online Social Support and Mental Health During the COVID-19 Pandemic",
+      "title_zh": "COVID-19疫情期间在线社会支持与心理健康",
+      "abstract_en": "Study found that online social support buffered the negative effects of social isolation on mental health, but passive scrolling without interaction showed no protective effects.",
+      "abstract_zh": "研究发现，在线社会支持缓冲了社会隔离对心理健康的负面影响，但没有互动的被动浏览没有显示保护效应。",
+      "journal_en": "Journal of Affective Disorders",
+      "journal_zh": "情感障碍杂志",
+      "pub_date": "2024-10-15",
+      "impact_factor": 6.6,
+      "tags": [
+        "social_support",
+        "mental_health",
+        "pandemic",
+        "online"
+      ],
+      "relevance_score": 0.85
+    },
+    "analysis": {
+      "core_finding": "研究发现，线上主动社交能缓冲隔离对心理的伤害，但单纯“潜水”浏览则毫无保护作用。",
+      "why_matters": "这提醒我们，在数字社交中，关键在于“有来有往”的互动。仅仅刷朋友圈而不交流，无法获得真正的心理支持。",
+      "detailed_findings": "1.  **互动是关键**：只有通过评论、私信等主动方式获得的线上社会支持，才能显著减轻孤独感和抑郁症状。\n2.  **被动浏览无效**：花大量时间被动浏览他人动态（如“潜水”刷社交媒体），对心理健康没有保护效果，甚至可能加剧社会比较带来的压力。\n3.  **缓冲隔离压力**：在疫情隔离期间，高质量的线上互动能有效缓冲因线下接触减少所带来的心理冲击。",
+      "methodology": "研究采用了纵向追踪设计，在疫情不同阶段多次测量，能更可靠地揭示社交行为与心理健康之间的因果关系。",
+      "inspiration": "在设计数字健康干预方案时，应着重激励用户进行主动、有意义的互动，而非仅仅增加其被动使用时间。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-23T04:00:23.628781",
+    "model_used": "deepseek",
+    "slot": 3
+  },
+  {
+    "article": {
+      "id": "info_030",
+      "title_en": "Virtual Reality Exposure Therapy for Social Anxiety: A Meta-Analysis",
+      "title_zh": "虚拟现实暴露疗法治疗社交焦虑：一项元分析",
+      "abstract_en": "Meta-analysis of 32 trials found VR exposure therapy was as effective as in-vivo exposure for social anxiety, with higher acceptability and lower dropout rates.",
+      "abstract_zh": "对32项试验的元分析发现，虚拟现实暴露疗法对社交焦虑与现场暴露同样有效，接受度更高，退出率更低。",
+      "journal_en": "Journal of Anxiety Disorders",
+      "journal_zh": "焦虑障碍杂志",
+      "pub_date": "2025-02-05",
+      "impact_factor": 5.6,
+      "tags": [
+        "VR",
+        "exposure_therapy",
+        "social_anxiety",
+        "meta_analysis"
+      ],
+      "relevance_score": 0.82
+    },
+    "analysis": {
+      "core_finding": "虚拟现实暴露疗法治疗社交焦虑的效果与真实场景暴露相当，且参与者更易接受、更少中途退出。",
+      "why_matters": "对于害怕公开演讲、社交场合紧张的人来说，这提供了一种更易开始、私密且有效的练习方式，能帮助人们在安全可控的环境中逐步克服恐惧。",
+      "detailed_findings": "1.  **疗效等同**：在减轻社交焦虑症状方面，虚拟现实暴露疗法与传统的真实场景暴露疗法效果没有显著差异。\n2.  **接受度更高**：相比直面真实社交压力，人们更愿意尝试在虚拟环境中进行练习，治疗方案的吸引力更强。\n3.  **脱落率更低**：使用虚拟现实进行治疗时，患者中途放弃的比例显著低于传统暴露疗法，保证了治疗的完成度。",
+      "methodology": "研究整合了32项临床试验的数据，通过荟萃分析提供了高等级证据，结论可靠。",
+      "inspiration": "启示我们可利用技术（如VR）来降低心理干预的门槛，在设计干预方案时需高度重视用户的接受度和坚持意愿。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-23T04:00:30.308918",
+    "model_used": "deepseek",
+    "slot": 4
+  },
+  {
+    "article": {
+      "id": "info_044",
+      "title_en": "Cross-Cultural Differences in Emotional Expression: Neuroimaging Evidence",
+      "title_zh": "情绪表达的跨文化差异：神经影像证据",
+      "abstract_en": "Cross-cultural fMRI study revealed differential amygdala-prefrontal connectivity during emotion suppression between East Asian and Western participants.",
+      "abstract_zh": "跨文化fMRI研究揭示了东亚和西方参与者在情绪压抑期间杏仁核-前额叶连接的差异。",
+      "journal_en": "Social Cognitive and Affective Neuroscience",
+      "journal_zh": "社会认知与情感神经科学",
+      "pub_date": "2024-11-30",
+      "impact_factor": 4.1,
+      "tags": [
+        "cross_cultural",
+        "emotion",
+        "neuroscience",
+        "culture"
+      ],
+      "relevance_score": 0.86
+    },
+    "analysis": {
+      "core_finding": "东西方人在抑制情绪时，大脑中负责情绪的杏仁核与负责控制的前额叶的连接方式存在根本性差异。",
+      "why_matters": "这解释了为何不同文化背景的人处理情绪的方式不同。了解这一点，能帮助我们在跨国团队合作或跨文化交流中，更好地理解彼此的情绪反应，减少误解。",
+      "detailed_findings": "1.  **神经连接模式不同**：西方人在抑制情绪时，杏仁核与前额叶的“对话”更强，表明他们更依赖主动的认知控制来压抑情绪。\n2.  **东亚人更早调节**：东亚参与者可能更早地在情绪产生阶段就进行调节，表现为不同的神经活动模式，反映了文化对情绪表达规范的深刻内化。\n3.  **文化塑造大脑**：该研究提供了直接证据，表明长期的文化实践（如强调情绪克制或表达）能够塑造大脑功能连接的基本方式。",
+      "methodology": "研究采用功能磁共振成像技术，直接比较了东西方人群在执行相同情绪抑制任务时的大脑活动差异，设计严谨。",
+      "inspiration": "在进行任何涉及情绪或社会认知的研究时，必须将文化背景作为关键变量纳入考量，否则结论可能具有局限性。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-23T04:00:37.313140",
+    "model_used": "deepseek",
+    "slot": 5
+  },
+  {
+    "article": {
+      "id": "info_028",
+      "title_en": "Nomophobia: Prevalence and Correlates of Smartphone Separation Anxiety",
+      "title_zh": "无手机恐惧症：手机分离焦虑的患病率及相关因素",
+      "abstract_en": "Survey of 2,500 adults found that 66% showed moderate to severe nomophobia. Higher levels were associated with younger age, higher daily phone use, and lower face-to-face social interaction.",
+      "abstract_zh": "对2500名成年人的调查发现，66%表现出中度至重度无手机恐惧症。较高水平与年轻、更高日常手机使用和较低面对面社交互动相关。",
+      "journal_en": "Computers in Human Behavior",
+      "journal_zh": "计算机与人类行为",
+      "pub_date": "2024-11-10",
+      "impact_factor": 9.9,
+      "tags": [
+        "nomophobia",
+        "anxiety",
+        "smartphone",
+        "addiction"
+      ],
+      "relevance_score": 0.86
+    },
+    "analysis": {
+      "core_finding": "研究发现，高达66%的成年人存在中度至严重的“无手机恐惧症”，即对与智能手机分离感到焦虑。",
+      "why_matters": "这不仅是“手机依赖”，更是一种普遍存在的分离焦虑。它直接影响我们的情绪稳定和线下社交质量，理解它有助于我们更健康地管理数字生活。",
+      "detailed_findings": "1.  **普遍性高**：调查的2500名成人中，三分之二的人有中重度症状，表明“无手机焦虑”已成为一个普遍的心理现象。\n2.  **年轻群体更易感**：年龄越小，无手机恐惧症的水平越高，凸显了数字原住民一代面临的独特心理挑战。\n3.  **与使用习惯和社交相关**：症状严重程度与每日手机使用时长正相关，与面对面社交互动频率负相关，揭示了行为模式的关键影响。",
+      "methodology": "研究基于大规模成人样本（2",
+      "inspiration": "可以深入探究“无手机恐惧”背后的具体心理机制，例如是源于错失恐惧、身份认同缺失，还是其他深层焦虑。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-23T04:00:43.925606",
+    "model_used": "deepseek",
+    "slot": 6
+  },
+  {
+    "article": {
+      "id": "info_043",
+      "title_en": "The Psychology of Nudging: Behavioral Interventions in Public Policy",
+      "title_zh": "助推心理学：公共政策中的行为干预",
+      "abstract_en": "Large-scale field experiment (N=50,000) found choice architecture interventions effectively promoted healthy behaviors, but effects diminished over time without reinforcement.",
+      "abstract_zh": "大规模现场实验（N=50000）发现，选择架构干预有效促进了健康行为，但没有强化时效应随时间减弱。",
+      "journal_en": "Behavioral Public Policy",
+      "journal_zh": "行为公共政策",
+      "pub_date": "2025-01-18",
+      "impact_factor": 4.8,
+      "tags": [
+        "nudge",
+        "behavioral_economics",
+        "public_policy",
+        "intervention"
+      ],
+      "relevance_score": 0.84
+    },
+    "analysis": {
+      "core_finding": "一项大规模实验发现，“助推”策略能有效引导公众健康行为，但其效果会随时间推移而减弱，需要持续强化。",
+      "why_matters": "这项研究提醒我们，无论是个人习惯养成还是公共政策设计，单次的“轻推”并不足以带来持久改变，持续的支持与环境设计才是关键。",
+      "detailed_findings": "1.  **助推有效**：通过巧妙设计选择环境（如调整选项顺序或提供默认选项），能显著促使人们做出更健康的选择。\n2.  **效果会衰减**：如果没有后续的强化措施，这种行为的改变难以长期维持，人们可能会逐渐回到旧习惯。\n3.  **需要持续干预**：要实现行为的持久转变，不能仅依赖一次性的助推，需要结合周期性的提醒或环境支持。",
+      "methodology": "研究采用大规模实地实验，样本量达",
+      "inspiration": "在设计行为干预项目时，必须规划好维持阶段，将一次性“助推”转化为可持续的“支持系统”。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-23T04:00:50.423498",
+    "model_used": "deepseek",
+    "slot": 7
+  },
+  {
+    "article": {
+      "id": "info_029",
+      "title_en": "The Role of Self-Control in Managing Digital Distractions",
+      "title_zh": "自我控制在管理数字干扰中的作用",
+      "abstract_en": "Study found that trait self-control predicted better management of digital distractions, but environmental modifications (e.g., app blockers) were more effective for those with low self-control.",
+      "abstract_zh": "研究发现，特质自我控制预测了更好的数字干扰管理，但环境修改（如应用拦截器）对低自我控制者更有效。",
+      "journal_en": "Personality and Individual Differences",
+      "journal_zh": "个性与个体差异",
+      "pub_date": "2024-12-25",
+      "impact_factor": 3.8,
+      "tags": [
+        "self_control",
+        "distraction",
+        "digital",
+        "intervention"
+      ],
+      "relevance_score": 0.84
+    },
+    "analysis": {
+      "core_finding": "研究发现，自控力强的人更能管理数字干扰，但对自控力弱的人而言，直接改造环境（如使用应用拦截器）效果更显著。",
+      "why_matters": "在信息过载的今天，每个人都面临数字分心。这项研究提供了实用策略：与其单纯依赖意志力，不如主动优化环境，这对提升工作学习效率至关重要。",
+      "detailed_findings": "1.  **特质自控力是关键预测指标**：天生自控力强的人，在日常生活中更善于主动抵御手机通知、社交媒体等数字干扰。\n2.  **环境干预是有效的“外挂”**：对于自控力较弱的人群，使用应用拦截器、设置勿扰模式等环境改造方法，比单纯要求他们“更自律”效果更好。\n3.  **策略需因人而异**：有效的数字干扰管理不是“一刀切”，需要根据个人自控力水平，匹配不同的策略（依赖自身特质或借助外部工具）。",
+      "methodology": "研究区分了“个人特质”与“环境干预”的不同作用，并通过实证比较了二者对不同人群的效果，设计严谨。",
+      "inspiration": "在行为干预研究中，应考虑将个体差异（如自控力）作为关键变量，评估不同措施对异质性人群的差异化效果。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-23T04:00:58.043439",
+    "model_used": "deepseek",
+    "slot": 8
+  },
+  {
+    "article": {
+      "id": "info_046",
+      "title_en": "Development of Theory of Mind in Children: A Longitudinal Neuroimaging Study",
+      "title_zh": "儿童心理理论的发展：一项纵向神经影像研究",
+      "abstract_en": "Longitudinal fMRI study (ages 4-12) tracked maturation of theory of mind network, finding temporo-parietal junction activation precedes mature mental state reasoning.",
+      "abstract_zh": "纵向fMRI研究（4-12岁）追踪了心理理论网络的成熟，发现颞顶联合激活先于成熟的心理状态推理。",
+      "journal_en": "Developmental Cognitive Neuroscience",
+      "journal_zh": "发展认知神经科学",
+      "pub_date": "2024-12-05",
+      "impact_factor": 4.5,
+      "tags": [
+        "development",
+        "theory_of_mind",
+        "children",
+        "neuroscience"
+      ],
+      "relevance_score": 0.85
+    },
+    "analysis": {
+      "core_finding": "儿童理解他人想法的能力，其大脑发育的关键在于颞顶联合区，这一区域的成熟是高级心智解读能力的基础。",
+      "why_matters": "这项研究揭示了孩子如何学会“换位思考”。了解这个过程，能帮助家长和老师更科学地引导孩子的社交与情绪发展，理解他们成长中的困惑与冲突。",
+      "detailed_findings": "1.  **发育顺序明确**：大脑颞顶联合区的激活，是儿童发展出成熟心智理论（即理解他人想法）的先行指标。\n2.  **网络逐步成熟**：从",
+      "methodology": "研究采用长达八年的纵向追踪设计，结合功能磁共振成像，能清晰描绘大脑心智网络随年龄增长的动态变化过程。",
+      "inspiration": "对于发展心理学或教育学研究，关注特定脑区的发育时序，可能比单纯测试行为表现更能预测和解释个体能力差异。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-23T04:01:05.130847",
+    "model_used": "deepseek",
+    "slot": 9
+  },
+  {
+    "article": {
+      "id": "info_039",
+      "title_en": "Metacognitive Awareness in Learning: The Role of Self-Explanation",
+      "title_zh": "学习中的元认知意识：自我解释的作用",
+      "abstract_en": "Experimental study showed self-explanation prompts improved metacognitive calibration and transfer of learning, with effects mediated by increased processing depth.",
+      "abstract_zh": "实验研究显示，自我解释提示改善了元认知校准和学习迁移，效应由加工深度增加所中介。",
+      "journal_en": "Journal of Educational Psychology",
+      "journal_zh": "教育心理学杂志",
+      "pub_date": "2025-01-05",
+      "impact_factor": 5.6,
+      "tags": [
+        "metacognition",
+        "learning",
+        "education",
+        "self_regulation"
+      ],
+      "relevance_score": 0.85
+    },
+    "analysis": {
+      "core_finding": "在学习时主动“讲给自己听”，不仅能提升对知识的掌握程度，还能让你更准确地判断自己学会了没有。",
+      "why_matters": "这项研究为高效学习提供了简单有效的方法。无论是学生备考，还是职场人学习新技能，通过自我解释来加深理解，都能事半功倍，避免“我以为我会了”的错觉。",
+      "detailed_findings": "1.  **促进元认知校准**：自我解释提示帮助学习者更准确地评估自己的理解水平，减少了“不懂装懂”或过度自信的情况。\n2.  **增强学习迁移**：通过自我解释深加工知识的学生，更能将所学灵活应用到新问题或新情境中，举一反三能力更强。\n3.  **深度加工是关键**：自我解释之所以有效，核心在于它迫使学习者进行更深层次的信息加工，从而建立了更牢固、更灵活的知识结构。",
+      "methodology": "研究通过实验设计，清晰揭示了“自我解释→深度加工→元认知与迁移能力提升”这一因果链条，验证了过程机制。",
+      "inspiration": "在学习和复习中，有意识地向自己提问“为什么是这样？”并尝试解释，是提升学习深度和效果的低成本高回报策略。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-23T04:01:11.683504",
+    "model_used": "deepseek",
+    "slot": 10
+  }
+]

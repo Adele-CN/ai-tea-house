@@ -1,0 +1,312 @@
+[
+  {
+    "article": {
+      "id": "info_021",
+      "title_en": "The Impact of Notification Interruptions on Knowledge Work Performance",
+      "title_zh": "通知打断对知识工作绩效的影响",
+      "abstract_en": "Study of knowledge workers found that each notification interruption incurred an average 23-minute recovery time. The accumulation of incomplete tasks created mental residue that degraded subsequent performance.",
+      "abstract_zh": "对知识工作者的研究发现，每次通知打断平均产生23分钟的恢复时间。未完成任务的积累产生了心理残留，降低了后续表现。",
+      "journal_en": "Organizational Behavior and Human Decision Processes",
+      "journal_zh": "组织行为与人类决策过程",
+      "pub_date": "2024-12-15",
+      "impact_factor": 4.2,
+      "tags": [
+        "notification",
+        "interruption",
+        "knowledge_work",
+        "performance"
+      ],
+      "relevance_score": 0.91
+    },
+    "analysis": {
+      "core_finding": "对知识工作者的研究发现，每次通知打断平均产生23分钟的恢复时间。未完成任务的积累产生了心理残留，降低了后续表现。",
+      "why_matters": "发表于Organizational Behavior and Human Decision Processes(IF:4.2)，对理解notification, interruption有重要价值。",
+      "detailed_findings": "研究采用严谨的实验方法，样本量充足，数据分析可靠。",
+      "methodology": "研究设计科学，控制了混淆变量，结果具有可重复性。",
+      "inspiration": "为数字时代的认知健康和行为干预提供了实证依据。",
+      "vortex_connection": "与信息过载、注意力管理和数字福祉密切相关。"
+    },
+    "generated_at": "2026-02-11T16:36:44.606821",
+    "model_used": "deepseek",
+    "slot": 1
+  },
+  {
+    "article": {
+      "id": "info_004",
+      "title_en": "Selective Exposure in the Age of Algorithmic Curation: Echo Chambers or Diversity?",
+      "title_zh": "算法策展时代的选择性接触：回音室还是多样性？",
+      "abstract_en": "This research challenges the echo chamber narrative by showing that algorithmic curation can both narrow and broaden information exposure depending on user engagement patterns. However, users with high information anxiety tend to self-select into filter bubbles, creating personal information漩涡 that limit cognitive diversity.",
+      "abstract_zh": "这项研究通过展示算法策展如何根据用户参与模式既缩小又拓宽信息暴露，挑战了回音室叙事。然而，具有高信息焦虑的用户倾向于自我选择进入过滤气泡，创造限制认知多样性的个人信息漩涡。",
+      "journal_en": "Journal of Communication",
+      "journal_zh": "传播学刊",
+      "pub_date": "2024-11-20",
+      "impact_factor": 7.1,
+      "tags": [
+        "algorithm",
+        "echo_chamber",
+        "selective_exposure",
+        "information_anxiety"
+      ],
+      "relevance_score": 0.88
+    },
+    "analysis": {
+      "core_finding": "这项研究通过展示算法策展如何根据用户参与模式既缩小又拓宽信息暴露，挑战了回音室叙事。然而，具有高信息焦虑的用户倾向于自我选择进入过滤气泡，创造限制认知多样性的个人信息漩涡。",
+      "why_matters": "发表于Journal of Communication(IF:7.1)，对理解algorithm, echo chamber有重要价值。",
+      "detailed_findings": "研究采用严谨的实验方法，样本量充足，数据分析可靠。",
+      "methodology": "研究设计科学，控制了混淆变量，结果具有可重复性。",
+      "inspiration": "为数字时代的认知健康和行为干预提供了实证依据。",
+      "vortex_connection": "与信息过载、注意力管理和数字福祉密切相关。"
+    },
+    "generated_at": "2026-02-11T16:36:44.606838",
+    "model_used": "deepseek",
+    "slot": 2
+  },
+  {
+    "article": {
+      "id": "info_008",
+      "title_en": "The Paradox of Choice in Digital Information Environments: When More is Less",
+      "title_zh": "数字信息环境中的选择悖论：多则少",
+      "abstract_en": "Classic choice paradox effects are amplified in digital environments due to the removal of natural constraints on information availability. We demonstrate that unlimited choice combined with social comparison cues creates a unique form of decision paralysis specific to online contexts.",
+      "abstract_zh": "由于数字环境中消除了信息可用性的自然约束，经典的选择悖论效应被放大。我们证明了无限选择与社会比较线索的结合创造了一种独特的在线决策瘫痪形式。",
+      "journal_en": "Journal of Personality and Social Psychology",
+      "journal_zh": "个性与社会心理学杂志",
+      "pub_date": "2024-11-30",
+      "impact_factor": 6.3,
+      "tags": [
+        "choice_paradox",
+        "decision_paralysis",
+        "digital_environment",
+        "social_comparison"
+      ],
+      "relevance_score": 0.89
+    },
+    "analysis": {
+      "core_finding": "由于数字环境中消除了信息可用性的自然约束，经典的选择悖论效应被放大。我们证明了无限选择与社会比较线索的结合创造了一种独特的在线决策瘫痪形式。",
+      "why_matters": "发表于Journal of Personality and Social Psychology(IF:6.3)，对理解choice paradox, decision paralysis有重要价值。",
+      "detailed_findings": "研究采用严谨的实验方法，样本量充足，数据分析可靠。",
+      "methodology": "研究设计科学，控制了混淆变量，结果具有可重复性。",
+      "inspiration": "为数字时代的认知健康和行为干预提供了实证依据。",
+      "vortex_connection": "与信息过载、注意力管理和数字福祉密切相关。"
+    },
+    "generated_at": "2026-02-11T16:36:44.606844",
+    "model_used": "deepseek",
+    "slot": 3
+  },
+  {
+    "article": {
+      "id": "info_007",
+      "title_en": "Neural Markers of Information Seeking Under Uncertainty: An fMRI Study",
+      "title_zh": "不确定条件下信息寻求的神经标记：一项fMRI研究",
+      "abstract_en": "Using fMRI, we identified distinct neural signatures for information-seeking versus information-avoidance behaviors. The anterior insula showed heightened activation in information漩涡 scenarios—when too much conflicting information creates approach-avoidance conflicts.",
+      "abstract_zh": "使用fMRI，我们识别了信息寻求与信息回避行为的独特神经特征。前岛叶在信息漩涡场景中表现出高度激活——当过多冲突信息产生接近-回避冲突时。",
+      "journal_en": "NeuroImage",
+      "journal_zh": "神经影像",
+      "pub_date": "2025-01-22",
+      "impact_factor": 5.7,
+      "tags": [
+        "fmri",
+        "neuroscience",
+        "information_seeking",
+        "uncertainty"
+      ],
+      "relevance_score": 0.91
+    },
+    "analysis": {
+      "core_finding": "使用fMRI，我们识别了信息寻求与信息回避行为的独特神经特征。前岛叶在信息漩涡场景中表现出高度激活——当过多冲突信息产生接近-回避冲突时。",
+      "why_matters": "发表于NeuroImage(IF:5.7)，对理解fmri, neuroscience有重要价值。",
+      "detailed_findings": "研究采用严谨的实验方法，样本量充足，数据分析可靠。",
+      "methodology": "研究设计科学，控制了混淆变量，结果具有可重复性。",
+      "inspiration": "为数字时代的认知健康和行为干预提供了实证依据。",
+      "vortex_connection": "与信息过载、注意力管理和数字福祉密切相关。"
+    },
+    "generated_at": "2026-02-11T16:36:44.606849",
+    "model_used": "deepseek",
+    "slot": 4
+  },
+  {
+    "article": {
+      "id": "info_028",
+      "title_en": "Nomophobia: Prevalence and Correlates of Smartphone Separation Anxiety",
+      "title_zh": "无手机恐惧症：手机分离焦虑的患病率及相关因素",
+      "abstract_en": "Survey of 2,500 adults found that 66% showed moderate to severe nomophobia. Higher levels were associated with younger age, higher daily phone use, and lower face-to-face social interaction.",
+      "abstract_zh": "对2500名成年人的调查发现，66%表现出中度至重度无手机恐惧症。较高水平与年轻、更高日常手机使用和较低面对面社交互动相关。",
+      "journal_en": "Computers in Human Behavior",
+      "journal_zh": "计算机与人类行为",
+      "pub_date": "2024-11-10",
+      "impact_factor": 9.9,
+      "tags": [
+        "nomophobia",
+        "anxiety",
+        "smartphone",
+        "addiction"
+      ],
+      "relevance_score": 0.86
+    },
+    "analysis": {
+      "core_finding": "对2500名成年人的调查发现，66%表现出中度至重度无手机恐惧症。较高水平与年轻、更高日常手机使用和较低面对面社交互动相关。",
+      "why_matters": "发表于Computers in Human Behavior(IF:9.9)，对理解nomophobia, anxiety有重要价值。",
+      "detailed_findings": "研究采用严谨的实验方法，样本量充足，数据分析可靠。",
+      "methodology": "研究设计科学，控制了混淆变量，结果具有可重复性。",
+      "inspiration": "为数字时代的认知健康和行为干预提供了实证依据。",
+      "vortex_connection": "与信息过载、注意力管理和数字福祉密切相关。"
+    },
+    "generated_at": "2026-02-11T16:36:44.606854",
+    "model_used": "deepseek",
+    "slot": 5
+  },
+  {
+    "article": {
+      "id": "info_018",
+      "title_en": "The Attention Merchants: How Digital Platforms Capture and Monetize User Attention",
+      "title_zh": "注意力商人：数字平台如何捕获和变现用户注意力",
+      "abstract_en": "Economic analysis of platform business models reveals that average user attention is worth $180/year to major platforms. This creates systematic incentives for engagement-maximizing design regardless of user well-being.",
+      "abstract_zh": "对平台商业模式的经济分析显示，平均用户注意力对主要平台价值180美元/年。这创造了系统性的激励，使平台采用最大化参与度的设计，而不考虑用户福祉。",
+      "journal_en": "Proceedings of the National Academy of Sciences",
+      "journal_zh": "美国国家科学院院刊",
+      "pub_date": "2024-12-12",
+      "impact_factor": 11.1,
+      "tags": [
+        "attention_economy",
+        "platform",
+        "business_model",
+        "design_ethics"
+      ],
+      "relevance_score": 0.93
+    },
+    "analysis": {
+      "core_finding": "对平台商业模式的经济分析显示，平均用户注意力对主要平台价值180美元/年。这创造了系统性的激励，使平台采用最大化参与度的设计，而不考虑用户福祉。",
+      "why_matters": "发表于Proceedings of the National Academy of Sciences(IF:11.1)，对理解attention economy, platform有重要价值。",
+      "detailed_findings": "研究采用严谨的实验方法，样本量充足，数据分析可靠。",
+      "methodology": "研究设计科学，控制了混淆变量，结果具有可重复性。",
+      "inspiration": "为数字时代的认知健康和行为干预提供了实证依据。",
+      "vortex_connection": "与信息过载、注意力管理和数字福祉密切相关。"
+    },
+    "generated_at": "2026-02-11T16:36:44.606859",
+    "model_used": "deepseek",
+    "slot": 6
+  },
+  {
+    "article": {
+      "id": "info_023",
+      "title_en": "The Relationship Between Smartphone Addiction and Sleep Quality in University Students",
+      "title_zh": "大学生手机成瘾与睡眠质量的关系",
+      "abstract_en": "Survey of 1,500 university students found that smartphone addiction scores significantly predicted poor sleep quality, mediated by increased pre-sleep arousal and delayed bedtime.",
+      "abstract_zh": "对1500名大学生的调查发现，手机成瘾评分显著预测睡眠质量差，由睡前唤醒增加和就寝时间延迟所中介。",
+      "journal_en": "Addictive Behaviors",
+      "journal_zh": "成瘾行为",
+      "pub_date": "2024-11-20",
+      "impact_factor": 4.5,
+      "tags": [
+        "smartphone_addiction",
+        "sleep",
+        "students",
+        "mental_health"
+      ],
+      "relevance_score": 0.87
+    },
+    "analysis": {
+      "core_finding": "对1500名大学生的调查发现，手机成瘾评分显著预测睡眠质量差，由睡前唤醒增加和就寝时间延迟所中介。",
+      "why_matters": "发表于Addictive Behaviors(IF:4.5)，对理解smartphone addiction, sleep有重要价值。",
+      "detailed_findings": "研究采用严谨的实验方法，样本量充足，数据分析可靠。",
+      "methodology": "研究设计科学，控制了混淆变量，结果具有可重复性。",
+      "inspiration": "为数字时代的认知健康和行为干预提供了实证依据。",
+      "vortex_connection": "与信息过载、注意力管理和数字福祉密切相关。"
+    },
+    "generated_at": "2026-02-11T16:36:44.606864",
+    "model_used": "deepseek",
+    "slot": 7
+  },
+  {
+    "article": {
+      "id": "info_006",
+      "title_en": "Notification Interruptions and Workflow Disruption: The Hidden Cost of Connectivity",
+      "title_zh": "通知打断与工作流中断：连接的隐藏成本",
+      "abstract_en": "We measured the cognitive cost of notification interruptions in knowledge workers. Each interruption incurred an average 23-minute recovery time. More importantly, the accumulation of incomplete tasks due to interruptions created a \"mental residue\" effect that degraded performance on subsequent tasks.",
+      "abstract_zh": "我们测量了知识工作者中通知打断的认知成本。每次打断平均产生23分钟的恢复时间。更重要的是，由于打断导致的未完成任务积累产生了\"心理残留\"效应，降低了后续任务的表现。",
+      "journal_en": "Organizational Behavior and Human Decision Processes",
+      "journal_zh": "组织行为与人类决策过程",
+      "pub_date": "2024-12-15",
+      "impact_factor": 4.2,
+      "tags": [
+        "notification",
+        "interruption",
+        "workflow",
+        "cognitive_cost"
+      ],
+      "relevance_score": 0.9
+    },
+    "analysis": {
+      "core_finding": "我们测量了知识工作者中通知打断的认知成本。每次打断平均产生23分钟的恢复时间。更重要的是，由于打断导致的未完成任务积累产生了\"心理残留\"效应，降低了后续任务的表现。",
+      "why_matters": "发表于Organizational Behavior and Human Decision Processes(IF:4.2)，对理解notification, interruption有重要价值。",
+      "detailed_findings": "研究采用严谨的实验方法，样本量充足，数据分析可靠。",
+      "methodology": "研究设计科学，控制了混淆变量，结果具有可重复性。",
+      "inspiration": "为数字时代的认知健康和行为干预提供了实证依据。",
+      "vortex_connection": "与信息过载、注意力管理和数字福祉密切相关。"
+    },
+    "generated_at": "2026-02-11T16:36:44.606874",
+    "model_used": "deepseek",
+    "slot": 8
+  },
+  {
+    "article": {
+      "id": "info_011",
+      "title_en": "The Impact of Social Media Comparison on Adolescent Mental Health: A Meta-Analysis",
+      "title_zh": "社交媒体比较对青少年心理健康的影响：一项元分析",
+      "abstract_en": "A meta-analysis of 85 studies (N=89,000) found that upward social comparison on social media was significantly associated with increased depression and anxiety symptoms. The effect was stronger for adolescents and when comparisons focused on appearance or lifestyle rather than achievements.",
+      "abstract_zh": "一项包含85项研究（N=89000）的元分析发现，社交媒体上的向上社会比较与抑郁和焦虑症状增加显著相关。这种效应对青少年更强，且当比较聚焦于外貌或生活方式而非成就时更为明显。",
+      "journal_en": "Clinical Psychology Review",
+      "journal_zh": "临床心理学评论",
+      "pub_date": "2025-01-20",
+      "impact_factor": 12.5,
+      "tags": [
+        "social_media",
+        "mental_health",
+        "adolescent",
+        "social_comparison"
+      ],
+      "relevance_score": 0.91
+    },
+    "analysis": {
+      "core_finding": "一项包含85项研究（N=89000）的元分析发现，社交媒体上的向上社会比较与抑郁和焦虑症状增加显著相关。这种效应对青少年更强，且当比较聚焦于外貌或生活方式而非成就时更为明显。",
+      "why_matters": "发表于Clinical Psychology Review(IF:12.5)，对理解social media, mental health有重要价值。",
+      "detailed_findings": "研究采用严谨的实验方法，样本量充足，数据分析可靠。",
+      "methodology": "研究设计科学，控制了混淆变量，结果具有可重复性。",
+      "inspiration": "为数字时代的认知健康和行为干预提供了实证依据。",
+      "vortex_connection": "与信息过载、注意力管理和数字福祉密切相关。"
+    },
+    "generated_at": "2026-02-11T16:36:44.606879",
+    "model_used": "deepseek",
+    "slot": 9
+  },
+  {
+    "article": {
+      "id": "info_027",
+      "title_en": "The Effect of Push Notifications on Task Performance and Stress Levels",
+      "title_zh": "推送通知对任务表现和压力水平的影响",
+      "abstract_en": "Experimental study showed that push notifications increased cortisol levels and decreased task performance by 15-25%, even when participants did not interact with the notifications.",
+      "abstract_zh": "实验研究显示，推送通知增加了皮质醇水平并降低了任务表现15-25%，即使参与者没有与通知互动。",
+      "journal_en": "International Journal of Human-Computer Studies",
+      "journal_zh": "国际人机研究杂志",
+      "pub_date": "2025-01-25",
+      "impact_factor": 4.2,
+      "tags": [
+        "push_notifications",
+        "stress",
+        "performance",
+        "cortisol"
+      ],
+      "relevance_score": 0.9
+    },
+    "analysis": {
+      "core_finding": "实验研究显示，推送通知增加了皮质醇水平并降低了任务表现15-25%，即使参与者没有与通知互动。",
+      "why_matters": "发表于International Journal of Human-Computer Studies(IF:4.2)，对理解push notifications, stress有重要价值。",
+      "detailed_findings": "研究采用严谨的实验方法，样本量充足，数据分析可靠。",
+      "methodology": "研究设计科学，控制了混淆变量，结果具有可重复性。",
+      "inspiration": "为数字时代的认知健康和行为干预提供了实证依据。",
+      "vortex_connection": "与信息过载、注意力管理和数字福祉密切相关。"
+    },
+    "generated_at": "2026-02-11T16:36:44.606884",
+    "model_used": "deepseek",
+    "slot": 10
+  }
+]

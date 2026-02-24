@@ -1,0 +1,312 @@
+[
+  {
+    "article": {
+      "id": "info_033",
+      "title_en": "Neuroplasticity Changes Following 8-Week Mindfulness Meditation: A Longitudinal fMRI Study",
+      "title_zh": "8周正念冥想后的神经可塑性变化：一项纵向fMRI研究",
+      "abstract_en": "Longitudinal fMRI study showed increased gray matter density in hippocampus and decreased amygdala reactivity after 8-week MBSR program, with changes correlating with stress reduction.",
+      "abstract_zh": "纵向fMRI研究显示，8周MBSR项目后海马灰质密度增加，杏仁核反应性降低，这些变化与压力减轻相关。",
+      "journal_en": "Psychiatry Research: Neuroimaging",
+      "journal_zh": "精神病学研究：神经影像",
+      "pub_date": "2024-12-20",
+      "impact_factor": 3.2,
+      "tags": [
+        "mindfulness",
+        "neuroplasticity",
+        "fmri",
+        "meditation"
+      ],
+      "relevance_score": 0.91
+    },
+    "analysis": {
+      "core_finding": "坚持8周正念冥想，能重塑大脑：增强记忆相关脑区，同时削弱压力反应中枢。",
+      "why_matters": "这为“静心能减压”提供了科学证据。每天花点时间练习，可能从生理上改变大脑结构，帮助我们更从容地应对日常压力与情绪波动。",
+      "detailed_findings": "1.  **海马体变“强壮”**：负责学习和记忆的关键脑区——海马体的灰质密度增加，这可能有助于提升记忆力和情绪调节能力。\n2.  **杏仁核变“安静”**：与恐惧、压力反应密切相关的杏仁核，其活跃度降低，意味着对负面刺激的过度反应可能减弱。\n3.  **变化与减压同步**：上述大脑结构的积极改变，与参与者实际感受到的压力水平下降显著相关，证实了身心改变的关联性。",
+      "methodology": "采用纵向追踪设计，在8周训练前后对同一批人进行脑部扫描，能更可靠地揭示冥想引起的动态变化。",
+      "inspiration": "对于探索身心干预（如冥想、运动）效果的研究，结合脑成像与主观报告，能更全面地评估其效益与机制。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-20T04:00:09.172077",
+    "model_used": "deepseek",
+    "slot": 1
+  },
+  {
+    "article": {
+      "id": "info_006",
+      "title_en": "Notification Interruptions and Workflow Disruption: The Hidden Cost of Connectivity",
+      "title_zh": "通知打断与工作流中断：连接的隐藏成本",
+      "abstract_en": "We measured the cognitive cost of notification interruptions in knowledge workers. Each interruption incurred an average 23-minute recovery time. More importantly, the accumulation of incomplete tasks due to interruptions created a \"mental residue\" effect that degraded performance on subsequent tasks.",
+      "abstract_zh": "我们测量了知识工作者中通知打断的认知成本。每次打断平均产生23分钟的恢复时间。更重要的是，由于打断导致的未完成任务积累产生了\"心理残留\"效应，降低了后续任务的表现。",
+      "journal_en": "Organizational Behavior and Human Decision Processes",
+      "journal_zh": "组织行为与人类决策过程",
+      "pub_date": "2024-12-15",
+      "impact_factor": 4.2,
+      "tags": [
+        "notification",
+        "interruption",
+        "workflow",
+        "cognitive_cost"
+      ],
+      "relevance_score": 0.9
+    },
+    "analysis": {
+      "core_finding": "一条通知打断后，知识工作者平均需要",
+      "why_matters": "我们每天被各种应用通知频繁打断，这项研究量化了其隐藏代价：它不仅偷走你当下的时间，更会留下“认知债务”，让你后续工作效率持续打折。",
+      "detailed_findings": "1. **恢复成本巨大**：每次被通知打断后，平均需要23分钟才能重新完全投入原任务，远超打断本身的几秒钟。\n2. **产生“思维残留”**：被打断而未完成的任务会占据心理资源，形成干扰性的背景思绪。\n3. **累积效应损害表现**：这种“残留”会不断累积，导致后续任务的完成质量和效率显著下降。",
+      "methodology": "研究通过精细的日志追踪与认知任务测试，客观量化了“恢复期”与“残留效应”，避免了自我报告的偏差。",
+      "inspiration": "主动管理通知，如设定“免打扰时段”，批量处理消息，能有效减少思维残留，保护深度工作所需的连续认知资源。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-20T04:00:16.063004",
+    "model_used": "deepseek",
+    "slot": 2
+  },
+  {
+    "article": {
+      "id": "info_056",
+      "title_en": "Stress and Health: Biological Pathways and Psychological Interventions",
+      "title_zh": "压力与健康：生物学途径与心理干预",
+      "abstract_en": "Comprehensive review of biopsychosocial models linking stress to health outcomes, with emphasis on immune function, inflammatory processes, and evidence-based stress management interventions.",
+      "abstract_zh": "全面综述了将压力与健康结果联系起来的生物心理社会模型，强调免疫功能、炎症过程以及循证压力管理干预。",
+      "journal_en": "Annual Review of Psychology",
+      "journal_zh": "心理学年度评论",
+      "pub_date": "2024-12-15",
+      "impact_factor": 29.4,
+      "tags": [
+        "stress",
+        "health",
+        "intervention",
+        "immunity"
+      ],
+      "relevance_score": 0.92
+    },
+    "analysis": {
+      "core_finding": "长期压力会“腐蚀”免疫系统，但科学干预能有效修复这种损害，重塑身心健康。",
+      "why_matters": "压力不仅是“感觉累”，它直接削弱身体抵抗力，增加患病风险。了解压力与健康的生物通道，能帮助我们主动管理压力，而非被动承受。",
+      "detailed_findings": "1.  **压力开启炎症开关**：慢性压力促使身体持续释放炎症因子，这种低度慢性炎症是多种身心疾病的共同土壤。\n2.  **免疫系统功能失调**：压力激素（如皮质醇）长期偏高，会扰乱免疫细胞功能，导致防御力下降与修复能力减弱。\n3.  **心理干预有生理疗效**：正念、认知行为疗法等不仅能改善情绪，更能实际降低炎症水平，逆转压力对免疫系统的部分负面影响。",
+      "methodology": "综述整合了神经内分泌学、免疫学与临床心理学等多学科证据，建立了从分子机制到干预效果的完整证据链。",
+      "inspiration": "关注心理状态的生理“痕迹”，如炎症指标，可为评估干预效果提供客观、可测量的生物依据。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-20T04:00:23.642488",
+    "model_used": "deepseek",
+    "slot": 3
+  },
+  {
+    "article": {
+      "id": "info_040",
+      "title_en": "The Gut-Brain Axis in Anxiety: Microbiome-Mediated Effects on Amygdala Reactivity",
+      "title_zh": "焦虑中的肠脑轴：微生物组介导的杏仁核反应性效应",
+      "abstract_en": "Study found probiotic intervention reduced amygdala reactivity to threat cues, with changes in gut microbiome composition predicting treatment response.",
+      "abstract_zh": "研究发现益生菌干预降低了对威胁线索的杏仁核反应性，肠道微生物组组成变化预测治疗反应。",
+      "journal_en": "Molecular Psychiatry",
+      "journal_zh": "分子精神病学",
+      "pub_date": "2025-02-01",
+      "impact_factor": 11.0,
+      "tags": [
+        "gut_brain",
+        "microbiome",
+        "anxiety",
+        "neuroscience"
+      ],
+      "relevance_score": 0.91
+    },
+    "analysis": {
+      "core_finding": "补充特定益生菌能降低大脑对威胁信号的过度反应，肠道菌群的变化可以预测抗焦虑效果。",
+      "why_matters": "这项研究为“肠子紧张”提供了科学证据，提示通过调整饮食或补充益生菌来改善肠道健康，可能成为缓解日常焦虑情绪的一个新思路。",
+      "detailed_findings": "1.  **干预有效**：服用特定益生菌的参与者，其大脑中负责恐惧反应的杏仁核对威胁性图片的反应强度显著降低。\n2.  **肠道变化是关键**：益生菌干预后，参与者肠道菌群的组成发生了具体变化，这种变化与杏仁核反应的减弱直接相关。\n3.  **可预测疗效**：通过分析干预前的肠道菌群特征，能在一定程度上预测哪些人对这种益生菌治疗更敏感、效果更好。",
+      "methodology": "结合了前沿的脑成像技术（fMRI）与高深度的肠道微生物基因组测序，精准关联了微生物变化与大脑功能改变。",
+      "inspiration": "在探讨心理或行为干预时，可以考虑将肠道微生物组作为一个重要的生物标志物或调节靶点。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-20T04:00:30.603928",
+    "model_used": "deepseek",
+    "slot": 4
+  },
+  {
+    "article": {
+      "id": "info_024",
+      "title_en": "Fear of Missing Out (FOMO) and Social Media Engagement: A Longitudinal Analysis",
+      "title_zh": "错失恐惧与社交媒体参与：一项纵向分析",
+      "abstract_en": "Longitudinal study over 6 months showed that FOMO predicted increased social media use, which in turn predicted higher FOMO, creating a reinforcing cycle. Breaking the cycle required intervention at both cognitive and behavioral levels.",
+      "abstract_zh": "为期6个月的纵向研究显示，错失恐惧预测社交媒体使用增加，进而预测更高的错失恐惧，形成强化循环。打破循环需要在认知和行为层面进行干预。",
+      "journal_en": "Computers in Human Behavior",
+      "journal_zh": "计算机与人类行为",
+      "pub_date": "2025-02-01",
+      "impact_factor": 9.9,
+      "tags": [
+        "FOMO",
+        "social_media",
+        "longitudinal",
+        "addiction"
+      ],
+      "relevance_score": 0.93
+    },
+    "analysis": {
+      "core_finding": "研究发现，错失恐惧（FOMO）与社交媒体使用会相互增强，形成“越怕错过越刷，越刷越怕错过”的恶性循环。",
+      "why_matters": "这解释了为何我们总忍不住刷手机，刷完却更焦虑。了解这个循环是打破手机沉迷、减少社交焦虑的第一步，对管理个人数字健康至关重要。",
+      "detailed_findings": "1.  **恐惧驱动行为**：起初的错失恐惧感，会直接导致人们增加浏览社交媒体等行为，试图通过“在线”来缓解焦虑。\n2.  **行为加剧恐惧**：然而，频繁使用社交媒体，接触大量他人精心展示的生活，反而会强化“别人过得更好”的错觉，加剧错失恐惧。\n3.  **形成强化循环**：两者相互推高，形成一个自我强化的恶性循环，使得个体难以自行摆脱。",
+      "methodology": "研究采用为期6个月的纵向追踪设计，能更可靠地揭示变量间的因果关系，而非仅仅是相关关系。",
+      "inspiration": "干预需要“双管齐下”：既要调整“我可能错过重要事情”的认知，也要直接改变过度刷手机的行为习惯。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-20T04:00:37.872310",
+    "model_used": "deepseek",
+    "slot": 5
+  },
+  {
+    "article": {
+      "id": "info_060",
+      "title_en": "Psychological Resilience: Theory, Research, and Intervention",
+      "title_zh": "心理韧性：理论、研究与干预",
+      "abstract_en": "Comprehensive review of resilience research, examining individual and community factors that promote positive adaptation to adversity, and evidence-based resilience-building interventions.",
+      "abstract_zh": "全面综述了韧性研究，考察促进对逆境积极适应的个人和社区因素，以及循证的韧性建设干预。",
+      "journal_en": "Annual Review of Psychology",
+      "journal_zh": "心理学年度评论",
+      "pub_date": "2024-12-28",
+      "impact_factor": 29.4,
+      "tags": [
+        "resilience",
+        "intervention",
+        "trauma",
+        "positive_psychology"
+      ],
+      "relevance_score": 0.92
+    },
+    "analysis": {
+      "core_finding": "心理韧性并非天生特质，而是可以通过后天干预有效提升的动态过程，这为主动应对逆境提供了科学依据。",
+      "why_matters": "它告诉我们，面对压力与挫折时的“反弹”能力是可以锻炼的。掌握科学方法，普通人也能在日常生活中提升抗压性，更好地适应变化。",
+      "detailed_findings": "1.  **韧性是动态过程**：韧性并非固定不变的个人特质，而是个体在与环境互动中不断调整、适应和发展的过程。\n2.  **多重保护性因素**：韧性源于个体（如乐观、自我调节）、家庭（如支持性关系）及社区（如社会连接）等多层面因素的共同作用。\n3.  **干预措施有效**：基于认知行为疗法、正念等原理的结构化训练，能显著提升个体应对技能和情绪调节能力，实证效果明确。",
+      "methodology": "研究整合了纵向追踪、元分析和随机对照试验等多种方法，为韧性的动态本质和干预有效性提供了坚实证据。",
+      "inspiration": "关注个体与环境的互动过程，设计多层面、可操作的干预方案，比单纯测量静态特质更具实践价值。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-20T04:00:44.782170",
+    "model_used": "deepseek",
+    "slot": 6
+  },
+  {
+    "article": {
+      "id": "info_010",
+      "title_en": "Mindfulness Training for Information Anxiety: A Randomized Controlled Trial",
+      "title_zh": "正念训练对信息焦虑的干预：一项随机对照试验",
+      "abstract_en": "An 8-week mindfulness intervention specifically targeting information consumption habits showed significant reductions in information anxiety and improvements in sustained attention. Participants reported greater ability to consciously disengage from information streams—a skill we term \"attention sovereignty.\"",
+      "abstract_zh": "一项针对信息消费习惯的8周正念干预显示，信息焦虑显著降低，持续注意力改善。参与者报告了有意识地脱离信息流的能力增强——我们称这种技能为\"注意力主权\"。",
+      "journal_en": "Behaviour Research and Therapy",
+      "journal_zh": "行为研究与治疗",
+      "pub_date": "2024-12-28",
+      "impact_factor": 4.5,
+      "tags": [
+        "mindfulness",
+        "information_anxiety",
+        "attention",
+        "intervention"
+      ],
+      "relevance_score": 0.93
+    },
+    "analysis": {
+      "core_finding": "一项为期8周的正念训练能有效降低信息焦虑，并提升人们主动脱离信息流的“注意力主权”能力。",
+      "why_matters": "在信息过载的今天，这项研究提供了科学方法，帮助我们摆脱被信息“牵着走”的被动状态，重获内心的平静与专注力，对提升工作学习效率和生活质量有直接帮助。",
+      "detailed_findings": "*   **针对性干预有效**：专门针对信息消费习惯设计的正念课程，能显著减轻因信息过载引发的焦虑情绪。\n*   **提升“注意力主权”**：参与者学会了有意识地暂停刷手机、看新闻，这种主动管理注意力的能力是应对数字干扰的关键。\n*   **改善持续注意力**：训练不仅减少了焦虑，还切实提升了保持专注的能力，这是高效认知活动的基础。",
+      "methodology": "研究采用随机对照试验设计，并针对“信息消费”这一具体场景开发干预方案，使结论更严谨、更具针对性。",
+      "inspiration": "可以将广泛的“正念”概念，转化为针对特定数字行为（如社交媒体使用）的、可操作的具体训练模块进行研究与实践。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-20T04:00:51.857375",
+    "model_used": "deepseek",
+    "slot": 7
+  },
+  {
+    "article": {
+      "id": "info_015",
+      "title_en": "The Psychology of Infinite Scroll: How Design Features Shape User Engagement",
+      "title_zh": "无限滚动的心理学：设计特征如何塑造用户参与度",
+      "abstract_en": "Experimental manipulation of interface features showed that infinite scroll increased time-on-app by 48% compared to pagination. This effect was mediated by reduced cognitive load and increased psychological momentum.",
+      "abstract_zh": "对界面特征的实验操作显示，与分页相比，无限滚动使应用使用时间增加了48%。这种效应由认知负荷降低和心理动量增加所中介。",
+      "journal_en": "Computers in Human Behavior",
+      "journal_zh": "计算机与人类行为",
+      "pub_date": "2025-01-08",
+      "impact_factor": 9.9,
+      "tags": [
+        "design",
+        "engagement",
+        "infinite_scroll",
+        "behavioral_design"
+      ],
+      "relevance_score": 0.9
+    },
+    "analysis": {
+      "core_finding": "研究发现，无限滚动设计比翻页设计让用户平均停留时间增加48%，其关键在于降低了认知负荷并创造了心理动量。",
+      "why_matters": "这解释了为何我们刷短视频或社交软件时容易停不下来。了解其背后的心理机制，能帮助我们更理性地看待自己的行为，主动管理屏幕时间。",
+      "detailed_findings": "1.  **时间消耗显著增加**：实验数据显示，使用无限滚动界面时，用户在应用内的停留时间比翻页界面高出近一半。\n2.  **认知负荷降低**：无限滚动消除了“点击下一页”的决策中断，让信息流无缝衔接，减少了用户的思维阻力。\n3.  **心理动量增强**：流畅的浏览体验创造了持续的“再往下一点”的冲动，这种惯性使用户更难主动停止。",
+      "methodology": "研究通过实验直接操控界面功能（无限滚动 vs. 翻页），并测量行为数据与心理中介变量，因果论证清晰有力。",
+      "inspiration": "在产品设计或用户体验研究中，可以关注如何通过减少微小决策点来塑造用户的行为轨迹和沉浸感。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-20T04:00:58.300367",
+    "model_used": "deepseek",
+    "slot": 8
+  },
+  {
+    "article": {
+      "id": "info_057",
+      "title_en": "Cognitive Aging: Mechanisms, Interventions, and Policy Implications",
+      "title_zh": "认知老化：机制、干预与政策启示",
+      "abstract_en": "Review of cognitive changes in normal aging and dementia, examining cognitive reserve, lifestyle interventions, and public health strategies for promoting cognitive health in older adults.",
+      "abstract_zh": "综述了正常老化和痴呆中的认知变化，考察认知储备、生活方式干预以及促进老年人认知健康的公共卫生策略。",
+      "journal_en": "Annual Review of Psychology",
+      "journal_zh": "心理学年度评论",
+      "pub_date": "2025-02-10",
+      "impact_factor": 29.4,
+      "tags": [
+        "aging",
+        "cognition",
+        "dementia",
+        "intervention"
+      ],
+      "relevance_score": 0.91
+    },
+    "analysis": {
+      "core_finding": "认知老化并非必然衰退，通过积极构建“认知储备”和坚持健康生活方式，可以有效延缓认知下降，维持大脑健康。",
+      "why_matters": "这关乎每个人的未来。了解如何保护大脑健康，能帮助我们规划更高质量的中老年生活，无论是为了自己保持敏锐，还是为家中长辈提供科学支持。",
+      "detailed_findings": "1.  **认知储备是关键**：大脑像肌肉，越用越强。持续学习、从事复杂工作等“脑力锻炼”能构建认知储备，帮助大脑在衰老或病变时维持功能。\n2.  **生活方式是有效干预**：规律运动、均衡饮食、充足睡眠、社交活动等非药物方式，被证实能显著降低认知衰退风险，效果明确且易于实践。\n3.  **公共政策需系统支持**：促进全民认知健康需要公共卫生层面的系统策略，如社区支持项目和环境改造，为老年人维持认知功能创造有利条件。",
+      "methodology": "综述整合了神经科学、心理学和公共卫生等多领域证据，从微观机制到宏观政策进行系统性梳理，论证全面。",
+      "inspiration": "启示我们关注“可改变的风险因素”，将研究重点从单纯描述衰老，转向探索切实可行的保护和干预策略。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-20T04:01:05.474768",
+    "model_used": "deepseek",
+    "slot": 9
+  },
+  {
+    "article": {
+      "id": "info_007",
+      "title_en": "Neural Markers of Information Seeking Under Uncertainty: An fMRI Study",
+      "title_zh": "不确定条件下信息寻求的神经标记：一项fMRI研究",
+      "abstract_en": "Using fMRI, we identified distinct neural signatures for information-seeking versus information-avoidance behaviors. The anterior insula showed heightened activation in information漩涡 scenarios—when too much conflicting information creates approach-avoidance conflicts.",
+      "abstract_zh": "使用fMRI，我们识别了信息寻求与信息回避行为的独特神经特征。前岛叶在信息漩涡场景中表现出高度激活——当过多冲突信息产生接近-回避冲突时。",
+      "journal_en": "NeuroImage",
+      "journal_zh": "神经影像",
+      "pub_date": "2025-01-22",
+      "impact_factor": 5.7,
+      "tags": [
+        "fmri",
+        "neuroscience",
+        "information_seeking",
+        "uncertainty"
+      ],
+      "relevance_score": 0.91
+    },
+    "analysis": {
+      "core_finding": "研究发现，当面对过多相互矛盾的信息时，大脑前脑岛会异常活跃，这可能是导致我们陷入“想了解又怕知道”决策困境的神经信号。",
+      "why_matters": "在信息爆炸的时代，我们常在海量矛盾信息前感到焦虑、难以抉择。这项研究揭示了这种“信息过载”困境背后的脑科学原理，帮助我们理解为何有时会主动回避信息。",
+      "detailed_findings": "1.  **区分寻求与回避**：研究成功识别出大脑在主动寻求信息和主动回避信息时的不同活动模式。\n2.  **冲突的核心区域**：前脑岛在信息冲突场景中激活显著增强，该脑区与整合内部感受和情绪、处理不确定性密切相关。\n3.  **定义“信息困境”**：当信息过多且相互矛盾时，会引发一种独特的“趋避冲突”神经状态，既想探索又感不安。",
+      "methodology": "利用功能磁共振成像技术，精细区分了信息寻求与回避这两种行为背后不同的脑活动模式，定位关键脑区。",
+      "inspiration": "在设计信息产品或决策界面时，应考虑减少矛盾信息的集中呈现，以降低用户的前脑岛负荷和决策疲劳。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-20T04:01:12.492377",
+    "model_used": "deepseek",
+    "slot": 10
+  }
+]

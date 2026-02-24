@@ -1,0 +1,95 @@
+[
+  {
+    "article": {
+      "id": "info_006",
+      "title_en": "Notification Interruptions and Workflow Disruption: The Hidden Cost of Connectivity",
+      "title_zh": "通知打断与工作流中断：连接的隐藏成本",
+      "abstract_en": "We measured the cognitive cost of notification interruptions in knowledge workers. Each interruption incurred an average 23-minute recovery time. More importantly, the accumulation of incomplete tasks due to interruptions created a \"mental residue\" effect that degraded performance on subsequent tasks.",
+      "abstract_zh": "我们测量了知识工作者中通知打断的认知成本。每次打断平均产生23分钟的恢复时间。更重要的是，由于打断导致的未完成任务积累产生了\"心理残留\"效应，降低了后续任务的表现。",
+      "journal_en": "Organizational Behavior and Human Decision Processes",
+      "journal_zh": "组织行为与人类决策过程",
+      "pub_date": "2024-12-15",
+      "impact_factor": 4.2,
+      "tags": [
+        "notification",
+        "interruption",
+        "workflow",
+        "cognitive_cost"
+      ],
+      "relevance_score": 0.9
+    },
+    "analysis": {
+      "core_finding": "手机通知每次打断工作，大脑平均需要",
+      "why_matters": "这解释了为何我们总感觉“忙了一天却一事无成”。每一次微信提示、邮件弹窗，都在暗中窃取你后续工作的专注力，降低整体效率。",
+      "detailed_findings": "1. **漫长的恢复成本**：一次短暂中断后，注意力完全回归原任务平均需23分钟，远超过中断本身时长。\n2. **心智残留效应**：被打断而未完成的任务会形成“心理后台进程”，持续占用认知资源，拖累新任务表现。\n3. **累积性损耗**：多次中断的影响并非简单叠加，未完成任务累积会指数级增加认知负荷，导致效率急剧下降。",
+      "methodology": "通过追踪知识工作者真实工作流与认知测试，量化了“隐性恢复时间”，揭示了中断的长期累积效应。",
+      "inspiration": "重要工作时，尝试开启90-120分钟“无通知深度工作块”，事后集中处理消息，比随时响应效率更高。",
+      "vortex_connection": "通知是制造“信息漩涡”的关键推手，它通过强制切换注意力，使人陷入忙碌但低效的循环，难以进行深度思考。"
+    },
+    "generated_at": "2026-02-09T19:19:55.540562",
+    "model_used": "deepseek",
+    "slot": 1
+  },
+  {
+    "article": {
+      "id": "info_001",
+      "title_en": "Information Overload and Decision Quality: A Cognitive Load Perspective",
+      "title_zh": "信息过载与决策质量：认知负荷视角",
+      "abstract_en": "This study examines how information overload affects decision-making quality through increased cognitive load. Participants (N=240) were presented with varying amounts of information in consumer choice tasks. Results show that beyond a threshold (approximately 7-10 pieces of relevant information), additional information decreases decision satisfaction and increases regret. Eye-tracking data revealed attention fragmentation patterns characteristic of information漩涡 scenarios.",
+      "abstract_zh": "本研究通过认知负荷视角探讨信息过载如何影响决策质量。240名参与者接受了不同数量信息的消费者选择任务。结果显示，超过阈值（约7-10条相关信息）后，额外信息会降低决策满意度并增加后悔情绪。眼动数据揭示了信息漩涡场景特有的注意力碎片化模式。",
+      "journal_en": "Psychological Science",
+      "journal_zh": "心理科学",
+      "pub_date": "2025-01-15",
+      "impact_factor": 8.4,
+      "tags": [
+        "information_overload",
+        "decision_making",
+        "cognitive_load",
+        "attention"
+      ],
+      "relevance_score": 0.95
+    },
+    "analysis": {
+      "core_finding": "信息并非越多越好：当关键信息超过7-10条，我们的决策质量反而会下降，更容易后悔。",
+      "why_matters": "这解释了为何网购时看太多评论会“挑花眼”，工作汇报时堆砌数据反而不利决策。它提醒我们：精简信息，才能明智选择。",
+      "detailed_findings": "*   **存在信息过载临界点**：研究精确指出，当相关信息超过7-10条时，决策收益开始递减，更多信息成为负担。\n*   **引发负面决策情绪**：过载不仅降低选择满意度，还会显著增加事后的后悔感，影响心理体验。\n*   **注意力碎片化是内在机制**：眼动追踪显示，信息过载时，注意力会像漩涡一样分散、跳跃，无法深入加工。",
+      "methodology": "结合行为实验（决策任务）与生理测量（眼动追踪），客观揭示了“信息过载”如何从内部认知过程影响外部决策行为。",
+      "inspiration": "在设计产品、撰写报告或制定方案时，主动筛选和结构化核心信息，将关键点控制在10个以内，能大幅提升沟通与决策效率。",
+      "vortex_connection": "研究通过眼动数据，首次直观捕捉到注意力在过载信息中碎片化、循环的“漩涡”状态，为该比喻提供了科学证据。"
+    },
+    "generated_at": "2026-02-09T19:20:05.670154",
+    "model_used": "deepseek",
+    "slot": 2
+  },
+  {
+    "article": {
+      "id": "info_010",
+      "title_en": "Mindfulness Training for Information Anxiety: A Randomized Controlled Trial",
+      "title_zh": "正念训练对信息焦虑的干预：一项随机对照试验",
+      "abstract_en": "An 8-week mindfulness intervention specifically targeting information consumption habits showed significant reductions in information anxiety and improvements in sustained attention. Participants reported greater ability to consciously disengage from information streams—a skill we term \"attention sovereignty.\"",
+      "abstract_zh": "一项针对信息消费习惯的8周正念干预显示，信息焦虑显著降低，持续注意力改善。参与者报告了有意识地脱离信息流的能力增强——我们称这种技能为\"注意力主权\"。",
+      "journal_en": "Behaviour Research and Therapy",
+      "journal_zh": "行为研究与治疗",
+      "pub_date": "2024-12-28",
+      "impact_factor": 4.5,
+      "tags": [
+        "mindfulness",
+        "information_anxiety",
+        "attention",
+        "intervention"
+      ],
+      "relevance_score": 0.93
+    },
+    "analysis": {
+      "core_finding": "一项为期8周的正念训练能有效降低信息焦虑，并显著提升人们主动脱离信息流的“注意力主权”能力。",
+      "why_matters": "我们每天被海量信息轰炸，常感到焦虑和注意力涣散。这项研究提供了一个科学方法，帮助我们夺回注意力的控制权，提升生活专注度与内心平静。",
+      "detailed_findings": "1.  **针对性干预有效**：专门针对信息消费习惯设计的正念训练，能显著降低因信息过载引发的焦虑感。\n2.  **提升“注意力主权”**：参与者学会了有意识地暂停刷手机、看新闻，主动管理注意力，而非被信息流裹挟。\n3.  **改善持续注意力**：训练不仅减少了焦虑，还切实提升了在工作中保持专注的能力，效果可测量。",
+      "methodology": "研究设计了针对“信息消费”这一具体场景的正念干预方案，而非通用训练，使效果更直接、可验证。",
+      "inspiration": "可以尝试将正念技巧与数字工具（如使用时间管理APP时的呼吸暂停）结合，设计“微干预”来改善日常信息习惯。",
+      "vortex_connection": "该研究直接对抗“信息漩涡”的核心危害——被动卷入与失控感，通过提升“注意力主权”帮助人们主动游出漩涡。"
+    },
+    "generated_at": "2026-02-09T19:20:15.357499",
+    "model_used": "deepseek",
+    "slot": 3
+  }
+]

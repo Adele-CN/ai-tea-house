@@ -1,0 +1,312 @@
+[
+  {
+    "article": {
+      "id": "info_029",
+      "title_en": "The Role of Self-Control in Managing Digital Distractions",
+      "title_zh": "自我控制在管理数字干扰中的作用",
+      "abstract_en": "Study found that trait self-control predicted better management of digital distractions, but environmental modifications (e.g., app blockers) were more effective for those with low self-control.",
+      "abstract_zh": "研究发现，特质自我控制预测了更好的数字干扰管理，但环境修改（如应用拦截器）对低自我控制者更有效。",
+      "journal_en": "Personality and Individual Differences",
+      "journal_zh": "个性与个体差异",
+      "pub_date": "2024-12-25",
+      "impact_factor": 3.8,
+      "tags": [
+        "self_control",
+        "distraction",
+        "digital",
+        "intervention"
+      ],
+      "relevance_score": 0.84
+    },
+    "analysis": {
+      "core_finding": "研究发现，高自控力者能更好地管理数字干扰，但对自控力弱的人来说，直接改造环境（如使用应用拦截器）效果更显著。",
+      "why_matters": "在数字产品无处不在的今天，这项研究为我们对抗分心提供了实用策略：与其单纯依赖意志力，不如主动优化环境，这对提升工作学习效率至关重要。",
+      "detailed_findings": "1.  **特质自控力是关键预测因素**：一个人天生的、稳定的自控力水平，能有效预测他管理手机、社交媒体等数字干扰的能力。\n2.  **环境干预是“强效外援”**：对于自控力较低的人群，直接改变环境（如安装专注软件、设置勿扰模式）比单纯要求他们“更自律”效果更好。\n3.  **策略需因人而异**：对抗数字分心没有“一刀切”的方法，有效的策略取决于个人的自控力基础。",
+      "methodology": "研究区分了个人特质（自控力）与外部干预（环境改造）的不同作用，并验证了二者间的交互效应，设计严谨。",
+      "inspiration": "在行为干预研究中，应考虑将个体差异（如特质自控力）作为关键变量，评估不同策略对哪类人群最有效。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-17T04:00:09.588403",
+    "model_used": "deepseek",
+    "slot": 1
+  },
+  {
+    "article": {
+      "id": "info_046",
+      "title_en": "Development of Theory of Mind in Children: A Longitudinal Neuroimaging Study",
+      "title_zh": "儿童心理理论的发展：一项纵向神经影像研究",
+      "abstract_en": "Longitudinal fMRI study (ages 4-12) tracked maturation of theory of mind network, finding temporo-parietal junction activation precedes mature mental state reasoning.",
+      "abstract_zh": "纵向fMRI研究（4-12岁）追踪了心理理论网络的成熟，发现颞顶联合激活先于成熟的心理状态推理。",
+      "journal_en": "Developmental Cognitive Neuroscience",
+      "journal_zh": "发展认知神经科学",
+      "pub_date": "2024-12-05",
+      "impact_factor": 4.5,
+      "tags": [
+        "development",
+        "theory_of_mind",
+        "children",
+        "neuroscience"
+      ],
+      "relevance_score": 0.85
+    },
+    "analysis": {
+      "core_finding": "儿童理解他人想法的能力，其大脑颞顶联合区的成熟是关键先导，这一神经发育过程比我们想象中更早启动。",
+      "why_matters": "这项研究揭示了孩子“换位思考”能力背后的神经基础。了解这一点，能帮助家长和老师更科学地看待孩子社交中的“自我中心”，理解其背后的生理发展规律。",
+      "detailed_findings": "1.  **神经发育有先后**：负责推测他人意图的颞顶联合区，其激活模式在儿童",
+      "methodology": "采用纵向追踪设计，对同一批儿童从4岁跟踪到12岁进行多次脑成像，能清晰描绘脑功能发育轨迹，结论更可靠。",
+      "inspiration": "对于发展心理学和教育学研究，提示应关注社会认知能力背后的神经成熟时序，将行为观察与脑发育指标结合。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-17T04:00:17.333589",
+    "model_used": "deepseek",
+    "slot": 2
+  },
+  {
+    "article": {
+      "id": "info_043",
+      "title_en": "The Psychology of Nudging: Behavioral Interventions in Public Policy",
+      "title_zh": "助推心理学：公共政策中的行为干预",
+      "abstract_en": "Large-scale field experiment (N=50,000) found choice architecture interventions effectively promoted healthy behaviors, but effects diminished over time without reinforcement.",
+      "abstract_zh": "大规模现场实验（N=50000）发现，选择架构干预有效促进了健康行为，但没有强化时效应随时间减弱。",
+      "journal_en": "Behavioral Public Policy",
+      "journal_zh": "行为公共政策",
+      "pub_date": "2025-01-18",
+      "impact_factor": 4.8,
+      "tags": [
+        "nudge",
+        "behavioral_economics",
+        "public_policy",
+        "intervention"
+      ],
+      "relevance_score": 0.84
+    },
+    "analysis": {
+      "core_finding": "一项大规模实验发现，“助推”能有效引导健康行为，但其效果会随时间推移而减弱，需要持续强化才能维持。",
+      "why_matters": "这项研究提醒我们，无论是个人培养习惯，还是政策制定者设计公共项目，单次的“轻推”并不足够。它强调了持续、温和的提醒对长期改变行为的重要性。",
+      "detailed_findings": "1.  **助推有效**：通过巧妙设计选择环境（如改变选项的默认设置或呈现顺序），能显著促使人们做出更健康的选择。\n2.  **效果会衰减**：这种干预带来的行为改变并非一劳永逸。如果没有后续的强化措施，其影响力会随着时间逐渐下降。\n3.  **需要持续强化**：研究结果表明，要维持行为的长期改变，需要周期性的“助推”或结合其他干预手段进行巩固。",
+      "methodology": "研究采用了超大规模（",
+      "inspiration": "在设计行为干预项目时，必须将“效果的可持续性”和“强化机制”作为核心考量，而非仅仅关注短期效果。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-17T04:00:24.330781",
+    "model_used": "deepseek",
+    "slot": 3
+  },
+  {
+    "article": {
+      "id": "info_026",
+      "title_en": "Online Social Support and Mental Health During the COVID-19 Pandemic",
+      "title_zh": "COVID-19疫情期间在线社会支持与心理健康",
+      "abstract_en": "Study found that online social support buffered the negative effects of social isolation on mental health, but passive scrolling without interaction showed no protective effects.",
+      "abstract_zh": "研究发现，在线社会支持缓冲了社会隔离对心理健康的负面影响，但没有互动的被动浏览没有显示保护效应。",
+      "journal_en": "Journal of Affective Disorders",
+      "journal_zh": "情感障碍杂志",
+      "pub_date": "2024-10-15",
+      "impact_factor": 6.6,
+      "tags": [
+        "social_support",
+        "mental_health",
+        "pandemic",
+        "online"
+      ],
+      "relevance_score": 0.85
+    },
+    "analysis": {
+      "core_finding": "研究发现，线上主动社交能有效缓冲隔离对心理的伤害，但单纯“潜水”浏览则毫无保护作用。",
+      "why_matters": "这提醒我们，在数字社交中，高质量的互动才是关键。仅仅刷朋友圈或微博，无法替代真实的交流来维系心理健康。",
+      "detailed_findings": "1.  **互动是关键**：研究证实，只有通过评论、私信等主动方式获得的线上社会支持，才能显著减轻孤独感和抑郁症状。\n2.  **被动浏览无效**：相反，长时间被动地滚动浏览社交媒体内容（如只看不发），对心理健康没有产生任何积极的缓冲作用。\n3.  **缓冲隔离压力**：在疫情隔离期间，这种主动的线上支持成为了线下社交的重要补充，直接缓解了社交孤立带来的心理冲击。",
+      "methodology": "研究采用了纵向追踪设计，在疫情期间多个时间点收集数据，能更可靠地揭示社交行为与心理健康之间的因果关系。",
+      "inspiration": "在设计数字健康干预方案时，应着重激励用户进行主动、有意义的互动，而非仅仅增加其被动接触信息的时间。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-17T04:00:31.023097",
+    "model_used": "deepseek",
+    "slot": 4
+  },
+  {
+    "article": {
+      "id": "info_030",
+      "title_en": "Virtual Reality Exposure Therapy for Social Anxiety: A Meta-Analysis",
+      "title_zh": "虚拟现实暴露疗法治疗社交焦虑：一项元分析",
+      "abstract_en": "Meta-analysis of 32 trials found VR exposure therapy was as effective as in-vivo exposure for social anxiety, with higher acceptability and lower dropout rates.",
+      "abstract_zh": "对32项试验的元分析发现，虚拟现实暴露疗法对社交焦虑与现场暴露同样有效，接受度更高，退出率更低。",
+      "journal_en": "Journal of Anxiety Disorders",
+      "journal_zh": "焦虑障碍杂志",
+      "pub_date": "2025-02-05",
+      "impact_factor": 5.6,
+      "tags": [
+        "VR",
+        "exposure_therapy",
+        "social_anxiety",
+        "meta_analysis"
+      ],
+      "relevance_score": 0.82
+    },
+    "analysis": {
+      "core_finding": "虚拟现实暴露疗法治疗社交焦虑的效果与真实场景暴露相当，且更易被接受，脱落率更低。",
+      "why_matters": "对于害怕社交场合的普通人，这提供了一个更易开始、私密且有效的练习选择，有助于在安全可控的虚拟环境中锻炼社交技能，减轻现实压力。",
+      "detailed_findings": "1.  **疗效相当**：分析32项试验发现，VR暴露疗法在减轻社交焦虑症状方面，与传统的真实场景暴露疗法效果无显著差异。\n2.  **接受度更高**：患者对VR疗法的接受度和满意度普遍高于传统疗法，可能因其可控性和隐私性。\n3.  **坚持性更好**：VR治疗组的脱落率显著低于传统暴露组，表明这种形式更能帮助患者完成治疗。",
+      "methodology": "研究采用了严格的元分析方法，整合了32项高质量随机对照试验的证据，结论更为可靠。",
+      "inspiration": "启示我们可利用VR技术，在心理健康、技能培训等领域，设计更安全、可及且有效的干预方案。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-17T04:00:36.930279",
+    "model_used": "deepseek",
+    "slot": 5
+  },
+  {
+    "article": {
+      "id": "info_020",
+      "title_en": "The Effects of Blue Light Exposure on Sleep Quality and Circadian Rhythms",
+      "title_zh": "蓝光暴露对睡眠质量和昼夜节律的影响",
+      "abstract_en": "Controlled laboratory study found that 2 hours of evening blue light exposure delayed melatonin onset by 1.5 hours and reduced sleep quality metrics. Amber lens glasses mitigated these effects by 65%.",
+      "abstract_zh": "一项受控实验室研究发现，晚间2小时的蓝光暴露使褪黑素 onset 延迟1.5小时，并降低了睡眠质量指标。琥珀色镜片眼镜将这些效应减轻了65%。",
+      "journal_en": "Sleep Medicine Reviews",
+      "journal_zh": "睡眠医学评论",
+      "pub_date": "2024-10-30",
+      "impact_factor": 11.2,
+      "tags": [
+        "blue_light",
+        "sleep",
+        "circadian",
+        "health"
+      ],
+      "relevance_score": 0.86
+    },
+    "analysis": {
+      "core_finding": "晚间接触蓝光两小时，会使褪黑素分泌推迟1.5小时并降低睡眠质量，而佩戴琥珀色镜片眼镜可抵消约65%的负面影响。",
+      "why_matters": "这直接解释了睡前刷手机、看电脑为何导致入睡困难和睡眠变浅，并提供了一个简单有效的干预方案——佩戴琥珀色眼镜，对改善现代人的睡眠具有现实指导意义。",
+      "detailed_findings": "1.  **褪黑素节律被打乱**：晚间蓝光显著抑制了促进睡眠的褪黑素分泌，使其高峰出现时间推迟了1.5小时，直接干扰了生理上的“入睡信号”。\n2.  **睡眠质量客观下降**：研究通过多项指标证实，蓝光暴露后，受试者的实际睡眠效率、深度睡眠比例等关键质量指标均出现下降。\n3.  **琥珀色眼镜的有效性**：佩戴能过滤蓝光的琥珀色镜片眼镜，可以大部分（65%）阻断这种干扰，保护自然的睡眠节律，是一种实用的防护策略。",
+      "methodology": "在严格控制的实验室环境下进行，精确量化了蓝光暴露的时长与强度，并采用客观生理指标（如褪黑素检测、多导睡眠监测）评估效果，结论可靠。",
+      "inspiration": "研究展示了环境因素（光）对生理节律的强大影响，提示在设计行为干预或健康产品时，需重点考虑如何阻断或利用特定的环境线索。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-17T04:00:45.045972",
+    "model_used": "deepseek",
+    "slot": 6
+  },
+  {
+    "article": {
+      "id": "info_044",
+      "title_en": "Cross-Cultural Differences in Emotional Expression: Neuroimaging Evidence",
+      "title_zh": "情绪表达的跨文化差异：神经影像证据",
+      "abstract_en": "Cross-cultural fMRI study revealed differential amygdala-prefrontal connectivity during emotion suppression between East Asian and Western participants.",
+      "abstract_zh": "跨文化fMRI研究揭示了东亚和西方参与者在情绪压抑期间杏仁核-前额叶连接的差异。",
+      "journal_en": "Social Cognitive and Affective Neuroscience",
+      "journal_zh": "社会认知与情感神经科学",
+      "pub_date": "2024-11-30",
+      "impact_factor": 4.1,
+      "tags": [
+        "cross_cultural",
+        "emotion",
+        "neuroscience",
+        "culture"
+      ],
+      "relevance_score": 0.86
+    },
+    "analysis": {
+      "core_finding": "东西方人群在抑制情绪时，大脑中负责情绪与控制的脑区（杏仁核与前额叶）的连接模式存在显著文化差异。",
+      "why_matters": "这解释了为何不同文化背景的人处理情绪的方式不同。理解这一点，有助于我们在跨国团队、跨文化交往中减少误解，提升沟通效率。",
+      "detailed_findings": "1.  **神经连接模式不同**：西方人在抑制情绪时，杏仁核与前额叶的“对话”更强，表明他们更依赖有意识的认知控制。\n2.  **东亚人更自动化**：东亚参与者抑制情绪时，相关脑区连接较弱，暗示其情绪调节可能更偏向内隐和自动化，与集体主义文化强调和谐一致。\n3.  **文化塑造大脑**：研究直接证明，长期的文化实践（如表达规范）能塑造大脑功能连接，情绪处理并非“全球通用”。",
+      "methodology": "采用功能性磁共振成像技术，直接对比不同文化群体在执行相同情绪抑制任务时的大脑活动差异，证据客观。",
+      "inspiration": "在设计涉及情绪或行为的研究时，必须将文化背景作为关键变量纳入考量，否则结论可能具有局限性。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-17T04:00:51.935426",
+    "model_used": "deepseek",
+    "slot": 7
+  },
+  {
+    "article": {
+      "id": "info_039",
+      "title_en": "Metacognitive Awareness in Learning: The Role of Self-Explanation",
+      "title_zh": "学习中的元认知意识：自我解释的作用",
+      "abstract_en": "Experimental study showed self-explanation prompts improved metacognitive calibration and transfer of learning, with effects mediated by increased processing depth.",
+      "abstract_zh": "实验研究显示，自我解释提示改善了元认知校准和学习迁移，效应由加工深度增加所中介。",
+      "journal_en": "Journal of Educational Psychology",
+      "journal_zh": "教育心理学杂志",
+      "pub_date": "2025-01-05",
+      "impact_factor": 5.6,
+      "tags": [
+        "metacognition",
+        "learning",
+        "education",
+        "self_regulation"
+      ],
+      "relevance_score": 0.85
+    },
+    "analysis": {
+      "core_finding": "在学习时，主动“给自己讲一遍”不仅能加深理解，还能显著提升你对自己知识掌握程度的判断准确性。",
+      "why_matters": "这项研究为我们提供了一种简单高效的学习策略。无论是备考、学习新技能还是阅读复杂材料，通过自我解释，我们能更清楚地知道自己“哪里真懂了，哪里还模糊”，从而精准查漏补缺。",
+      "detailed_findings": "1.  **提升元认知校准**：自我解释提示帮助学习者更准确地评估自己的知识水平，减少了“以为自己懂了”的错觉。\n2.  **促进学习迁移**：使用该方法的学习者，能将所学知识更有效地应用到新问题或不同情境中，举一反三能力更强。\n3.  **深度加工是关键**：上述益处并非来自简单的重复，而是源于自我解释过程迫使大脑对信息进行更深入的组织与整合。",
+      "methodology": "研究通过精巧的实验设计，分离了“自我解释”行为本身与其引发的“深度加工”过程，并验证了后者是产生效果的核心机制。",
+      "inspiration": "在设计和评估教育干预措施时，不应仅关注表面行为，更应测量和促进其引发的深层认知加工过程。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-17T04:00:58.647647",
+    "model_used": "deepseek",
+    "slot": 8
+  },
+  {
+    "article": {
+      "id": "info_025",
+      "title_en": "The Impact of Screen Time on Children Cognitive Development: A Systematic Review",
+      "title_zh": "屏幕时间对儿童认知发展的影响：一项系统综述",
+      "abstract_en": "Meta-analysis of 67 studies found that high screen time (>2 hours/day) was associated with lower executive function and language development, but high-quality educational content showed neutral or positive effects.",
+      "abstract_zh": "对67项研究的元分析发现，高屏幕时间（>2小时/天）与较低的执行功能和语言发展相关，但高质量的教育内容显示中性或积极效应。",
+      "journal_en": "JAMA Pediatrics",
+      "journal_zh": "JAMA儿科学",
+      "pub_date": "2024-12-01",
+      "impact_factor": 26.1,
+      "tags": [
+        "screen_time",
+        "children",
+        "cognitive_development",
+        "education"
+      ],
+      "relevance_score": 0.88
+    },
+    "analysis": {
+      "core_finding": "屏幕时间本身不决定好坏，关键在于内容和时长。每天超过",
+      "why_matters": "这直接关系到如何安排孩子的日常活动。研究提示，简单限制时长不够，更要关注孩子看什么，为家庭提供了更科学的屏幕使用指南。",
+      "detailed_findings": "1.  **时长是关键阈值**：每日屏幕时间超过2小时，成为与认知发展负面关联的明确风险点，提示需要设定合理的时长上限。\n2.  **内容质量定乾坤**：同样是屏幕时间，高质量的教育类内容可能产生中性甚至积极的影响，打破了“屏幕一概有害”的简单认知。\n3.  **核心能力受影响**：过度的屏幕暴露主要关联的是高级认知能力（执行功能）和语言发展，这些是孩子未来学习与适应能力的基础。",
+      "methodology": "研究采用了系统综述和荟萃分析，综合了67项高质量研究，结论更具权威性和可靠性。",
+      "inspiration": "启示我们关注媒介影响的复杂性，未来研究或产品设计应精细区分屏幕使用的类型、情境与内容，而非笼统看待。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-17T04:01:06.097106",
+    "model_used": "deepseek",
+    "slot": 9
+  },
+  {
+    "article": {
+      "id": "info_005",
+      "title_en": "Cognitive Offloading in the Digital Age: How External Memory Shapes Internal Processing",
+      "title_zh": "数字时代的认知卸载：外部记忆如何塑造内部加工",
+      "abstract_en": "When information is constantly available through digital devices, how does this affect internal memory formation and reasoning? Our experiments show that anticipated access to information reduces depth of processing and metacognitive monitoring, potentially contributing to the \"shallow thinking\" phenomenon in information-rich environments.",
+      "abstract_zh": "当信息通过数字设备随时可获取时，这如何影响内部记忆形成和推理？我们的实验显示，预期可以获取信息会降低加工深度和元认知监控，可能导致信息丰富环境中的\"浅层思考\"现象。",
+      "journal_en": "Cognition",
+      "journal_zh": "认知",
+      "pub_date": "2025-01-05",
+      "impact_factor": 3.5,
+      "tags": [
+        "cognitive_offloading",
+        "memory",
+        "metacognition",
+        "digital_age"
+      ],
+      "relevance_score": 0.85
+    },
+    "analysis": {
+      "core_finding": "当人们知道信息能随时从数字设备中获取时，大脑会减少深度加工，导致记忆和思考变得肤浅。",
+      "why_matters": "这解释了为何我们“收藏即学会”，却记不住内容。它提醒我们，过度依赖外部存储可能削弱深度思考能力，影响学习和决策质量。",
+      "detailed_findings": "1.  **预期可查削弱加工深度**：当人们预期信息能随时查到，大脑便不会费力进行深度编码，导致记忆痕迹变浅。\n2.  **元认知监控减弱**：人们对自己“知道什么”和“不知道什么”的判断力下降，高估了自己的知识掌握程度。\n3.  **促成浅层思考**：在信息唾手可得的环境中，这种认知卸载习惯可能形成依赖，不利于复杂推理和创造性思考。",
+      "methodology": "通过控制实验，直接比较了“信息可随时访问”与“信息仅一次性呈现”两种条件下，参与者的记忆表现与元认知判断。",
+      "inspiration": "在设计学习或知识管理系统时，应有意识地设置“提取障碍”或测试环节，以促进深度加工，避免认知卸载的负面影响。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-17T04:01:12.922088",
+    "model_used": "deepseek",
+    "slot": 10
+  }
+]

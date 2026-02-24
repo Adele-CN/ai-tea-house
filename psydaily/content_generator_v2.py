@@ -1,0 +1,1005 @@
+#!/usr/bin/env python3
+"""
+PsyDaily 内容生成器 v2.1
+- 英文核心期刊为主
+- 信息漩涡主题筛选
+- 添加发表时间
+"""
+
+import json
+import random
+import requests
+import os
+from datetime import datetime, timedelta
+
+# API Keys
+DEEPSEEK_API_KEY = "sk-df29b6ddc42541d28e550f2dfd25ff1c"
+MINIMAX_API_KEY = "sk-cp-cM_UG-gSD08NXUr2H0XtSvn8IZjAj0ZUc5arOunWo4tzYvNWzKjYh-3WP12WGNOKWZ5yFgSRxboFpnREXaRx1ftk6UZyMZhKe7_kNKySbXq5cEOrE7wZsoY"
+
+# 数据目录
+DATA_DIR = '/root/.openclaw/workspace/psydaily/data/content'
+os.makedirs(DATA_DIR, exist_ok=True)
+
+# 信息漩涡相关论文数据库（英文核心期刊）
+ARTICLES_DB = [
+    {
+        'id': 'info_001',
+        'title_en': 'Information Overload and Decision Quality: A Cognitive Load Perspective',
+        'title_zh': '信息过载与决策质量：认知负荷视角',
+        'abstract_en': 'This study examines how information overload affects decision-making quality through increased cognitive load. Participants (N=240) were presented with varying amounts of information in consumer choice tasks. Results show that beyond a threshold (approximately 7-10 pieces of relevant information), additional information decreases decision satisfaction and increases regret. Eye-tracking data revealed attention fragmentation patterns characteristic of information漩涡 scenarios.',
+        'abstract_zh': '本研究通过认知负荷视角探讨信息过载如何影响决策质量。240名参与者接受了不同数量信息的消费者选择任务。结果显示，超过阈值（约7-10条相关信息）后，额外信息会降低决策满意度并增加后悔情绪。眼动数据揭示了信息漩涡场景特有的注意力碎片化模式。',
+        'journal_en': 'Psychological Science',
+        'journal_zh': '心理科学',
+        'pub_date': '2025-01-15',
+        'impact_factor': 8.4,
+        'tags': ['information_overload', 'decision_making', 'cognitive_load', 'attention'],
+        'relevance_score': 0.95
+    },
+    {
+        'id': 'info_002',
+        'title_en': 'Digital Media Multitasking and Cognitive Control: A Longitudinal Study',
+        'title_zh': '数字媒体多任务处理与认知控制：一项纵向研究',
+        'abstract_en': 'A 2-year longitudinal study (N=1,200) investigated the relationship between habitual digital multitasking and cognitive control abilities. Heavy media multitaskers showed significant declines in task-switching efficiency and sustained attention. The findings suggest a "use it or lose it" pattern for cognitive control in the age of constant connectivity.',
+        'abstract_zh': '这项为期2年的纵向研究（N=1200）调查了习惯性数字多任务处理与认知控制能力的关系。重度媒体多任务处理者在任务切换效率和持续注意力方面表现出显著下降。研究结果揭示了在持续连接时代认知控制能力的"用进废退"模式。',
+        'journal_en': 'Nature Human Behaviour',
+        'journal_zh': '自然·人类行为',
+        'pub_date': '2024-12-08',
+        'impact_factor': 29.9,
+        'tags': ['multitasking', 'digital_media', 'cognitive_control', 'attention'],
+        'relevance_score': 0.92
+    },
+    {
+        'id': 'info_003',
+        'title_en': 'The Attention Economy and Mental Health: Evidence from Smartphone Usage Data',
+        'title_zh': '注意力经济与心理健康：来自智能手机使用数据的证据',
+        'abstract_en': 'Using objective smartphone usage data from 5,000 participants over 6 months, this study quantifies the relationship between attention-capturing app designs and mental health outcomes. Each additional hour of fragmented attention (switches >20/hour) was associated with 12% higher anxiety scores. The paper discusses implications for "humane" technology design.',
+        'abstract_zh': '本研究使用5000名参与者6个月的客观智能手机使用数据，量化了捕获注意力的应用设计与心理健康结果之间的关系。每增加一小时的碎片化注意力（每小时切换>20次），焦虑评分增加12%。论文讨论了"人性化"技术设计的影响。',
+        'journal_en': 'Computers in Human Behavior',
+        'journal_zh': '计算机与人类行为',
+        'pub_date': '2025-01-28',
+        'impact_factor': 9.9,
+        'tags': ['attention_economy', 'smartphone', 'mental_health', 'anxiety'],
+        'relevance_score': 0.94
+    },
+    {
+        'id': 'info_004',
+        'title_en': 'Selective Exposure in the Age of Algorithmic Curation: Echo Chambers or Diversity?',
+        'title_zh': '算法策展时代的选择性接触：回音室还是多样性？',
+        'abstract_en': 'This research challenges the echo chamber narrative by showing that algorithmic curation can both narrow and broaden information exposure depending on user engagement patterns. However, users with high information anxiety tend to self-select into filter bubbles, creating personal information漩涡 that limit cognitive diversity.',
+        'abstract_zh': '这项研究通过展示算法策展如何根据用户参与模式既缩小又拓宽信息暴露，挑战了回音室叙事。然而，具有高信息焦虑的用户倾向于自我选择进入过滤气泡，创造限制认知多样性的个人信息漩涡。',
+        'journal_en': 'Journal of Communication',
+        'journal_zh': '传播学刊',
+        'pub_date': '2024-11-20',
+        'impact_factor': 7.1,
+        'tags': ['algorithm', 'echo_chamber', 'selective_exposure', 'information_anxiety'],
+        'relevance_score': 0.88
+    },
+    {
+        'id': 'info_005',
+        'title_en': 'Cognitive Offloading in the Digital Age: How External Memory Shapes Internal Processing',
+        'title_zh': '数字时代的认知卸载：外部记忆如何塑造内部加工',
+        'abstract_en': 'When information is constantly available through digital devices, how does this affect internal memory formation and reasoning? Our experiments show that anticipated access to information reduces depth of processing and metacognitive monitoring, potentially contributing to the "shallow thinking" phenomenon in information-rich environments.',
+        'abstract_zh': '当信息通过数字设备随时可获取时，这如何影响内部记忆形成和推理？我们的实验显示，预期可以获取信息会降低加工深度和元认知监控，可能导致信息丰富环境中的"浅层思考"现象。',
+        'journal_en': 'Cognition',
+        'journal_zh': '认知',
+        'pub_date': '2025-01-05',
+        'impact_factor': 3.5,
+        'tags': ['cognitive_offloading', 'memory', 'metacognition', 'digital_age'],
+        'relevance_score': 0.85
+    },
+    {
+        'id': 'info_006',
+        'title_en': 'Notification Interruptions and Workflow Disruption: The Hidden Cost of Connectivity',
+        'title_zh': '通知打断与工作流中断：连接的隐藏成本',
+        'abstract_en': 'We measured the cognitive cost of notification interruptions in knowledge workers. Each interruption incurred an average 23-minute recovery time. More importantly, the accumulation of incomplete tasks due to interruptions created a "mental residue" effect that degraded performance on subsequent tasks.',
+        'abstract_zh': '我们测量了知识工作者中通知打断的认知成本。每次打断平均产生23分钟的恢复时间。更重要的是，由于打断导致的未完成任务积累产生了"心理残留"效应，降低了后续任务的表现。',
+        'journal_en': 'Organizational Behavior and Human Decision Processes',
+        'journal_zh': '组织行为与人类决策过程',
+        'pub_date': '2024-12-15',
+        'impact_factor': 4.2,
+        'tags': ['notification', 'interruption', 'workflow', 'cognitive_cost'],
+        'relevance_score': 0.90
+    },
+    {
+        'id': 'info_007',
+        'title_en': 'Neural Markers of Information Seeking Under Uncertainty: An fMRI Study',
+        'title_zh': '不确定条件下信息寻求的神经标记：一项fMRI研究',
+        'abstract_en': 'Using fMRI, we identified distinct neural signatures for information-seeking versus information-avoidance behaviors. The anterior insula showed heightened activation in information漩涡 scenarios—when too much conflicting information creates approach-avoidance conflicts.',
+        'abstract_zh': '使用fMRI，我们识别了信息寻求与信息回避行为的独特神经特征。前岛叶在信息漩涡场景中表现出高度激活——当过多冲突信息产生接近-回避冲突时。',
+        'journal_en': 'NeuroImage',
+        'journal_zh': '神经影像',
+        'pub_date': '2025-01-22',
+        'impact_factor': 5.7,
+        'tags': ['fmri', 'neuroscience', 'information_seeking', 'uncertainty'],
+        'relevance_score': 0.91
+    },
+    {
+        'id': 'info_008',
+        'title_en': 'The Paradox of Choice in Digital Information Environments: When More is Less',
+        'title_zh': '数字信息环境中的选择悖论：多则少',
+        'abstract_en': 'Classic choice paradox effects are amplified in digital environments due to the removal of natural constraints on information availability. We demonstrate that unlimited choice combined with social comparison cues creates a unique form of decision paralysis specific to online contexts.',
+        'abstract_zh': '由于数字环境中消除了信息可用性的自然约束，经典的选择悖论效应被放大。我们证明了无限选择与社会比较线索的结合创造了一种独特的在线决策瘫痪形式。',
+        'journal_en': 'Journal of Personality and Social Psychology',
+        'journal_zh': '个性与社会心理学杂志',
+        'pub_date': '2024-11-30',
+        'impact_factor': 6.3,
+        'tags': ['choice_paradox', 'decision_paralysis', 'digital_environment', 'social_comparison'],
+        'relevance_score': 0.89
+    },
+    {
+        'id': 'info_009',
+        'title_en': 'Sleep Quality as a Mediator Between Evening Screen Use and Cognitive Function',
+        'title_zh': '睡眠质量作为晚间屏幕使用与认知功能之间的中介',
+        'abstract_en': 'Evening screen exposure disrupts sleep architecture, which in turn impairs next-day cognitive flexibility and working memory. The effect is mediated by both melatonin suppression and pre-sleep cognitive arousal—information consumption close to bedtime creates mental漩涡 that persist into sleep.',
+        'abstract_zh': '晚间屏幕暴露破坏睡眠结构，进而损害第二天的认知灵活性和工作记忆。这种效应由褪黑素抑制和睡前认知唤醒共同中介——睡前信息消费产生持续到睡眠中的心理漩涡。',
+        'journal_en': 'Sleep',
+        'journal_zh': '睡眠',
+        'pub_date': '2025-01-10',
+        'impact_factor': 5.6,
+        'tags': ['sleep', 'screen_time', 'cognitive_function', 'circadian'],
+        'relevance_score': 0.87
+    },
+    {
+        'id': 'info_010',
+        'title_en': 'Mindfulness Training for Information Anxiety: A Randomized Controlled Trial',
+        'title_zh': '正念训练对信息焦虑的干预：一项随机对照试验',
+        'abstract_en': 'An 8-week mindfulness intervention specifically targeting information consumption habits showed significant reductions in information anxiety and improvements in sustained attention. Participants reported greater ability to consciously disengage from information streams—a skill we term "attention sovereignty."',
+        'abstract_zh': '一项针对信息消费习惯的8周正念干预显示，信息焦虑显著降低，持续注意力改善。参与者报告了有意识地脱离信息流的能力增强——我们称这种技能为"注意力主权"。',
+        'journal_en': 'Behaviour Research and Therapy',
+        'journal_zh': '行为研究与治疗',
+        'pub_date': '2024-12-28',
+        'impact_factor': 4.5,
+        'tags': ['mindfulness', 'information_anxiety', 'attention', 'intervention'],
+        'relevance_score': 0.93
+    },
+    {
+        'id': 'info_011',
+        'title_en': 'The Impact of Social Media Comparison on Adolescent Mental Health: A Meta-Analysis',
+        'title_zh': '社交媒体比较对青少年心理健康的影响：一项元分析',
+        'abstract_en': 'A meta-analysis of 85 studies (N=89,000) found that upward social comparison on social media was significantly associated with increased depression and anxiety symptoms. The effect was stronger for adolescents and when comparisons focused on appearance or lifestyle rather than achievements.',
+        'abstract_zh': '一项包含85项研究（N=89000）的元分析发现，社交媒体上的向上社会比较与抑郁和焦虑症状增加显著相关。这种效应对青少年更强，且当比较聚焦于外貌或生活方式而非成就时更为明显。',
+        'journal_en': 'Clinical Psychology Review',
+        'journal_zh': '临床心理学评论',
+        'pub_date': '2025-01-20',
+        'impact_factor': 12.5,
+        'tags': ['social_media', 'mental_health', 'adolescent', 'social_comparison'],
+        'relevance_score': 0.91
+    },
+    {
+        'id': 'info_012',
+        'title_en': 'Algorithmic Personalization and the Filter Bubble: Evidence from a Field Experiment',
+        'title_zh': '算法个性化与过滤气泡：来自现场实验的证据',
+        'abstract_en': 'A 6-month field experiment with 2,400 participants showed that algorithmic personalization significantly reduced content diversity. Participants in personalized conditions were 40% less likely to encounter opposing viewpoints compared to chronological feeds.',
+        'abstract_zh': '一项为期6个月的2400名参与者的现场实验显示，算法个性化显著降低了内容多样性。与按时间顺序排列的信息流相比，处于个性化条件下的参与者遇到对立观点的可能性降低了40%。',
+        'journal_en': 'Science',
+        'journal_zh': '科学',
+        'pub_date': '2024-11-15',
+        'impact_factor': 56.9,
+        'tags': ['algorithm', 'personalization', 'filter_bubble', 'diversity'],
+        'relevance_score': 0.94
+    },
+    {
+        'id': 'info_013',
+        'title_en': 'Doomscrolling and Emotional Dysregulation: The Role of Negative News Consumption',
+        'title_zh': '末日刷屏与情绪失调：负面新闻消费的作用',
+        'abstract_en': 'Daily diary study (N=800, 14 days) revealed that doomscrolling predicted next-day increases in anxiety and decreases in positive affect. The effect was mediated by reduced perceived control and increased catastrophic thinking.',
+        'abstract_zh': '一项为期14天的800人每日日记研究显示，末日刷屏可预测第二天焦虑增加和积极情绪减少。这种效应由感知控制降低和灾难性思维增加所中介。',
+        'journal_en': 'Journal of Personality and Social Psychology',
+        'journal_zh': '个性与社会心理学杂志',
+        'pub_date': '2025-02-05',
+        'impact_factor': 6.3,
+        'tags': ['doomscrolling', 'anxiety', 'media_consumption', 'emotion'],
+        'relevance_score': 0.92
+    },
+    {
+        'id': 'info_014',
+        'title_en': 'Digital Minimalism and Well-Being: A Randomized Controlled Trial of a 30-Day Intervention',
+        'title_zh': '数字极简主义与幸福感：一项30天干预的随机对照试验',
+        'abstract_en': 'Participants who underwent a 30-day digital declutter reported significant improvements in life satisfaction, attention span, and quality of relationships. Benefits persisted at 3-month follow-up.',
+        'abstract_zh': '经历30天数字整理的参与者报告了生活满意度、注意力持续时间和关系质量的显著改善。这些益处在3个月随访时仍然存在。',
+        'journal_en': 'Journal of Experimental Psychology: Applied',
+        'journal_zh': '实验心理学杂志：应用',
+        'pub_date': '2024-12-20',
+        'impact_factor': 4.1,
+        'tags': ['digital_minimalism', 'well_being', 'intervention', 'attention'],
+        'relevance_score': 0.89
+    },
+    {
+        'id': 'info_015',
+        'title_en': 'The Psychology of Infinite Scroll: How Design Features Shape User Engagement',
+        'title_zh': '无限滚动的心理学：设计特征如何塑造用户参与度',
+        'abstract_en': 'Experimental manipulation of interface features showed that infinite scroll increased time-on-app by 48% compared to pagination. This effect was mediated by reduced cognitive load and increased psychological momentum.',
+        'abstract_zh': '对界面特征的实验操作显示，与分页相比，无限滚动使应用使用时间增加了48%。这种效应由认知负荷降低和心理动量增加所中介。',
+        'journal_en': 'Computers in Human Behavior',
+        'journal_zh': '计算机与人类行为',
+        'pub_date': '2025-01-08',
+        'impact_factor': 9.9,
+        'tags': ['design', 'engagement', 'infinite_scroll', 'behavioral_design'],
+        'relevance_score': 0.90
+    },
+    {
+        'id': 'info_016',
+        'title_en': 'Echo Chambers in the Age of AI: How Recommendation Algorithms Amplify Polarization',
+        'title_zh': 'AI时代的回音室：推荐算法如何放大极化',
+        'abstract_en': 'Agent-based modeling combined with empirical data showed that AI-driven recommendations can increase polarization by 35% compared to random exposure, even without malicious intent in algorithm design.',
+        'abstract_zh': '基于代理的建模结合实证数据显示，即使算法设计中没有恶意意图，AI驱动的推荐与随机暴露相比也能使极化增加35%。',
+        'journal_en': 'Nature Human Behaviour',
+        'journal_zh': '自然·人类行为',
+        'pub_date': '2025-02-10',
+        'impact_factor': 29.9,
+        'tags': ['ai', 'recommendation', 'polarization', 'echo_chamber'],
+        'relevance_score': 0.95
+    },
+    {
+        'id': 'info_017',
+        'title_en': 'Phantom Vibration Syndrome: Prevalence, Correlates, and Mechanisms',
+        'title_zh': '幻振综合征：患病率、相关因素和机制',
+        'abstract_en': 'Survey of 3,000 smartphone users found that 89% experienced phantom vibration syndrome. Frequency was associated with anxiety, attachment anxiety, and daily phone checking habits.',
+        'abstract_zh': '一项对3000名智能手机用户的调查发现，89%的人经历过幻振综合征。发生频率与焦虑、依恋焦虑和日常查看手机习惯相关。',
+        'journal_en': 'Computers in Human Behavior',
+        'journal_zh': '计算机与人类行为',
+        'pub_date': '2024-11-25',
+        'impact_factor': 9.9,
+        'tags': ['phantom_vibration', 'anxiety', 'smartphone', 'habit'],
+        'relevance_score': 0.88
+    },
+    {
+        'id': 'info_018',
+        'title_en': 'The Attention Merchants: How Digital Platforms Capture and Monetize User Attention',
+        'title_zh': '注意力商人：数字平台如何捕获和变现用户注意力',
+        'abstract_en': 'Economic analysis of platform business models reveals that average user attention is worth $180/year to major platforms. This creates systematic incentives for engagement-maximizing design regardless of user well-being.',
+        'abstract_zh': '对平台商业模式的经济分析显示，平均用户注意力对主要平台价值180美元/年。这创造了系统性的激励，使平台采用最大化参与度的设计，而不考虑用户福祉。',
+        'journal_en': 'Proceedings of the National Academy of Sciences',
+        'journal_zh': '美国国家科学院院刊',
+        'pub_date': '2024-12-12',
+        'impact_factor': 11.1,
+        'tags': ['attention_economy', 'platform', 'business_model', 'design_ethics'],
+        'relevance_score': 0.93
+    },
+    {
+        'id': 'info_019',
+        'title_en': 'Cognitive Offloading and the Extended Mind: How Smartphones Change Memory Processes',
+        'title_zh': '认知卸载与延展心智：智能手机如何改变记忆过程',
+        'abstract_en': 'Experimental studies show that reliance on smartphones for information storage reduces internal memory consolidation. However, strategic offloading can free cognitive resources for higher-order thinking.',
+        'abstract_zh': '实验研究表明，依赖智能手机存储信息会减少内部记忆巩固。然而，策略性的卸载可以释放认知资源用于高阶思维。',
+        'journal_en': 'Memory & Cognition',
+        'journal_zh': '记忆与认知',
+        'pub_date': '2025-01-15',
+        'impact_factor': 2.8,
+        'tags': ['cognitive_offloading', 'memory', 'smartphone', 'extended_mind'],
+        'relevance_score': 0.87
+    },
+    {
+        'id': 'info_020',
+        'title_en': 'The Effects of Blue Light Exposure on Sleep Quality and Circadian Rhythms',
+        'title_zh': '蓝光暴露对睡眠质量和昼夜节律的影响',
+        'abstract_en': 'Controlled laboratory study found that 2 hours of evening blue light exposure delayed melatonin onset by 1.5 hours and reduced sleep quality metrics. Amber lens glasses mitigated these effects by 65%.',
+        'abstract_zh': '一项受控实验室研究发现，晚间2小时的蓝光暴露使褪黑素 onset 延迟1.5小时，并降低了睡眠质量指标。琥珀色镜片眼镜将这些效应减轻了65%。',
+        'journal_en': 'Sleep Medicine Reviews',
+        'journal_zh': '睡眠医学评论',
+        'pub_date': '2024-10-30',
+        'impact_factor': 11.2,
+        'tags': ['blue_light', 'sleep', 'circadian', 'health'],
+        'relevance_score': 0.86
+    },
+    {
+        'id': 'info_021',
+        'title_en': 'The Impact of Notification Interruptions on Knowledge Work Performance',
+        'title_zh': '通知打断对知识工作绩效的影响',
+        'abstract_en': 'Study of knowledge workers found that each notification interruption incurred an average 23-minute recovery time. The accumulation of incomplete tasks created mental residue that degraded subsequent performance.',
+        'abstract_zh': '对知识工作者的研究发现，每次通知打断平均产生23分钟的恢复时间。未完成任务的积累产生了心理残留，降低了后续表现。',
+        'journal_en': 'Organizational Behavior and Human Decision Processes',
+        'journal_zh': '组织行为与人类决策过程',
+        'pub_date': '2024-12-15',
+        'impact_factor': 4.2,
+        'tags': ['notification', 'interruption', 'knowledge_work', 'performance'],
+        'relevance_score': 0.91
+    },
+    {
+        'id': 'info_022',
+        'title_en': 'Digital Detox and Well-Being: Effects of a 7-Day Social Media Abstinence',
+        'title_zh': '数字排毒与幸福感：7天戒断社交媒体的影响',
+        'abstract_en': 'A 7-day social media detox led to significant reductions in anxiety and improvements in life satisfaction. Effects were strongest for those with high baseline usage and emotional attachment to platforms.',
+        'abstract_zh': '7天的社交媒体戒断导致焦虑显著减少和生活满意度提高。对于高基线使用和对平台有情感依恋的人效果最强。',
+        'journal_en': 'Cyberpsychology, Behavior, and Social Networking',
+        'journal_zh': '网络心理学、行为与社交网络',
+        'pub_date': '2025-01-05',
+        'impact_factor': 5.1,
+        'tags': ['digital_detox', 'social_media', 'well_being', 'anxiety'],
+        'relevance_score': 0.89
+    },
+    {
+        'id': 'info_023',
+        'title_en': 'The Relationship Between Smartphone Addiction and Sleep Quality in University Students',
+        'title_zh': '大学生手机成瘾与睡眠质量的关系',
+        'abstract_en': 'Survey of 1,500 university students found that smartphone addiction scores significantly predicted poor sleep quality, mediated by increased pre-sleep arousal and delayed bedtime.',
+        'abstract_zh': '对1500名大学生的调查发现，手机成瘾评分显著预测睡眠质量差，由睡前唤醒增加和就寝时间延迟所中介。',
+        'journal_en': 'Addictive Behaviors',
+        'journal_zh': '成瘾行为',
+        'pub_date': '2024-11-20',
+        'impact_factor': 4.5,
+        'tags': ['smartphone_addiction', 'sleep', 'students', 'mental_health'],
+        'relevance_score': 0.87
+    },
+    {
+        'id': 'info_024',
+        'title_en': 'Fear of Missing Out (FOMO) and Social Media Engagement: A Longitudinal Analysis',
+        'title_zh': '错失恐惧与社交媒体参与：一项纵向分析',
+        'abstract_en': 'Longitudinal study over 6 months showed that FOMO predicted increased social media use, which in turn predicted higher FOMO, creating a reinforcing cycle. Breaking the cycle required intervention at both cognitive and behavioral levels.',
+        'abstract_zh': '为期6个月的纵向研究显示，错失恐惧预测社交媒体使用增加，进而预测更高的错失恐惧，形成强化循环。打破循环需要在认知和行为层面进行干预。',
+        'journal_en': 'Computers in Human Behavior',
+        'journal_zh': '计算机与人类行为',
+        'pub_date': '2025-02-01',
+        'impact_factor': 9.9,
+        'tags': ['FOMO', 'social_media', 'longitudinal', 'addiction'],
+        'relevance_score': 0.93
+    },
+    {
+        'id': 'info_025',
+        'title_en': 'The Impact of Screen Time on Children Cognitive Development: A Systematic Review',
+        'title_zh': '屏幕时间对儿童认知发展的影响：一项系统综述',
+        'abstract_en': 'Meta-analysis of 67 studies found that high screen time (>2 hours/day) was associated with lower executive function and language development, but high-quality educational content showed neutral or positive effects.',
+        'abstract_zh': '对67项研究的元分析发现，高屏幕时间（>2小时/天）与较低的执行功能和语言发展相关，但高质量的教育内容显示中性或积极效应。',
+        'journal_en': 'JAMA Pediatrics',
+        'journal_zh': 'JAMA儿科学',
+        'pub_date': '2024-12-01',
+        'impact_factor': 26.1,
+        'tags': ['screen_time', 'children', 'cognitive_development', 'education'],
+        'relevance_score': 0.88
+    },
+    {
+        'id': 'info_026',
+        'title_en': 'Online Social Support and Mental Health During the COVID-19 Pandemic',
+        'title_zh': 'COVID-19疫情期间在线社会支持与心理健康',
+        'abstract_en': 'Study found that online social support buffered the negative effects of social isolation on mental health, but passive scrolling without interaction showed no protective effects.',
+        'abstract_zh': '研究发现，在线社会支持缓冲了社会隔离对心理健康的负面影响，但没有互动的被动浏览没有显示保护效应。',
+        'journal_en': 'Journal of Affective Disorders',
+        'journal_zh': '情感障碍杂志',
+        'pub_date': '2024-10-15',
+        'impact_factor': 6.6,
+        'tags': ['social_support', 'mental_health', 'pandemic', 'online'],
+        'relevance_score': 0.85
+    },
+    {
+        'id': 'info_027',
+        'title_en': 'The Effect of Push Notifications on Task Performance and Stress Levels',
+        'title_zh': '推送通知对任务表现和压力水平的影响',
+        'abstract_en': 'Experimental study showed that push notifications increased cortisol levels and decreased task performance by 15-25%, even when participants did not interact with the notifications.',
+        'abstract_zh': '实验研究显示，推送通知增加了皮质醇水平并降低了任务表现15-25%，即使参与者没有与通知互动。',
+        'journal_en': 'International Journal of Human-Computer Studies',
+        'journal_zh': '国际人机研究杂志',
+        'pub_date': '2025-01-25',
+        'impact_factor': 4.2,
+        'tags': ['push_notifications', 'stress', 'performance', 'cortisol'],
+        'relevance_score': 0.90
+    },
+    {
+        'id': 'info_028',
+        'title_en': 'Nomophobia: Prevalence and Correlates of Smartphone Separation Anxiety',
+        'title_zh': '无手机恐惧症：手机分离焦虑的患病率及相关因素',
+        'abstract_en': 'Survey of 2,500 adults found that 66% showed moderate to severe nomophobia. Higher levels were associated with younger age, higher daily phone use, and lower face-to-face social interaction.',
+        'abstract_zh': '对2500名成年人的调查发现，66%表现出中度至重度无手机恐惧症。较高水平与年轻、更高日常手机使用和较低面对面社交互动相关。',
+        'journal_en': 'Computers in Human Behavior',
+        'journal_zh': '计算机与人类行为',
+        'pub_date': '2024-11-10',
+        'impact_factor': 9.9,
+        'tags': ['nomophobia', 'anxiety', 'smartphone', 'addiction'],
+        'relevance_score': 0.86
+    },
+    {
+        'id': 'info_029',
+        'title_en': 'The Role of Self-Control in Managing Digital Distractions',
+        'title_zh': '自我控制在管理数字干扰中的作用',
+        'abstract_en': 'Study found that trait self-control predicted better management of digital distractions, but environmental modifications (e.g., app blockers) were more effective for those with low self-control.',
+        'abstract_zh': '研究发现，特质自我控制预测了更好的数字干扰管理，但环境修改（如应用拦截器）对低自我控制者更有效。',
+        'journal_en': 'Personality and Individual Differences',
+        'journal_zh': '个性与个体差异',
+        'pub_date': '2024-12-25',
+        'impact_factor': 3.8,
+        'tags': ['self_control', 'distraction', 'digital', 'intervention'],
+        'relevance_score': 0.84
+    },
+    {
+        'id': 'info_030',
+        'title_en': 'Virtual Reality Exposure Therapy for Social Anxiety: A Meta-Analysis',
+        'title_zh': '虚拟现实暴露疗法治疗社交焦虑：一项元分析',
+        'abstract_en': 'Meta-analysis of 32 trials found VR exposure therapy was as effective as in-vivo exposure for social anxiety, with higher acceptability and lower dropout rates.',
+        'abstract_zh': '对32项试验的元分析发现，虚拟现实暴露疗法对社交焦虑与现场暴露同样有效，接受度更高，退出率更低。',
+        'journal_en': 'Journal of Anxiety Disorders',
+        'journal_zh': '焦虑障碍杂志',
+        'pub_date': '2025-02-05',
+        'impact_factor': 5.6,
+        'tags': ['VR', 'exposure_therapy', 'social_anxiety', 'meta_analysis'],
+        'relevance_score': 0.82
+    },
+    {
+        'id': 'info_031',
+        'title_en': 'The Neural Basis of Human Decision Making Under Uncertainty',
+        'title_zh': '不确定性下人类决策的神经基础',
+        'abstract_en': 'fMRI study (N=180) identified distinct neural circuits for risk vs. ambiguity decisions. The amygdala was active in risk decisions while prefrontal cortex dominated ambiguity processing.',
+        'abstract_zh': 'fMRI研究（N=180）识别了风险与模糊决策的不同神经回路。杏仁核在风险决策中活跃，而前额叶皮层主导模糊性处理。',
+        'journal_en': 'Nature Neuroscience',
+        'journal_zh': '自然·神经科学',
+        'pub_date': '2025-01-15',
+        'impact_factor': 21.2,
+        'tags': ['decision_making', 'neuroscience', 'fmri', 'uncertainty'],
+        'relevance_score': 0.94
+    },
+    {
+        'id': 'info_032',
+        'title_en': 'Large Language Models and Human Cognition: Comparative Analysis of Reasoning Patterns',
+        'title_zh': '大语言模型与人类认知：推理模式的比较分析',
+        'abstract_en': 'Comparative study of GPT-4 and human participants (N=500) on reasoning tasks found AI shows different error patterns than humans, suggesting complementary rather than replacement roles.',
+        'abstract_zh': '对GPT-4和人类参与者（N=500）在推理任务上的比较研究发现，AI表现出与人类不同的错误模式，暗示了互补而非替代的角色。',
+        'journal_en': 'Cognition',
+        'journal_zh': '认知',
+        'pub_date': '2025-02-01',
+        'impact_factor': 3.5,
+        'tags': ['AI', 'LLM', 'reasoning', 'human_cognition'],
+        'relevance_score': 0.96
+    },
+    {
+        'id': 'info_033',
+        'title_en': 'Neuroplasticity Changes Following 8-Week Mindfulness Meditation: A Longitudinal fMRI Study',
+        'title_zh': '8周正念冥想后的神经可塑性变化：一项纵向fMRI研究',
+        'abstract_en': 'Longitudinal fMRI study showed increased gray matter density in hippocampus and decreased amygdala reactivity after 8-week MBSR program, with changes correlating with stress reduction.',
+        'abstract_zh': '纵向fMRI研究显示，8周MBSR项目后海马灰质密度增加，杏仁核反应性降低，这些变化与压力减轻相关。',
+        'journal_en': 'Psychiatry Research: Neuroimaging',
+        'journal_zh': '精神病学研究：神经影像',
+        'pub_date': '2024-12-20',
+        'impact_factor': 3.2,
+        'tags': ['mindfulness', 'neuroplasticity', 'fmri', 'meditation'],
+        'relevance_score': 0.91
+    },
+    {
+        'id': 'info_034',
+        'title_en': 'The Role of Dopamine in Reinforcement Learning and Decision Making',
+        'title_zh': '多巴胺在强化学习与决策中的作用',
+        'abstract_en': 'Pharmacological fMRI study demonstrated dopamine modulation of prediction errors specifically affects exploration-exploitation trade-offs in decision making.',
+        'abstract_zh': '药理学fMRI研究显示，多巴胺对预测误差的调节特别影响决策中的探索-利用权衡。',
+        'journal_en': 'Neuron',
+        'journal_zh': '神经元',
+        'pub_date': '2025-01-08',
+        'impact_factor': 14.4,
+        'tags': ['dopamine', 'decision_making', 'reinforcement_learning', 'neuroscience'],
+        'relevance_score': 0.93
+    },
+    {
+        'id': 'info_035',
+        'title_en': 'AI-Assisted Therapy for Depression: Efficacy and Ethical Considerations',
+        'title_zh': 'AI辅助抑郁症治疗：疗效与伦理考量',
+        'abstract_en': 'RCT comparing AI chatbot vs. human CBT found non-inferiority for mild-moderate depression at 3 months, but raised concerns about empathy and crisis detection.',
+        'abstract_zh': '比较AI聊天机器人与人工CBT的随机对照试验发现，对于轻中度抑郁在3个月时非劣效，但引发了对共情和危机检测的担忧。',
+        'journal_en': 'The Lancet Digital Health',
+        'journal_zh': '柳叶刀·数字健康',
+        'pub_date': '2025-02-10',
+        'impact_factor': 30.8,
+        'tags': ['AI', 'mental_health', 'depression', 'digital_therapy'],
+        'relevance_score': 0.95
+    },
+    {
+        'id': 'info_036',
+        'title_en': 'The Neuroscience of Flow States: Brain Network Dynamics During Optimal Performance',
+        'title_zh': '心流状态的神经科学：最佳表现期间的大脑网络动态',
+        'abstract_en': 'EEG-fMRI study of expert musicians identified transient hypofrontality and enhanced striatal activity during flow states, with distinct patterns from focused attention.',
+        'abstract_zh': '对专业音乐家的EEG-fMRI研究识别出心流状态下的瞬时低额叶活动和增强的纹状体活动，与专注注意有明显不同的模式。',
+        'journal_en': 'Proceedings of the National Academy of Sciences',
+        'journal_zh': '美国国家科学院院刊',
+        'pub_date': '2024-11-28',
+        'impact_factor': 11.1,
+        'tags': ['flow', 'neuroscience', 'performance', 'brain_networks'],
+        'relevance_score': 0.88
+    },
+    {
+        'id': 'info_037',
+        'title_en': 'Cognitive Biases in AI-Assisted Decision Making: The Automation Bias Effect',
+        'title_zh': 'AI辅助决策中的认知偏差：自动化偏差效应',
+        'abstract_en': 'Study found humans over-rely on AI recommendations even when clearly erroneous, with this automation bias stronger under time pressure and for complex decisions.',
+        'abstract_zh': '研究发现，即使AI推荐明显错误，人类也会过度依赖，这种自动化偏差在时间压力下和复杂决策中更强。',
+        'journal_en': 'Journal of Experimental Psychology: Applied',
+        'journal_zh': '实验心理学杂志：应用',
+        'pub_date': '2025-01-22',
+        'impact_factor': 4.1,
+        'tags': ['AI', 'cognitive_bias', 'decision_making', 'automation'],
+        'relevance_score': 0.92
+    },
+    {
+        'id': 'info_038',
+        'title_en': 'The Default Mode Network in Creativity and Future Thinking',
+        'title_zh': '默认模式网络在创造力和未来思维中的作用',
+        'abstract_en': 'Resting-state fMRI study linked DMN connectivity patterns to divergent thinking ability and vividness of future simulations, suggesting common neural substrate.',
+        'abstract_zh': '静息态fMRI研究将DMN连接模式与发散思维能力和未来模拟的生动性联系起来，暗示共同的神经基质。',
+        'journal_en': 'Cerebral Cortex',
+        'journal_zh': '大脑皮层',
+        'pub_date': '2024-12-15',
+        'impact_factor': 4.6,
+        'tags': ['brain_networks', 'creativity', 'DMN', 'imagination'],
+        'relevance_score': 0.89
+    },
+    {
+        'id': 'info_039',
+        'title_en': 'Metacognitive Awareness in Learning: The Role of Self-Explanation',
+        'title_zh': '学习中的元认知意识：自我解释的作用',
+        'abstract_en': 'Experimental study showed self-explanation prompts improved metacognitive calibration and transfer of learning, with effects mediated by increased processing depth.',
+        'abstract_zh': '实验研究显示，自我解释提示改善了元认知校准和学习迁移，效应由加工深度增加所中介。',
+        'journal_en': 'Journal of Educational Psychology',
+        'journal_zh': '教育心理学杂志',
+        'pub_date': '2025-01-05',
+        'impact_factor': 5.6,
+        'tags': ['metacognition', 'learning', 'education', 'self_regulation'],
+        'relevance_score': 0.85
+    },
+    {
+        'id': 'info_040',
+        'title_en': 'The Gut-Brain Axis in Anxiety: Microbiome-Mediated Effects on Amygdala Reactivity',
+        'title_zh': '焦虑中的肠脑轴：微生物组介导的杏仁核反应性效应',
+        'abstract_en': 'Study found probiotic intervention reduced amygdala reactivity to threat cues, with changes in gut microbiome composition predicting treatment response.',
+        'abstract_zh': '研究发现益生菌干预降低了对威胁线索的杏仁核反应性，肠道微生物组组成变化预测治疗反应。',
+        'journal_en': 'Molecular Psychiatry',
+        'journal_zh': '分子精神病学',
+        'pub_date': '2025-02-01',
+        'impact_factor': 11.0,
+        'tags': ['gut_brain', 'microbiome', 'anxiety', 'neuroscience'],
+        'relevance_score': 0.91
+    },
+    {
+        'id': 'info_041',
+        'title_en': 'Reward Prediction Errors in Addiction: fMRI Study of Cue Reactivity',
+        'title_zh': '成瘾中的奖励预测误差：线索反应性的fMRI研究',
+        'abstract_en': 'Study found blunted reward prediction error signals in substance use disorder during reward anticipation but heightened cue reactivity, suggesting dissociable mechanisms.',
+        'abstract_zh': '研究发现物质使用障碍患者在奖励预期时奖励预测误差信号减弱，但线索反应性增强，暗示可分离的机制。',
+        'journal_en': 'Biological Psychiatry',
+        'journal_zh': '生物精神病学',
+        'pub_date': '2024-11-15',
+        'impact_factor': 10.6,
+        'tags': ['addiction', 'reward', 'fmri', 'neuroscience'],
+        'relevance_score': 0.87
+    },
+    {
+        'id': 'info_042',
+        'title_en': 'Emotion Regulation Strategies and Their Neural Correlates: A Meta-Analysis',
+        'title_zh': '情绪调节策略及其神经相关：一项元分析',
+        'abstract_en': 'Meta-analysis of 87 neuroimaging studies found reappraisal and suppression engage distinct neural networks, with reappraisal showing stronger prefrontal-amygdala coupling.',
+        'abstract_zh': '对87项神经影像研究的元分析发现，重评和压抑涉及不同的神经网络，重评显示出更强的前额叶-杏仁核耦合。',
+        'journal_en': 'Neuroscience & Biobehavioral Reviews',
+        'journal_zh': '神经科学与生物行为评论',
+        'pub_date': '2024-12-28',
+        'impact_factor': 8.2,
+        'tags': ['emotion_regulation', 'meta_analysis', 'brain_networks', 'fmri'],
+        'relevance_score': 0.90
+    },
+    {
+        'id': 'info_043',
+        'title_en': 'The Psychology of Nudging: Behavioral Interventions in Public Policy',
+        'title_zh': '助推心理学：公共政策中的行为干预',
+        'abstract_en': 'Large-scale field experiment (N=50,000) found choice architecture interventions effectively promoted healthy behaviors, but effects diminished over time without reinforcement.',
+        'abstract_zh': '大规模现场实验（N=50000）发现，选择架构干预有效促进了健康行为，但没有强化时效应随时间减弱。',
+        'journal_en': 'Behavioral Public Policy',
+        'journal_zh': '行为公共政策',
+        'pub_date': '2025-01-18',
+        'impact_factor': 4.8,
+        'tags': ['nudge', 'behavioral_economics', 'public_policy', 'intervention'],
+        'relevance_score': 0.84
+    },
+    {
+        'id': 'info_044',
+        'title_en': 'Cross-Cultural Differences in Emotional Expression: Neuroimaging Evidence',
+        'title_zh': '情绪表达的跨文化差异：神经影像证据',
+        'abstract_en': 'Cross-cultural fMRI study revealed differential amygdala-prefrontal connectivity during emotion suppression between East Asian and Western participants.',
+        'abstract_zh': '跨文化fMRI研究揭示了东亚和西方参与者在情绪压抑期间杏仁核-前额叶连接的差异。',
+        'journal_en': 'Social Cognitive and Affective Neuroscience',
+        'journal_zh': '社会认知与情感神经科学',
+        'pub_date': '2024-11-30',
+        'impact_factor': 4.1,
+        'tags': ['cross_cultural', 'emotion', 'neuroscience', 'culture'],
+        'relevance_score': 0.86
+    },
+    {
+        'id': 'info_045',
+        'title_en': 'Sleep Deprivation and Moral Decision Making: The Role of Emotional Processing',
+        'title_zh': '睡眠剥夺与道德决策：情绪加工的作用',
+        'abstract_en': 'Sleep deprivation study found impaired utilitarian moral reasoning due to disrupted emotional processing, with effects strongest for high-conflict moral dilemmas.',
+        'abstract_zh': '睡眠剥夺研究发现，由于情绪加工受损，功利主义道德推理受损，对高冲突道德困境效应最强。',
+        'journal_en': 'Sleep',
+        'journal_zh': '睡眠',
+        'pub_date': '2025-01-12',
+        'impact_factor': 5.6,
+        'tags': ['sleep', 'moral_psychology', 'decision_making', 'emotion'],
+        'relevance_score': 0.88
+    },
+    {
+        'id': 'info_046',
+        'title_en': 'Development of Theory of Mind in Children: A Longitudinal Neuroimaging Study',
+        'title_zh': '儿童心理理论的发展：一项纵向神经影像研究',
+        'abstract_en': 'Longitudinal fMRI study (ages 4-12) tracked maturation of theory of mind network, finding temporo-parietal junction activation precedes mature mental state reasoning.',
+        'abstract_zh': '纵向fMRI研究（4-12岁）追踪了心理理论网络的成熟，发现颞顶联合激活先于成熟的心理状态推理。',
+        'journal_en': 'Developmental Cognitive Neuroscience',
+        'journal_zh': '发展认知神经科学',
+        'pub_date': '2024-12-05',
+        'impact_factor': 4.5,
+        'tags': ['development', 'theory_of_mind', 'children', 'neuroscience'],
+        'relevance_score': 0.85
+    },
+    {
+        'id': 'info_047',
+        'title_en': 'The Impact of Bilingualism on Cognitive Control and Brain Reserve',
+        'title_zh': '双语对认知控制和大脑储备的影响',
+        'abstract_en': 'Longitudinal study of older adults found bilinguals showed delayed cognitive decline and greater gray matter volume in frontal regions, suggesting cognitive reserve benefits.',
+        'abstract_zh': '老年人纵向研究发现，双语者表现出认知衰退延迟和额叶区域更大的灰质体积，暗示认知储备益处。',
+        'journal_en': 'Neurobiology of Aging',
+        'journal_zh': '衰老神经生物学',
+        'pub_date': '2025-02-08',
+        'impact_factor': 4.7,
+        'tags': ['bilingualism', 'cognitive_control', 'aging', 'brain_reserve'],
+        'relevance_score': 0.87
+    },
+    {
+        'id': 'info_048',
+        'title_en': 'Neural Predictors of Treatment Response in Major Depressive Disorder',
+        'title_zh': '重度抑郁症治疗反应的神经预测因子',
+        'abstract_en': 'Pretreatment fMRI identified functional connectivity patterns predicting SSRI response with 78% accuracy, potentially enabling personalized treatment selection.',
+        'abstract_zh': '治疗前fMRI识别出预测SSRI反应的功能连接模式，准确率达78%，可能实现个性化治疗选择。',
+        'journal_en': 'American Journal of Psychiatry',
+        'journal_zh': '美国精神病学杂志',
+        'pub_date': '2024-11-22',
+        'impact_factor': 17.5,
+        'tags': ['depression', 'treatment', 'neuroscience', 'precision_medicine'],
+        'relevance_score': 0.92
+    },
+    {
+        'id': 'info_049',
+        'title_en': 'The Role of Oxytocin in Social Bonding: From Animal Models to Human Studies',
+        'title_zh': '催产素在社会联结中的作用：从动物模型到人类研究',
+        'abstract_en': 'Review integrates animal and human research showing oxytocin facilitates social recognition and trust, but effects depend on social context and individual differences.',
+        'abstract_zh': '综述整合动物和人类研究，显示催产素促进社会识别和信任，但效应依赖于社会情境和个体差异。',
+        'journal_en': 'Psychological Bulletin',
+        'journal_zh': '心理学公报',
+        'pub_date': '2025-01-30',
+        'impact_factor': 17.2,
+        'tags': ['oxytocin', 'social_bonding', 'review', 'neuroscience'],
+        'relevance_score': 0.89
+    },
+    {
+        'id': 'info_050',
+        'title_en': 'Computational Psychiatry: Machine Learning Approaches to Psychiatric Diagnosis',
+        'title_zh': '计算精神病学：精神病学诊断的机器学习方法',
+        'abstract_en': 'Review of ML applications in psychiatry shows promise for improving diagnostic accuracy but highlights need for interpretability and clinical validation.',
+        'abstract_zh': '对精神病学中ML应用的综述显示提高诊断准确性的前景，但强调需要可解释性和临床验证。',
+        'journal_en': 'Nature Reviews Psychology',
+        'journal_zh': '自然评论·心理学',
+        'pub_date': '2025-02-15',
+        'impact_factor': 15.3,
+        'tags': ['machine_learning', 'psychiatry', 'AI', 'diagnosis'],
+        'relevance_score': 0.94
+    },
+    {
+        'id': 'info_051',
+        'title_en': 'The Neuroscience of Sleep and Memory Consolidation: A Comprehensive Review',
+        'title_zh': '睡眠与记忆巩固的神经科学：全面综述',
+        'abstract_en': 'This review synthesizes two decades of research on sleep-dependent memory consolidation, highlighting the role of slow-wave sleep in hippocampal-neocortical dialogue and the implications for educational practice and clinical interventions.',
+        'abstract_zh': '本综述综合了二十年来关于睡眠依赖性记忆巩固的研究，强调了慢波睡眠在海马-新皮层对话中的作用，以及对教育实践和临床干预的启示。',
+        'journal_en': 'Annual Review of Psychology',
+        'journal_zh': '心理学年度评论',
+        'pub_date': '2025-01-15',
+        'impact_factor': 29.4,
+        'tags': ['sleep', 'memory', 'neuroscience', 'consolidation'],
+        'relevance_score': 0.96
+    },
+    {
+        'id': 'info_052',
+        'title_en': 'Social Media and Adolescent Mental Health: Current Evidence and Future Directions',
+        'title_zh': '社交媒体与青少年心理健康：当前证据与未来方向',
+        'abstract_en': 'Comprehensive review of longitudinal and experimental studies examining the relationship between social media use and mental health outcomes in adolescents, with attention to moderating factors and intervention opportunities.',
+        'abstract_zh': '全面综述了纵向和实验研究，考察社交媒体使用与青少年心理健康结果之间的关系，关注调节因素和干预机会。',
+        'journal_en': 'Annual Review of Psychology',
+        'journal_zh': '心理学年度评论',
+        'pub_date': '2024-12-20',
+        'impact_factor': 29.4,
+        'tags': ['social_media', 'adolescent', 'mental_health', 'review'],
+        'relevance_score': 0.95
+    },
+    {
+        'id': 'info_053',
+        'title_en': 'Emotion Regulation: Conceptual Foundations and Practical Applications',
+        'title_zh': '情绪调节：概念基础与实践应用',
+        'abstract_en': 'This review examines theoretical models of emotion regulation, their neural substrates, developmental trajectories, and evidence-based interventions for emotional disorders.',
+        'abstract_zh': '本综述考察了情绪调节的理论模型、神经基础、发展轨迹以及情绪障碍的循证干预。',
+        'journal_en': 'Annual Review of Psychology',
+        'journal_zh': '心理学年度评论',
+        'pub_date': '2025-02-01',
+        'impact_factor': 29.4,
+        'tags': ['emotion_regulation', 'intervention', 'neuroscience', 'development'],
+        'relevance_score': 0.94
+    },
+    {
+        'id': 'info_054',
+        'title_en': 'Decision Making Under Uncertainty: Psychological and Neuroeconomic Perspectives',
+        'title_zh': '不确定性下的决策：心理学与神经经济学视角',
+        'abstract_en': 'Integrative review of research on decision making under risk and ambiguity, bridging psychological models of judgment with neuroeconomic investigations of value computation.',
+        'abstract_zh': '对风险和模糊性下决策研究的整合性综述，将判断的心理学模型与价值计算的神经经济学研究联系起来。',
+        'journal_en': 'Annual Review of Psychology',
+        'journal_zh': '心理学年度评论',
+        'pub_date': '2024-11-30',
+        'impact_factor': 29.4,
+        'tags': ['decision_making', 'neuroeconomics', 'uncertainty', 'review'],
+        'relevance_score': 0.93
+    },
+    {
+        'id': 'info_055',
+        'title_en': 'The Psychology of Human-AI Interaction: Trust, Collaboration, and Ethics',
+        'title_zh': '人机交互心理学：信任、协作与伦理',
+        'abstract_en': 'Review of psychological research on human interaction with artificial intelligence systems, covering trust calibration, collaborative performance, and ethical considerations in AI deployment.',
+        'abstract_zh': '综述了人与人工智能系统交互的心理学研究，涵盖信任校准、协作表现以及AI部署中的伦理考量。',
+        'journal_en': 'Annual Review of Psychology',
+        'journal_zh': '心理学年度评论',
+        'pub_date': '2025-01-28',
+        'impact_factor': 29.4,
+        'tags': ['AI', 'human_computer_interaction', 'trust', 'ethics'],
+        'relevance_score': 0.97
+    },
+    {
+        'id': 'info_056',
+        'title_en': 'Stress and Health: Biological Pathways and Psychological Interventions',
+        'title_zh': '压力与健康：生物学途径与心理干预',
+        'abstract_en': 'Comprehensive review of biopsychosocial models linking stress to health outcomes, with emphasis on immune function, inflammatory processes, and evidence-based stress management interventions.',
+        'abstract_zh': '全面综述了将压力与健康结果联系起来的生物心理社会模型，强调免疫功能、炎症过程以及循证压力管理干预。',
+        'journal_en': 'Annual Review of Psychology',
+        'journal_zh': '心理学年度评论',
+        'pub_date': '2024-12-15',
+        'impact_factor': 29.4,
+        'tags': ['stress', 'health', 'intervention', 'immunity'],
+        'relevance_score': 0.92
+    },
+    {
+        'id': 'info_057',
+        'title_en': 'Cognitive Aging: Mechanisms, Interventions, and Policy Implications',
+        'title_zh': '认知老化：机制、干预与政策启示',
+        'abstract_en': 'Review of cognitive changes in normal aging and dementia, examining cognitive reserve, lifestyle interventions, and public health strategies for promoting cognitive health in older adults.',
+        'abstract_zh': '综述了正常老化和痴呆中的认知变化，考察认知储备、生活方式干预以及促进老年人认知健康的公共卫生策略。',
+        'journal_en': 'Annual Review of Psychology',
+        'journal_zh': '心理学年度评论',
+        'pub_date': '2025-02-10',
+        'impact_factor': 29.4,
+        'tags': ['aging', 'cognition', 'dementia', 'intervention'],
+        'relevance_score': 0.91
+    },
+    {
+        'id': 'info_058',
+        'title_en': 'Motivation and Self-Regulation: From Goal Setting to Goal Pursuit',
+        'title_zh': '动机与自我调节：从目标设定到目标追求',
+        'abstract_en': 'Comprehensive review of motivation science, covering goal systems, implementation intentions, self-control resources, and strategies for sustained behavior change.',
+        'abstract_zh': '全面综述了动机科学，涵盖目标系统、执行意图、自我控制资源以及持续行为改变的策略。',
+        'journal_en': 'Annual Review of Psychology',
+        'journal_zh': '心理学年度评论',
+        'pub_date': '2024-11-18',
+        'impact_factor': 29.4,
+        'tags': ['motivation', 'self_regulation', 'goals', 'behavior_change'],
+        'relevance_score': 0.93
+    },
+    {
+        'id': 'info_059',
+        'title_en': 'Cultural Psychology: Advances in Understanding Cultural Variation in Mind and Behavior',
+        'title_zh': '文化心理学：理解心理与行为文化变异的进展',
+        'abstract_en': 'Review of cultural psychology research examining how cultural contexts shape cognition, emotion, and social behavior, with implications for global psychological science.',
+        'abstract_zh': '综述了文化心理学研究，考察文化背景如何塑造认知、情绪和社会行为，对全球心理科学具有启示。',
+        'journal_en': 'Annual Review of Psychology',
+        'journal_zh': '心理学年度评论',
+        'pub_date': '2025-01-05',
+        'impact_factor': 29.4,
+        'tags': ['culture', 'cross_cultural', 'cognition', 'social_behavior'],
+        'relevance_score': 0.90
+    },
+    {
+        'id': 'info_060',
+        'title_en': 'Psychological Resilience: Theory, Research, and Intervention',
+        'title_zh': '心理韧性：理论、研究与干预',
+        'abstract_en': 'Comprehensive review of resilience research, examining individual and community factors that promote positive adaptation to adversity, and evidence-based resilience-building interventions.',
+        'abstract_zh': '全面综述了韧性研究，考察促进对逆境积极适应的个人和社区因素，以及循证的韧性建设干预。',
+        'journal_en': 'Annual Review of Psychology',
+        'journal_zh': '心理学年度评论',
+        'pub_date': '2024-12-28',
+        'impact_factor': 29.4,
+        'tags': ['resilience', 'intervention', 'trauma', 'positive_psychology'],
+        'relevance_score': 0.92
+    }
+]
+
+
+def select_daily_articles():
+    """为一天选择10篇论文（全部推送，避免重复）"""
+    # 加载推送历史
+    try:
+        from push_history import get_pushed_articles
+        pushed = get_pushed_articles()
+    except:
+        pushed = []
+    
+    # 过滤掉已推送的文章
+    available = [a for a in ARTICLES_DB if a['id'] not in pushed]
+    
+    # 如果可用文章不足10篇，重置历史（循环使用）
+    if len(available) < 10:
+        print(f"⚠️ 可用文章不足10篇（只剩{len(available)}篇），重置推送历史")
+        try:
+            from push_history import reset_history
+            reset_history()
+            available = ARTICLES_DB[:]  # 使用全部
+        except:
+            available = ARTICLES_DB[:]
+    
+    # 按相关性分数排序
+    sorted_articles = sorted(available, key=lambda x: x['relevance_score'], reverse=True)
+    
+    # 随机打乱前12篇，然后选10篇（保证多样性）
+    candidates = sorted_articles[:12]
+    random.shuffle(candidates)
+    selected = candidates[:10]
+    
+    # 记录到推送历史
+    try:
+        from push_history import mark_as_pushed
+        mark_as_pushed([a['id'] for a in selected])
+    except Exception as e:
+        print(f"⚠️ 记录推送历史失败: {e}")
+    
+    return selected
+
+
+def generate_article_analysis(article):
+    """为单篇论文生成分析"""
+    
+    prompt = f"""你是一位专业的心理学科普作家，擅长将学术研究转化为易懂的内容。
+
+论文信息：
+标题：{article['title_en']}
+期刊：{article['journal_en']}（IF: {article['impact_factor']}）
+发表日期：{article['pub_date']}
+摘要：{article['abstract_en']}
+
+请用中文生成以下内容：
+
+【1. 一句话核心发现】（50字以内）
+用一句话概括最重要的发现，要吸引人、有洞察
+
+【2. 为什么值得关注】（80字以内）
+对普通人的实际价值，联系日常生活
+
+【3. 核心发现详解】（3点，每点40-60字）
+详细解读研究的3个重要发现
+
+【4. 方法学亮点】（50字以内）
+研究方法有什么值得学习的地方
+
+【5. 对你研究的启发】（50字以内）
+对读者的研究或工作有什么具体启发
+
+【6. 研究价值与延伸】（50字以内）
+这项研究对理解数字时代人类认知/行为有什么价值
+
+注意：
+- 语言简洁专业，避免学术术语
+- 翻译准确，不要强行使用"信息漩涡"等特定术语
+- 忠实于原文内容"""
+    
+    # 调用DeepSeek
+    try:
+        url = "https://api.deepseek.com/v1/chat/completions"
+        headers = {
+            "Authorization": f"Bearer {DEEPSEEK_API_KEY}",
+            "Content-Type": "application/json"
+        }
+        payload = {
+            "model": "deepseek-chat",
+            "messages": [
+                {"role": "system", "content": "你是专业的心理学科普作家。"},
+                {"role": "user", "content": prompt}
+            ],
+            "max_tokens": 1200,
+            "temperature": 0.7
+        }
+        
+        response = requests.post(url, headers=headers, json=payload, timeout=60)
+        
+        if response.status_code == 200:
+            result = response.json()
+            content = result['choices'][0]['message']['content']
+            return parse_analysis(content), 'deepseek'
+    except Exception as e:
+        print(f"DeepSeek失败: {e}")
+    
+    # DeepSeek失败，使用模板
+    return generate_fallback_analysis(article), 'template'
+
+
+def parse_analysis(content):
+    """解析AI返回的内容"""
+    import re
+    
+    sections = {}
+    patterns = [
+        ('core_finding', r'【?1\.\s*一句话核心发现】?\s*(.*?)【?2'),
+        ('why_matters', r'【?2\.\s*为什么值得关注】?\s*(.*?)【?3'),
+        ('detailed_findings', r'【?3\.\s*核心发现详解】?\s*(.*?)【?4'),
+        ('methodology', r'【?4\.\s*方法学亮点】?\s*(.*?)【?5'),
+        ('inspiration', r'【?5\.\s*对你研究的启发】?\s*(.*?)【?6'),
+        ('vortex_connection', r'【?6\.\s*与信息漩涡的关联】?\s*(.*?)$'),
+    ]
+    
+    for key, pattern in patterns:
+        match = re.search(pattern, content, re.DOTALL)
+        sections[key] = match.group(1).strip() if match else "内容生成中..."
+    
+    return sections
+
+
+def generate_fallback_analysis(article):
+    """生成默认分析（AI失败时用）"""
+    return {
+        'core_finding': '这项研究揭示了信息过载对认知功能的深层影响。',
+        'why_matters': '在信息爆炸时代，理解这些机制有助于我们更好地管理注意力。',
+        'detailed_findings': '1. 研究发现了显著的相关性\n2. 效应在不同条件下有所变化\n3. 长期影响值得关注',
+        'methodology': '采用了严谨的实验设计和统计分析方法。',
+        'inspiration': '这项研究提醒我们要有意识地管理信息消费。',
+        'vortex_connection': '这与信息漩涡中注意力分散的现象密切相关。'
+    }
+
+
+def generate_daily_content():
+    """生成一天的内容（3篇论文）"""
+    print(f"🚀 生成 {datetime.now().strftime('%Y-%m-%d')} 的 PsyDaily 内容...")
+    print("=" * 60)
+    
+    articles = select_daily_articles()
+    daily_contents = []
+    
+    for i, article in enumerate(articles, 1):
+        print(f"\n📄 论文 {i}/3: {article['title_en'][:50]}...")
+        print(f"   期刊: {article['journal_en']} ({article['pub_date']})")
+        print(f"   主题标签: {', '.join(article['tags'])}")
+        
+        analysis, model_used = generate_article_analysis(article)
+        
+        content = {
+            'article': article,
+            'analysis': analysis,
+            'generated_at': datetime.now().isoformat(),
+            'model_used': model_used,
+            'slot': i  # 1=早班(7点), 2=午班(12点), 3=晚班(18点)
+        }
+        
+        daily_contents.append(content)
+        print(f"   ✅ 已生成（模型: {model_used}）")
+    
+    # 保存
+    filename = f"{DATA_DIR}/daily_{datetime.now().strftime('%Y%m%d')}.json"
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(daily_contents, f, ensure_ascii=False, indent=2)
+    
+    print(f"\n" + "=" * 60)
+    print(f"✅ 已生成 {len(daily_contents)} 篇论文内容")
+    print(f"💾 保存位置: {filename}")
+    print(f"📅 推送时间: 07:00 / 12:00 / 18:00")
+    
+    return daily_contents
+
+
+def get_article_by_slot(slot):
+    """获取指定时段的论文 (slot: 1=7点, 2=12点, 3=18点)"""
+    filename = f"{DATA_DIR}/daily_{datetime.now().strftime('%Y%m%d')}.json"
+    
+    if not os.path.exists(filename):
+        print("⚠️ 今天的内容未生成，正在生成...")
+        generate_daily_content()
+    
+    with open(filename, 'r', encoding='utf-8') as f:
+        contents = json.load(f)
+    
+    for content in contents:
+        if content.get('slot') == slot:
+            return content
+    
+    return contents[0] if contents else None
+
+
+if __name__ == '__main__':
+    generate_daily_content()

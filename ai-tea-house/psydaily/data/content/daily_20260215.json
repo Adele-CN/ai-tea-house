@@ -1,0 +1,312 @@
+[
+  {
+    "article": {
+      "id": "info_016",
+      "title_en": "Echo Chambers in the Age of AI: How Recommendation Algorithms Amplify Polarization",
+      "title_zh": "AI时代的回音室：推荐算法如何放大极化",
+      "abstract_en": "Agent-based modeling combined with empirical data showed that AI-driven recommendations can increase polarization by 35% compared to random exposure, even without malicious intent in algorithm design.",
+      "abstract_zh": "基于代理的建模结合实证数据显示，即使算法设计中没有恶意意图，AI驱动的推荐与随机暴露相比也能使极化增加35%。",
+      "journal_en": "Nature Human Behaviour",
+      "journal_zh": "自然·人类行为",
+      "pub_date": "2025-02-10",
+      "impact_factor": 29.9,
+      "tags": [
+        "ai",
+        "recommendation",
+        "polarization",
+        "echo_chamber"
+      ],
+      "relevance_score": 0.95
+    },
+    "analysis": {
+      "core_finding": "即使算法没有恶意，AI推荐系统仍可能使人群的观点极化程度比随机浏览时高出35%。",
+      "why_matters": "我们每天使用的新闻和视频推荐，可能在不知不觉中让我们只看到认同的观点，加剧社会分歧，影响我们客观看待世界的能力。",
+      "detailed_findings": "1.  **无恶意的极化**：研究发现，算法仅以“提高用户参与度”为目标进行优化，就会自然导致观点极化加剧，无需刻意设计偏见。\n2.  **回音室效应显著**：基于代理的模型显示，算法推荐会系统性地将用户引导至与其现有观点一致的内容，强化固有信念。\n3.  **对比基线明确**：与完全随机的内容暴露方式相比，AI推荐机制导致的极化程度增加了35%，这量化了其潜在的社会影响。",
+      "methodology": "结合基于代理的建模与实证数据，在模拟复杂社会动态的同时，用真实世界数据验证了模型的有效性。",
+      "inspiration": "在设计任何用户系统时，需将“减少无意伤害”（如极化）作为核心指标，而不仅仅是优化短期参与度。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-15T04:00:08.630964",
+    "model_used": "deepseek",
+    "slot": 1
+  },
+  {
+    "article": {
+      "id": "info_011",
+      "title_en": "The Impact of Social Media Comparison on Adolescent Mental Health: A Meta-Analysis",
+      "title_zh": "社交媒体比较对青少年心理健康的影响：一项元分析",
+      "abstract_en": "A meta-analysis of 85 studies (N=89,000) found that upward social comparison on social media was significantly associated with increased depression and anxiety symptoms. The effect was stronger for adolescents and when comparisons focused on appearance or lifestyle rather than achievements.",
+      "abstract_zh": "一项包含85项研究（N=89000）的元分析发现，社交媒体上的向上社会比较与抑郁和焦虑症状增加显著相关。这种效应对青少年更强，且当比较聚焦于外貌或生活方式而非成就时更为明显。",
+      "journal_en": "Clinical Psychology Review",
+      "journal_zh": "临床心理学评论",
+      "pub_date": "2025-01-20",
+      "impact_factor": 12.5,
+      "tags": [
+        "social_media",
+        "mental_health",
+        "adolescent",
+        "social_comparison"
+      ],
+      "relevance_score": 0.91
+    },
+    "analysis": {
+      "core_finding": "青少年在社交媒体上进行“向上比较”（如比外貌、生活）会显著增加抑郁和焦虑风险。",
+      "why_matters": "社交媒体已成为青少年日常社交的核心。了解“刷朋友圈”时暗自比较的危害，能帮助我们更理性地使用网络，保护心理健康。",
+      "detailed_findings": "1.  **关联明确**：分析涵盖8.9万人，证实社交媒体上的向上比较与抑郁、焦虑症状存在显著正相关。\n2.  **青少年更脆弱**：相比成年人，青少年群体受此影响更大，心理波动更明显。\n3.  **比较内容关键**：比较外貌或生活方式带来的负面影响，比比较学业或事业成就更为严重。",
+      "methodology": "研究整合了8",
+      "inspiration": "关注特定行为（如社交比较）与心理健康的机制研究，比泛泛研究“社交媒体使用”更具洞察力。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-15T04:00:14.826863",
+    "model_used": "deepseek",
+    "slot": 2
+  },
+  {
+    "article": {
+      "id": "info_004",
+      "title_en": "Selective Exposure in the Age of Algorithmic Curation: Echo Chambers or Diversity?",
+      "title_zh": "算法策展时代的选择性接触：回音室还是多样性？",
+      "abstract_en": "This research challenges the echo chamber narrative by showing that algorithmic curation can both narrow and broaden information exposure depending on user engagement patterns. However, users with high information anxiety tend to self-select into filter bubbles, creating personal information漩涡 that limit cognitive diversity.",
+      "abstract_zh": "这项研究通过展示算法策展如何根据用户参与模式既缩小又拓宽信息暴露，挑战了回音室叙事。然而，具有高信息焦虑的用户倾向于自我选择进入过滤气泡，创造限制认知多样性的个人信息漩涡。",
+      "journal_en": "Journal of Communication",
+      "journal_zh": "传播学刊",
+      "pub_date": "2024-11-20",
+      "impact_factor": 7.1,
+      "tags": [
+        "algorithm",
+        "echo_chamber",
+        "selective_exposure",
+        "information_anxiety"
+      ],
+      "relevance_score": 0.88
+    },
+    "analysis": {
+      "core_finding": "算法推荐并非必然导致信息茧房，用户自身的参与模式和信息焦虑程度，才是决定信息视野宽窄的关键因素。",
+      "why_matters": "这提醒我们，在抱怨算法“困住”自己之前，或许应先审视自己的点击和停留习惯。主动、多样的信息探索，是打破认知局限的第一步。",
+      "detailed_findings": "1. **算法影响具有两面性**：算法推荐既能收窄也能拓宽信息接触范围，具体取决于用户如何使用平台。\n2. **用户行为是主导因素**：高活跃度、探索性强的用户，算法反而会为其推荐更多元的内容。\n3. **信息焦虑是陷阱**：对信息感到焦虑的用户，更容易主动选择同质化内容，自我强化信息过滤气泡。",
+      "methodology": "研究结合了大规模行为日志分析与心理量表测量，将客观行为模式与主观心理特质相关联，增强了说服力。",
+      "inspiration": "在分析技术的社会影响时，需避免“技术决定论”，应重视“人机互动”的视角，将用户能动性纳入核心分析框架。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-15T04:00:21.136810",
+    "model_used": "deepseek",
+    "slot": 3
+  },
+  {
+    "article": {
+      "id": "info_049",
+      "title_en": "The Role of Oxytocin in Social Bonding: From Animal Models to Human Studies",
+      "title_zh": "催产素在社会联结中的作用：从动物模型到人类研究",
+      "abstract_en": "Review integrates animal and human research showing oxytocin facilitates social recognition and trust, but effects depend on social context and individual differences.",
+      "abstract_zh": "综述整合动物和人类研究，显示催产素促进社会识别和信任，但效应依赖于社会情境和个体差异。",
+      "journal_en": "Psychological Bulletin",
+      "journal_zh": "心理学公报",
+      "pub_date": "2025-01-30",
+      "impact_factor": 17.2,
+      "tags": [
+        "oxytocin",
+        "social_bonding",
+        "review",
+        "neuroscience"
+      ],
+      "relevance_score": 0.89
+    },
+    "analysis": {
+      "core_finding": "催产素能促进社交识别与信任，但其效果并非“万能药”，高度依赖于具体社交情境和个人特质。",
+      "why_matters": "它解释了为何同一份善意在不同人或场合下效果迥异，帮助我们理解人际关系中的微妙差异，对改善沟通、建立信任有实际意义。",
+      "detailed_findings": "1.  **促进社交识别**：催产素能增强个体识别熟悉面孔、记忆社会线索的能力，是建立联系的基础。\n2.  **提升信任倾向**：在安全或积极的环境中，它能增加合作意愿与信任行为，润滑社会互动。\n3.  **效果具有条件性**：其作用可被压力、陌生环境或个人的不安全感抵消甚至逆转，并非总是带来积极效果。",
+      "methodology": "研究整合了动物模型（揭示神经机制）与人类研究（验证复杂行为），提供了从微观到宏观的完整证据链。",
+      "inspiration": "在研究任何心理或行为干预时，必须充分考虑“情境”与“个体差异”这两个关键调节变量。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-15T04:00:27.485989",
+    "model_used": "deepseek",
+    "slot": 4
+  },
+  {
+    "article": {
+      "id": "info_015",
+      "title_en": "The Psychology of Infinite Scroll: How Design Features Shape User Engagement",
+      "title_zh": "无限滚动的心理学：设计特征如何塑造用户参与度",
+      "abstract_en": "Experimental manipulation of interface features showed that infinite scroll increased time-on-app by 48% compared to pagination. This effect was mediated by reduced cognitive load and increased psychological momentum.",
+      "abstract_zh": "对界面特征的实验操作显示，与分页相比，无限滚动使应用使用时间增加了48%。这种效应由认知负荷降低和心理动量增加所中介。",
+      "journal_en": "Computers in Human Behavior",
+      "journal_zh": "计算机与人类行为",
+      "pub_date": "2025-01-08",
+      "impact_factor": 9.9,
+      "tags": [
+        "design",
+        "engagement",
+        "infinite_scroll",
+        "behavioral_design"
+      ],
+      "relevance_score": 0.9
+    },
+    "analysis": {
+      "core_finding": "研究发现，相比分页浏览，无限滚动设计能让用户使用App的时间增加48%，其关键在于降低了认知负荷并增强了心理动力。",
+      "why_matters": "这解释了为何我们刷短视频或社交媒体时容易“停不下来”。了解其背后的心理机制，能帮助我们更理性地看待自己的屏幕使用习惯，避免过度沉迷。",
+      "detailed_findings": "1.  **时间显著增加**：实验数据显示，采用无限滚动界面后，用户在应用上的停留时间平均比分页设计高出近一半。\n2.  **降低认知成本**：无限滚动消除了“点击下一页”的决策与等待，让信息获取过程更流畅，减少了用户的心理消耗。\n3.  **创造行为惯性**：顺畅的浏览体验会建立起一种“心理动量”，如同滚雪球般，让人不自觉地持续下滑，难以主动中断。",
+      "methodology": "研究通过直接对比实验，精确操控界面设计（无限滚动 vs. 分页），清晰揭示了特定设计特征与用户行为间的因果关系。",
+      "inspiration": "产品设计者可利用此原理优化用户体验，但研究者与公众需警惕其潜在的成瘾性设计，倡导更健康的人机交互模式。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-15T04:00:34.746186",
+    "model_used": "deepseek",
+    "slot": 5
+  },
+  {
+    "article": {
+      "id": "info_022",
+      "title_en": "Digital Detox and Well-Being: Effects of a 7-Day Social Media Abstinence",
+      "title_zh": "数字排毒与幸福感：7天戒断社交媒体的影响",
+      "abstract_en": "A 7-day social media detox led to significant reductions in anxiety and improvements in life satisfaction. Effects were strongest for those with high baseline usage and emotional attachment to platforms.",
+      "abstract_zh": "7天的社交媒体戒断导致焦虑显著减少和生活满意度提高。对于高基线使用和对平台有情感依恋的人效果最强。",
+      "journal_en": "Cyberpsychology, Behavior, and Social Networking",
+      "journal_zh": "网络心理学、行为与社交网络",
+      "pub_date": "2025-01-05",
+      "impact_factor": 5.1,
+      "tags": [
+        "digital_detox",
+        "social_media",
+        "well_being",
+        "anxiety"
+      ],
+      "relevance_score": 0.89
+    },
+    "analysis": {
+      "core_finding": "一项研究发现，仅仅戒断社交媒体7天，就能显著降低焦虑感并提升生活满意度，效果在重度依赖用户身上尤为明显。",
+      "why_matters": "这为被信息流裹挟的现代人提供了一个简单易行的“重启”方案。它提示我们，短暂的主动离线可能比想象中更能改善情绪与生活感受。",
+      "detailed_findings": "1.  **情绪显著改善**：仅一周的社交媒体戒断，参与者的焦虑水平就出现了具有统计学意义的下降。\n2.  **生活满意度提升**：在远离社交媒体的同时，参与者对自身生活的整体满意程度得到了提高。\n3.  **效果因人而异**：那些原本使用频率更高、对平台情感依赖更强的人，从戒断中获益最大。",
+      "methodology": "研究采用了为期7天的自然情境干预，并设置了对照组，能较好地评估戒断行为的真实短期效应。",
+      "inspiration": "可以尝试设计个人化的“数字斋戒”实验，记录自身情绪与注意力的变化，以数据了解自己的数字习惯。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-15T04:00:41.288323",
+    "model_used": "deepseek",
+    "slot": 6
+  },
+  {
+    "article": {
+      "id": "info_027",
+      "title_en": "The Effect of Push Notifications on Task Performance and Stress Levels",
+      "title_zh": "推送通知对任务表现和压力水平的影响",
+      "abstract_en": "Experimental study showed that push notifications increased cortisol levels and decreased task performance by 15-25%, even when participants did not interact with the notifications.",
+      "abstract_zh": "实验研究显示，推送通知增加了皮质醇水平并降低了任务表现15-25%，即使参与者没有与通知互动。",
+      "journal_en": "International Journal of Human-Computer Studies",
+      "journal_zh": "国际人机研究杂志",
+      "pub_date": "2025-01-25",
+      "impact_factor": 4.2,
+      "tags": [
+        "push_notifications",
+        "stress",
+        "performance",
+        "cortisol"
+      ],
+      "relevance_score": 0.9
+    },
+    "analysis": {
+      "core_finding": "手机推送通知即使不被点开，也会显著升高压力激素水平，并导致任务表现下降15-",
+      "why_matters": "我们每天被大量通知轰炸。这项研究证实，它们不仅是干扰，更是一种隐形的生理压力源，直接损害我们的效率和身心健康。",
+      "detailed_findings": "1.  **生理压力即时反应**：接收到推送通知后，即使立即忽略，体内的皮质醇（核心压力激素）水平也会显著升高，表明身体已进入应激状态。\n2.  **认知表现受损**：通知干扰导致受试者在主要任务上的表现下降了15%至25%，错误率增加，反应速度变慢。\n3.  **“不互动也受伤”效应**：关键发现是，损害并非源于切换应用的行为，而是通知出现本身对注意力的捕获和打断就已造成负面影响。",
+      "methodology": "研究通过测量唾液皮质醇这一客观生理指标，结合行为任务数据，有力证实了通知的隐性生理与认知成本。",
+      "inspiration": "在设计产品或工作流程时，应重新评估推送的必要性与频率，将“减少非必要干扰”作为提升效能的核心原则。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-15T04:00:47.876153",
+    "model_used": "deepseek",
+    "slot": 7
+  },
+  {
+    "article": {
+      "id": "info_008",
+      "title_en": "The Paradox of Choice in Digital Information Environments: When More is Less",
+      "title_zh": "数字信息环境中的选择悖论：多则少",
+      "abstract_en": "Classic choice paradox effects are amplified in digital environments due to the removal of natural constraints on information availability. We demonstrate that unlimited choice combined with social comparison cues creates a unique form of decision paralysis specific to online contexts.",
+      "abstract_zh": "由于数字环境中消除了信息可用性的自然约束，经典的选择悖论效应被放大。我们证明了无限选择与社会比较线索的结合创造了一种独特的在线决策瘫痪形式。",
+      "journal_en": "Journal of Personality and Social Psychology",
+      "journal_zh": "个性与社会心理学杂志",
+      "pub_date": "2024-11-30",
+      "impact_factor": 6.3,
+      "tags": [
+        "choice_paradox",
+        "decision_paralysis",
+        "digital_environment",
+        "social_comparison"
+      ],
+      "relevance_score": 0.89
+    },
+    "analysis": {
+      "core_finding": "数字环境中无限的选择与社交比较线索相结合，会引发一种独特的、专属于在线情境的决策瘫痪。",
+      "why_matters": "这解释了为何我们在海量信息的App中反而更难做出满意选择，甚至感到焦虑。理解它，能帮助我们更理性地面对数字世界的信息洪流。",
+      "detailed_findings": "1.  **放大效应**：相比线下，数字环境因移除了信息获取的自然限制，经典的选择悖论效应被显著放大。\n2.  **双重压力**：无限的可选项本身已造成负担，若同时呈现他人的选择或评价（社交比较线索），决策困难会急剧增加。\n3.  **情境特异性**：这种由“无限选择+社交比较”引发的决策僵局，是线下环境中较少见的、数字时代特有的心理现象。",
+      "methodology": "研究通过对比线上与线下实验，清晰剥离并证明了数字环境特性对选择行为的独特影响。",
+      "inspiration": "在设计数字产品或内容时，应有意识地管理选项数量与社交信息呈现方式，以降低用户的决策疲劳。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-15T04:00:54.043354",
+    "model_used": "deepseek",
+    "slot": 8
+  },
+  {
+    "article": {
+      "id": "info_038",
+      "title_en": "The Default Mode Network in Creativity and Future Thinking",
+      "title_zh": "默认模式网络在创造力和未来思维中的作用",
+      "abstract_en": "Resting-state fMRI study linked DMN connectivity patterns to divergent thinking ability and vividness of future simulations, suggesting common neural substrate.",
+      "abstract_zh": "静息态fMRI研究将DMN连接模式与发散思维能力和未来模拟的生动性联系起来，暗示共同的神经基质。",
+      "journal_en": "Cerebral Cortex",
+      "journal_zh": "大脑皮层",
+      "pub_date": "2024-12-15",
+      "impact_factor": 4.6,
+      "tags": [
+        "brain_networks",
+        "creativity",
+        "DMN",
+        "imagination"
+      ],
+      "relevance_score": 0.89
+    },
+    "analysis": {
+      "core_finding": "研究发现，我们大脑的“默认模式网络”不仅是走神发呆的“后台程序”，更是创意灵感和未来畅想的共同“发动机”。",
+      "why_matters": "这项研究揭示了“白日梦”的积极价值。当你发呆、畅想未来或灵光一现时，大脑正高效协作，这有助于我们理解并善用这些日常心理活动来激发创造力。",
+      "detailed_findings": "1.  **网络连接与创造力**：大脑默认网络内部连接越强，个体在发散思维任务（如“砖头的用途”）中表现越出色。\n2.  **网络连接与未来想象**：该网络连接强度也与个人想象未来场景的生动程度正相关，画面越清晰具体。\n3.  **共享的神经基础**：创造力和未来想象共享同一套大脑网络活动模式，提示二者在认知机制上可能同源。",
+      "methodology": "研究采用静息态功能磁共振成像，能在无特定任务时探测大脑固有连接模式，为理解个体差异提供了稳定可靠的神经指标。",
+      "inspiration": "为创造力评估提供了潜在的客观神经标记，未来或可通过检测大脑静息连接模式，辅助预测个体的创意潜能。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-15T04:01:01.380139",
+    "model_used": "deepseek",
+    "slot": 9
+  },
+  {
+    "article": {
+      "id": "info_042",
+      "title_en": "Emotion Regulation Strategies and Their Neural Correlates: A Meta-Analysis",
+      "title_zh": "情绪调节策略及其神经相关：一项元分析",
+      "abstract_en": "Meta-analysis of 87 neuroimaging studies found reappraisal and suppression engage distinct neural networks, with reappraisal showing stronger prefrontal-amygdala coupling.",
+      "abstract_zh": "对87项神经影像研究的元分析发现，重评和压抑涉及不同的神经网络，重评显示出更强的前额叶-杏仁核耦合。",
+      "journal_en": "Neuroscience & Biobehavioral Reviews",
+      "journal_zh": "神经科学与生物行为评论",
+      "pub_date": "2024-12-28",
+      "impact_factor": 8.2,
+      "tags": [
+        "emotion_regulation",
+        "meta_analysis",
+        "brain_networks",
+        "fmri"
+      ],
+      "relevance_score": 0.9
+    },
+    "analysis": {
+      "core_finding": "研究发现，认知重评和情绪抑制这两种情绪调节策略，在大脑中激活了完全不同的神经通路。",
+      "why_matters": "这项研究解释了为何“换个角度看问题”（重评）比“强压怒火”（抑制）更有效，为我们日常管理情绪提供了科学依据，有助于提升心理健康。",
+      "detailed_findings": "1.  **策略不同，网络不同**：认知重评主要激活前额叶等高级认知区域；情绪抑制则更多涉及运动控制和感觉处理区域。\n2.  **重评的“对话”优势**：认知重评时，负责理性思考的前额叶与负责情绪反应的杏仁核之间连接更强，表明大脑在“说服”情绪中心。\n3.  **抑制的潜在代价**：情绪抑制未能有效减弱杏仁核活动，这可能解释了为何长期压抑情绪会让人感到疲惫并影响身心健康。",
+      "methodology": "研究整合了87项脑成像研究的数据，通过元分析增强了结论的可靠性，清晰揭示了不同策略背后的统一脑机制。",
+      "inspiration": "在探讨任何心理过程时，可借鉴其思路：区分不同行为策略，并寻找它们对应的独特神经生物学基础。",
+      "vortex_connection": "内容生成中..."
+    },
+    "generated_at": "2026-02-15T04:01:08.505313",
+    "model_used": "deepseek",
+    "slot": 10
+  }
+]
