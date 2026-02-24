@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>PsyDaily - 心理学研究论文库</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .header p {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .filters {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        
+        .search-box {
+            flex: 1;
+            min-width: 250px;
+        }
+        
+        .search-box input {
+            width: 100%;
+            padding: 0.8rem 1rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+        
+        .search-box input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .filter-select {
+            padding: 0.8rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1rem;
+            background: white;
+            cursor: pointer;
+        }
+        
+        .papers-grid {
+            display: grid;
+            gap: 1.5rem;
+        }
+        
+        .paper-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .paper-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        
+        .paper-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+            gap: 1rem;
+        }
+        
+        .paper-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #333;
+            line-height: 1.4;
+            flex: 1;
+        }
+        
+        .paper-if {
+            background: #667eea;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+        
+        .paper-meta {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        
+        .paper-meta span {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+        
+        .paper-abstract {
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 1rem;
+        }
+        
+        .paper-tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .tag {
+            background: #f0f0f0;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.85rem;
+            color: #666;
+        }
+        
+        .paper-actions {
+            margin-top: 1rem;
+            display: flex;
+            gap: 1rem;
+        }
+        
+        .btn {
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: background 0.2s;
+        }
+        
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #5a6fd6;
+        }
+        
+        .btn-secondary {
+            background: #f0f0f0;
+            color: #333;
+            border: 1px solid #ddd;
+        }
+        
+        .btn-secondary:hover {
+            background: #e0e0e0;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8rem;
+            }
+            
+            .container {
+                padding: 1rem;
+            }
+            
+            .filters {
+                flex-direction: column;
+            }
+            
+            .search-box {
+                min-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>🧠 PsyDaily</h1>
+        <p>心理学研究论文库 - 每日精选认知科学、神经科学、AI心理学</p>
+        <div class="stats">
+            <div class="stat-item">
+                <div class="stat-number">21</div>
+                <div class="stat-label">收录论文</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">7</div>
+                <div class="stat-label">来源期刊</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">2026-02-24</div>
+                <div class="stat-label">最后更新</div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="filters">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="搜索标题、摘要、期刊..." onkeyup="filterPapers()">
+            </div>
+            <select class="filter-select" id="journalFilter" onchange="filterPapers()">
+                <option value="">所有期刊</option>
+                <option value=""></option>
+<option value="Brain Organoid and Systems Neuroscience Journal">Brain Organoid and Systems Neuroscience Journal</option>
+<option value="Developmental Cognitive Neuroscience">Developmental Cognitive Neuroscience</option>
+<option value="IBRO Neuroscience Reports">IBRO Neuroscience Reports</option>
+<option value="Journal of Affective Disorders">Journal of Affective Disorders</option>
+<option value="Learning and Instruction">Learning and Instruction</option>
+<option value="Psychology and Law">Psychology and Law</option>
+            </select>
+            <select class="filter-select" id="tagFilter" onchange="filterPapers()">
+                <option value="">所有主题</option>
+                <option value="cognitive">cognitive</option>
+<option value="developmental">developmental</option>
+<option value="mental_health">mental_health</option>
+<option value="neuroscience">neuroscience</option>
+<option value="social">social</option>
+<option value="technology">technology</option>
+            </select>
+        </div>
+        
+        <div class="papers-grid" id="papersGrid">
+            
+            <div class="paper-card">
+                <div class="paper-header">
+                    <div class="paper-title"></div>
+                    <span class="paper-if">IF: 2.5</span>
+                </div>
+                <div class="paper-meta">
+                    <span>📖 Psychology and Law</span>
+                    <span>📅 2027-9-27</span>
+                </div>
+                <div class="paper-abstract">...</div>
+                <div class="paper-tags">
+                    <span class="tag">social</span><span class="tag">technology</span>
+                </div>
+                <div class="paper-actions">
+                    <a href="10.17759/psylaw.2024140301" class="btn btn-primary" target="_blank" title="在 Google Scholar 搜索">🔍 Google Scholar</a>
+                    <a href="https://www.google.com/search?q=Psychological+Mechanisms+of+Youth+Involvement+in+Extremist+and+Terrorist+Organizations+(Using+the+Example+of+Social+Networks)" class="btn btn-secondary" target="_blank" title="在 Google 搜索">🌐 Google</a>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <div class="paper-header">
+                    <div class="paper-title"></div>
+                    <span class="paper-if">IF: 2.5</span>
+                </div>
+                <div class="paper-meta">
+                    <span>📖 Psychology and Law</span>
+                    <span>📅 2027-9-27</span>
+                </div>
+                <div class="paper-abstract">...</div>
+                <div class="paper-tags">
+                    <span class="tag">social</span><span class="tag">developmental</span>
+                </div>
+                <div class="paper-actions">
+                    <a href="10.17759/psylaw.2024140305" class="btn btn-primary" target="_blank" title="在 Google Scholar 搜索">🔍 Google Scholar</a>
+                    <a href="https://www.google.com/search?q=The+Connection+Between+Emotional+Intelligence,+the+Level+of+Loneliness+and+Characteristics+of+Attitudes+towards+Parents+in+Adolescence" class="btn btn-secondary" target="_blank" title="在 Google 搜索">🌐 Google</a>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <div class="paper-header">
+                    <div class="paper-title"></div>
+                    <span class="paper-if">IF: 2.5</span>
+                </div>
+                <div class="paper-meta">
+                    <span>📖 Brain Organoid and Systems Neuroscience Journal</span>
+                    <span>📅 2026-12</span>
+                </div>
+                <div class="paper-abstract">...</div>
+                <div class="paper-tags">
+                    <span class="tag">neuroscience</span><span class="tag">technology</span>
+                </div>
+                <div class="paper-actions">
+                    <a href="10.1016/j.bosn.2025.11.001" class="btn btn-primary" target="_blank" title="在 Google Scholar 搜索">🔍 Google Scholar</a>
+                    <a href="https://www.google.com/search?q=Understanding+the+contribution+of+nucleus+accumbens+D1-+and+D2-neurons+for+rewarding+and+aversive+behaviors" class="btn btn-secondary" target="_blank" title="在 Google 搜索">🌐 Google</a>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <div class="paper-header">
+                    <div class="paper-title"></div>
+                    <span class="paper-if">IF: 2.5</span>
+                </div>
+                <div class="paper-meta">
+                    <span>📖 Brain Organoid and Systems Neuroscience Journal</span>
+                    <span>📅 2026-12</span>
+                </div>
+                <div class="paper-abstract">...</div>
+                <div class="paper-tags">
+                    <span class="tag">neuroscience</span><span class="tag">technology</span>
+                </div>
+                <div class="paper-actions">
+                    <a href="10.1016/j.bosn.2025.100038" class="btn btn-primary" target="_blank" title="在 Google Scholar 搜索">🔍 Google Scholar</a>
+                    <a href="https://www.google.com/search?q=Impact+of+unilateral+maximal+dentate+activation+on+nitrergic+neuron+distribution+in+the+hippocampus,+entorhinal+cortex,+amygdala+and+habenula" class="btn btn-secondary" target="_blank" title="在 Google 搜索">🌐 Google</a>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <div class="paper-header">
+                    <div class="paper-title"></div>
+                    <span class="paper-if">IF: 2.5</span>
+                </div>
+                <div class="paper-meta">
+                    <span>📖 Brain Organoid and Systems Neuroscience Journal</span>
+                    <span>📅 2026-12</span>
+                </div>
+                <div class="paper-abstract">...</div>
+                <div class="paper-tags">
+                    <span class="tag">neuroscience</span><span class="tag">technology</span>
+                </div>
+                <div class="paper-actions">
+                    <a href="10.1016/j.bosn.2026.100042" class="btn btn-primary" target="_blank" title="在 Google Scholar 搜索">🔍 Google Scholar</a>
+                    <a href="https://www.google.com/search?q=Contents" class="btn btn-secondary" target="_blank" title="在 Google 搜索">🌐 Google</a>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <div class="paper-header">
+                    <div class="paper-title"></div>
+                    <span class="paper-if">IF: 2.5</span>
+                </div>
+                <div class="paper-meta">
+                    <span>📖 Brain Organoid and Systems Neuroscience Journal</span>
+                    <span>📅 2026-12</span>
+                </div>
+                <div class="paper-abstract">...</div>
+                <div class="paper-tags">
+                    <span class="tag">neuroscience</span><span class="tag">technology</span>
+                </div>
+                <div class="paper-actions">
+                    <a href="10.1016/j.bosn.2026.100041" class="btn btn-primary" target="_blank" title="在 Google Scholar 搜索">🔍 Google Scholar</a>
+                    <a href="https://www.google.com/search?q=Editorial+Board" class="btn btn-secondary" target="_blank" title="在 Google 搜索">🌐 Google</a>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <div class="paper-header">
+                    <div class="paper-title"></div>
+                    <span class="paper-if">IF: 2.5</span>
+                </div>
+                <div class="paper-meta">
+                    <span>📖 Brain Organoid and Systems Neuroscience Journal</span>
+                    <span>📅 2026-12</span>
+                </div>
+                <div class="paper-abstract">...</div>
+                <div class="paper-tags">
+                    <span class="tag">neuroscience</span><span class="tag">technology</span>
+                </div>
+                <div class="paper-actions">
+                    <a href="10.1016/j.bosn.2026.100043" class="btn btn-primary" target="_blank" title="在 Google Scholar 搜索">🔍 Google Scholar</a>
+                    <a href="https://www.google.com/search?q=Publisher's+note" class="btn btn-secondary" target="_blank" title="在 Google 搜索">🌐 Google</a>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <div class="paper-header">
+                    <div class="paper-title"></div>
+                    <span class="paper-if">IF: 2.5</span>
+                </div>
+                <div class="paper-meta">
+                    <span>📖 Journal of Affective Disorders</span>
+                    <span>📅 2026-6</span>
+                </div>
+                <div class="paper-abstract">...</div>
+                <div class="paper-tags">
+                    <span class="tag">mental_health</span><span class="tag">neuroscience</span><span class="tag">developmental</span>
+                </div>
+                <div class="paper-actions">
+                    <a href="10.1016/j.jad.2026.121328" class="btn btn-primary" target="_blank" title="在 Google Scholar 搜索">🔍 Google Scholar</a>
+                    <a href="https://www.google.com/search?q=Early+childhood+neural+reward-related+reactivity+concurrently+and+prospectively+associates+with+depressive+symptom+severity" class="btn btn-secondary" target="_blank" title="在 Google 搜索">🌐 Google</a>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <div class="paper-header">
+                    <div class="paper-title"></div>
+                    <span class="paper-if">IF: 2.5</span>
+                </div>
+                <div class="paper-meta">
+                    <span>📖 Learning and Instruction</span>
+                    <span>📅 2026-6</span>
+                </div>
+                <div class="paper-abstract">...</div>
+                <div class="paper-tags">
+                    <span class="tag">social</span><span class="tag">neuroscience</span><span class="tag">technology</span>
+                </div>
+                <div class="paper-actions">
+                    <a href="10.1016/j.learninstruc.2026.102323" class="btn btn-primary" target="_blank" title="在 Google Scholar 搜索">🔍 Google Scholar</a>
+                    <a href="https://www.google.com/search?q=Tracking+college+student's+learning+gains+using+EEG+hyperscanning:+An+interpersonal+neuroscience+approach+development+and+validation" class="btn btn-secondary" target="_blank" title="在 Google 搜索">🌐 Google</a>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <div class="paper-header">
+                    <div class="paper-title"></div>
+                    <span class="paper-if">IF: 2.5</span>
+                </div>
+                <div class="paper-meta">
+                    <span>📖 IBRO Neuroscience Reports</span>
+                    <span>📅 2026-6</span>
+                </div>
+                <div class="paper-abstract">...</div>
+                <div class="paper-tags">
+                    <span class="tag">cognitive</span><span class="tag">neuroscience</span>
+                </div>
+                <div class="paper-actions">
+                    <a href="10.1016/j.ibneur.2026.01.011" class="btn btn-primary" target="_blank" title="在 Google Scholar 搜索">🔍 Google Scholar</a>
+                    <a href="https://www.google.com/search?q=Prefrontal+TDCS+does+not+improve+working+memory+performance+in+individuals+with+chronic+alcohol+and+tobacco+use" class="btn btn-secondary" target="_blank" title="在 Google 搜索">🌐 Google</a>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <div class="paper-header">
+                    <div class="paper-title"></div>
+                    <span class="paper-if">IF: 2.5</span>
+                </div>
+                <div class="paper-meta">
+                    <span>📖 Developmental Cognitive Neuroscience</span>
+                    <span>📅 2026-6</span>
+                </div>
+                <div class="paper-abstract">...</div>
+                <div class="paper-tags">
+                    <span class="tag">cognitive</span><span class="tag">neuroscience</span><span class="tag">developmental</span>
+                </div>
+                <div class="paper-actions">
+                    <a href="10.1016/j.dcn.2026.101690" class="btn btn-primary" target="_blank" title="在 Google Scholar 搜索">🔍 Google Scholar</a>
+                    <a href="https://www.google.com/search?q=Developmental+and+aging+trajectories+of+40-Hz+auditory+steady-state+responses:+A+systematic+review+across+the+human+lifespan" class="btn btn-secondary" target="_blank" title="在 Google 搜索">🌐 Google</a>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <div class="paper-header">
+                    <div class="paper-title"></div>
+                    <span class="paper-if">IF: N/A</span>
+                </div>
+                <div class="paper-meta">
+                    <span>📖 </span>
+                    <span>📅 2026-02-23</span>
+                </div>
+                <div class="paper-abstract">...</div>
+                <div class="paper-tags">
+                    
+                </div>
+                <div class="paper-actions">
+                    <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1704895" class="btn btn-primary" target="_blank" title="在 Google Scholar 搜索">🔍 Google Scholar</a>
+                    <a href="https://www.google.com/search?q=Eating+disorders+among+adolescents+and+young+adults+in+Kingston,+Jamaica" class="btn btn-secondary" target="_blank" title="在 Google 搜索">🌐 Google</a>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <div class="paper-header">
+                    <div class="paper-title"></div>
+                    <span class="paper-if">IF: N/A</span>
+                </div>
+                <div class="paper-meta">
+                    <span>📖 </span>
+                    <span>📅 2026-02-23</span>
+                </div>
+                <div class="paper-abstract">...</div>
+                <div class="paper-tags">
+                    
+                </div>
+                <div class="paper-actions">
+                    <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1773641" class="btn btn-primary" target="_blank" title="在 Google Scholar 搜索">🔍 Google Scholar</a>
+                    <a href="https://www.google.com/search?q=Feeling+loved+versus+being+loving:+perceived+partner+behavior+predicts+relationship+satisfaction" class="btn btn-secondary" target="_blank" title="在 Google 搜索">🌐 Google</a>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <div class="paper-header">
+                    <div class="paper-title"></div>
+                    <span class="paper-if">IF: N/A</span>
+                </div>
+                <div class="paper-meta">
+                    <span>📖 </span>
+                    <span>📅 2026-02-23</span>
+                </div>
+                <div class="paper-abstract">...</div>
+                <div class="paper-tags">
+                    
+                </div>
+                <div class="paper-actions">
+                    <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1766329" class="btn btn-primary" target="_blank" title="在 Google Scholar 搜索">🔍 Google Scholar</a>
+                    <a href="https://www.google.com/search?q=“A+small+change+can+make+a+huge+difference”:+teachers’+perceived+roles,+barriers,+and+strategies+in+tackling+loneliness+in+schools" class="btn btn-secondary" target="_blank" title="在 Google 搜索">🌐 Google</a>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <div class="paper-header">
+                    <div class="paper-title"></div>
+                    <span class="paper-if">IF: N/A</span>
+                </div>
+                <div class="paper-meta">
+                    <span>📖 </span>
+                    <span>📅 2026-02-23</span>
+                </div>
+                <div class="paper-abstract">...</div>
+                <div class="paper-tags">
+                    
+                </div>
+                <div class="paper-actions">
+                    <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1673165" class="btn btn-primary" target="_blank" title="在 Google Scholar 搜索">🔍 Google Scholar</a>
+                    <a href="https://www.google.com/search?q=Critical+thinking+disposition+in+Chinese+students:+a+meta-analysis+of+studies+published+from+2000+to+2025" class="btn btn-secondary" target="_blank" title="在 Google 搜索">🌐 Google</a>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <div class="paper-header">
+                    <div class="paper-title"></div>
+                    <span class="paper-if">IF: N/A</span>
+                </div>
+                <div class="paper-meta">
+                    <span>📖 </span>
+                    <span>📅 2026-02-23</span>
+                </div>
+                <div class="paper-abstract">...</div>
+                <div class="paper-tags">
+                    
+                </div>
+                <div class="paper-actions">
+                    <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1660530" class="btn btn-primary" target="_blank" title="在 Google Scholar 搜索">🔍 Google Scholar</a>
+                    <a href="https://www.google.com/search?q=Agency+of+schoolchildren:+dataset+collected+using+a+new+comprehensive+multidomain+tool" class="btn btn-secondary" target="_blank" title="在 Google 搜索">🌐 Google</a>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <div class="paper-header">
+                    <div class="paper-title"></div>
+                    <span class="paper-if">IF: N/A</span>
+                </div>
+                <div class="paper-meta">
+                    <span>📖 </span>
+                    <span>📅 2026-02-23</span>
+                </div>
+                <div class="paper-abstract">...</div>
+                <div class="paper-tags">
+                    
+                </div>
+                <div class="paper-actions">
+                    <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1749638" class="btn btn-primary" target="_blank" title="在 Google Scholar 搜索">🔍 Google Scholar</a>
+                    <a href="https://www.google.com/search?q=Heterogeneity+in+family+resilience+among+Chinese+stroke+patient-caregiver+dyads:+a+latent+profile+analysis+study" class="btn btn-secondary" target="_blank" title="在 Google 搜索">🌐 Google</a>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <div class="paper-header">
+                    <div class="paper-title"></div>
+                    <span class="paper-if">IF: N/A</span>
+                </div>
+                <div class="paper-meta">
+                    <span>📖 </span>
+                    <span>📅 2026-02-23</span>
+                </div>
+                <div class="paper-abstract">...</div>
+                <div class="paper-tags">
+                    
+                </div>
+                <div class="paper-actions">
+                    <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1740864" class="btn btn-primary" target="_blank" title="在 Google Scholar 搜索">🔍 Google Scholar</a>
+                    <a href="https://www.google.com/search?q=Validating+the+architecture+of+cognitive+distortions+in+Russian+discourse+using+artificial+intelligence+and+bootstrap+analysis" class="btn btn-secondary" target="_blank" title="在 Google 搜索">🌐 Google</a>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <div class="paper-header">
+                    <div class="paper-title"></div>
+                    <span class="paper-if">IF: N/A</span>
+                </div>
+                <div class="paper-meta">
+                    <span>📖 </span>
+                    <span>📅 2026-02-23</span>
+                </div>
+                <div class="paper-abstract">...</div>
+                <div class="paper-tags">
+                    
+                </div>
+                <div class="paper-actions">
+                    <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1762483" class="btn btn-primary" target="_blank" title="在 Google Scholar 搜索">🔍 Google Scholar</a>
+                    <a href="https://www.google.com/search?q=An+integrative+head–heart–hands+model+of+moral+education:+evidence+from+Chinese+higher+education" class="btn btn-secondary" target="_blank" title="在 Google 搜索">🌐 Google</a>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <div class="paper-header">
+                    <div class="paper-title"></div>
+                    <span class="paper-if">IF: N/A</span>
+                </div>
+                <div class="paper-meta">
+                    <span>📖 </span>
+                    <span>📅 2026-02-23</span>
+                </div>
+                <div class="paper-abstract">...</div>
+                <div class="paper-tags">
+                    
+                </div>
+                <div class="paper-actions">
+                    <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1717948" class="btn btn-primary" target="_blank" title="在 Google Scholar 搜索">🔍 Google Scholar</a>
+                    <a href="https://www.google.com/search?q=Psychometric+properties+of+an+Arabic+language+version+of+the+Treatment+Adherence+Questionnaire+among+dialysis+patients+with+cardio+renal+syndrome" class="btn btn-secondary" target="_blank" title="在 Google 搜索">🌐 Google</a>
+                </div>
+            </div>
+            
+            <div class="paper-card">
+                <div class="paper-header">
+                    <div class="paper-title"></div>
+                    <span class="paper-if">IF: N/A</span>
+                </div>
+                <div class="paper-meta">
+                    <span>📖 </span>
+                    <span>📅 2026-02-23</span>
+                </div>
+                <div class="paper-abstract">...</div>
+                <div class="paper-tags">
+                    
+                </div>
+                <div class="paper-actions">
+                    <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1731891" class="btn btn-primary" target="_blank" title="在 Google Scholar 搜索">🔍 Google Scholar</a>
+                    <a href="https://www.google.com/search?q=Flowing+toward+toughness:+serial+mediation+of+flow+and+mental+toughness+in+gamified+XR+soccer+instruction" class="btn btn-secondary" target="_blank" title="在 Google 搜索">🌐 Google</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <p>PsyDaily - AI辅助心理学研究 | 由 Moon & Adele 维护</p>
+        <p>数据更新时间: 2026-02-24 19:30:36</p>
+    </footer>
+    
+    <script>
+        const papers = [{"id": "crossref_10.17759_psylaw.2024140301", "title_en": "Psychological Mechanisms of Youth Involvement in Extremist and Terrorist Organizations (Using the Example of Social Networks)", "title_zh": "", "abstract_en": "<jats:p>&lt;p style=\"text-align: justify;\"&gt;The work describes the signs of recruitment and the psychological mechanisms of youth involvement in extremist and terrorist organizations in the Internet. A structural analysis of materials containing communication aimed at involving youth in extremist or terrorist organizations and/or communities with extremist goals. The object of the study are cases received for a comprehensive psychological and linguistic study at the Moscow State Budgetary Inst", "abstract_zh": "", "authors": ["O.D. Gurina", "A.F. Remeeva"], "journal_en": "Psychology and Law", "journal_zh": "", "pub_date": "2027-9-27", "doi": "10.17759/psylaw.2024140301", "doi_url": "https://doi.org/10.17759/psylaw.2024140301", "pdf_url": "https://psyjournals.ru/journals/psylaw/archive/2024_n3/Gurina_Remeeva.pdf", "url": "https://doi.org/10.17759/psylaw.2024140301", "scholar_url": "10.17759/psylaw.2024140301", "source": "crossref", "impact_factor": 2.5, "tags": ["social", "technology"], "fetched_at": "2026-02-24T19:30:07.114829", "is_real": true}, {"id": "crossref_10.17759_psylaw.2024140305", "title_en": "The Connection Between Emotional Intelligence, the Level of Loneliness and Characteristics of Attitudes towards Parents in Adolescence", "title_zh": "", "abstract_en": "<jats:p>&lt;p style=\"text-align: justify;\"&gt;This article examines the connections between emotional intelligence, the level of loneliness and the characteristics of adolescents&amp;rsquo; relationships with their parents. Adolescence is characterized by significant emotional changes that affect adolescents&amp;rsquo; social relationships and self-esteem. The study is based on theoretical concepts of emotional intelligence, the phenomenon of loneliness and child-parent relationships, developed ", "abstract_zh": "", "authors": ["A.V. Degtyarev", "S.D. Chivileva", "D.M. Kuptsova"], "journal_en": "Psychology and Law", "journal_zh": "", "pub_date": "2027-9-27", "doi": "10.17759/psylaw.2024140305", "doi_url": "https://doi.org/10.17759/psylaw.2024140305", "pdf_url": "https://psyjournals.ru/journals/psylaw/archive/2024_n3/Degtyarev_Chivileva_Kuptsova.pdf", "url": "https://doi.org/10.17759/psylaw.2024140305", "scholar_url": "10.17759/psylaw.2024140305", "source": "crossref", "impact_factor": 2.5, "tags": ["social", "developmental"], "fetched_at": "2026-02-24T19:30:07.114927", "is_real": true}, {"id": "crossref_10.1016_j.bosn.2025.11.001", "title_en": "Understanding the contribution of nucleus accumbens D1- and D2-neurons for rewarding and aversive behaviors", "title_zh": "", "abstract_en": "Published in Brain Organoid and Systems Neuroscience Journal. DOI: 10.1016/j.bosn.2025.11.001", "abstract_zh": "", "authors": ["Catarina Carreira", "Ana Verónica Domingues", "Carina Soares-Cunha"], "journal_en": "Brain Organoid and Systems Neuroscience Journal", "journal_zh": "", "pub_date": "2026-12", "doi": "10.1016/j.bosn.2025.11.001", "doi_url": "https://doi.org/10.1016/j.bosn.2025.11.001", "pdf_url": "", "url": "https://doi.org/10.1016/j.bosn.2025.11.001", "scholar_url": "10.1016/j.bosn.2025.11.001", "source": "crossref", "impact_factor": 2.5, "tags": ["neuroscience", "technology"], "fetched_at": "2026-02-24T19:30:19.025106", "is_real": true}, {"id": "crossref_10.1016_j.bosn.2025.100038", "title_en": "Impact of unilateral maximal dentate activation on nitrergic neuron distribution in the hippocampus, entorhinal cortex, amygdala and habenula", "title_zh": "", "abstract_en": "Published in Brain Organoid and Systems Neuroscience Journal. DOI: 10.1016/j.bosn.2025.100038", "abstract_zh": "", "authors": ["Cristiano Bombardi", "Roberto Colangeli", "Maurizio Casarrubea"], "journal_en": "Brain Organoid and Systems Neuroscience Journal", "journal_zh": "", "pub_date": "2026-12", "doi": "10.1016/j.bosn.2025.100038", "doi_url": "https://doi.org/10.1016/j.bosn.2025.100038", "pdf_url": "", "url": "https://doi.org/10.1016/j.bosn.2025.100038", "scholar_url": "10.1016/j.bosn.2025.100038", "source": "crossref", "impact_factor": 2.5, "tags": ["neuroscience", "technology"], "fetched_at": "2026-02-24T19:30:19.025176", "is_real": true}, {"id": "crossref_10.1016_j.bosn.2026.100042", "title_en": "Contents", "title_zh": "", "abstract_en": "Published in Brain Organoid and Systems Neuroscience Journal. DOI: 10.1016/j.bosn.2026.100042", "abstract_zh": "", "authors": ["Unknown"], "journal_en": "Brain Organoid and Systems Neuroscience Journal", "journal_zh": "", "pub_date": "2026-12", "doi": "10.1016/j.bosn.2026.100042", "doi_url": "https://doi.org/10.1016/j.bosn.2026.100042", "pdf_url": "", "url": "https://doi.org/10.1016/j.bosn.2026.100042", "scholar_url": "10.1016/j.bosn.2026.100042", "source": "crossref", "impact_factor": 2.5, "tags": ["neuroscience", "technology"], "fetched_at": "2026-02-24T19:30:19.025218", "is_real": true}, {"id": "crossref_10.1016_j.bosn.2026.100041", "title_en": "Editorial Board", "title_zh": "", "abstract_en": "Published in Brain Organoid and Systems Neuroscience Journal. DOI: 10.1016/j.bosn.2026.100041", "abstract_zh": "", "authors": ["Unknown"], "journal_en": "Brain Organoid and Systems Neuroscience Journal", "journal_zh": "", "pub_date": "2026-12", "doi": "10.1016/j.bosn.2026.100041", "doi_url": "https://doi.org/10.1016/j.bosn.2026.100041", "pdf_url": "", "url": "https://doi.org/10.1016/j.bosn.2026.100041", "scholar_url": "10.1016/j.bosn.2026.100041", "source": "crossref", "impact_factor": 2.5, "tags": ["neuroscience", "technology"], "fetched_at": "2026-02-24T19:30:19.025262", "is_real": true}, {"id": "crossref_10.1016_j.bosn.2026.100043", "title_en": "Publisher's note", "title_zh": "", "abstract_en": "Published in Brain Organoid and Systems Neuroscience Journal. DOI: 10.1016/j.bosn.2026.100043", "abstract_zh": "", "authors": ["Unknown"], "journal_en": "Brain Organoid and Systems Neuroscience Journal", "journal_zh": "", "pub_date": "2026-12", "doi": "10.1016/j.bosn.2026.100043", "doi_url": "https://doi.org/10.1016/j.bosn.2026.100043", "pdf_url": "", "url": "https://doi.org/10.1016/j.bosn.2026.100043", "scholar_url": "10.1016/j.bosn.2026.100043", "source": "crossref", "impact_factor": 2.5, "tags": ["neuroscience", "technology"], "fetched_at": "2026-02-24T19:30:19.025305", "is_real": true}, {"id": "crossref_10.1016_j.jad.2026.121328", "title_en": "Early childhood neural reward-related reactivity concurrently and prospectively associates with depressive symptom severity", "title_zh": "", "abstract_en": "Published in Journal of Affective Disorders. DOI: 10.1016/j.jad.2026.121328", "abstract_zh": "", "authors": ["Nicolas L. Camacho", "Michael S. Gaffrey"], "journal_en": "Journal of Affective Disorders", "journal_zh": "", "pub_date": "2026-6", "doi": "10.1016/j.jad.2026.121328", "doi_url": "https://doi.org/10.1016/j.jad.2026.121328", "pdf_url": "", "url": "https://doi.org/10.1016/j.jad.2026.121328", "scholar_url": "10.1016/j.jad.2026.121328", "source": "crossref", "impact_factor": 2.5, "tags": ["mental_health", "neuroscience", "developmental"], "fetched_at": "2026-02-24T19:30:19.025364", "is_real": true}, {"id": "crossref_10.1016_j.learninstruc.2026.102323", "title_en": "Tracking college student's learning gains using EEG hyperscanning: An interpersonal neuroscience approach development and validation", "title_zh": "", "abstract_en": "Published in Learning and Instruction. DOI: 10.1016/j.learninstruc.2026.102323", "abstract_zh": "", "authors": ["Haiqing Yu", "Leijin Shu", "Yongzhi Huang"], "journal_en": "Learning and Instruction", "journal_zh": "", "pub_date": "2026-6", "doi": "10.1016/j.learninstruc.2026.102323", "doi_url": "https://doi.org/10.1016/j.learninstruc.2026.102323", "pdf_url": "", "url": "https://doi.org/10.1016/j.learninstruc.2026.102323", "scholar_url": "10.1016/j.learninstruc.2026.102323", "source": "crossref", "impact_factor": 2.5, "tags": ["social", "neuroscience", "technology"], "fetched_at": "2026-02-24T19:30:19.025424", "is_real": true}, {"id": "crossref_10.1016_j.ibneur.2026.01.011", "title_en": "Prefrontal TDCS does not improve working memory performance in individuals with chronic alcohol and tobacco use", "title_zh": "", "abstract_en": "Published in IBRO Neuroscience Reports. DOI: 10.1016/j.ibneur.2026.01.011", "abstract_zh": "", "authors": ["Franziska Göttgens", "Ute Habel", "Paul Wallheinke"], "journal_en": "IBRO Neuroscience Reports", "journal_zh": "", "pub_date": "2026-6", "doi": "10.1016/j.ibneur.2026.01.011", "doi_url": "https://doi.org/10.1016/j.ibneur.2026.01.011", "pdf_url": "", "url": "https://doi.org/10.1016/j.ibneur.2026.01.011", "scholar_url": "10.1016/j.ibneur.2026.01.011", "source": "crossref", "impact_factor": 2.5, "tags": ["cognitive", "neuroscience"], "fetched_at": "2026-02-24T19:30:19.025483", "is_real": true}, {"id": "crossref_10.1016_j.dcn.2026.101690", "title_en": "Developmental and aging trajectories of 40-Hz auditory steady-state responses: A systematic review across the human lifespan", "title_zh": "", "abstract_en": "Published in Developmental Cognitive Neuroscience. DOI: 10.1016/j.dcn.2026.101690", "abstract_zh": "", "authors": ["Aurimas Mockevičius", "Danylo Machevskyi", "Dariusz Majcherczyk"], "journal_en": "Developmental Cognitive Neuroscience", "journal_zh": "", "pub_date": "2026-6", "doi": "10.1016/j.dcn.2026.101690", "doi_url": "https://doi.org/10.1016/j.dcn.2026.101690", "pdf_url": "", "url": "https://doi.org/10.1016/j.dcn.2026.101690", "scholar_url": "10.1016/j.dcn.2026.101690", "source": "crossref", "impact_factor": 2.5, "tags": ["cognitive", "neuroscience", "developmental"], "fetched_at": "2026-02-24T19:30:19.025548", "is_real": true}, {"id": "pubmed_", "title_en": "Eating disorders among adolescents and young adults in Kingston, Jamaica", "title_zh": "", "abstract_en": "IntroductionEating disorders are complex disorders characterized by a persistent disturbance of eating that impairs health and psychosocial functioning, with accompanying long-lasting effects on the individual’s overall health and well-being. Presumed stereotypes may affect reporting and access to care, especially in the Caribbean, where ethnic groups are mostly non-White. This study reviewed the clinical presentation, management, and outcomes of eating disorders in adolescents and young adults ...", "abstract_zh": "", "authors": ["Abigail Harrison", "Caryl James", "Kimberley Ferguson-Henry"], "journal_en": "", "journal_zh": "", "pub_date": "2026-02-23", "doi": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1704895", "pmid": "", "source": "pubmed", "fetched_at": "2026-02-23T19:57:09.254206", "scholar_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1704895"}, {"id": "pubmed_", "title_en": "Feeling loved versus being loving: perceived partner behavior predicts relationship satisfaction", "title_zh": "", "abstract_en": "What matters more for relationship satisfaction, feeling loved or being loving? Johnson’s Emotionally Focused Therapy for couples emphasizes attachment, whereas Greenberg and Goldman’s Emotion-Focused Therapy for couples highlights attraction and regard alongside attachment within a multi-motivational model. The present study addressed a more fundamental question: Does feeling loved predict relationship satisfaction more strongly than feeling loving? Using an extreme groups design comparing clin...", "abstract_zh": "", "authors": ["Júlia Halamová"], "journal_en": "", "journal_zh": "", "pub_date": "2026-02-23", "doi": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1773641", "pmid": "", "source": "pubmed", "fetched_at": "2026-02-23T19:57:09.254246", "scholar_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1773641"}, {"id": "pubmed_", "title_en": "“A small change can make a huge difference”: teachers’ perceived roles, barriers, and strategies in tackling loneliness in schools", "title_zh": "", "abstract_en": "Teachers, as key attachment adults in the school environment where children and adolescents spend substantial time, play a crucial supportive role in pupil’s experiences of loneliness. This study captures teachers’ perspectives on pupil loneliness through qualitative interviews with 16 primary and secondary school teachers (8 from England and 8 from China), covering pupils ages 6–18 years. Thematic analysis of those interviews uncovered four themes: Teachers as Key Attachment Figures in School L...", "abstract_zh": "", "authors": ["Yixuan Zheng", "Charlotte Bagnall", "Caroline Bond"], "journal_en": "", "journal_zh": "", "pub_date": "2026-02-23", "doi": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1766329", "pmid": "", "source": "pubmed", "fetched_at": "2026-02-23T19:57:09.254265", "scholar_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1766329"}, {"id": "pubmed_", "title_en": "Critical thinking disposition in Chinese students: a meta-analysis of studies published from 2000 to 2025", "title_zh": "", "abstract_en": "The level of Chinese students’ critical thinking disposition has been widely debated for the past three decades, yet previous studies have reported inconsistent findings and lacked quantitative synthesis. To address this gap and clarify the current state of critical thinking dispositions among Chinese students, the present study conducted a meta-analysis of 491 primary studies, encompassing 688 independent samples and 146,625 participants. The analysis found that the averaged scores of Chinese s...", "abstract_zh": "", "authors": ["Shengli Guo", "Huiyong Fan", "Jianzhong Xu"], "journal_en": "", "journal_zh": "", "pub_date": "2026-02-23", "doi": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1673165", "pmid": "", "source": "pubmed", "fetched_at": "2026-02-23T19:57:09.254279", "scholar_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1673165"}, {"id": "pubmed_", "title_en": "Agency of schoolchildren: dataset collected using a new comprehensive multidomain tool", "title_zh": "", "abstract_en": "", "abstract_zh": "", "authors": ["Pavel Sorokin", "Mikhail Goshin", "Dmitry Grigoryev"], "journal_en": "", "journal_zh": "", "pub_date": "2026-02-23", "doi": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1660530", "pmid": "", "source": "pubmed", "fetched_at": "2026-02-23T19:57:09.254294", "scholar_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1660530"}, {"id": "pubmed_", "title_en": "Heterogeneity in family resilience among Chinese stroke patient-caregiver dyads: a latent profile analysis study", "title_zh": "", "abstract_en": "BackgroundWhile family resilience is a recognized determinant of adaptation following stroke, the distinct, empirically derived profiles of family resilience among Chinese stroke survivor-caregiver dyads have not been clearly delineated. Identifying these profiles and their determinants is crucial for developing targeted interventions.ObjectiveTo identify latent profiles of family resilience and examine the socio-demographic and clinical factors associated with profile membership among stroke pa...", "abstract_zh": "", "authors": ["Jingjing Ma", "Weifei Yu", "Qihang Xu"], "journal_en": "", "journal_zh": "", "pub_date": "2026-02-23", "doi": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1749638", "pmid": "", "source": "pubmed", "fetched_at": "2026-02-23T19:57:09.254311", "scholar_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1749638"}, {"id": "pubmed_", "title_en": "Validating the architecture of cognitive distortions in Russian discourse using artificial intelligence and bootstrap analysis", "title_zh": "", "abstract_en": "IntroductionCognitive distortions—systematic thinking biases linked to depression and anxiety—frequently co-occur in clinical practice, yet empirical evidence for their interaction patterns remains limited, particularly in non-Western populations where cognitive patterns may vary cross-culturally.MethodsWe analyzed 249,414 Russian-language texts from social media and forums (2020–2024) using two large language models achieving substantial expert agreement (κ = 0.73). Association rule mining iden...", "abstract_zh": "", "authors": ["Igor Gajniyarov"], "journal_en": "", "journal_zh": "", "pub_date": "2026-02-23", "doi": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1740864", "pmid": "", "source": "pubmed", "fetched_at": "2026-02-23T19:57:09.254334", "scholar_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1740864"}, {"id": "pubmed_", "title_en": "An integrative head–heart–hands model of moral education: evidence from Chinese higher education", "title_zh": "", "abstract_en": "IntroductionTraditional moral education often treats cognition, affect, and behavior as separate targets, limiting integration of knowing, feeling, and doing. This study examines a head–heart–hands (3H) moral education model and its implementation in a mandatory Chinese university course.MethodsWe conducted a 19-week 3H-informed intervention in three parallel classes (total enrolment = 175) of an “Ideology, Morality and Rule of Law” course. The design was an action-research-informed qualitative ...", "abstract_zh": "", "authors": ["Meng Wang", "Norzihani Saharuddin", "Maizura Yasin"], "journal_en": "", "journal_zh": "", "pub_date": "2026-02-23", "doi": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1762483", "pmid": "", "source": "pubmed", "fetched_at": "2026-02-23T19:57:09.254352", "scholar_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1762483"}, {"id": "pubmed_", "title_en": "Psychometric properties of an Arabic language version of the Treatment Adherence Questionnaire among dialysis patients with cardio renal syndrome", "title_zh": "", "abstract_en": "BackgroundAssessing or measuring adherence is the initial step toward comprehending it, or the lack thereof.ObjectiveThis study aims to translate and validate the Treatment Adherence Questionnaire TAQ among Yemeni dialysis patients with cardiorenal syndrome.MethodsThis cross-cultural adaptation study was conducted at two dialysis centers in Hadhramout Governorate, Yemen, between January 10 and February 15 of 2021. The English version of TAQ was translated into Arabic using the Beaton translation...", "abstract_zh": "", "authors": ["Adel Omar Laradhi", "Mikiyas Amare Getu", "Yan Shan"], "journal_en": "", "journal_zh": "", "pub_date": "2026-02-23", "doi": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1717948", "pmid": "", "source": "pubmed", "fetched_at": "2026-02-23T19:57:09.254369", "scholar_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1717948"}, {"id": "pubmed_", "title_en": "Flowing toward toughness: serial mediation of flow and mental toughness in gamified XR soccer instruction", "title_zh": "", "abstract_en": "Extended reality (XR) platforms offer immersive, gamified teaching methods. However, the psychological mechanisms by which XR promotes effective sports learning remain under-explored. Drawing on self-determination theory and challenge-skill balance theory, this study proposes and tests a serial mediation model that links learners’ evaluations of game-based design and their own self-regulatory abilities to soccer learning engagement and subsequent sport attachment. The model’s serial structure is...", "abstract_zh": "", "authors": ["Chao Li", "Daniel Memmert", "Guangliang Sang"], "journal_en": "", "journal_zh": "", "pub_date": "2026-02-23", "doi": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1731891", "pmid": "", "source": "pubmed", "fetched_at": "2026-02-23T19:57:09.254385", "scholar_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2026.1731891"}];
+        
+        function filterPapers() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const journalFilter = document.getElementById('journalFilter').value;
+            const tagFilter = document.getElementById('tagFilter').value;
+            
+            const filtered = papers.filter(paper => {
+                const matchSearch = (
+                    (paper.title_zh || '').toLowerCase().includes(searchTerm) ||
+                    (paper.title_en || '').toLowerCase().includes(searchTerm) ||
+                    (paper.abstract_zh || '').toLowerCase().includes(searchTerm) ||
+                    (paper.journal_en || '').toLowerCase().includes(searchTerm)
+                );
+                
+                const matchJournal = !journalFilter || paper.journal_en === journalFilter;
+                const matchTag = !tagFilter || (paper.tags || []).includes(tagFilter);
+                
+                return matchSearch && matchJournal && matchTag;
+            });
+            
+            renderPapers(filtered);
+        }
+        
+        function renderPapers(papersToRender) {
+            const grid = document.getElementById('papersGrid');
+            
+            if (papersToRender.length === 0) {
+                grid.innerHTML = '<div style="text-align: center; padding: 3rem; color: #666;">没有找到匹配的论文</div>';
+                return;
+            }
+            
+            grid.innerHTML = papersToRender.map(paper => `
+                <div class="paper-card">
+                    <div class="paper-header">
+                        <div class="paper-title">${paper.title_zh || paper.title_en}</div>
+                        <span class="paper-if">IF: ${paper.impact_factor || 'N/A'}</span>
+                    </div>
+                    <div class="paper-meta">
+                        <span>📖 ${paper.journal_en}</span>
+                        <span>📅 ${paper.pub_date}</span>
+                        <span>🔬 ${paper.tags ? paper.tags[0] : 'research'}</span>
+                    </div>
+                    <div class="paper-abstract">${paper.abstract_zh || paper.abstract_en || ''}</div>
+                    <div class="paper-tags">
+                        ${(paper.tags || []).map(tag => `<span class="tag">${tag}</span>`).join('')}
+                    </div>
+                    <div class="paper-actions">
+                        <a href="${paper.scholar_url || '#'}" class="btn btn-primary" target="_blank" title="在 Google Scholar 搜索此论文">🔍 Google Scholar</a>
+                        <a href="https://www.google.com/search?q=${encodeURIComponent(paper.title_en || paper.title_zh)}" class="btn btn-secondary" target="_blank" title="在 Google 搜索">🌐 Google</a>
+                    </div>
+                </div>
+            `).join('');
+        }
+        
+        // 初始渲染
+        renderPapers(papers);
+    </script>
+</body>
+</html>
